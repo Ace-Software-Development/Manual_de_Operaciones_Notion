@@ -1,0 +1,23 @@
+﻿Title,Column 1
+Completo,"- El componente cubre el o los requerimientos establecidos en el diseño.  
+- Tiene la funcionalidad suficiente para cubrir las especificaciones de entrada y salida."
+Includes,Verificar que los includes estén completos.
+Lógico,"
+Verificar que la secuencia del código sea la apropiada.
+- Stacks, queues y listas están en el orden adecuado.
+- La recursión se manejó apropiadamente.
+-Los ciclos fueron inicializados, incrementados y terminados adecuadamente."
+"Casos especiales ","Revisar los casos especiales:
+  
+ - Verificar que las variables vacías, con valores mínimos, máximos, negativos o en ceros funcionen apropiadamente.
+- Asegurarse de que las condiciones “imposibles” sean absolutamente imposibles.
+- Manejar todas las condiciones de entrada inválidas."
+Nombres,"- Los nombres son representativos.
+- Los nombres son consistentes.
+- Los nombres están en inglés.
+
+Revisar el estándar https://www.notion.so/be0d121c15e64b5a9c5631cce51f8792 "
+Comentarios,"- Son relevantes
+- Están en inglés
+- Siguen el estándar https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html"
+Estilo,El código no presenta errores de estilo que violen la https://www.npmjs.com/package/eslint-config-airbnb.

@@ -1,0 +1,682 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Symbols, Emojis, &amp; Emoticons</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2aa06261-d5f0-4a9a-abe5-6f4d2d8a5ee3" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 18.56%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Symbols,%20Emojis,%20&amp;%20Emoticons%202aa06261d5f04a9aabe56f4d2d8a5ee3/9A0A88CB-5CE7-4E70-9B59-84761442A934.png"/></div><h1 class="page-title">Symbols, Emojis, &amp; Emoticons</h1></header><div class="page-body"><p id="91381ea7-8cd6-4758-8f15-1d0e1f55ca2d" class=""><mark class="highlight-yellow_background"><strong>JUMP TO:</strong></mark></p><nav id="2011e309-6b3f-4749-93fb-363de1b1836f" class="block-color-gray table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#cdc6add4-aa27-441d-bb90-b1f039871592"><span style="border-bottom:0.05em solid">Emojis</span></a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#9f9941da-6ae3-4bd6-bfbe-4983a8acac9e"><span style="border-bottom:0.05em solid">Aesthetic Symbols/Dividers</span> </a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#2e100ddd-5525-4ebe-a156-396dad8a665e"><span style="border-bottom:0.05em solid">Symbols</span></a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#694199bc-3454-4b60-a050-dff055b658a0"><span style="border-bottom:0.05em solid">Emoticons</span></a></div></nav><p id="b6bea8a4-a35e-47d5-8a0b-9518e9d39988" class="">
+</p><hr id="198ecd3c-9f69-4131-aade-41fa8e358c7b"/><p id="dbdfae94-5e5f-4f26-a6e8-1cf1242fd313" class="">
+</p><h3 id="cdc6add4-aa27-441d-bb90-b1f039871592" class=""><span style="border-bottom:0.05em solid">Emojis</span></h3><p id="6968fcd9-de14-4a85-8058-45e3075e164c" class="">✨☁️💭🪴🪐🧋🛼🎐</p><p id="fea0c2cd-1e8d-4563-bcbf-532a80f6184d" class="">🕊🦦🦭🐾🦙</p><p id="5fea4730-b38d-414b-a680-eba5e6bf8f6d" class="">⌨️📺💌🖥📄📎🖇〰️✖️</p><p id="27120a95-d2f0-430f-83c4-5ab1ea2d893c" class="">
+</p><h3 id="9f9941da-6ae3-4bd6-bfbe-4983a8acac9e" class=""><span style="border-bottom:0.05em solid">Aesthetic Symbols/Dividers</span> </h3><figure id="fe8793c8-8dfa-46fb-aff6-a2d84f13a94c"><a href="https://www.wattpad.com/story/226912591-%F0%9D%90%81%F0%9D%90%91%F0%9D%90%84%F0%9D%90%80%F0%9D%90%93%F0%9D%90%87%F0%9D%90%88%F0%9D%90%8D-symbols" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">𝐁𝐑𝐄𝐀𝐓𝐇𝐈𝐍, symbols.</div><div class="bookmark-description">𝐀𝐞𝐬𝐭𝐡𝐞𝐭𝐢𝐜 𝐒𝐲𝐦𝐛𝐨𝐥𝐬 [𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝] | copy and paste ꒱ ↷🖇🥛 ━━━━ ̥◌୭˚➶. ˚✧˖° ͎ a book filled with symbols that you can copy and paste into your own books- to copy and paste view the comments section. for more information look at the first page of the book. ₊˚.༄ ━━━━━━━ ➶ 𓆉｡˚ ✧ ༉‧₊˚.</div></div><div class="bookmark-href"><img src="https://static.wattpad.com/favicon.ico" class="icon bookmark-icon"/>https://www.wattpad.com/story/226912591-%F0%9D%90%81%F0%9D%90%91%F0%9D%90%84%F0%9D%90%80%F0%9D%90%93%F0%9D%90%87%F0%9D%90%88%F0%9D%90%8D-symbols</div></div><img src="https://img.wattpad.com/cover/226912591-352-k287339.jpg" class="bookmark-image"/></a></figure><p id="7cf2c881-61ad-4cdb-a2d8-eac779a4f0ed" class="">
+</p><h3 id="2e100ddd-5525-4ebe-a156-396dad8a665e" class=""><span style="border-bottom:0.05em solid">Symbols</span></h3><p id="c7f52d80-c7de-49d4-b5f0-fab054950337" class="">× ☠ ☮ ☯ ♠ Ω <strong>♤</strong> ♣ <strong>♧</strong> ♥ <strong>♡</strong> ♦ <strong>♢</strong> ♔ ♕ ♚ ♛ ⚜ <strong>★</strong> <strong>☆</strong> ✮ ✯ ☄ ☾ ☽ ☼ ☀ ☁ ☂ ☃ ☻ ☺ ☹ <strong>۞</strong> <strong>۩</strong></p><p id="48847cc8-92f6-4120-aa11-64090dcfdaca" class="">εїз Ƹ̵̡Ӝ̵̨̄Ʒ ξЖЗ εжз ☎ <strong>☏</strong> ¢ ☚ ☛ <strong>☜</strong> ☝ <strong>☞</strong> <strong>☟</strong> ✍ ✌ ☢ ☣ ♨ <strong>๑</strong> <strong>❀</strong> <strong>✿</strong> ψ ♆ ☪ ☭ <strong>♪</strong> <strong>♩</strong> <strong>♫</strong> <strong>♬</strong> ✄ ✂ ✆ ✉ ✦ ✧</p><p id="69614573-24ca-419f-9c02-f9a82d83b416" class="">♱ ♰ ∞ <strong>♂</strong> <strong>♀</strong> ☿ ❤ ❥ ❦ ❧ ™ ® © ✖ ✗ ✘ <strong>⊗</strong> ♒</p><p id="40125a54-043a-44f3-9198-10037830cbed" class=""><strong>■</strong> <strong>□</strong> <strong>▢</strong> <strong>▲</strong> <strong>△</strong> <strong>▼</strong> <strong>▽</strong> <strong>◆</strong> <strong>◇</strong> <strong>○</strong> <strong>◎</strong> ● <strong>◯</strong> Δ ◕ ◔</p><p id="d057360a-722a-49a9-ae50-1c234ce50fe9" class=""><strong>ʊ</strong> <strong>ϟ</strong> ღ <strong>ツ</strong> <strong>回</strong> ₪ 卐™ © ® ¿ ¡ ½ <strong>⅓</strong> <strong>⅔</strong> ¼ ¾ <strong>⅛</strong> <strong>⅜</strong> <strong>⅝</strong> <strong>⅞</strong> <strong>℅</strong> № <strong>⇨</strong> ❝ ❞ # &amp; <strong>℃</strong></p><p id="72da3bec-f2e2-45ca-abea-2edaa783ec54" class=""><strong>∃</strong> <strong>∧</strong> <strong>∠</strong> <strong>∨</strong> <strong>∩</strong> <strong>⊂</strong> <strong>⊃</strong> <strong>∪</strong> <strong>⊥</strong> <strong>∀</strong> Ξ Γ <strong>ɐ</strong> ə <strong>ɘ</strong> ε β <strong>ɟ</strong> <strong>ɥ</strong> <strong>ɯ</strong> <strong>ɔ</strong> и <strong>๏</strong> <strong>ɹ</strong> <strong>ʁ</strong> я <strong>ʌ</strong> <strong>ʍ</strong> λ ч ∞ Σ Π</p><p id="b10cf675-0418-46ff-b8bc-5a8d3310f6eb" class="">➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉ <strong>➊</strong> <strong>➋</strong> <strong>➌</strong> <strong>➍</strong> <strong>➎</strong> <strong>➏</strong> <strong>➐</strong> <strong>➑</strong> <strong>➒</strong> <strong>➓</strong></p><p id="780b88d7-107e-402e-8684-5530b694d339" class=""><strong>Ⓐ</strong> <strong>Ⓑ</strong> <strong>Ⓒ</strong> <strong>Ⓓ</strong> <strong>Ⓔ</strong> <strong>Ⓕ</strong> <strong>Ⓖ</strong> <strong>Ⓗ</strong> <strong>Ⓘ</strong> <strong>Ⓙ</strong> <strong>Ⓚ</strong> <strong>Ⓛ</strong> Ⓜ <strong>Ⓝ</strong> <strong>Ⓞ</strong> <strong>Ⓟ</strong> <strong>Ⓠ</strong> <strong>Ⓡ</strong> <strong>Ⓢ</strong> <strong>Ⓣ</strong> <strong>Ⓤ</strong> <strong>Ⓥ</strong> <strong>Ⓦ</strong> <strong>Ⓧ</strong> <strong>Ⓨ</strong> <strong>Ⓩ</strong></p><p id="1cbcc77d-2457-4438-b1a5-f7378bf51705" class=""><strong>ⓐ</strong> <strong>ⓑ</strong> <strong>ⓒ</strong> <strong>ⓓ</strong> <strong>ⓔ</strong> <strong>ⓕ</strong> <strong>ⓖ</strong> <strong>ⓗ</strong> <strong>ⓘ</strong> <strong>ⓙ</strong> <strong>ⓚ</strong> <strong>ⓛ</strong> <strong>ⓜ</strong> <strong>ⓝ</strong> <strong>ⓞ</strong> <strong>ⓟ</strong> <strong>ⓠ</strong> <strong>ⓡ</strong> <strong>ⓢ</strong> <strong>ⓣ</strong> <strong>ⓤ</strong> <strong>ⓥ</strong> <strong>ⓦ</strong> <strong>ⓧ</strong> <strong>ⓨ</strong> <strong>ⓩ</strong></p><p id="94382029-a71e-464a-8079-47244b28aa83" class="">℘ ℑ ℜ <strong>ℵ</strong> ♏ η α βε<strong>ℓℓ</strong>α</p><p id="ee9dd71b-4648-4247-9639-db2355061378" class="">· ¨ … ¦ <strong>┅</strong> <strong>┆</strong> <strong>┈</strong> <strong>┊</strong> <strong>╱</strong> <strong>╲</strong> <strong>╳</strong> ¯ – —</p><p id="2177a7a8-3726-4767-bec3-6d978a0229ee" class=""><strong>≡</strong> ჻ <strong>░</strong> <strong>▒</strong> ▓ <strong>▤</strong> <strong>▥</strong> <strong>▦</strong> <strong>▧</strong> <strong>▨</strong> <strong>▩</strong> <strong>█</strong> <strong>▌</strong> ▐ ▀ <strong>▄</strong></p><p id="501de7c9-f059-4ec6-af65-3c41d5618a39" class="">◠ ◡ <strong>╭</strong> <strong>╮</strong> <strong>╯</strong> <strong>╰</strong></p><p id="bd30a33a-ed51-4dd5-bbd9-d1f57bf862fc" class=""><strong>│</strong> <strong>┤</strong> <strong>╡</strong> ╢ ╖ ╕ ╣ ║ ╝ ╜ ╛ <strong>┐</strong> <strong>└</strong> <strong>┴</strong> <strong>┬</strong> <strong>├</strong> <strong>─</strong> <strong>┼</strong> <strong>╞</strong> ╟ ╚ ╔ ╩ ╦ ╠ <strong>═</strong> ╬ ╧ ╨ ╤ ╥ ╙ ╘ ╒ ╓ ╫ <strong>╪</strong> <strong>┘</strong> <strong>┌</strong></p><p id="66ef116e-49e1-4ba5-b379-8d43a9a7ff78" class="">ツ ♋ 웃 유 Σ ⊗ ♒ ☠ ☮ ☯ ♠ Ω ♤ ♣ ♧ ♥ ♡ ♦♢♔ ♕ ♚ ♛ ★ ☆ ✮ ✯ ☄ ☾ ☽ ☼ ☀ ☁ ☂ ☃ ☻ ☺ ۞ ۩ ♬ ✄ ✂ ✆ ✉ ✦ ✧ ∞ ♂ ♀ ☿ ❤ ❥ ❦ ❧ ™ ® © ✗ ✘ ⊗ ♒ ▢ ▲ △ ▼ ▽ ◆ ◇ ○ ◎ ● ◯ Δ ◕ ◔ ʊ ϟ ღ 回 ₪ ✓ ✔ ✕ ✖ ☢ ☣ ☤ ☥ ☦ ☧ ☨ ☩ ☪ ☫ ☬ ☭ ☹ ☺ ☻ ت ヅ ツ ッ シ Ü ϡ ♋ ♂ ♀ ☿ ♥ ❤ ❥ 웃 유 ♡ ۵ ❣ ☼ ☀ ☁ ☂ ☃ ☄ ☾ ☽ ❄ ☇ ☈ ⊙ ☉ ℃ ℉ ° ♪ ♫ ♩ ♬ ♭ ♮ ♯ ° ø ✽ ✾ ✿ ❀ ❁ ❃ ♚ ♛ ♜ ♝ ♞ ♟  ♔ ♕ ♖ ♗ ♘ ♙ ✉ ✍ ✎ ✏ ✐✑✒ ⌨ ☑ ✓ ✔  ☒ ☓ ✕ ✖ ✗ ✘ ✦ ★ ☆ ✰ ✮ ✯ ❇ ❈ ❅ ❄ ❆ ╰☆╮ Æ æ ❖ ℘ℑℜℵ♏η αβεℓℓα· ¨…¦┅┆┈  ┊╱╲╳¯– —≡჻░▒▓ ▤▥▦▧▨▩█ ▌▐▀▄ ◠◡╭╮╯╰ │┤╡╢╖╕╣ ║╝╜╛ ┐ └┴┬├─┼ ╞╟╚╔╩╦ ╠═ ╬╧╨╤ ╥╙╘╒╓ ╫╪┘┌</p><p id="8470beac-8d97-4f29-920e-757ecd8ffd2f" class="">{｡^◕‿◕^｡} (◕^^◕) ✖✗✘♒♬✄ ✂✆✉✦✧♱ ♰♂♀☿❤❥ ❦❧ 
+™®©♡♦ ♢♔♕♚♛★ ☆✮ ✯☄☾☽ ☼☀☁☂☃☻ ☺☹ ☮۞۩ εїз☎☏¢ ☚☛☜☝☞☟✍ ✌☢☣☠☮☯ ♠♤♣♧♥ ♨๑❀✿ ψ☪☭♪ ♩♫℘ℑ ℜℵ♏ηα ʊϟღツ回 ₪™ ©®¿¡½⅓ ⅔¼¾⅛⅜⅝⅞℅ 
+№⇨❝❞ ◠◡╭╮╯╰ ★☆⊙¤㊣ ★☆♀◆◇ ▆▇██■ ▓回□〓≡ ╝╚╔╗╬ ═╓╩ ┠┨┯┷┏ ┓┗┛┳⊥ ﹃﹄┌ ┐└┘∟「 」↑↓→ ←↘↙♀ ♂┇┅﹉﹊ ﹍﹎╭╮╰╯ *^_^* ^*^ ^-^ ^_^ ^︵^∵∴∥ ︱︳︴﹏ ﹋﹌♂♀ ♥♡☜☞☎ ☏⊙◎☺☻ ►◄▧▨ ♨◐◑↔↕ ▪▫☼♦▀ ▄█▌▐ ░▒▬♦◊ ◦☼♠♣▣ ▤▥▦▩ ぃ◘◙◈♫ ♬♪♩♭♪ の☆→あ ￡❤｡◕‿ ◕｡✎✟ஐ ≈๑۩ ۩.. ..۩۩๑ ๑۩۞۩๑ ✲❈➹ ~.~◕ ‿-｡☀☂☁ 【】┱┲❣ ✚✪✣ ✤✥ ✦❉ ❥❦❧❃ ❂❁❀✄☪ ☣☢☠☭♈ ✓✔✕ ✖㊚㊛ *.:｡ ✿*ﾟ‘ﾟ･ ⊙¤㊣★☆ ♀◆◇ ◣◢◥▲ ▼△▽⊿◤ ◥▆▇ ██■▓ 回□〓≡╝ ╚╔╗ ╬═╓╩ ┠┨┯┷┏ ┓┗┛ ┳⊥﹃﹄ ┌┐└┘∟ 「」↑↓ →←↘↙ ♀♂┇┅﹉ ﹊﹍﹎ ╭╮╰╯ *^_^* ^*^ ^-^ ^_^ ^︵^∵ ∴∥ ︱︳ ︴﹏﹋﹌ ♂♀♥♡☜ ☞☎☏⊙ ◎☺☻►◄ ▧▨♨◐◑ ↔↕ ▪▫ ☼♦▀▄█ ▌▐░▒▬ ♦◊◦☼ ♠♣▣▤▥ ▦▩ぃ◘◙ ◈♫♬♪ ♩♭♪の☆ →あ￡❤｡ ◕‿◕｡ ✎✟ஐ≈ ๑۩۩.. ..۩ ۩๑๑۩۞ ۩๑✲❈ ➹ ~.~◕‿-｡ ☀☂☁【】 ┱┲❣✚ ✪✣✤✥ ✦❉❥❦ ❧❃❂❁❀ ✄☪☣☢☠ ☭♈ ✓  ✔✕✖㊚ ㊛ *.:｡✿*ﾟ ‘ﾟ･ ◊♥╠═╝▫■๑»«¶ஐ©† εïз♪ღ♣ ♠•± °•ิ.•ஐஇ *×○▫ ♂•♀◊©¤ ▲↔™®☎ε їз♨ ☏☆★ ▽△▲ ∵∴∷ ＃♂♀♥♠♣ ♧♤♧ ♡♬♪ ♭♫♪ﻬஐღ ↔↕↘••● ¤╬﹌▽☜♥☞ ♬✞♥♕☯☭☠☃ ─ ━ │ ┃ ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋ ╭ ╮ ╯ ╰ ╱ ╲ ╳ ╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿ ▰ ▱ ◆ ◇ ◈ ◉ ◊ ○ ◌ ◍ ◎ ● ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◘ ◙ ◚ ◛ ◜ ◝ ◞ ◟ ◠ ◡ ◢ ◣ ◤ ◥ ◦ ◧ ◨ ◩ ◪ ◫ ◬ ◭ ◮ ◯ ◰ ◱ ◲ ◳ ◴ ◵ ◶ ◷ ◸ ◹ ◺ ◻ ◼ ◽ ◾ ◿ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ☊ ☋ ☌ ☍ ☎ ☏ ☐ ☑ ☒ ☓ ☔ ☕ ☖ ☗ ☘ ☙ ☟ ☠ ☡ ☢ ☣ ☤ ☥ ☦ ☧ ☨ ☩ ☪ ☫ ☬ ☭ ☮ ☯ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ☸ ☹ ☺ ☻ ☼ ☽ ☾ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♇ ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♰ ♱ ´ ῾ ῿‏ ‐ ‑ ‒ – — ― ‖ ‗ ‘ ’ ‚ ‛ “ ” „ ‟ † ‡ • ‣ ․ ‥ … ‧ </p><p id="c52f3d5f-0469-4e8b-8678-c7c7c629b605" class="">‰ ‱ ′ ″ ‴ ‵ ‶ ‷ ‸ ‹ › ※ ‼ ‽ ‾ ‿ ⁀ ⁁ ⁂ ⁃ ⁄ ⁅ ⁆ ⁊ ⁋ ⁌ ⁍ ⁎ ⁏ ⁐ ⁑ ⁒ ⁓ ⁔ ⁕ ⁖ ⁗ ⁘ ⁙ ⁚ ⁛ ⁜ ⁝ ⁞   ⁠ ⁡ ⁢ ⁣ ⁤ ⁥ ⁦ ⁧ ⁨ ⁩ ⁪ ⁫ ⁬ ⁭ ⁮ ⁯ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ ₝ ₞ ₟ ₠ ₡ ₢ ₣ ₤ ₥ ₦ ₧ ₨ ₪ ₫ € ₭ ₮ ₯ ℀ ℁ ℂ ℄ ℅ ℆ ℇ ℈ ℉ ℊ ℋ ℌ ℍ ℎ ℏ ℐ ℑ ℒ ℓ ℔ ℕ 
+№ ℗ ℘ ℙ ℚ ℛ ℜ ℝ ℞ ℟ ℡ ™ ℣ ℤ ℥ Ω ℧ ℨ ℩ K Å ℬ ℭ ℮ ℯ ℰ ℱ Ⅎ ℳ ℴ ℵ ℶ ℷ ℸ ℹ ℺ ℻ ℼ ℽ ℾ ℿ ⅀ ⅁ ⅂ ⅃ ⅄ ⅅ ⅆ ⅇ ⅈ ⅉ ⅊ ⅋ ⅌ ⅍ ⅎ ⅏ ⅐ ⅑ ⅒ ⇫ ⇬ ⇭ ⇮ ⇯ ⇰ ⇱ ⇲ ⇳ ⇴ ⇵ ⇶ ⇷ ⇸ ⇹ ⇺ ⇻ ⇼ ⇽ ⇾ ⇿ ∀ ∁ ∂ ∃ ∄ ∅ ∆ ∇ ∈ ∉ ∊ ∋ ∌ ∍ ∎ ∏ ∐ ∑ − ∓ ∔ ∕ ∖ ∗ ∘ ∙ √ ∛ ∜ ∝ ∞ ∟ ∠ ∡ ∢ ∣ ∤ ∥ ∦ ∧ ∨ ∩ ∪ ∴ ∵ ∶ ∷ ∸ ∹ ∺ ∻ ∼ ∽ ∾ ∿ ≀ ≁ ≪ ≫ ≬ ≭ ≮ ≯ ≰ ≱ ≲ ≳ ≴ ≵ ≶ ≷ ≸ ≹ ≺ ≻ ≼ ≽ ≾ ≿ ⊀ ⊁ ⊂ ⊃ ⊄ ⊅ ⊆ ⊇ ⊈ ⊉ ⊊ ⊋ ⊌ ⊍ ⊎ ⊏ ⊐ ⊑ ⊒ ⊓ ⊔ ⊕ ⊖ ⊗ ⊘ ⊙ ⊚ ⊛ ⊜ ⊝ ⊞ ⊟ ⊠ ⊡ ⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯ ⊰ ⊱ ⊲ ⊳ ⊴ ⊵ ⊶ ⊷ ⊸ ⊹ ⊺ ⊻ ⊼ ⊽ ⊾ ⊿ ⋀ ⋁ ⋂ ⋃ ⋄ · ⋆ ⋇ ⋈ ⋉ ⋊ ⋋ ⋌ ⋍ ⋎ ⋏ ⋐ ⋑ ⋒ ⋓ ⋔ ⋕ ⋖ ⋗ ⋘ ⋙ ⋚ ⋛ ⋜ ⋝ ⋞ ⋟ ⋠ ⋡ ⋢ ⋣ ⋤ ⋥ ⋦ ⋧ ⋨ ⋩ ⋪ ⋫ ⋬ ⋭ ⋮ ⋯ ⋰ ⋱ ⋲ ⋳ ⋴ ⋵ ⋶ ⋷ ⋸ ⋹ ⋺ ⋻ ⋼ ⋽ ⋾ ⋿ ⌀ ⌁ ⌂ ⌃ ⌄ ⌅ ⌆ ⌇ ⌈ ⌉ ⌊ ⌋ ⌌ ⌍ ⌎ ⌏ ⌐ ⌑ ⌒ ⌓ ⌔ ⌕ ⌖ ⌗ ⌘ ⌙ ⌚ ⌛ ⌜ ⌝ ⌞ ⌟ ⌠ ⌡ ⌢ ⌣ ⌤ ⌥ ⌦ ⌧ ⌨ ⟨ ⟩ ⌫ ⌬ ⌭ ⌮ ⌯ ⌰ ⌱ ⌲ ⌳ ⌴ ⌵ ⌶ ⌷ ⌸ ⌹ ⌺ ⌻ ⌼ ⌽ ⌾ ⌿ ⍀ ⍁ ⍂ ⍃ ⍄ ⍅ ⍆ ⍇ ⍈ ⍉ ⍊ ⍋ ⍌ ⍍ ⍎ ⍏ ⍐ ⍑ ⍒ ⍓ ⍔ ⍕ ⍖ ⍗ ⍘ ⍙ ⍚ ␋ ␢ ␣ ─ ━ │ ┃ ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋ ┌ ┍ ┎ ┏ ┐ ┑ ┒ ┓ └ ┕ ┖ ┗ ┘ ┙ ┚ ┛ ├ ┝ ┞ ┟ ┠ ┡ ┢ ┣ ┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫ ┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻ ┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋ ╌ ╍ ╎ ╏ ═ ║ ╒ ╓ ╔ ╕ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢ ╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬ ╭ ╮ ╯ ╰ ╱ ╲ ╳ ╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿ ▀ ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▉ ▊ ▋ ▌ ▍ ▎ ▏ ▐ ░ ▒ ▓ ▔ ▕ ▖ ▗ ▘ ▙ ▚ ▛ ▜ ▝ ▞ ▟ ■ □ ▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ▪ ▫ ▬ ▭ ▮ ▯ ▰ ▱ ◆ ◇ ◈ ◉ ◊ ○ ◌ ◍ ◎ ● ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◘ ◙ ◚ ◛ ◜ ◝ ◞ ◟ ◠ ◡ ◢ ◣ ◤ ◥ ◦ ◧ ◨ ◩ ◪ ◫ ◬ ◭ ◮ ◯ ◰ ◱ ◲ ◳ ◴ ◵ ◶ ◷ ◸ ◹ ◺ ◻ ◼ ◽ ◾ ◿ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ☊ ☋ ☌ ☍ ☎ ☏ ☐ ☑ ☒ ☓ ☔ ☕ ☖ ☗ ☘ ☙ ☟ ☠ ☡ ☢ ☣ ☤ ☥ ☦ ☧ ☨ ☩ ☪ ☫ ☬ ☭ ☮ ☯ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ☸ ☹ ☺ ☻ ☼ ☽ ☾ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♇ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♰ ♱ ☫ ª ↀ ↁ ↂ Ↄ ➟ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➚ ➘ ➙ ➛ ➜ ➝ ➞ ➸ ♐ ➲ ➳ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↥ ↦ ↧ ↨ ➫ ➬ ➩ ➪ ➭ ➮ ➯ ➱ ↩ ↪ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↵ ↶ ↷ ↸ ↹ ↺ ↻ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇎ ⇏ ⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣  ❂ ⋆ ✢ ✣ ✤ ✥ ✦ ✧ ✩ ✪ ✫ ✬ ✭ ✮ ✯✰ ★ ✱ ✲ ✳ ✴ ✵ ✶ ✷ ✸ ✹ ✺ ✻ ✼ ❄ ❅ ❆ ❇ ❈ ❉ ❊ ❋ ╰☆╮ ✡ ❂ -‘๑’- ⎈ ™ ℠ © ® ℗</p><p id="b778dde2-1a23-4a3a-842d-924695335cc3" class="">
+</p><p id="fd51794c-df06-4a1e-830a-de9ee15f82c1" class=""><a href="Symbols,%20Emojis,%20&amp;%20Emoticons%202aa06261d5f04a9aabe56f4d2d8a5ee3.html"><mark class="highlight-orange_background">Back to top</mark></a></p><p id="9e4c48fe-b4c8-41eb-bee8-c40bd21ad743" class="">
+</p><h3 id="694199bc-3454-4b60-a050-dff055b658a0" class=""><span style="border-bottom:0.05em solid">Emoticons</span></h3><p id="c55ebbc4-c69f-42a4-8766-59da29c15aac" class="">( ͡° ͜ʖ ͡°)</p><p id="f94466a9-1025-47f5-9941-946fb19537f2" class="">( ´ ▽ ` )ﾉ ヽ(ｏ`皿′ｏ)ﾉ (・∀・ ) (￣(エ)￣) （￣へ￣） ( 　ﾟ,_ゝﾟ) (ι´Д｀)ﾉ (･ｪ-) ლ(́◉◞౪◟◉‵ლ) щ(ಠ益ಠщ) (ノಠ益ಠ)ノ彡┻━┻ ｡◕ ‿ ◕｡ ಠ_ಠ ( °٢° ) ʘ‿ʘ ಥ⌣ಥ ಥ‿ಥ (ΘεΘ;) (n˘v˘•)¬ (✪㉨✪) ヽ(๏∀๏ )ﾉ （╹ェ╹） ╮(─▽─)╭ щ(ಥДಥщ) ≖‿≖ (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ (⊙ヮ⊙) ᕦ(ò_óˇ)ᕤ ᕙ(⇀‸↼‶)ᕗ ( ಠ◡ಠ ) (•⊙ω⊙•) ‘︿’ （　´∀｀）☆ (≧ω≦) (´ー｀) (つд｀) (￣。￣) (*~▽~) ( ^▽^)σ)~O~) (=゜ω゜) (´ω｀) (ノ_・。) (-＿- )ノ (´ヘ｀;) (^^;) （　´∀｀） ((((゜д゜;)))) (=ω=;) (。・_・。) (o´ω｀o) (^▽^) (*´д｀*) (￣□￣) ∩(︶▽︶)∩ (✿◠‿◠) (◡‿◡✿) (◕‿◕✿) (✖╭╮✖) (≧◡≦) (¬_¬) (◑‿◐) (◕‿-) ✖‿✖ (-’_’-) (╥_╥) (╯_╰) (╯3╰) (o_-) (¬‿¬) (◣_◢) (∪ ◡ ∪) (≧ω≦) o(≧o≦)o (⋋▂⋌) (॓_॔) (╯ಊ╰) (─‿‿─) ‹(•¿•)› (╯︵╰,) (︶︹︺) (∩︵∩) (｡◕‿◕｡) (⊙_◎) (~￣▽￣)~ (︶ω︶) (+_+) (｡♥‿♥｡) (✿ ♥‿♥) ♥╣[-_-]╠♥ ٩(͡๏̯͡๏)۶ ٩(-̮̮̃•̃)۶ ٩(̾●̮̮̃̾•̃̾)۶ ٩(-̮̮̃-̃)۶ (u_u) (*_*) (º_º) ٩(×̯×)۶ (ñ_ñ) (∩▂∩) (¬▂¬) (╯◕_◕)╯ (╹◡╹)凸 少 ¯\_(ツ)_/¯ (▰˘◡˘▰) (☞ﾟ∀ﾟ)☞ ლ(╹◡╹ლ)</p><p id="26875fb1-356b-4f35-8b50-7bd200787b68" class="">(✿◠‿◠) (┌∩┐(◕_◕)┌∩┐) (◡‿◡✿) (◕‿◕✿) (✖╭╮✖) (≧◡≦) (¬_¬) (◑‿◐) (◕‿-) ✖‿✖ (-’_’-) (╥_╥) (╯_╰) (╯3╰) (o_-) (¬‿¬) (◣_◢) (∪ ◡ ∪) (≧ω≦) o(≧o≦)o (⋋▂⋌) (॓_॔) (╯ಊ╰) (─‿‿─) ‹(•¿•)› (╯︵╰,) (︶︹︺) (∩︵∩) (｡◕‿◕｡) (⊙_◎) (~￣▽￣)~ (︶ω︶) (+_+) (｡♥‿♥｡) (✿ ♥‿♥) ♥╣[-_-]╠♥ ٩(͡๏̯͡๏)۶(u_u) (*_*) (º_º) ٩(×̯×)۶ (ñ_ñ) (∩▂∩) (¬▂¬) (ᴗ˳ᴗ)</p><p id="2f93a0a6-8ac5-40f6-8668-2cc5a8552a1f" class="">(✿◠‿◠) (◡‿◡✿) (◕‿◕✿) (✖╭╮✖) (≧◡≦) (¬_¬) (◑‿◐) (◕‿-) ✖‿✖ (-’_’-) (╥_╥) (╯_╰) (╯3╰) (o_-) (¬‿¬) (◣_◢) (∪ ◡ ∪) (≧ω≦) o(≧o≦)o (⋋▂⋌) (॓_॔) (╯ಊ╰) (─‿‿─) ‹(•¿•)› (╯︵╰,) (︶︹︺) (∩︵∩) (｡◕‿◕｡) (⊙_◎) (~￣▽￣)~ (︶ω︶) (+_+) (｡♥‿♥｡) (✿ ♥‿♥) ♥╣[-_-]╠♥ ٩(͡๏̯͡๏)۶ ٩(-̮̮̃•̃)۶ ٩(̾●̮̮̃̾•̃̾)۶ ٩(-̮̮̃-̃)۶ (u_u) (*_*) (º_º) ٩(×̯×)۶ (ñ_ñ) (∩▂∩) (¬▂¬)</p><p id="e3df28fc-5831-42ee-b06a-7721a38e5248" class="">Angry / Displeased: (*≧m≦*) (&gt;_&lt;) (,,#ﾟДﾟ) ヽ(ｏ`皿′ｏ)ﾉ o(&gt;&lt; )o ｏ( &gt;&lt;)o ヽ(≧Д≦)ノ （＞д＜） （;≧皿≦） [○･｀Д´･○] ヽ(#`Д´)ﾉ Σ(-`Д´-ﾉ；)ﾉ (((p(&gt;o&lt;)q))) (/ﾟДﾟ)/ ( ¬д¬。) ヽ(#`Д´)ﾉ (¬､¬) （；¬＿¬) (;¬_¬) (；¬д¬) (≧σ≦) o(-`д´- ｡) ヽ(●-`Д´-)ノ (*￣m￣) (´Д｀) (；￣Д￣） (¬_¬)ﾉ (＃｀д´)ﾉ (」゜ロ゜)」 Σ(▼□▼メ) (〝▼皿▼） (▼皿▼#) ヽ( ｀0´)ﾉ (︶︹︺) (≧０≦) （。＞。＜。） 【&gt;&lt;。】 （━┳━◇━┳━）(━┳━＿＿━┳━) (━┳━○━┳━) (━┳━ _ ━┳━) (┳◇┳) {{|└(&gt;o&lt; )┘|}} ＼(＠O＠)／ （≧▼≦；) ＼(〇O〇)／ s(・｀ヘ´・;)ゞ（▼へ▼メ）＼(`O´θ／ θ＼(；￢_￢) ヽ(｀⌒´メ)ノ 凸(-0-メ) 凸(｀△´＋） 凸(｀0´)凸 凸(｀⌒´メ)凸 ＼(｀0´)／ -`д´- (&gt;人&lt;)</p><p id="8d410fd0-863c-4ed8-8267-5513e6248f7d" class="">Apologizing: m(_ _)m m(._.)m ｍ（．＿．）ｍ （ﾉ´д｀） (シ_ _)シ &lt;(_ _)&gt;　＜(。_。)＞ ｍ（＿　＿；；ｍ m(￢0￢)m</p><p id="0104fc65-28ef-4d0f-b479-eb08af194c28" class="">Bears: (￣(エ)￣) (｡･ω･｡) (●｀･(ｴ)･´●) (*ノ・ω・） 川´･ω･`川 ( (ﾐ´ω`ﾐ)) ヾ(T(エ)Tヽ) ＼(・｀(ｪ)・)/ ⊂(ο･㉨･ο）⊃ (^(エ)^) (^(I)^) (￣(ｴ)￣)ﾉ ⊂(￣(工)￣)⊃ ⊂(^(工)^)⊃ ⊂(・(ェ)・)⊃ (*￣(ｴ)￣*) ヾ(´(ｴ)｀ﾉﾞ (／(ｴ)＼) ⊂(￣(ｴ)￣)⊃ “(`(エ)´)ノ (｀(エ)´)ﾉ Ψ(￣(ｴ)￣)Ψ (/-(ｴ)-＼) (´(エ)｀) ヽ(￣(ｴ)￣)ﾉ (／￣(ｴ)￣)／ ┏((＝￣(ｴ)￣=))┛ (●￣(ｴ)￣●) (♥ó㉨ò)ﾉ♡ ・㉨・ (ó㉨ò)</p><p id="815914f4-623d-4f70-9eef-43a886f994d2" class="">Cats: (=^･ｪ･^=) (=^‥^=) ( =①ω①=) (=^･^=) o(^・x・^)o d(=^･ω･^=)b V(=^･ω･^=)v (=ＴェＴ=) (=;ェ;=) (=｀ω´=) ヽ(=^･ω･^=)丿 (=^･ω･^)y＝ ＼(=^‥^)/&#x27;` (^-人-^) ヽ(^‥^=ゞ) (^・ω・^ ) (=^-ω-^=) b(=^‥^=)o (.=^・ェ・^=) （=´∇｀=） ヾ(=ﾟ･ﾟ=)ﾉ ~(=^‥^)ノ ~(=^‥^)/ (=ｘェｘ=) (=；ェ；=) (=｀ェ´=) (^･o･^)ﾉ&quot; &lt;(*ΦωΦ*)&gt; (^._.^)ﾉ └(=^‥^=)┐ =&#x27;①。①&#x27;=</p><p id="a81e4c78-2ead-4604-90c6-c90e9290c03c" class="">Confused: (´･_･`) (◎_◎;) (｀_´)ゞ (◎-◎；) (・_・ヾ (￣(エ)￣)ゞ (-_-)ゞ゛ (&#x27;◇&#x27;)? ヽ(゜Q。)ノ？ (´｀;) ？ 【・ヘ・?】 【・_・?】 ( ・◇・)？ (゜-゜) ヾ(´･ ･｀｡)ノ&quot; ｢(ﾟﾍﾟ) ( ?´_ゝ｀) o(´^｀)o (´−｀) ﾝｰ (」ﾟヘﾟ)」 (•ิ_•ิ)? 「(°ヘ°) (。ヘ°) ヽ(゜Q。)ノ？ (´｀;) ？ 〈(゜。゜) (゜。゜) く（＾_・）ゝ (^～^;)ゞ</p><p id="10d7d70e-1c1b-4de4-9489-d3f700f26af3" class="">Dancing: ヘ(^_^ヘ) (ノ^_^)ノ o(^^o) (o^^)o (ノ´＿ゝ｀）ノ ヾ(^ ^ゞ (ノ‥)ノ ( ﾉ^ω^)ﾉﾟ ヾ(*´∇`)ﾉ ヾ(･ω･*)ﾉ (*ﾉ´□`)ﾉ 。(⌒∇⌒。) (。⌒∇⌒)。 〜(￣▽￣〜) (〜￣▽￣)〜 〜(^∇^〜） （〜^∇^) 〜(￣△￣〜) (〜￣△￣)〜 ┗(｀ー´)┓ ┏(｀ー´)┛ ┗(＾0＾)┓ (＾0＾)┛ (ノ￣ー￣)ノ ヘ(￣ー￣ヘ) ヘ(￣ω￣ヘ) (ノ￣ω￣)ノ ヘ(^o^ヘ)(ノ^o^)ノ ヾ(-_- )ゞ ヾ(＠^∇^＠)ノ (ﾉ≧∀≦)ﾉ ＼(^ω^＼) (ﾉﾟ▽ﾟ)ﾉ ヽ(ﾟｰﾟ*ヽ) ヽ(*ﾟｰﾟ*)ﾉ (ﾉ*ﾟｰﾟ)ﾉ ヽ(*´Д｀*)ﾉ (o´･_･)っ ヾ(*д*) ヽ(°◇° )ノ ヽ( °◇°)ノ (ノ°ο°)ノ (ﾉ･o･)ﾉ ヾ(^^ゞ) ヾ(ﾟ∀ﾟゞ) ヽ(´ー`)ﾉ ヾ（*⌒ヮ⌒*）ゞ 〈( ^.^)ノ ┌（★ｏ☆）┘ └（★ｏ★）┐ ♪(┌・。・)┌</p><p id="46b2822f-7bb3-4279-a691-1feadcf25933" class="">Dead: x_x；） (*_*) (×_×;） (×_×# (#+_+) (+_+) ヾ(×× ) ﾂ （Ω_Ω） へ（&gt;&lt;#）ノ (＊0＊;)</p><p id="88b6f7ca-86fe-4f31-8edb-38f40079024a" class="">Dogs: Uo･ｪ･oU ∪･ω･∪ U｡･ｪ･｡U ▽・ω・▽ ▽・ｗ・▽ Ｕ^皿^Ｕ ｖ・。・Ｖ ＵＴｪＴＵ (^・(I)・^) U・♀・U ｏ（Ｕ・ω・）⊃ (^・x・^) (U・x・U) ▼o・ェ・o▼ U＾ェ＾U U￣ｰ￣U</p><p id="2e4da4e9-7518-443e-9b37-bbdc4c54249e" class="">┌U･ｪ･U┘ └@(･ｪ･)@┐ ヾ(●ω●)ノ (〓￣(∵エ∵)￣〓)</p><p id="240a4862-a9ec-4fd5-ad94-a850acecc6e6" class="">Drinking: ｏ口(・∀・ ) (。・・)_且 且_(ﾟ◇ﾟ；)ノﾞ ~旦_(^O^ ) (　 ゜Д゜)⊃旦 ( ´･ω･`)_且~ ( ^-^)_旦&quot;&quot; (*^◇^)_旦 (*｀▽´)_旦~~ ~(=^‥^)_旦~ (＾-＾)＿日 ~~旦_(･o･;) ( -_-)旦~ (＃´ー´)旦 且_(・_・ )</p><p id="71ba386f-c814-4b2d-b309-573d00d7d9b2" class="">Evil / Sneaky: (・｀ω´・) ψ(｀∇´)ψ （｀ー´） (｡･｀ω´･｡) o(｀ω´*)o | ｀Д´| (｀ε´)(σ- `д･´) (｀Д´*) （=｀〜´=） (ﾒ｀ﾛ´)/ Ψ(｀▽´)Ψ (#｀∀´)_Ψ (*-`ω´- )人 (ц｀ω´ц*) (｀∀´)Ψ ψ(*｀ー´)ψ Ψ(｀◇´)Ψ “ψ(｀∇´)ψ</p><p id="c6ba2eff-c376-4edb-9ebe-ff9ff99acb97" class="">Greetings / Goodbyes: ヾ(＾∇＾) (^-^*)/ ( ﾟ▽ﾟ)/ ( ^_^)／ (^o^)/ (^ _ ^)/ ( ´ ▽ ` )ﾉ (ﾉ´∀｀*)ﾉ (ヾ(´･ω･｀) ☆ﾐ(o*･ω･)ﾉ ＼(＾▽＾*) (*＾▽＾)／ (￣▽￣)ノ ヾ(-_-;)</p><p id="ce80972a-3862-40d3-a289-daeeb756a8da" class="">ヾ( &#x27; - &#x27;*) ヾ(＠⌒ー⌒＠)ノ ~ヾ ＾∇＾ ~ヾ(＾∇＾) ＼(￣O￣) (｡･ω･)ﾉﾞ (*^･ｪ･)ﾉ</p><p id="ae916431-f0f6-427b-8bb0-c0860a28ae65" class="">(￣∠ ￣ )ﾉ (*￣Ｏ￣)ノ ヾ(｡´･_●･`｡)☆ (/・0・) (ノ^∇^) (,, ･∀･)ﾉ゛ (。･д･)ﾉﾞ</p><p id="963a5e54-b2fa-4f4c-ba0b-9d4f7c75c18c" class="">＼(°o°；） (｡´∀｀)ﾉ (o´ω`o)ﾉ ( ･ω･)ﾉ (。^_・)ノ ( ・_・)ノ ＼(-o- ) (。-ω-)ﾉ</p><p id="3815bb5c-e57c-42a6-9c6e-b4e882778354" class="">＼(-_- ) ＼( ･_･) ヾ(´￢｀)ﾉ ヾ(☆▽☆)	 (^ Q ^)/゛ ~(＾◇^)/ ヘ(&#x27;◇&#x27;、)/ ヘ(°◇、°)ノ</p><p id="f7d8fc78-3eb5-48af-869a-9329eab4ca01" class="">ヘ(°￢°)ノ ヘ(゜Д、゜)ノ （ ゜ρ゜)ノ ー( ´ ▽ ` )ﾉ</p><p id="4ad87e6b-72b8-4bc0-9dc8-ffe6af02f899" class="">Happy: (●´∀｀●) (｀・ω・´)” ヽ(；▽；)ノ (*´・ｖ・) (((o(*ﾟ▽ﾟ*)o))) ☆*:.｡. o(≧▽≦)o .｡.:*☆ (⌒▽⌒)☆ ⊂((・▽・))⊃ (≧∇≦)/ (´･ω･`) （’-’*) ∩( ・ω・)∩ (*≧▽≦)</p><p id="50fa17e9-d176-4b77-9bc5-625624c5e839" class="">＼（＾ ＾）／ Ｏ(≧∇≦)Ｏ （　´∀｀） (^～^) ＼（＠￣∇￣＠）／　 (☆^O^☆)</p><p id="268b333b-ce5b-4135-8201-121cead98d88" class="">(★^O^★) (☆^ー^☆) (´ω｀★) ＼（Ｔ∇Ｔ）／ ヽ(*≧ω≦)ﾉ *(*´∀｀*)☆ Ｏ(≧▽≦)Ｏ ヽ(*⌒∇⌒*)ﾉ d=(´▽｀)=b ＼(*T▽T*)／ ヽ(‘ ∇‘ )ノ （*＾ワ＾*） (＾Д＾)ﾉ (´∀`) (°◇°;) (゜▽゜;) (/^▽^)/ (ﾉ´ｰ`)ﾉ ヽ(´ー`)ﾉ (　＾∇＾) ＼( ｀.∀´)／</p><p id="aabe1e54-fa14-4448-beb6-cfa1b0f49eec" class="">(●⌒∇⌒●) o(≧∇≦o) ヽ(｀◇´)/ ヽ(*・ω・)ﾉ （＾ω＾） ｡◕‿◕｡ ⊙ω⊙　⊙△⊙　 o (◡‿◡✿) (∩_∩) (•ิ_•ิ) (/•ิ_•ิ)/</p><p id="1b40c2ac-961f-4447-85e3-d1fbca1cc07c" class="">Hiding: |･ω･｀) ﾍ(･_| ｜−・;） |ω・） |_・)</p><p id="ac084694-cbb0-4827-9443-681e55a38662" class="">Kissing: (´ε｀ )♡ ～(^з^)-☆ |°з°| （＿ε＿） (&#x27;ε&#x27;) |(￣3￣)| （￣ε￣＠） （*＾3＾）</p><p id="38f5d8fb-022a-47cd-9609-1509e59231a6" class="">(´ε｀*) (○´3｀)ﾉ (☆´3｀) (*￣з￣) (づ￣ ³￣)づ （○゜ε＾○） (TεT) (-ε- ) （＠ーεー＠） （*＾3＾）/～☆ ლ(|||⌒εー|||)ლ</p><p id="4ec0b63d-73aa-4ad7-a8dd-f88226d48725" class="">Laughing: （・∀・） （　´∀｀） （⌒▽⌒） （＾ｖ＾）</p><p id="91f114b9-9521-451d-ad9d-7df9564fc63d" class="">Mellow / Whatever: ヽ（´ー｀）┌ ┗┐ヽ(′Д、`*)ﾉ┌┛ ヽ( ´¬`)ノ ┗┃・ ■ ・┃┛ ヾ(´A｀)ノﾟ</p><p id="7b60ea56-0278-47a2-94fa-d24b614092ff" class="">ヽ（・＿・；)ノ ヽ(　￣д￣;)ノ ＼（〇_ｏ）／ ヽ(。_°)ノ ＼(;´□｀)/ ヾ(*´ー`)ノ ヽ(&#x27;ー`)ノ ヽ(ー_ー )ノ (´～｀；） ┐(&#x27;～`；)┌ ヽ（*ω。）ノ (;´・`)&gt; （＾～＾）</p><p id="b550a8a9-2bbd-43c8-80f0-d468bc61bd41" class="">Painful: ☆⌒(＞。≪) ☆￣(＞。☆ ~(&gt;_&lt;。)＼ ヘ(&gt;&lt;#)ノ (。_＋)＼ (xLx)ヾ /(*ι*)ヾ (ノ&gt;&lt;)ノ ／(x~x)＼ ◎☆（♯××）┘ ヘ（。□°）ヘ</p><p id="171e8916-ca71-402e-ac86-4163d4ac7591" class="">Sad / Crying: ｡･ﾟﾟ･(&gt;д&lt;;)･ﾟﾟ･｡ (。┰ω┰。) (*´；ェ；`*) (゜´Д｀゜) （ｉДｉ） (´；ω；`) 。ﾟ(ﾟﾉД｀ﾟ)ﾟ｡ ヽ(´□｀。)ﾉ (ﾟ´Д｀ﾟ)ﾟ {{p´Д｀q} ヽ(●ﾟ´Д｀ﾟ●)ﾉﾟ ( p_q) .・゜゜・（／。＼）・゜゜・． (个_个) ((´д｀)) ( ≧Д≦) ｡゜(｀Д´)゜ (。┰ω┰。) p(´⌒｀｡q)</p><p id="d2736446-34b4-4258-8c51-60fabea747be" class="">Scared: (ノдヽ) ヽ(ﾟДﾟ)ﾉ (／。＼) （／_＼） （／．＼）</p><p id="c8ac85d9-78f5-473b-892d-f44a4c1a51f2" class="">Shocked / Surprised: ( ꒪Д꒪)ノ (((( ;°Д°)))) ((((；゜Д゜))) （゜◇゜） （￣□￣；） ∑(O_O；) ＼(&gt;o&lt;)／ ━Σ(ﾟДﾟ|||)━ Σ(゜ロ゜;) Σ(゜゜) (*ﾟﾛﾟ) (」゜ロ゜)」 щ(゜ロ゜щ) (ﾉﾟ0ﾟ)ﾉ~ ⊙▂⊙</p><p id="a0fbf948-8e60-442f-815b-e9ba859af4f6" class="">⊙０⊙ w(°ｏ°)w L(・o・)」 (○o○) （・□・；）</p><p id="84deb968-ce39-4351-83e0-714f76bee8a7" class="">Shy / Embarrassed: ^_^;) (^^ゞ (^^;) (#^.^#) (&#x27;-&#x27;*) (*^^*) （＠´＿｀＠） (⌒_⌒;) (#｀ε´#ゞ （*/∇＼*） (〃￣ω￣〃ゞ (*´ｪ｀*) (*´∀`*) (*´_ゝ｀) (*´∀`*) (/ω＼) (*ﾉ▽ﾉ) (*ﾉωﾉ) （/｡＼) （。-＿-。）</p><p id="e3c0f8aa-538a-431d-b38a-08efef5f6141" class="">Singing: ヾ(´□｀* )ノ （＾Ｏ＾☆♪ ＼(^o^)／ (´▽｀)ノ♪ &quot;ヽ(´▽｀)ノ&quot; ヽ(´▽｀；)/♪ ヽ(´・｀)ﾉ ヽ(○´∀`)ﾉ♪ ヾ(´ρ｀)〃 ヾ(´〇｀)ﾉ (´△｀)♪ (ﾉ´▽｀)ﾉ♪</p><p id="f9335df9-6747-466b-ab78-6306e17a7cc7" class="">Sleeping / Waking Up: ［(－－)］zzz (´～`) ヾ(。￣□￣)ﾂ ヾ(￣0￣； )ノ ヾ(。￣□￣)ﾂ ヾ(。￣□￣)ﾂ ヾ(￣□￣;)ﾉ (。-ω-)zzz (-_-) zzz (∪｡∪)｡｡｡zzz</p><p id="d2593e23-03d5-4f49-9b6d-f2387c23b02c" class="">Smug: ー(￣～￣)ξ (`へ´*)ノ (￣^￣) （￣へ￣） （￣～￣;） (￣ェ￣;) (-、-) ( ；｀ヘ´)</p><p id="776c01ee-54a1-41cf-89ac-abf65728b2a7" class="">o(´^｀)o (￣ω￣;)</p><p id="27898ae6-e796-45b6-a0b0-d330a41415b9" class="">Winking: （＾＿－） (－ｏ⌒) （＾＿−） (^_-) (^_−)☆ (⌒.−)＝★</p><p id="bb345076-6f44-4d5e-8fed-3328efc3629b" class="">Worried: (ーー;) ( ；´Д｀) （；￣ェ￣） ヽ(￣д￣;)ノ (￣◇￣;) ヽ(￣д￣;)ノ （−＿−；） (~_~;) ((*゜Д゜) (･_-｡ ) ⊙﹏⊙ ミ●﹏☉ミ (-&#x27;๏_๏&#x27;-) (⊙...⊙ ) ( ´△｀) (;° ロ°)</p><p id="42a56299-aca7-477e-9197-518f9f4aec44" class="">ヽ（゜ロ゜；）ノ （°o°；）</p><p id="d05b3452-f575-45be-8966-9bacf4b6b7af" class="">Stars / Symbols: ━━☆＞＾） ☆彡　　★彡　　☆彡　　★彡 ☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆ `*:;,．★ ～☆・:.,;*</p><p id="de20b011-808a-4112-9cbc-271c68c2067d" class="">Table flip: (╯°□°）╯︵ ┻━┻</p><p id="6b63a9c7-947e-4267-a1af-22e6b357fb75" class="">Alarmed table flip: (┛◉Д◉)┛彡┻━┻</p><p id="0647a3ea-ca76-41b0-938f-1e11ecf3bacb" class="">Angry table flip: (ノಠ益ಠ)ノ彡┻━┻</p><p id="56718320-0346-4ac3-87b4-674abed6cca4" class="">Putting the table back: ┬──┬ ﻿ノ( ゜-゜ノ)</p><p id="4b9f036d-61df-46ca-a11a-d226845610f9" class="">Whut: ¬_¬</p><p id="6d04b9c6-4ff3-4be4-9872-ee2f78c07cb7" class="">R u srs/rlly: ಠ_ಠ</p><p id="a0224fdb-0f86-44f7-a4d8-4f3f8867e7df" class="">zzzzzz: (￣。￣)～ｚｚｚ</p><p id="e3ae8458-304f-4d4c-aadd-f0481c999819" class="">Le drool: °٢°</p><p id="2361850b-b19d-4ca7-a21d-4fbba51fe9ef" class="">Butterfly: Ƹ̵̡Ӝ̵̨̄Ʒ</p><p id="df6cd582-e25e-4178-9943-30d62c12f32b" class="">Innocent: ʘ‿ʘ</p><p id="88422071-5a97-4f07-98d1-637314405927" class="">sjfsjl: (°ロ°)☝</p><p id="5096143d-6d82-410b-a19b-e68604249519" class="">Oh joy: ಥ⌣ಥ</p><p id="ebd6ae41-66be-49ef-8e41-cf579d6ceba2" class="">Kawaii kawaii: (づ｡◕‿‿◕｡)づ</p><p id="1d04e843-c187-497d-9935-150781627d0e" class="">Yay~: ヽ(゜∇゜)ノ</p><p id="a236950b-b898-40c5-8db6-323de5504643" class="">Wat: (″･ิ_･ิ)っ</p><p id="986921c1-f26c-470e-bc20-7f61b37412b7" class="">WhAt WAs ThAT: ∑(゜Д゜;)</p><p id="f1a11e4e-2ea3-492c-8eb7-f5c7e2603a22" class="">Win: (☞ﾟ∀ﾟ)☞</p><p id="cfa40dbf-1961-4c9c-a4f9-51cc1ee737e0" class="">Me is friendly: (´･ω･`)</p><p id="0f7ae959-21c9-4c7c-854f-c9cdfee175ea" class="">: 3:&lt;`∀´&gt;</p><p id="0a49f0fd-c70c-49bd-bf12-3f37f930af69" class="">Wae: &lt;丶´Д｀&gt;</p><p id="c236adbf-c9f5-4c80-8274-d71b4abc82b0" class="">Wae 2: （ ；´Д｀）</p><p id="62a05d06-75fa-4720-8e73-e4dc379c2755" class="">Happy: ∧∧</p><p id="07b38eb9-d9c9-4fcc-9af8-f53e9ac146da" class="">Idek: ┐(&#x27;～`；)┌</p><p id="8e4f51a2-8bba-4cf9-ab1b-ca3fef2d05fe" class="">MY OVARIES: (*´Д`)ﾊｧﾊｧ</p><p id="ff3c294e-e7a6-4f9b-b849-68f3a0cc3662" class="">Woah..: ( ﾟдﾟ)</p><p id="c1be3912-8c73-409a-9f8f-95a1e4ad45c7" class="">Le tear: （ つ Д ｀）</p><p id="1229d7a1-e76d-4601-9164-24a4d70da697" class="">Angel: ☜(⌒▽⌒)☞</p><p id="8444b546-699e-499b-9c60-18f789164584" class="">SPARKLEZZZZ: (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</p><p id="b4e2bc88-07ad-45cb-9b1e-72928f4d7848" class="">Bombs: ( ・_・)ノ⌒●~*</p><p id="25757d04-b8ea-4b87-b7d9-7bb07f94873d" class="">Kawaii rain: (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧*:･ﾟ✧</p><p id="7784ac87-e35a-4511-a934-bedb439671b7" class="">Alarmed table-flip: (┛◉Д◉)┛彡┻━┻</p><p id="c7478471-eb35-46bd-bb0b-ab4e08279e79" class="">Angry table-flip: (ノಠ益ಠ)ノ彡┻━┻</p><p id="88f49819-3c5c-4bb7-a8a8-504f7bcdecde" class="">Fgsfds: (°ロ°)☝</p><p id="c20f29fa-f849-4d3c-8c66-72ee09438c8f" class="">Am I kawaii?: (づ｡◕‿‿◕｡)づ</p><p id="d2f44388-84a2-4ffa-b456-0ce4e3bf2e09" class="">The kawaiiest: (◕‿◕✿)</p><p id="2eefe839-6b11-4125-8845-268d3f26f0a5" class="">Uguu: (◡‿◡✿)</p><p id="89977dbf-c889-4a4a-b235-b6105e960dd3" class="">Generic &#x27;yay&#x27;: ヽ(゜∇゜)ノ</p><p id="4983a87c-ac4e-4fbd-8397-67faa6851932" class="">Le zzz: (￣。￣)～ｚｚｚ</p><p id="03d44177-98af-430d-b92a-602cff65d558" class="">Wat: (″･ิ_･ิ)っ</p><p id="b88f9b71-ce03-4ff9-8902-61a2e7d07cd1" class="">Shocked: ∑(゜Д゜;)</p><p id="df08ca47-c6f3-44d3-a220-fa6688752bf9" class="">Winning: (☞ﾟ∀ﾟ)☞</p><p id="94facccc-76cf-421d-98f6-69e24447ea9d" class="">Dog 1: •ᴥ•</p><p id="9295a7a6-44d7-48e3-b592-af3c0efdfb47" class="">Dog 2: ●ᴥ●</p><p id="15c4784c-9796-4936-b06b-6f796689955d" class="">Dog 3: ☻ᴥ☻</p><p id="0cdc8094-d918-4858-a2ef-e86d3a2d3c3d" class="">So kawaii: ◕ ◡ ◕</p><p id="d8373b7d-4771-4097-9c47-39599359c313" class="">Soliciting a Hug: (ノ゜ω゜)ノ</p><p id="0f18b505-c0b6-4a6f-a24b-8adf4f270572" class="">Blushu: (▰˘◡˘▰)</p><p id="e8952e3c-db32-4e64-b573-ade9cb642dee" class="">The very best: ∩(︶▽︶)∩</p><p id="6a078481-a5d1-46d5-b198-a27077da147e" class="">I ran out of good names of emoticons: (*◕‿◕*)</p><p id="ad1e5e6e-144c-4076-8202-b8f3a85dcefc" class="">also, kyubey: ／人◕ ‿‿ ◕人＼</p><p id="b0b36daa-d7de-4965-8e65-7fab3c63f62a" class="">
+</p><p id="8d364039-de65-48a8-8ece-950f9c6f65df" class=""><a href="Symbols,%20Emojis,%20&amp;%20Emoticons%202aa06261d5f04a9aabe56f4d2d8a5ee3.html"><mark class="highlight-orange_background">Back to top</mark></a></p><p id="e04a466a-2a82-44a9-a426-677b5bd09842" class="">
+</p><p id="aa588e41-8bf8-4684-8e89-dc829c6fee62" class="">
+</p><p id="82cd66a9-4662-472a-a5fb-14a87fb88167" class="">
+</p></div></article></body></html>

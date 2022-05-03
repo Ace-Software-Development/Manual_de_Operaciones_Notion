@@ -1,0 +1,13 @@
+# GOALS OF THE MONTH
+
+## GOALS:
+
+- GOAL 1
+- GOAL 2
+- GOAL 3
+
+## START:
+
+- THING 1
+- THING 2
+- THING 3

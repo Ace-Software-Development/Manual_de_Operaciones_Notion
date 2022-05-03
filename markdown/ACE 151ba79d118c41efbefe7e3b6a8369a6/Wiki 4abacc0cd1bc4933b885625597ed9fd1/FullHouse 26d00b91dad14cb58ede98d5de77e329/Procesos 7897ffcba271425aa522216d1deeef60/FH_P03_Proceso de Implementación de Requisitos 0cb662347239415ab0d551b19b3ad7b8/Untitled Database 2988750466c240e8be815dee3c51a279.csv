@@ -1,0 +1,20 @@
+﻿FASE,RESPONSABLE,ACTIVIDAD
+Análisis,Desarrollador,Se revisa el requerimiento y se definen los casos por los que debe pasar la US para ser aceptada.
+,Desarrollador,Enlistar y documentar las medidas de seguridad necesarias para la US.
+,Miembro del equipo que no esté desarrollando la US,Verifica y valida el análisis de la Historia de Usuario.
+Diseño,Desarrollador,Se diseñan los wireframes necesarios.
+,Desarrollador,Se diseña el algoritmo a implementar.
+,Desarrollador,Realiza las actualizaciones necesarias en el diagrama MER.
+,Miembro del equipo que no esté desarrollando la US,Verifica y valida el diseño de la Historia de Usuario
+Implementación,Desarrollador,Identifica si es necesario la creación de nuevos permisos por cada tipo de usuario involucrado en la historia de usuario.
+,Arquitecture Owner,Crea los permisos necesarios para la Historia de Usuario y los asigna al rol
+,Desarrollador,Crea los modelos necesarios para la Historia de Usuario dentro de la base de datos.
+,Desarrollador,"Codifica la Historia de Usuario: Backend, Frontend."
+Pruebas,Miembro del equipo que no esté desarrollando la US,Sigue los casos de prueba definidos en la etapa de análisis para probar la historia de usuario con sus respectivas pruebas unitarias.
+,Miembro del equipo que no esté desarrollando la US,Realiza pruebas de integración con otras historias de usuario relacionadas a la actual para verificar que funcionen en conjunto probando el flujo que tienen entre sí.
+,Miembro del equipo que no esté desarrollando la US,Verifica que se cumplan los requerimientos de seguridad especificados dentro de la etapa de análisis poniendo a prueba la implementación de la historia de usuario.
+Ver / Val,Matriz de Trazabilidad,"Llenar información con historia de usuario, interesado, número de despliegue, documentos pertinentes detallando los cambios realizados."
+,Validación de implementación,Revisar implementación para comprobar que realmente se está haciendo lo que se necesita.
+Documentación,Desarrollador,Agregar al manual de usuario cómo se debe usar y para qué sirve la historia de usuario implementada con sus distintos flujos de actividad.
+,Desarrollador,Agregar al manual técnico y de arquitectura los servicios utilizados documentando credenciales en caso de existir. Incluir consideraciones importantes de por qué fue necesario utilizar el servicio.
+,Desarrollador,Verificar que el código cumpla con el estándar de codificación especificado por la guía de estilo de Airbnb para javascript. Dicha guía se puede encontrar en la política de definition of done de un feature.

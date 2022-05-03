@@ -1,0 +1,674 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>27.04.22</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="4f8457df-db54-44b2-84f7-2b28d7c4cd5b" class="page sans"><header><h1 class="page-title">27.04.22</h1></header><div class="page-body"><h2 id="76d1bbe9-355d-48ec-bb09-ed257a1202f6" class="">Padrino</h2><ul id="f99fe1ad-50c4-4f15-9cd7-3340dd12dc2d" class="bulleted-list"><li style="list-style-type:disc">Le gusta que interpretemos los resultados</li></ul><ul id="5ad08abe-203c-44bf-85ee-64bc8587c59b" class="bulleted-list"><li style="list-style-type:disc">Hay mucha variación en la exposición</li></ul><ul id="48852e36-c5f2-4bb4-ae49-7b3ca51e18af" class="bulleted-list"><li style="list-style-type:disc">Quiere saber que ha cambiado en el plan</li></ul><p id="8908311a-e737-407c-9884-fb8e05ca3ca2" class="">
+</p><h2 id="f1245448-1f19-4d10-923d-dea8d102c9e1" class="">Alumno</h2><ul id="b774d2ab-0c2b-48c0-8410-e960454e695c" class="bulleted-list"><li style="list-style-type:disc">¿Cómo medimos nuestros objetivos?</li></ul><ul id="cc548575-b446-4bc0-954b-60064dd99528" class="bulleted-list"><li style="list-style-type:disc">No sólo preguntar los objetivos, también mostrarlos</li></ul><ul id="f447bd52-0161-4682-904d-dcfcd441fca8" class="bulleted-list"><li style="list-style-type:disc">Error y un defecto son diferentes</li></ul><ul id="5759dd73-6419-4a51-88de-f5ea18b5d852" class="bulleted-list"><li style="list-style-type:disc">Siente que no tenemos forma de trabajo establecida</li></ul><ul id="4915a64b-2cb9-4268-9b6d-4e72a609d3e8" class="bulleted-list"><li style="list-style-type:disc">Medir</li></ul><ul id="09899321-60ea-4402-ae33-2112d6bee753" class="bulleted-list"><li style="list-style-type:disc">La wiki se usa cuando no recordamos cuál es la forma de trabajo y se mejora frecuentemente (proceso de mejora continua)</li></ul><ul id="276328fb-47c5-40de-b4ab-e3da4d661f7b" class="bulleted-list"><li style="list-style-type:disc">Encontrar la causa raíz de la falta de participación en el departamento</li></ul><ul id="d2202cc9-7809-438b-ac89-7d3e655e9873" class="bulleted-list"><li style="list-style-type:disc">Medir nivel de participación, interpretar y tomar acción</li></ul><ul id="4df4e605-0806-45c7-a7c7-3830aafb83c9" class="bulleted-list"><li style="list-style-type:disc">Usar las mismas unidades de medida en los equipos</li></ul><h3 id="661fefe0-883f-4f5f-8c7d-e24697bd1141" class="">Blackjack</h3><ul id="5339120e-18da-4c8f-bb43-5a96c47cf11e" class="bulleted-list"><li style="list-style-type:disc">No alargar la duración del proyecto, no mover la fecha de entrega para replanear</li></ul><ul id="2cb508ae-cc5c-491d-a382-690fabb07543" class="bulleted-list"><li style="list-style-type:disc">Mucho riesgo porque solo logramos la mitad de la planeación</li></ul><ul id="ef828621-ca20-4371-9360-8f3e18a27eb2" class="bulleted-list"><li style="list-style-type:disc">Mucho overhead, invitarlos a las reuniones para darnos más consejos</li></ul><ul id="a1b9557a-72b4-4af8-a1cb-a553e52104c7" class="bulleted-list"><li style="list-style-type:disc">Proceso de verificación y validación</li></ul><ul id="90054f88-b429-486a-95b9-ac8b0850f584" class="bulleted-list"><li style="list-style-type:disc">Es riesgoso hacer cambios de arquitectura en este momento</li></ul><ul id="95b2b44c-767e-47d1-9ec3-d1032cd8b64c" class="bulleted-list"><li style="list-style-type:disc">Proceso de cambio de roles</li></ul><ul id="10ea9c81-5eff-47b9-9478-c5ac155e4d69" class="bulleted-list"><li style="list-style-type:disc">Validar cambio de arquitectura en ambiente de producción</li></ul><ul id="f5537335-63f6-4274-bcce-256ea3f2da3c" class="bulleted-list"><li style="list-style-type:disc">Respondimos por qué estoy donde estoy inconscientemente</li></ul><ul id="191d25c5-2506-48d9-83c9-b50c9a7ca5ba" class="bulleted-list"><li style="list-style-type:disc">Qué es lo que tenemos que cambiar del proceso de planificación?</li></ul><h3 id="3842360a-4bfd-45d9-a9b5-ecbb30461746" class="">Flor imperial</h3><ul id="d4620e5d-479d-4eec-892b-d8e891018f58" class="bulleted-list"><li style="list-style-type:disc">Sí es bueno tener por lo menos daily, retrospectiva y planning</li></ul><ul id="73e29e25-bb8f-489c-8699-ff44d1c54c8d" class="bulleted-list"><li style="list-style-type:disc">No decir “creo que” al presentar las métricas</li></ul><ul id="abdf43f4-9768-4ad1-86b4-6ddff784a715" class="bulleted-list"><li style="list-style-type:disc">Plan está en semanas y no en tiempo</li></ul><ul id="d9c054e6-9c04-4563-b108-4f0489b5ba71" class="bulleted-list"><li style="list-style-type:disc">Dicen que ha mejorado pero los datos no están bien, no hay concordancia</li></ul><ul id="aaa7d12d-d957-4ead-afca-fb3c0075e1f8" class="bulleted-list"><li style="list-style-type:disc">4a pregunta todavía no está respondida del todo</li></ul><h3 id="be9fd2e7-b9f5-431b-86b4-5775a488b169" class="">Full House</h3><ul id="67937652-0260-4809-b2cf-0a8b7b6f305c" class="bulleted-list"><li style="list-style-type:disc">¿Por qué salió esa sobreestimación? ¿Qué van a hacer?</li></ul><ul id="e6be4a0b-935c-4597-a948-bf2d54ad5c13" class="bulleted-list"><li style="list-style-type:disc">No fue muy claro el porcentaje de avance en cada proyecto</li></ul><ul id="4936a640-d7de-4d08-bfdf-61a12a0e8132" class="bulleted-list"><li style="list-style-type:disc">No se debe de alargar sprints</li></ul><ul id="585f0fa0-9f3a-46f3-8062-aaa3c472cc3f" class="bulleted-list"><li style="list-style-type:disc">Validar la arquitectura en el ambiente de producción antes de cambiarla</li></ul><ul id="1dc89e38-7668-48bf-aa54-565f70181474" class="bulleted-list"><li style="list-style-type:disc">Le causó inquietud a lalo de decidir no usar Auth0</li></ul><ul id="834277e1-481a-4305-8b5d-e9080f901c62" class="bulleted-list"><li style="list-style-type:disc">Están seguros que lo responsivo debe ser un extra?</li></ul><ul id="775d2a50-522f-46c1-8334-d67223788c1c" class="bulleted-list"><li style="list-style-type:disc">No entendió métricas de tamaño, dar contexto a la audiencia</li></ul><ul id="14ee13e6-b6a3-4a69-a8f3-eb40418ad765" class="bulleted-list"><li style="list-style-type:disc">Hay muchas razones de por qué estamos dónde estamos</li></ul><p id="8bc497fe-4cad-405f-ba23-a6d21c747053" class="">
+</p><h2 id="11e66535-32a1-4a2d-80be-b41ffccf2123" class="">Lalo</h2><ul id="2c3f92d6-c4c0-4338-aee0-85a2c3270a87" class="bulleted-list"><li style="list-style-type:disc">Para el timelog: se utiliza principalmente para ver cuánto tiempo nos tardamos en cada cosa. Ej. Diseño, Implementación, etc.</li></ul><ul id="ce3a4696-b489-4d84-af33-cc9bf89fb473" class="bulleted-list"><li style="list-style-type:disc">Hacer transición de roles y cambiarlos paulatinamente.</li></ul><ul id="40445864-87f6-458d-b6bd-63cfe33e7c3b" class="bulleted-list"><li style="list-style-type:disc">No ver las prácticas como tareas porque así no desarrollaremos la capacidad</li></ul><ul id="7732a824-97ad-49d5-a0de-b51770f3969f" class="bulleted-list"><li style="list-style-type:disc">Leer el CMMI al implementar cada práctica porque en las hojas está todo muy general</li></ul><ul id="2d2f890d-249e-4c1d-a548-8f28b9322193" class="bulleted-list"><li style="list-style-type:disc">Debe de llegar el sentido de urgencia porque va a pasar lo mismo que hace 6 semanas en el SCAMPI</li></ul><ul id="8b006ba2-0357-4110-a0ac-12545fe60c34" class="bulleted-list"><li style="list-style-type:disc">Tendencia a hacer cosas perfectas, la perfección es el enemigo de lo bueno. El primer borrador debe de ser el proceso oficial. Después se mejora.</li></ul><ul id="ce4d58ef-c275-4083-b97f-323d19a112ad" class="bulleted-list"><li style="list-style-type:disc">Entender por qué y para qué, no porque Lalo lo dijo</li></ul><ul id="4f8ecfea-f414-4d9c-9194-ab4b9dc5e443" class="bulleted-list"><li style="list-style-type:disc">Pedir asesoría, preguntar a la comunidad de práctica</li></ul><ul id="16ae1d37-ce5f-40a2-8900-6cf79f43d3ff" class="bulleted-list"><li style="list-style-type:disc">En la 4a pregunta atribuimos una causa el retraso. Aún no respondemos bien</li></ul><ul id="0e537f3d-4238-451b-b0e7-147071f8a90d" class="bulleted-list"><li style="list-style-type:disc">Le gustó que ya somos más honestos en las presentaciones</li></ul><ul id="b1bfae6c-2098-462f-84e8-dd9b7679ca6c" class="bulleted-list"><li style="list-style-type:disc">La forma de trabajo no la vio al inicio, después si</li></ul><ul id="9e31b10c-43bb-4af2-9a86-fae17d95cefa" class="bulleted-list"><li style="list-style-type:disc">Las estrategias de solución son buenas intenciones o compromisos? Hay que poner acciones en el plan para hacerlos compromisos</li></ul><ul id="2eaeb617-e961-442f-a07c-4172a684f843" class="bulleted-list"><li style="list-style-type:disc">Le gustaría ver la mejora de manera tangible, este viernes sesión de mejora continua</li></ul><ul id="df642326-ed58-4ce1-8227-e8a717c919b6" class="bulleted-list"><li style="list-style-type:disc">Lalo puede empezar tarde o terminar temprano si lo deseamos, solo hay que avisarle antes, y decirle si queremos que lo acompañemos</li></ul><ul id="9a1847f3-a59b-4908-bd22-07ea8d116efc" class="bulleted-list"><li style="list-style-type:disc">Ver las encuestas de felicidad, tendencias y cómo se ha comportado</li></ul><ul id="6af6a8d5-e0b8-43c6-95c0-4c4f19916f69" class="bulleted-list"><li style="list-style-type:disc">Toma de decisiones por asesoramiento: cualquier persona puede tomar una decision, pero antes debe de escuchar a las personas a las que les afecta la decisión.</li></ul><ul id="5100d80d-c663-4165-91a7-82fa36972746" class="bulleted-list"><li style="list-style-type:disc">Se puede publicar una decisión en el canal de difusión y si a alguien no le gusta que lo comente. Se leen los inconvenientes y se hacen los ajustes a la decisión.</li></ul><p id="ef035b2a-641d-4a10-8910-759172b3a5c2" class="">
+</p><h2 id="a3eff856-e7ac-4316-a3c1-a75e46314f38" class="">Raymundo</h2><ul id="cbfce55d-3112-4417-a756-8c19c108b617" class="bulleted-list"><li style="list-style-type:disc">SPI y CPI muy drásticos:<ul id="a4149695-28b4-46d4-8c42-0833457f3e31" class="bulleted-list"><li style="list-style-type:circle">Hay que replantear los planes</li></ul></li></ul><ul id="a7266d29-62d0-464c-b4d8-a05aa83f3a4d" class="bulleted-list"><li style="list-style-type:disc">No se siguió la retro de la semana pasada porque no la leímos</li></ul><ul id="3e1fac55-4c46-4285-ba52-589bc4207ebb" class="bulleted-list"><li style="list-style-type:disc">No cambiar los roles solo porque sí. Se cambia de rol cuando se logra su objetivo.</li></ul><ul id="43a4dbad-1b93-4149-ac66-58431ec5617e" class="bulleted-list"><li style="list-style-type:disc">No quedó claro si avanzaron en el CMMI</li></ul><ul id="690c7f2d-4aa7-4d05-99b8-6abbc183b4e4" class="bulleted-list"><li style="list-style-type:disc">Hay algo en la forma de trabajo que debe de cambiar para que todo el departamento trabaje en el CMMI</li></ul><ul id="8687f510-12dd-4ac4-9364-1e58b22f50f4" class="bulleted-list"><li style="list-style-type:disc">Necesitamos ver la utilidad de cada práctica para que funcione</li></ul><p id="c9b1dfee-7e69-41ba-a82a-bee487382c69" class="">
+</p><p id="1b9c6663-0653-45ac-b9bc-2c488c68bf09" class="">
+</p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="cd3000c3-aafc-43dd-91d6-8127bb2fa687"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">5a pregunta: ¿Cómo está la calidad?</div></figure><p id="d205178c-bd12-474c-acb6-b19956726c5d" class="">Ejemplo: presentando una gráfica de dónde se están presentando los proyectos y dónde se están inyectando los defectos. También demostrarlo en tendencia.</p><p id="5dd5b9af-65ab-4d80-a224-c8e6af5f6f89" class="">¿Cuántos defectos tenemos en nuestra solución?</p></div></article></body></html>

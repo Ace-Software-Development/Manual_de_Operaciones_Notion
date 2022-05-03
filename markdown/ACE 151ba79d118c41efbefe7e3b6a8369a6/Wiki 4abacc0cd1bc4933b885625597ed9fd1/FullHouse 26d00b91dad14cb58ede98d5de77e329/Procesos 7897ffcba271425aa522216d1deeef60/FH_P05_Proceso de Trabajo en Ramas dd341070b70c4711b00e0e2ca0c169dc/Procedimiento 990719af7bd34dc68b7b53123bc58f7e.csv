@@ -1,0 +1,10 @@
+﻿Title,FASE,#,ACTIVIDAD,RESPONSABLE
+,Desarrollo de historias de usuario,1,"Las historias de usuario deben desarrollarse en una rama siguiendo el estándar de nombramiento de ramas.
+https://docs.google.com/document/d/1BkVj5qH1de0DSw2mxf960yACtC-bJwRfMpBuBCtPIg8/edit
+Durante el desarrollo de dichas historias de usuario se deberá seguir https://docs.google.com/document/d/11wAyLlKZ_8HMbjukysMMk0tVtjmo6Z2gAS0ofpK1CK4/edit#heading=h.qz3sudipslit",Equipo de Desarrollo
+,De aprobación,1,"Una vez que se termine la prueba de usuario se debe someter al proceso de aprobación para su posterior merge con la rama develop.
+Durante el proceso de aprobación se deberá seguir 
+https://docs.google.com/document/d/1nS5IOKLR2uD1_XkrODQ3EpicWOyqKYjn2eSCvauby0Y/edit",Equipo de Desarrollo
+,Fase de integración de cambios,1,Una vez hecho el merge a develop esta rama debe de pasar por un proceso de aprobación para verificar que la integración del código sea correcta.,Equipo de Desarrollo
+,,2,Una vez que todas las historias de usuario se hayan pasado a la rama develop se podrá hacer el merge de develop con staging.,Equipo de Desarrollo
+,,3,Una vez que se haya validado que el funcionamiento de staging es correcto se podrá hacer un merge a main.,Equipo de Desarrollo

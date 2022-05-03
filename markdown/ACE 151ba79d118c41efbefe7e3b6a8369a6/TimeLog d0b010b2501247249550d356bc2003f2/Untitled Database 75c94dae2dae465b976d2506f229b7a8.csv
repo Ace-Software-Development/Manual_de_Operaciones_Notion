@@ -1,0 +1,133 @@
+﻿Tarea,Fecha,Asignados,Equipo,Duración (horas),Horas Hombre
+Crear Timelog,"March 28, 2022",Pau,Departamental,0.5,0.5
+Requisitos de información parte 1,"March 28, 2022",Leonardo Alvarado Menéndez,Monarca,3,3
+Sprint Planning,"March 29, 2022","Luis Edgar Ramírez Pérez, Daniel Cruz Arciniega, Diego Carrillo Torres",Campanario,1.5,4.5
+Crear presentación Reporte de Estado 1,"March 29, 2022","Jorge Alan Ramírez Elías, Michelle Aylin Calzada Montes, Paola Adriana Millares Forno, Wenguang Hu, Joaquín Zermeño Saldaña, Felipe Gabriel Yépez Villacreses, Mariana Soto Ochoa, Enrique Santos Fraire, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Luis Edgar Ramírez Pérez, a01705681@tec.mx, Diego Arturo Padilla Domínguez, Rafael Hinojosa López, Carolina Herrera Martínez, David Guzmán Leyva, Julio César Gómez González, Daniel Cruz Arciniega, Diego Carrillo Torres, Cutberto Arizabalo Nava, Leonardo Alvarado Menéndez, Pau",Departamental,2.81,61.82
+Asesoría de PP con Raymundo,"March 30, 2022",Cutberto Arizabalo Nava,CMMI,0.33,0.33
+Daily 30.03.22,"March 30, 2022","Paola Adriana Millares Forno, Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez, Mariana Soto Ochoa, Pau, Wenguang Hu",Monarca,0.25,1.5
+Planeación 4ta iteración,"March 30, 2022","Paola Adriana Millares Forno, Diego Arturo Padilla Domínguez, Mariana Soto Ochoa, Wenguang Hu, Leonardo Alvarado Menéndez, Pau",Monarca,2,12
+Daily 30/03/22,"March 30, 2022","Enrique Santos Fraire, Cutberto Arizabalo Nava, Daniel Cruz Arciniega, Joaquín Zermeño Saldaña, Rafael Hinojosa López, Diego Carrillo Torres",Campanario,0.4,2.4
+Planeación y organización del backlog,"March 30, 2022","Paola Adriana Millares Forno, Mariana Soto Ochoa, Pau",Monarca,1,3
+Reporte de Estado 1,"March 30, 2022 4:00 PM (CST)","Paola Adriana Millares Forno, Michelle Aylin Calzada Montes, Jorge Alan Ramírez Elías, Wenguang Hu, Mariana Soto Ochoa, Joaquín Zermeño Saldaña, Felipe Gabriel Yépez Villacreses, Enrique Santos Fraire, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Luis Edgar Ramírez Pérez, a01705681@tec.mx, Diego Arturo Padilla Domínguez, Rafael Hinojosa López, Carolina Herrera Martínez, David Guzmán Leyva, Julio César Gómez González, Daniel Cruz Arciniega, Diego Carrillo Torres, Cutberto Arizabalo Nava, Leonardo Alvarado Menéndez, Pau",Departamental,0.34,7.48
+"Sprint Planning ","March 31, 2022","Rafael Hinojosa López, Cutberto Arizabalo Nava, Diego Carrillo Torres",Campanario,1.5,4.5
+Crear encuesta de felicidad,"March 31, 2022",Michelle Aylin Calzada Montes,Departamental,0.15,0.15
+Planeación Arquitectura,"March 31, 2022","a01705681@tec.mx, Felipe Gabriel Yépez Villacreses, Manolo Ramírez Pintor, Eduardo Rodríguez Gil, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.5,3
+Diccionario de datos,"March 31, 2022","Diego Arturo Padilla Domínguez, Pau",Monarca,1,2
+Daily 31.03.22,"March 31, 2022","Pau, Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez, Jorge Alan Ramírez Elías",Monarca,0.5,3.5
+Revisión Estimación de la duración del proyecto pt2,"March 31, 2022","Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez",Monarca,0.4,0.8
+Daily 31/03/2022,"March 31, 2022","a01705681@tec.mx, Felipe Gabriel Yépez Villacreses, Jorge Alan Ramírez Elías, Manolo Ramírez Pintor, Eduardo Rodríguez Gil, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.22,1.54
+Requisitos de información parte 2,"March 31, 2022","Leonardo Alvarado Menéndez, Wenguang Hu, Diego Arturo Padilla Domínguez",Monarca,2,6
+"Estimación de la duración del proyecto pt2 ","March 31, 2022","Mariana Soto Ochoa, Paola Adriana Millares Forno",Monarca,1.28,2.56
+Daily 31/03/22,"March 31, 2022","Luis Edgar Ramírez Pérez, Jorge Alan Ramírez Elías, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Julio César Gómez González, Diego Carrillo Torres, Cutberto Arizabalo Nava, Daniel Cruz Arciniega, Rafael Hinojosa López",Campanario,0.4,3.6
+Estimación de la duración del proyecto pt1,"March 31, 2022","Mariana Soto Ochoa, Paola Adriana Millares Forno, Pau",Monarca,1,3
+Definir gitignore,"April 1, 2022",Eduardo Rodríguez Gil,Nefrovida,0.62,0.62
+Aplicación de encuesta de felicidad semana 1,"April 1, 2022",Michelle Aylin Calzada Montes,Departamental,0.15,0.15
+Daily 01/04/2022,"April 1, 2022","Paola Adriana Millares Forno, Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez, Pau, Mariana Soto Ochoa, Wenguang Hu",Monarca,0.3333333333333,2
+Clonación del Repositorio Localmente,"April 1, 2022","Andrea Piñeiro, Eduardo Rodríguez Gil, Felipe Gabriel Yépez Villacreses, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.16,0.96
+Definir licencia del repositorio,"April 1, 2022",Manolo Ramírez Pintor,Nefrovida,0.66,0.66
+Verificar recursos usados actualmente en el Droplet de Digital Ocean,"April 1, 2022","Andrea Piñeiro, Felipe Gabriel Yépez Villacreses",Nefrovida,0.66,1.32
+Daily 01/04/22,"April 1, 2022","Enrique Santos Fraire, Joaquín Zermeño Saldaña, Luis Edgar Ramírez Pérez, Daniel Cruz Arciniega, Diego Carrillo Torres, Julio César Gómez González, Cutberto Arizabalo Nava, Rafael Hinojosa López",Campanario,0.16,1.28
+MER,"April 1, 2022","Wenguang Hu, Leonardo Alvarado Menéndez",Monarca,2.5,5
+Definir Versiones,"April 1, 2022","Mariana Soto Ochoa, Paola Adriana Millares Forno",Monarca,0.85,1.7
+Plan de calidad,"April 2, 2022",Mariana Soto Ochoa,Monarca,1,1
+Release Control Environment,"April 2, 2022",Mariana Soto Ochoa,Monarca,0.75,0.75
+Revisión plan de calidad,"April 2, 2022",Diego Arturo Padilla Domínguez,Monarca,0.5,0.5
+Diccionario de datos,"April 2, 2022",Diego Arturo Padilla Domínguez,Monarca,0.83,0.83
+Estimaciones para Iteración 1,"April 3, 2022","Rafael Hinojosa López, Cutberto Arizabalo Nava",Campanario,1.5,3
+Diseño de interfaz,"April 3, 2022",Pau,Monarca,2.25,2.25
+Plan de calidad,"April 3, 2022",Mariana Soto Ochoa,Monarca,1.33,1.33
+Revisión Release Control Environment,"April 3, 2022","Paola Adriana Millares Forno, Leonardo Alvarado Menéndez",Monarca,0.16,0.32
+Re estructurar prueba de arquitectura,"April 3, 2022","Paola Adriana Millares Forno, Leonardo Alvarado Menéndez",Monarca,0.43,0.86
+Daily,"April 4, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.25,1.5
+Acceso Droplet,"April 4, 2022","Felipe Gabriel Yépez Villacreses, Manolo Ramírez Pintor",Nefrovida,1,2
+Curso de React,"April 4, 2022",Andrea Piñeiro,Nefrovida,3,3
+Junta con socia,"April 4, 2022","Wenguang Hu, Paola Adriana Millares Forno, Diego Arturo Padilla Domínguez, Leonardo Alvarado Menéndez, Pau, Mariana Soto Ochoa",Monarca,0.33,1.98
+Login front (web),"April 4, 2022",Cutberto Arizabalo Nava,Campanario,1.5,1.5
+Login front (web),"April 4, 2022","Cutberto Arizabalo Nava, Rafael Hinojosa López",Campanario,0.6,1.2
+Prueba de conexión a bd (web),"April 4, 2022","Cutberto Arizabalo Nava, Rafael Hinojosa López",Campanario,0.3,0.6
+Asignación de áreas,"April 4, 2022","Michelle Aylin Calzada Montes, Andrea Piñeiro, Jorge Alan Ramírez Elías, Paola Adriana Millares Forno, Wenguang Hu, Joaquín Zermeño Saldaña, Felipe Gabriel Yépez Villacreses, Mariana Soto Ochoa, Enrique Santos Fraire, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Luis Edgar Ramírez Pérez, a01705681@tec.mx, Diego Arturo Padilla Domínguez, Rafael Hinojosa López, Carolina Herrera Martínez, David Guzmán Leyva, Julio César Gómez González, Daniel Cruz Arciniega, Diego Carrillo Torres, Cutberto Arizabalo Nava, Leonardo Alvarado Menéndez, Pau",CMMI,0.15,3.45
+Daily 04/04/2022,"April 4, 2022","Leonardo Alvarado Menéndez, Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Pau, Diego Arturo Padilla Domínguez, Jorge Alan Ramírez Elías",Monarca,0.15,1.05
+Daily 04/04/22,"April 4, 2022","Enrique Santos Fraire, Joaquín Zermeño Saldaña, Luis Edgar Ramírez Pérez, Cutberto Arizabalo Nava, Diego Carrillo Torres, Daniel Cruz Arciniega",Campanario,0.16,0.96
+Asesoría pull request,"April 4, 2022","Wenguang Hu, Mariana Soto Ochoa",Monarca,0.6,1.2
+Reformular preguntas para socia/ planeación de junta semanal,"April 4, 2022",Mariana Soto Ochoa,Monarca,0.16,0.16
+Revisa certificados SSL,"April 5, 2022",David Guzmán Leyva,Nefrovida,0.66,0.66
+"Modelo Entidad Relación ","April 5, 2022",Andrea Piñeiro,Nefrovida,0.5,0.5
+Revisar archivos y servicios activos Droplet,"April 5, 2022",Felipe Gabriel Yépez Villacreses,Nefrovida,0.75,0.75
+Reunión revisión avance,"April 5, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,2,12
+Daily,"April 5, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.41,2.46
+Corregir Plan de trabajo,"April 5, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro",Nefrovida,3.2,6.4
+MER,"April 5, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro",Nefrovida,1.4,2.8
+Retrospective PMs,"April 5, 2022","Jorge Alan Ramírez Elías, Michelle Aylin Calzada Montes",Departamental,0.33,0.66
+Diseño de interfaz,"April 5, 2022","Pau, Paola Adriana Millares Forno",Monarca,1.81,3.62
+Avance en la interfaz,"April 5, 2022",Paola Adriana Millares Forno,Monarca,2.7,2.7
+Daily 05/04/2022,"April 5, 2022","Diego Arturo Padilla Domínguez, Pau, Leonardo Alvarado Menéndez, Mariana Soto Ochoa, Paola Adriana Millares Forno, Wenguang Hu",Monarca,0.15,0.9
+Definición de patrón de arquitectura,"April 5, 2022","Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez",Monarca,1.25,2.5
+Configuración de ESlint y Prettier,"April 5, 2022",Mariana Soto Ochoa,Monarca,1.38,1.38
+Daily 05/04/22,"April 5, 2022","Rafael Hinojosa López, Daniel Cruz Arciniega, Julio César Gómez González, Diego Carrillo Torres, Cutberto Arizabalo Nava, Luis Edgar Ramírez Pérez",Campanario,0.1,0.6
+Daily,"April 6, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.3,1.8
+Daily 06/04/2022,"April 6, 2022","Leonardo Alvarado Menéndez, Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Pau",Monarca,0.25,1.5
+Planeación 5ta iteración,"April 6, 2022","Leonardo Alvarado Menéndez, Wenguang Hu, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Pau, Paola Adriana Millares Forno",Monarca,1.2,7.2
+Retrospectiva Sprint 4,"April 6, 2022","Leonardo Alvarado Menéndez, Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Pau, Diego Arturo Padilla Domínguez",Monarca,0.716,4.296
+Cambiar credenciales DigitalOcean y almacenar en manual técnico,"April 6, 2022","Eduardo Rodríguez Gil, Manolo Ramírez Pintor",Nefrovida,0.73,1.46
+Crear manual técnico,"April 6, 2022",Eduardo Rodríguez Gil,Nefrovida,0.45,0.45
+Revisión avance iteración y proyecto,"April 6, 2022","Andrea Piñeiro, Felipe Gabriel Yépez Villacreses",Nefrovida,0.58,1.16
+Daily 06/04/22,"April 6, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Rafael Hinojosa López, Diego Carrillo Torres, Daniel Cruz Arciniega, Cutberto Arizabalo Nava",Campanario,0.1,0.7
+Crear aplicación react en repositorio,"April 7, 2022",David Guzmán Leyva,Nefrovida,1.66,1.66
+Definir estructura carpetas repositorio,"April 7, 2022",David Guzmán Leyva,Nefrovida,2,2
+Diccionario de Datos,"April 7, 2022",Andrea Piñeiro,Nefrovida,1.33,1.33
+Conexión de la aplicación con auth0,"April 7, 2022",David Guzmán Leyva,Nefrovida,0.58,0.58
+Reunión AO,"April 7, 2022","Jorge Alan Ramírez Elías, Luis Edgar Ramírez Pérez, Pau, Enrique Santos Fraire, Felipe Gabriel Yépez Villacreses, Michelle Aylin Calzada Montes",Departamental,0.58,3.48
+Configurar servidor droplet,"April 7, 2022",Felipe Gabriel Yépez Villacreses,Nefrovida,1.66,1.66
+Daily,"April 7, 2022","Felipe Gabriel Yépez Villacreses, Andrea Piñeiro, Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez, David Guzmán Leyva",Nefrovida,0.25,1.5
+Daily 07/04/2022,"April 7, 2022","Leonardo Alvarado Menéndez, Wenguang Hu, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez",Monarca,0.1333,0.5332
+"Revisión MER, requisitos de información y Diccionario de datos","April 7, 2022","Leonardo Alvarado Menéndez, Wenguang Hu",Monarca,1.45,2.9
+Daily 07/04/22,"April 7, 2022","Luis Edgar Ramírez Pérez, Rafael Hinojosa López, Julio César Gómez González, Daniel Cruz Arciniega, Cutberto Arizabalo Nava, Joaquín Zermeño Saldaña, Enrique Santos Fraire",Campanario,0.15,1.05
+Diccionario de Datos - Validación,"April 8, 2022",Eduardo Rodríguez Gil,Nefrovida,0.21,0.21
+Daily 08/04/2022,"April 8, 2022","Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Leonardo Alvarado Menéndez, Pau",Monarca,0.05,0.25
+Modelo Entidad Relación - Validación,"April 8, 2022",Eduardo Rodríguez Gil,Nefrovida,0.21,0.21
+"Conectar con el Dashboard ","April 13, 2022",Andrea Piñeiro,Nefrovida,1,1
+Conectar con el Dashboard,"April 14, 2022",Andrea Piñeiro,Nefrovida,1.5,1.5
+Curso de React,"April 15, 2022",Andrea Piñeiro,Nefrovida,3,3
+Curso de React,"April 16, 2022",Andrea Piñeiro,Nefrovida,3,3
+Diseño final del sistema,"April 19, 2022","Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez",Nefrovida,5.7,17.1
+Sprint planning mobile,"April 19, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Daniel Cruz Arciniega, Diego Carrillo Torres",Campanario,1.5,6
+Crear estructura de la base de datos en el servidor,"April 19, 2022",Andrea Piñeiro,Nefrovida,2,2
+Daily 19/04/2022,"April 19, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Rafael Hinojosa López, Daniel Cruz Arciniega, Diego Carrillo Torres",Campanario,0.1,0.6
+Daily 19/04/2022,"April 19, 2022","Paola Adriana Millares Forno, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Leonardo Alvarado Menéndez, Wenguang Hu, Pau",Monarca,0.18,1.08
+Planeación IT1,"April 20, 2022","a01705681@tec.mx, Felipe Gabriel Yépez Villacreses, Carolina Herrera Martínez, Manolo Ramírez Pintor, David Guzmán Leyva, Eduardo Rodríguez Gil",Nefrovida,2,12
+Daily 20/04/2022,"April 20, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Rafael Hinojosa López, Daniel Cruz Arciniega, Diego Carrillo Torres, Cutberto Arizabalo Nava",Campanario,0.3,2.1
+Definir proceso del club de lectura,"April 21, 2022","Michelle Aylin Calzada Montes, Jorge Alan Ramírez Elías",Departamental,0.5,1
+Definir proceso junta departamental,"April 21, 2022","Michelle Aylin Calzada Montes, Jorge Alan Ramírez Elías",Departamental,0.5,1
+IT1-1 Creación de componentes generales en React,"April 21, 2022","Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez",Nefrovida,1,3
+Daily 21/04/2022,"April 21, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Rafael Hinojosa López, Daniel Cruz Arciniega, Cutberto Arizabalo Nava",Campanario,0.12,0.72
+IT2-6 Registrar la información del paciente,"April 22, 2022",Eduardo Rodríguez Gil,Nefrovida,0.21,0.21
+Definir proceso de aplicación de encuesta de felicidad,"April 22, 2022",Michelle Aylin Calzada Montes,Departamental,0.25,0.25
+Definir proceso de cambio de roles,"April 22, 2022",Michelle Aylin Calzada Montes,Departamental,0.5,0.5
+Daily 22/04/2022,"April 22, 2022","Luis Edgar Ramírez Pérez, Enrique Santos Fraire, Rafael Hinojosa López, Daniel Cruz Arciniega, Diego Carrillo Torres",Campanario,0.11,0.55
+Definir proceso de reporte de estado,"April 23, 2022",Michelle Aylin Calzada Montes,Departamental,0.5,0.5
+IT2-6 Registrar información del paciente (Backend),"April 24, 2022",Andrea Piñeiro,Nefrovida,1,1
+IT2-1 Creación de componentes generales en React,"April 24, 2022","Eduardo Rodríguez Gil, Manolo Ramírez Pintor, Carolina Herrera Martínez",Nefrovida,6.91,20.73
+IT2-6 Registrar información del paciente (Backend),"April 25, 2022",Andrea Piñeiro,Nefrovida,3,3
+Daily 25/04/2022,"April 25, 2022","Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Rafael Hinojosa López, Julio César Gómez González, Diego Carrillo Torres, Cutberto Arizabalo Nava",Campanario,0.06,0.42
+Definir proceso de retrospective,"April 26, 2022",Michelle Aylin Calzada Montes,Departamental,0.5,0.5
+Junta de PP,"April 27, 2022","Cutberto Arizabalo Nava, Paola Adriana Millares Forno, Diego Arturo Padilla Domínguez",Departamental,0.8,2.4
+Retrospectiva Sprint 5,"April 27, 2022","Leonardo Alvarado Menéndez, Paola Adriana Millares Forno, Wenguang Hu, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Pau",Monarca,0.833333333333,4.999999999998
+Creación de proceso “Implementación de requisito”,"April 28, 2022",Diego Arturo Padilla Domínguez,CMMI,0.5,0.5
+Aplicar prácticas de PP y TS en campanario,"April 28, 2022","Cutberto Arizabalo Nava, Enrique Santos Fraire",Departamental,1,2
+Instalación de Mongo local,"April 28, 2022","Leonardo Alvarado Menéndez, Mariana Soto Ochoa",Monarca,1,2
+Daily 28/04/2022,"April 28, 2022","Leonardo Alvarado Menéndez, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Pau",Monarca,0.25,1
+"Definición de proceso de manejo de riesgos ../Wiki%204abacc0cd1bc4933b885625597ed9fd1/Departamento%20ACE%20becb686b5f3342a4ad67c49da379b3bb/Procesos%20bc1b4b9263a749d49f2c809adfd71359/P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md ","April 29, 2022",Paola Adriana Millares Forno,CMMI,28,28
+"../Wiki%204abacc0cd1bc4933b885625597ed9fd1/BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Gui%CC%81as%20fbc384be58a74c59bd7142b1a0b3adf0/BKJ_G01_Gui%CC%81a%20del%20servidor%2076ffad5f45c54fdabea9d5c68909c8ca.md ","April 29, 2022",Mariana Soto Ochoa,Monarca,0.75,0.75
+Cambio de roles,"April 29, 2022","Paola Adriana Millares Forno, Pau, Mariana Soto Ochoa, Diego Arturo Padilla Domínguez, Leonardo Alvarado Menéndez, Wenguang Hu",Monarca,0.28,1.68
+Daily 29/04/2022,"April 29, 2022","Paola Adriana Millares Forno, Pau, Leonardo Alvarado Menéndez, Diego Arturo Padilla Domínguez, Mariana Soto Ochoa, Wenguang Hu",Monarca,0.15,0.9
+UI-Base de datos + prueba MVC,"April 30, 2022",Mariana Soto Ochoa,Monarca,4.05,4.05
+conexión servidor dev prod,"May 1, 2022","Paola Adriana Millares Forno, Mariana Soto Ochoa",Monarca,0.82,1.64
+"../Wiki%204abacc0cd1bc4933b885625597ed9fd1/BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Esta%CC%81ndares%20fecac0b439054e9680138042ea2486a7/BKJ_E03_Pull%20Request%202a33b86aed2b43608490bb0e784b3835.md ../Wiki%204abacc0cd1bc4933b885625597ed9fd1/BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Procesos%20c526cda1c70642a2a8d1730dcd6eb4c3/BKJ_P06_Toma%20de%20decisiones%20e1e5bbb4e08b47f9b6410324c808721f.md ","May 1, 2022",Paola Adriana Millares Forno,Monarca,1.65,1.65
+"Proceso toma de decisiones ../Wiki%204abacc0cd1bc4933b885625597ed9fd1/BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Procesos%20c526cda1c70642a2a8d1730dcd6eb4c3/BKJ_P06_Toma%20de%20decisiones%20e1e5bbb4e08b47f9b6410324c808721f.md ","May 1, 2022",Paola Adriana Millares Forno,Monarca,0.98,0.98
+Crear repositorio de métricas con sus respectivas mediciones hasta el momento. MA,"May 1, 2022","Felipe Gabriel Yépez Villacreses, Mariana Soto Ochoa, Joaquín Zermeño Saldaña",CMMI,3.5,10.5
+Asesoría con Raymundo MA,"May 2, 2022","Felipe Gabriel Yépez Villacreses, Joaquín Zermeño Saldaña, Mariana Soto Ochoa",CMMI,25,75
+Reporte de avance con socia,"May 2, 2022","Paola Adriana Millares Forno, Diego Arturo Padilla Domínguez, Pau, Leonardo Alvarado Menéndez, Mariana Soto Ochoa",Monarca,0.12,0.6
+"../Wiki%204abacc0cd1bc4933b885625597ed9fd1/BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Gui%CC%81as%20fbc384be58a74c59bd7142b1a0b3adf0/BKJ_G03_Correr%20el%20proyecto%203595d8769c484be9bef188d666deee4f.md ","May 2, 2022",Mariana Soto Ochoa,Monarca,0.58,0.58
+Daily 02/05/2022,"May 2, 2022","Paola Adriana Millares Forno, Mariana Soto Ochoa, Leonardo Alvarado Menéndez, Pau, Diego Arturo Padilla Domínguez",Monarca,0.08,0.4
+Tiempo de diseño Sprint 1,,"Julio César Gómez González, Enrique Santos Fraire, Michelle Aylin Calzada Montes",Campanario,15,45
+Tiempo de desarrollo mobile y arquitectura Sprint 1,,"Luis Edgar Ramírez Pérez, Joaquín Zermeño Saldaña, Enrique Santos Fraire, Diego Arturo Padilla Domínguez, Daniel Cruz Arciniega, Diego Carrillo Torres",Campanario,33.8,202.8

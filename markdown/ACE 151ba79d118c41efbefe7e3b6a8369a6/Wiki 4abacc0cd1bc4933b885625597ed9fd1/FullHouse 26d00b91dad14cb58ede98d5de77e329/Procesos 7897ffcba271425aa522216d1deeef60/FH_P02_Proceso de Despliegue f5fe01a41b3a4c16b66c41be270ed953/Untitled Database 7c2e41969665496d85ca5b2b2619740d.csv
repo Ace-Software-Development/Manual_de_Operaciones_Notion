@@ -1,0 +1,12 @@
+﻿FASE,ACTIVIDAD,RESPONSABLE
+Definición de la Versión,"Se especifica en un documento la fecha de despligue, la versiòn, y las características de la misma",Product Owner
+,Actualizar la versiòn en el código de los proyectos. (Ej. Package.json),Architecture Owner
+Revisión,Revisar que no haya errores en la versión que se va a liberar.,Architecture Owner
+,Realizar un plan de rollback (plan de cómo volver a la versión funcional en caso de ser necesario),Architecture Owner
+,Notificar del despligue a los Program Managers con el detalle de la versiòn.,Architecture Owner
+,Recibir la confirmación y aprobación por parte de los Program Managers,Program Managers
+Despligue,Se registra la nueva versión en el tablero de versiones.,Architecture Owner
+,Se notifica a los interesados que se realizará un nuevo despligue y se espera su aprobaciòn,Product Owner
+,Se despliega la versión sin errores,Architecture Owner
+,Se notifica a los interesados sobre el éxito del despligue.,Product Owner
+,Realizar encuesta de satisfacción a los stakeholders tras un tiempo de transición a la nueva versión del sistema.,Product Owner

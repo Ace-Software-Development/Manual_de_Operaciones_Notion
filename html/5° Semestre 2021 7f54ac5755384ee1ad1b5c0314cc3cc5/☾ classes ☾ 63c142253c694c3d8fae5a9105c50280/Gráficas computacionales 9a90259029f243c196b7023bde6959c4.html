@@ -1,0 +1,686 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Gráficas computacionales</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="9a902590-29f2-43c1-96b7-023bde6959c4" class="page serif"><header><img class="page-cover-image" src="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/tumblr_opt0v9poOw1w9q46qo1_1280.jpg" style="object-position:center 54.44%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/giphy_(37).gif"/></div><h1 class="page-title">Gráficas computacionales</h1><table class="properties"><tbody><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesMultipleSelect"><path d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"></path></svg></span>Day</th><td><span class="selected-value select-value-color-default">Monday</span><span class="selected-value select-value-color-pink">Thursday</span><span class="selected-value select-value-color-purple">Tuesday</span><span class="selected-value select-value-color-orange">Wednesday</span></td></tr><tr class="property-row property-row-select"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Timeslot</th><td><span class="selected-value select-value-color-default">9:00 am - 1:00 pm</span></td></tr></tbody></table></header><div class="page-body"><h1 id="9f954a94-b305-432d-ab9c-c1ab9a6ed590" class="block-color-blue_background"><mark class="highlight-blue">TC2008B: Modelación de sistemas multiagentes con gráficas computacionales</mark></h1><div id="5fc2537d-e393-4e7a-a852-6e7527ff4dae" class="column-list"><div id="257ac324-f2d3-4bf7-a997-91b33a0d5e20" style="width:31.25%" class="column"><h3 id="43313ba8-cf0b-43c9-b401-0d7f503afe20" class="block-color-blue_background">ⓒⓞⓝⓣⓔⓝⓣⓢ</h3><p id="5b05dd5c-1e66-4dda-b353-2abd051a0b98" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Class Info</a>  </p><p id="bcc8c6c4-2b84-4132-a2d4-d2505ec1a708" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Zoom Link</a></p><p id="1dd9b458-8f1d-495a-849c-b462a6c5b7d9" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Assessment Details</a></p><p id="9a48d50a-7cb4-45aa-a96b-87f38f06c682" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Important Info</a></p><p id="964de3a6-e27b-46b1-b5aa-371bcf461ced" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Topics</a></p><p id="1cca05be-52eb-4b3f-9edc-f7fd7f70cd6f" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Class Notes</a></p><p id="44a91501-759b-44c6-852d-a09707d967a9" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Task Input</a></p><p id="da203ee0-0f77-48a9-a14e-a909470c1520" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Grade Tracker</a></p><p id="96bbf7de-6973-4141-826c-e519fe4847b3" class=""><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4.html">Grading Scale</a></p><figure id="a805b1a9-b0de-4b2a-86b0-986aa6a2ea33" class="image"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/7ca63206c698b2fb01b9eb8b64bcaf5f.jpg"><img style="width:564px" src="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/7ca63206c698b2fb01b9eb8b64bcaf5f.jpg"/></a></figure><h3 id="32f6d4bb-37be-4552-b6b6-7f8c4b38b119" class="block-color-blue_background"><strong>ⓗⓞⓜⓔⓦⓞⓡⓚ</strong></h3><div id="b581ebf6-23fe-47ba-bd60-d45e8ce16d11" class="collection-content"><h4 class="collection-title"> ☾ To-Do List ☾</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesCheckbox"><path d="M0,3 C0,1.34314 1.34326,0 3,0 L11,0 C12.6567,0 14,1.34314 14,3 L14,11 C14,12.6569 12.6567,14 11,14 L3,14 C1.34326,14 0,12.6569 0,11 L0,3 Z M3,1.5 C2.17139,1.5 1.5,2.17157 1.5,3 L1.5,11 C1.5,11.8284 2.17139,12.5 3,12.5 L11,12.5 C11.8286,12.5 12.5,11.8284 12.5,11 L12.5,3 C12.5,2.17157 11.8286,1.5 11,1.5 L3,1.5 Z M2.83252,6.8161 L3.39893,6.27399 L3.57617,6.10425 L3.92334,5.77216 L4.26904,6.10559 L4.44531,6.27582 L5.58398,7.37402 L9.28271,3.81073 L9.45996,3.64008 L9.80664,3.3056 L10.1538,3.63989 L10.3311,3.81067 L10.8936,4.35303 L11.0708,4.52399 L11.4434,4.88379 L11.0708,5.24353 L10.8936,5.41437 L6.1084,10.0291 L5.93115,10.2 L5.58398,10.5344 L5.23682,10.2 L5.05957,10.0292 L2.83057,7.87946 L2.65283,7.70801 L2.27832,7.34674 L2.6543,6.98694 L2.83252,6.8161 Z"></path></svg></span>✔️</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Task</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Class</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Due Date</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Type</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Instructions</th></tr></thead><tbody><tr id="c8459037-5cf8-4f03-afa4-0234f9658f25"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20prof%20on%20FB%20c84590375cf84f03afa40234f9658f25.html">Add prof on FB</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"><time>@March 1, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-XrR\"></td></tr><tr id="abbb1c0b-091e-4533-bbd4-3f4a456fd9a7"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Like%20FB%20pages%20abbb1c0b091e4533bbd43f4a456fd9a7.html">Like FB pages</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"><time>@March 3, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-XrR\">Math one Roque, Sciencia na Kayo</td></tr><tr id="b8e64646-744d-426b-bc83-0c1885ced97b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Module%201%20Aural%20Analysis%20b8e64646744d426bbc830c1885ced97b.html">Module 1: Aural Analysis</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"><time>@March 4, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Asynchronous Module</span></td><td class="cell-XrR\">Answer the GForm</td></tr><tr id="ac5cd9f5-9e4a-4747-b8a5-8e030c2875df"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Essay%20about%20my%20opinions%20on%20Math%20ac5cd9f59e4a4747b8a58e030c2875df.html">Essay about my opinions on Math</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"><time>@March 4, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-red">Paper</span></td><td class="cell-XrR\">1-page essay, any font, single space</td></tr><tr id="f1fd76f6-9511-407e-9cc4-aea5178d08b5"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Find%20clips%20where%20vocab%20words%20are%20used%20f1fd76f69511407e9cc4aea5178d08b5.html">Find clips where vocab words are used</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-Q[j]"><time>@March 5, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-XrR\">look for 5 clips/words where it&#x27;s used and post on the discord channel</td></tr><tr id="f8d3a338-66a9-44a2-b7c5-6bd7111f410f"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Wait%20for%20MS%201%20materials%20f8d3a33866a944a2b7c56bd7111f410f.html">Wait for MS 1 materials</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"><time>@March 5, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-XrR\"></td></tr><tr id="cd31472a-8ca1-42a0-9134-5c63a10f5bf2"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/UT%20NT%20Reflection%20for%20Module%201%20cd31472a8ca142a091345c63a10f5bf2.html">UT/NT Reflection for Module 1</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"><time>@March 6, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-blue">Forum</span></td><td class="cell-XrR\"></td></tr><tr id="325a8a2f-d9e4-4994-a97b-679a33e44690"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Join%20the%20Class%20Forum%20325a8a2fd9e44994a97b679a33e44690.html">Join the Class Forum</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-Q[j]"><time>@March 6, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-XrR\">https://geog1aeq.createaforum.com/general-discussion  </td></tr><tr id="ec96c549-0a44-4203-aa76-0da4aecb650c"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Finish%20Part%206%20&amp;%207%20of%20Chapter%204%20Exercises%20ec96c5490a444203aa760da4aecb650c.html">Finish Part 6 &amp; 7 of Chapter 4 Exercises</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-Q[j]"><time>@March 24, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-blue">Writing Activity</span></td><td class="cell-XrR\"></td></tr><tr id="049f6ea0-0c5b-474d-b047-2968bcf0c3a6"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Make%20notes%20for%20Population%20Geog%20049f6ea00c5b474db0472968bcf0c3a6.html">Make notes for Population Geog</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-Q[j]"><time>@March 24, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Notes</span></td><td class="cell-XrR\"></td></tr><tr id="de815fa6-74c5-44f3-9881-b8728cb4f1a4"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Module%205%20de815fa674c544f39881b8728cb4f1a4.html">Module 5</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"><time>@March 25, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-XrR\"></td></tr><tr id="098f2fad-293e-477f-9fbc-45c2e83c5d9b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Shoot%20footage%20for%20intro%20098f2fad293e477f9fbc45c2e83c5d9b.html">Shoot footage for intro</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"><time>@March 26, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-XrR\"></td></tr><tr id="06232ef1-8d10-4175-b132-135b9fc23e6e"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Intro%20Video%2006232ef18d104175b132135b9fc23e6e.html">Intro Video</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"><time>@March 29, 2021</time></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-XrR\"></td></tr><tr id="dc132542-8007-47c3-9560-ab01c1e0e7df"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Watch%20vids%20on%20sets%20and%20numbers%20dc132542800747c39560ab01c1e0e7df.html">Watch vids on sets and numbers</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-XrR\"></td></tr><tr id="113b58fb-a25a-46ac-b800-9652106db6b2"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20113b58fba25a46acb8009652106db6b2.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="1867762f-57c9-4b19-afda-f0ac37ca60f0"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Fix%20Chapter%204%20Quizlets%201867762f57c94b19afdaf0ac37ca60f0.html">Fix Chapter 4 Quizlets</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-default">Practice Material</span></td><td class="cell-XrR\"></td></tr><tr id="25cca45b-4352-45ad-9705-adbba3a267cb"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Change%20week%201%20to%20notion%2025cca45b435245ad9705adbba3a267cb.html">Change week 1 to notion</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr><tr id="2fc66140-52e8-46d3-909c-321c9b8dd307"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%202fc6614052e846d3909c321c9b8dd307.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="57db2b20-807f-40e3-b5c5-b99e743174ed"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Notes%20on%20topic%204%2057db2b20807f40e3b5c5b99e743174ed.html">Notes on topic 4</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-XrR\"></td></tr><tr id="91f4405b-943b-4ed4-8fec-e91916752028"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%202%20output%2091f4405b943b4ed48fece91916752028.html">Week 2 output</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr><tr id="b571c0f2-0fdb-4c13-86a2-56bd9109fca3"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20b571c0f20fdb4c1386a256bd9109fca3.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="b6afd7b2-4cbe-492d-bfc1-10a2acd7f0fc"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20b6afd7b24cbe492dbfc110a2acd7f0fc.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="fcb035ea-90fa-4c47-b70b-1cb123cd7bf8"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20fcb035ea90fa4c47b70b1cb123cd7bf8.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="194fbdc1-6958-46bd-bd09-f2ebc84766e1"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20194fbdc1695846bdbd09f2ebc84766e1.html">Add</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-pink">Eng 11</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"></td><td class="cell-XrR\"></td></tr><tr id="1e224d6b-4a7f-4202-8701-1411fdb15107"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%203%20output%201e224d6b4a7f420287011411fdb15107.html">Week 3 output</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr><tr id="20ff3aca-a461-4b99-89f0-e108f48d36dd"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%203%20plp%2020ff3acaa4614b9989f0e108f48d36dd.html">Week 3 plp</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr><tr id="5834d7b7-9b8e-4b48-813a-a1604bfa2377"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Notes%20on%20Omelas%205834d7b79b8e4b48813aa1604bfa2377.html">Notes on Omelas</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-pink">Eng 11</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Notes</span></td><td class="cell-XrR\"></td></tr><tr id="9cd3fe58-5c60-4d82-a03b-6a78bcaa8e7b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Finish%20Geog%20Activities%201-4%209cd3fe585c604d82a03b6a78bcaa8e7b.html">Finish Geog Activities 1-4</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr><tr id="c4f7892b-f453-40ad-bff5-eacbf83ddfb7"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Find%20Fallacies%20that%20are%20in%20the%20news%20advertising%20c4f7892bf45340adbff5eacbf83ddfb7.html">Find Fallacies that are in the news/advertising</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-purple">Groupwork</span></td><td class="cell-XrR\"></td></tr><tr id="c5f2dcfe-3105-4df5-a3f1-3be874f38742"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%202%20plp%20c5f2dcfe31054df5a3f13be874f38742.html">Week 2 plp</a></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-Q[j]"></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-XrR\"></td></tr></tbody></table></div><h3 id="e528e8e6-f1be-4178-9516-aa5a230bf202" class="block-color-blue_background"><strong>ⓟⓛⓐⓨⓛⓘⓢⓣ</strong></h3><figure id="eb874421-b1bd-4bcd-b35c-21f48b6d3e5f"><div class="source"><a href="https://open.spotify.com/playlist/7CQjfoTBy6twWN4fMxnNv2?si=hMtnCq3oQqS8TnJVoCt2ng">https://open.spotify.com/playlist/7CQjfoTBy6twWN4fMxnNv2?si=hMtnCq3oQqS8TnJVoCt2ng</a></div></figure><p id="175240ed-b8e4-40c8-abbc-5f41abcec967" class="">
+</p></div><div id="3bcb9080-4c36-45e6-a7f4-93fc10b6a88b" style="width:68.75%" class="column"><h1 id="0aad7e9a-ec08-442a-b257-939b601a948f" class=""><mark class="highlight-blue">Class Info</mark></h1><p id="09319299-bc39-499b-bbea-5e8666864c8c" class="">Class Name: Modelación de sistemas multiagentes con gráficas computacionales</p><p id="3475af31-82bd-472e-9516-cba3cba7a5bc" class="">Section: THW</p><p id="132d277f-5ab0-44f2-badc-8fb42e703492" class="">Time Slot: MTWT 9:00am - 1:00pm </p><ul id="dba1fe23-1320-4b9e-84ae-a04c39db0323" class="toggle"><li><details open=""><summary>Instructor/s: </summary><p id="662c2a7f-f488-44c9-b792-9c79ac308c38" class="">Luis Raul Castillo</p><p id="4af92ca5-5808-43e6-b39f-54f4e58c26a5" class="">Pedro Oscar Pérez Murueta</p></details></li></ul><ul id="8843c15e-87fc-4eab-95e4-884c77c1268c" class="toggle"><li><details open=""><summary>Contact Info: </summary><p id="b8953c32-963e-4e50-beec-1f6a53d0757f" class="">Luis Raúl:</p><p id="a141df32-4d1f-47dc-8c27-3ace6b5f06e8" class=""><a href="mailto:lraul_castillo@tec.mx">lraul_castillo@tec.mx</a></p><p id="d6c6dab2-359f-482e-b9f9-cb75c8a09d5f" class=""><a href="https://itesm.zoom.us/my/wicho">https://itesm.zoom.us/my/wicho</a></p><p id="0f2db83e-9973-4d83-9ac6-7cb01413b55a" class="">Pedro</p><p id="55aab08f-86b7-4cf6-b4eb-20bdb5550c7b" class=""><a href="https://itesm.zoom.us/my/pperezm">https://itesm.zoom.us/my/pperezm</a></p><p id="e783b3ae-2b63-4fdd-bf31-77f634b51e7a" class="">Google Calendar: <a href="https://shorturl.at/ertE1">https://shorturl.at/ertE1</a></p><p id="424efaf5-c4f4-4a85-9ae3-76ce1e549ab2" class="">Drive: <a href="https://shorturl.at/giqsB">https://shorturl.at/giqsB</a></p><p id="c3e13fea-11c6-4936-8319-a05cb5635970" class="">Remind: <a href="https://www.remind.com/join/9c8a2k">https://www.remind.com/join/9c8a2k</a></p><p id="2c8ce5aa-874e-4415-a4f7-a4bb7eb9171d" class="">
+</p><p id="f6358a7e-a7a4-4707-bf83-675583d36d22" class="">
+</p></details></li></ul><ul id="32a60f92-8d0d-439d-bbb4-79fb394cfb6c" class="toggle"><li><details open=""><summary>Office Hours: </summary></details></li></ul><p id="61b4e2a0-5b63-43f2-9974-a9c83aad50e5" class="">Learning Platform: Canvas</p><p id="77b4a523-d2d1-4297-83d4-ea3ec32df19d" class="">Synchronous Class Platform: Zoom</p><p id="8e30e4d8-f0bd-49df-b9d9-5116fd890cb6" class="block-color-blue_background">
+</p><h1 id="0a6543f7-4f5b-45bc-9af9-bae9b9eaf551" class="block-color-blue"><mark class="highlight-blue">Stable Zoom Link:</mark><mark class="highlight-orange"> </mark></h1><ul id="952c6885-e127-406c-b5a3-782f6618815a" class="toggle"><li><details open=""><summary>Link: </summary><figure id="8fad779b-b2d8-4ccf-8928-0005bcd25430"><a href="https://itesm.zoom.us/j/85901332767" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Join our Cloud HD Video Meeting</div><div class="bookmark-description">Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as executive offices and classrooms. Founded in 2011, Zoom helps businesses and organizations bring their teams together in a frictionless environment to get more done.</div></div><div class="bookmark-href"><img src="https://itesm.zoom.us/zoom.ico" class="icon bookmark-icon"/>https://itesm.zoom.us/j/85901332767</div></div></a></figure></details></li></ul><p id="ff42a41c-7f93-4537-b40b-503aa14af835" class="block-color-blue_background">
+</p><h1 id="0c156d0f-a8fb-4fed-8ebb-42ffd16a41bb" class=""><mark class="highlight-blue">Assessment Details</mark></h1><div id="fda31cbf-e992-4066-ab15-5cfb2167c854" class="collection-content"><h4 class="collection-title">Course Requirements</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Name</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesNumber"><path d="M4.46191,0 C3.8667,0 3.38428,0.482422 3.38428,1.07751 L3.38428,3.38425 L1.07764,3.38425 C0.482422,3.38425 0,3.86667 0,4.46179 C0,5.05688 0.482422,5.53931 1.07764,5.53931 L3.38428,5.53931 L3.38428,8.46063 L1.07764,8.46063 C0.482422,8.46063 0,8.94308 0,9.53818 C0,10.1333 0.482422,10.6157 1.07764,10.6157 L3.38428,10.6157 L3.38428,12.9224 C3.38428,13.5175 3.8667,13.9999 4.46191,13.9999 C5.05664,13.9999 5.53906,13.5175 5.53906,12.9224 L5.53906,10.6157 L8.46045,10.6157 L8.46045,12.9224 C8.46045,13.5175 8.94287,13.9999 9.53809,13.9999 C10.1333,13.9999 10.6157,13.5175 10.6157,12.9224 L10.6157,10.6157 L12.9224,10.6157 C13.5176,10.6157 14,10.1333 14,9.53818 C14,8.94308 13.5176,8.46063 12.9224,8.46063 L10.6157,8.46063 L10.6157,5.53931 L12.9224,5.53931 C13.5176,5.53931 14,5.05688 14,4.46179 C14,3.86667 13.5176,3.38425 12.9224,3.38425 L10.6157,3.38425 L10.6157,1.07751 C10.6157,0.482422 10.1333,0 9.53809,0 C8.94287,0 8.46045,0.482422 8.46045,1.07751 L8.46045,3.38425 L5.53906,3.38425 L5.53906,1.07751 C5.53906,0.482422 5.05664,0 4.46191,0 Z M5.53906,8.46063 L5.53906,5.53931 L8.46045,5.53931 L8.46045,8.46063 L5.53906,8.46063 Z"></path></svg></span>Tags</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Notes</th></tr></thead><tbody><tr id="f5911ab9-b1e1-4a04-a504-304f853aba8e"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/Course%20Requirements%20fda31cbfe9924066ab155cfb2167c854/Personal%20Learning%20Portfolio%20f5911ab9b1e14a04a504304f853aba8e.html">Personal Learning Portfolio</a></td><td class="cell-E\:b"></td><td class="cell-KBqk">Present stuff on a weekly basis, be creative, add a title</td></tr><tr id="509429ee-4a7c-4ab7-9b29-be704ccd83b8"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/Course%20Requirements%20fda31cbfe9924066ab155cfb2167c854/Presentation%20509429ee4a7c4ab79b29be704ccd83b8.html">Presentation</a></td><td class="cell-E\:b"></td><td class="cell-KBqk">10 slide presentation about a marine science study from 2018-2021</td></tr></tbody></table></div><p id="33ef4480-6b19-4592-a71d-026af308e678" class="block-color-blue_background">
+</p><h1 id="933f9afc-b810-4796-ba99-f337b1e6293b" class=""><mark class="highlight-blue">Important Info</mark></h1><ul id="f80acf92-8eea-4d55-810d-cc7d078fa7c6" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="6387ac82-32e9-4a69-9ace-1006b9a78af1" class="block-color-blue_background">
+</p><h1 id="fd370e56-d1d1-4916-913a-2af1c1f26cdb" class=""><mark class="highlight-blue">Topics</mark></h1><ul id="c9c8edf6-84c1-48e3-9ec4-6554e1e66447" class="toggle"><li><details open=""><summary>Topic 1</summary></details></li></ul><ul id="759aedc9-3062-455c-8985-350969467140" class="toggle"><li><details open=""><summary>Topic 2</summary></details></li></ul><p id="991dc148-cb1f-4a9f-94a8-87ce9e8e3e4b" class="block-color-blue_background">
+</p><h1 id="de4bba66-ab0c-43ba-9cc9-04ebe1c2b095" class=""><mark class="highlight-blue">Class Notes</mark></h1><div id="7a678755-15b9-49b7-ad2d-4584a48f04c0" class="collection-content"><h4 class="collection-title">MS 1 Notes</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Name</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Lecture Date</th></tr></thead><tbody><tr id="5cf42c13-aa01-4772-9b09-062a873871a0"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Notes%207a67875515b949b7ad2d4584a48f04c0/Topic%202%205cf42c13aa0147729b09062a873871a0.html">Topic 2</a></td><td class="cell-UWcS"></td></tr><tr id="80cea2e5-2b7f-47cf-b5b8-56738cdbd181"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Notes%207a67875515b949b7ad2d4584a48f04c0/Topic%201%2080cea2e52b7f47cfb5b856738cdbd181.html">Topic 1</a></td><td class="cell-UWcS"></td></tr><tr id="f6ce462f-e4ab-4c24-ab37-d2a5380f7203"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Notes%207a67875515b949b7ad2d4584a48f04c0/Topic%203%20f6ce462fe4ab4c24ab37d2a5380f7203.html">Topic 3</a></td><td class="cell-UWcS"></td></tr></tbody></table></div><p id="ba73e284-3fce-42d9-a86a-6a7fe70aa6cc" class="block-color-blue_background">
+</p><h1 id="33b38fec-6a16-4627-a654-a0f1ff0c5d14" class=""><mark class="highlight-blue">Task Input</mark></h1><div id="e91d2a23-ef46-41d0-b61c-97c48b887976" class="collection-content"><h4 class="collection-title"> ☾ To-Do List ☾</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesCheckbox"><path d="M0,3 C0,1.34314 1.34326,0 3,0 L11,0 C12.6567,0 14,1.34314 14,3 L14,11 C14,12.6569 12.6567,14 11,14 L3,14 C1.34326,14 0,12.6569 0,11 L0,3 Z M3,1.5 C2.17139,1.5 1.5,2.17157 1.5,3 L1.5,11 C1.5,11.8284 2.17139,12.5 3,12.5 L11,12.5 C11.8286,12.5 12.5,11.8284 12.5,11 L12.5,3 C12.5,2.17157 11.8286,1.5 11,1.5 L3,1.5 Z M2.83252,6.8161 L3.39893,6.27399 L3.57617,6.10425 L3.92334,5.77216 L4.26904,6.10559 L4.44531,6.27582 L5.58398,7.37402 L9.28271,3.81073 L9.45996,3.64008 L9.80664,3.3056 L10.1538,3.63989 L10.3311,3.81067 L10.8936,4.35303 L11.0708,4.52399 L11.4434,4.88379 L11.0708,5.24353 L10.8936,5.41437 L6.1084,10.0291 L5.93115,10.2 L5.58398,10.5344 L5.23682,10.2 L5.05957,10.0292 L2.83057,7.87946 L2.65283,7.70801 L2.27832,7.34674 L2.6543,6.98694 L2.83252,6.8161 Z"></path></svg></span>✔️</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Task</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Type</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Due Date</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Class</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Instructions</th></tr></thead><tbody><tr id="098f2fad-293e-477f-9fbc-45c2e83c5d9b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Shoot%20footage%20for%20intro%20098f2fad293e477f9fbc45c2e83c5d9b.html">Shoot footage for intro</a></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-Q[j]"><time>@March 26, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\"></td></tr><tr id="194fbdc1-6958-46bd-bd09-f2ebc84766e1"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20194fbdc1695846bdbd09f2ebc84766e1.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-pink">Eng 11</span></td><td class="cell-XrR\"></td></tr><tr id="1e224d6b-4a7f-4202-8701-1411fdb15107"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%203%20output%201e224d6b4a7f420287011411fdb15107.html">Week 3 output</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="20ff3aca-a461-4b99-89f0-e108f48d36dd"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%203%20plp%2020ff3acaa4614b9989f0e108f48d36dd.html">Week 3 plp</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="5834d7b7-9b8e-4b48-813a-a1604bfa2377"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Notes%20on%20Omelas%205834d7b79b8e4b48813aa1604bfa2377.html">Notes on Omelas</a></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Notes</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-pink">Eng 11</span></td><td class="cell-XrR\"></td></tr><tr id="9cd3fe58-5c60-4d82-a03b-6a78bcaa8e7b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Finish%20Geog%20Activities%201-4%209cd3fe585c604d82a03b6a78bcaa8e7b.html">Finish Geog Activities 1-4</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-XrR\"></td></tr><tr id="c4f7892b-f453-40ad-bff5-eacbf83ddfb7"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Find%20Fallacies%20that%20are%20in%20the%20news%20advertising%20c4f7892bf45340adbff5eacbf83ddfb7.html">Find Fallacies that are in the news/advertising</a></td><td class="cell-ora~"><span class="selected-value select-value-color-purple">Groupwork</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\"></td></tr><tr id="c5f2dcfe-3105-4df5-a3f1-3be874f38742"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%202%20plp%20c5f2dcfe31054df5a3f13be874f38742.html">Week 2 plp</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="049f6ea0-0c5b-474d-b047-2968bcf0c3a6"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Make%20notes%20for%20Population%20Geog%20049f6ea00c5b474db0472968bcf0c3a6.html">Make notes for Population Geog</a></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Notes</span></td><td class="cell-Q[j]"><time>@March 24, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-XrR\"></td></tr><tr id="06232ef1-8d10-4175-b132-135b9fc23e6e"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Intro%20Video%2006232ef18d104175b132135b9fc23e6e.html">Intro Video</a></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-Q[j]"><time>@March 29, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\"></td></tr><tr id="325a8a2f-d9e4-4994-a97b-679a33e44690"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Join%20the%20Class%20Forum%20325a8a2fd9e44994a97b679a33e44690.html">Join the Class Forum</a></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-Q[j]"><time>@March 6, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-XrR\">https://geog1aeq.createaforum.com/general-discussion  </td></tr><tr id="ac5cd9f5-9e4a-4747-b8a5-8e030c2875df"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Essay%20about%20my%20opinions%20on%20Math%20ac5cd9f59e4a4747b8a58e030c2875df.html">Essay about my opinions on Math</a></td><td class="cell-ora~"><span class="selected-value select-value-color-red">Paper</span></td><td class="cell-Q[j]"><time>@March 4, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\">1-page essay, any font, single space</td></tr><tr id="113b58fb-a25a-46ac-b800-9652106db6b2"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20113b58fba25a46acb8009652106db6b2.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="1867762f-57c9-4b19-afda-f0ac37ca60f0"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Fix%20Chapter%204%20Quizlets%201867762f57c94b19afdaf0ac37ca60f0.html">Fix Chapter 4 Quizlets</a></td><td class="cell-ora~"><span class="selected-value select-value-color-default">Practice Material</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-XrR\"></td></tr><tr id="25cca45b-4352-45ad-9705-adbba3a267cb"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Change%20week%201%20to%20notion%2025cca45b435245ad9705adbba3a267cb.html">Change week 1 to notion</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="2fc66140-52e8-46d3-909c-321c9b8dd307"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%202fc6614052e846d3909c321c9b8dd307.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\"></td></tr><tr id="57db2b20-807f-40e3-b5c5-b99e743174ed"><td class="cell-&lt;GdR"><div class="checkbox checkbox-off"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Notes%20on%20topic%204%2057db2b20807f40e3b5c5b99e743174ed.html">Notes on topic 4</a></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\"></td></tr><tr id="91f4405b-943b-4ed4-8fec-e91916752028"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Week%202%20output%2091f4405b943b4ed48fece91916752028.html">Week 2 output</a></td><td class="cell-ora~"><span class="selected-value select-value-color-gray">Essay</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="abbb1c0b-091e-4533-bbd4-3f4a456fd9a7"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Like%20FB%20pages%20abbb1c0b091e4533bbd43f4a456fd9a7.html">Like FB pages</a></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-Q[j]"><time>@March 3, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\">Math one Roque, Sciencia na Kayo</td></tr><tr id="b571c0f2-0fdb-4c13-86a2-56bd9109fca3"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20b571c0f20fdb4c1386a256bd9109fca3.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-XrR\"></td></tr><tr id="b6afd7b2-4cbe-492d-bfc1-10a2acd7f0fc"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20b6afd7b24cbe492dbfc110a2acd7f0fc.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\"></td></tr><tr id="b8e64646-744d-426b-bc83-0c1885ced97b"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Module%201%20Aural%20Analysis%20b8e64646744d426bbc830c1885ced97b.html">Module 1: Aural Analysis</a></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Asynchronous Module</span></td><td class="cell-Q[j]"><time>@March 4, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\">Answer the GForm</td></tr><tr id="c8459037-5cf8-4f03-afa4-0234f9658f25"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20prof%20on%20FB%20c84590375cf84f03afa40234f9658f25.html">Add prof on FB</a></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-Q[j]"><time>@March 1, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\"></td></tr><tr id="cd31472a-8ca1-42a0-9134-5c63a10f5bf2"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/UT%20NT%20Reflection%20for%20Module%201%20cd31472a8ca142a091345c63a10f5bf2.html">UT/NT Reflection for Module 1</a></td><td class="cell-ora~"><span class="selected-value select-value-color-blue">Forum</span></td><td class="cell-Q[j]"><time>@March 6, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\"></td></tr><tr id="de815fa6-74c5-44f3-9881-b8728cb4f1a4"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Module%205%20de815fa674c544f39881b8728cb4f1a4.html">Module 5</a></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-Q[j]"><time>@March 25, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-orange">MuL 13</span></td><td class="cell-XrR\"></td></tr><tr id="ec96c549-0a44-4203-aa76-0da4aecb650c"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Finish%20Part%206%20&amp;%207%20of%20Chapter%204%20Exercises%20ec96c5490a444203aa760da4aecb650c.html">Finish Part 6 &amp; 7 of Chapter 4 Exercises</a></td><td class="cell-ora~"><span class="selected-value select-value-color-blue">Writing Activity</span></td><td class="cell-Q[j]"><time>@March 24, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-XrR\"></td></tr><tr id="f1fd76f6-9511-407e-9cc4-aea5178d08b5"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Find%20clips%20where%20vocab%20words%20are%20used%20f1fd76f69511407e9cc4aea5178d08b5.html">Find clips where vocab words are used</a></td><td class="cell-ora~"><span class="selected-value select-value-color-green">Homework</span></td><td class="cell-Q[j]"><time>@March 5, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-purple">Hapon 11</span></td><td class="cell-XrR\">look for 5 clips/words where it&#x27;s used and post on the discord channel</td></tr><tr id="f8d3a338-66a9-44a2-b7c5-6bd7111f410f"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Wait%20for%20MS%201%20materials%20f8d3a33866a944a2b7c56bd7111f410f.html">Wait for MS 1 materials</a></td><td class="cell-ora~"><span class="selected-value select-value-color-yellow">Misc Task</span></td><td class="cell-Q[j]"><time>@March 5, 2021</time></td><td class="cell-zgHn"><span class="selected-value select-value-color-blue">MS 1</span></td><td class="cell-XrR\"></td></tr><tr id="fcb035ea-90fa-4c47-b70b-1cb123cd7bf8"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Add%20fcb035ea90fa4c47b70b1cb123cd7bf8.html">Add</a></td><td class="cell-ora~"></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-red">Geog 1</span></td><td class="cell-XrR\"></td></tr><tr id="dc132542-8007-47c3-9560-ab01c1e0e7df"><td class="cell-&lt;GdR"><div class="checkbox checkbox-on"></div></td><td class="cell-title"><a href="../%E2%98%BE%20To-Do%20List%20%E2%98%BE%20e9d314dbe2b34ccf84ff63df8cdaebe2/Watch%20vids%20on%20sets%20and%20numbers%20dc132542800747c39560ab01c1e0e7df.html">Watch vids on sets and numbers</a></td><td class="cell-ora~"><span class="selected-value select-value-color-brown">Asynchronous Lecture</span></td><td class="cell-Q[j]"></td><td class="cell-zgHn"><span class="selected-value select-value-color-green">Math 10</span></td><td class="cell-XrR\"></td></tr></tbody></table></div><p id="7d392870-6c98-466a-803b-5a5e84088298" class="block-color-blue_background">
+</p><h1 id="72e80b1f-9d18-4ecf-a5d2-14cfbf6ccb88" class=""><mark class="highlight-blue">Grades Tracker</mark></h1><div id="d047d776-8219-4126-b927-15bca1032597" class="collection-content"><h4 class="collection-title">MS 1 Grades</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Criteria</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesNumber"><path d="M4.46191,0 C3.8667,0 3.38428,0.482422 3.38428,1.07751 L3.38428,3.38425 L1.07764,3.38425 C0.482422,3.38425 0,3.86667 0,4.46179 C0,5.05688 0.482422,5.53931 1.07764,5.53931 L3.38428,5.53931 L3.38428,8.46063 L1.07764,8.46063 C0.482422,8.46063 0,8.94308 0,9.53818 C0,10.1333 0.482422,10.6157 1.07764,10.6157 L3.38428,10.6157 L3.38428,12.9224 C3.38428,13.5175 3.8667,13.9999 4.46191,13.9999 C5.05664,13.9999 5.53906,13.5175 5.53906,12.9224 L5.53906,10.6157 L8.46045,10.6157 L8.46045,12.9224 C8.46045,13.5175 8.94287,13.9999 9.53809,13.9999 C10.1333,13.9999 10.6157,13.5175 10.6157,12.9224 L10.6157,10.6157 L12.9224,10.6157 C13.5176,10.6157 14,10.1333 14,9.53818 C14,8.94308 13.5176,8.46063 12.9224,8.46063 L10.6157,8.46063 L10.6157,5.53931 L12.9224,5.53931 C13.5176,5.53931 14,5.05688 14,4.46179 C14,3.86667 13.5176,3.38425 12.9224,3.38425 L10.6157,3.38425 L10.6157,1.07751 C10.6157,0.482422 10.1333,0 9.53809,0 C8.94287,0 8.46045,0.482422 8.46045,1.07751 L8.46045,3.38425 L5.53906,3.38425 L5.53906,1.07751 C5.53906,0.482422 5.05664,0 4.46191,0 Z M5.53906,8.46063 L5.53906,5.53931 L8.46045,5.53931 L8.46045,8.46063 L5.53906,8.46063 Z"></path></svg></span>Weight</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesNumber"><path d="M4.46191,0 C3.8667,0 3.38428,0.482422 3.38428,1.07751 L3.38428,3.38425 L1.07764,3.38425 C0.482422,3.38425 0,3.86667 0,4.46179 C0,5.05688 0.482422,5.53931 1.07764,5.53931 L3.38428,5.53931 L3.38428,8.46063 L1.07764,8.46063 C0.482422,8.46063 0,8.94308 0,9.53818 C0,10.1333 0.482422,10.6157 1.07764,10.6157 L3.38428,10.6157 L3.38428,12.9224 C3.38428,13.5175 3.8667,13.9999 4.46191,13.9999 C5.05664,13.9999 5.53906,13.5175 5.53906,12.9224 L5.53906,10.6157 L8.46045,10.6157 L8.46045,12.9224 C8.46045,13.5175 8.94287,13.9999 9.53809,13.9999 C10.1333,13.9999 10.6157,13.5175 10.6157,12.9224 L10.6157,10.6157 L12.9224,10.6157 C13.5176,10.6157 14,10.1333 14,9.53818 C14,8.94308 13.5176,8.46063 12.9224,8.46063 L10.6157,8.46063 L10.6157,5.53931 L12.9224,5.53931 C13.5176,5.53931 14,5.05688 14,4.46179 C14,3.86667 13.5176,3.38425 12.9224,3.38425 L10.6157,3.38425 L10.6157,1.07751 C10.6157,0.482422 10.1333,0 9.53809,0 C8.94287,0 8.46045,0.482422 8.46045,1.07751 L8.46045,3.38425 L5.53906,3.38425 L5.53906,1.07751 C5.53906,0.482422 5.05664,0 4.46191,0 Z M5.53906,8.46063 L5.53906,5.53931 L8.46045,5.53931 L8.46045,8.46063 L5.53906,8.46063 Z"></path></svg></span>Score</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesFormula"><path d="M7.77892,7.06304 L4.62218,11.2875 C4.58556,11.3416 4.55285,11.4392 4.5504,11.5052 C4.5504,11.7022 4.7047,11.8619 4.89562,11.8619 L11.1383,11.8619 C11.6139,11.8619 11.9996,12.2598 11.9996,12.7507 L11.9996,13.1111 C11.9996,13.602 11.6139,14 11.1383,14 L1.861927,14 C1.385853,14 1.00011061,13.602 1.00011061,13.1111 L1.00011061,12.6858 C0.99718092,12.4783 1.0523567,12.3098 1.176868,12.1466 L4.39269,7.79888 C4.74816,7.31841 4.74572,6.65139 4.38683,6.17354 L1.400013,2.19436 C1.27306,2.03028 1.216419,1.85993 1.219349,1.65006 L1.219349,0.888889 C1.219349,0.397968 1.605091,0 2.08117,0 L10.91906,0 C11.3946,0 11.7804,0.397968 11.7804,0.888889 L11.7804,1.24925 C11.7804,1.74017 11.3946,2.13814 10.91906,2.13814 L5.13634,2.13814 C4.94542,2.13814 4.79064,2.29801 4.79064,2.49522 C4.79308,2.56049 4.82482,2.65709 4.86095,2.71087 L7.78038,6.68628 C7.8297,6.74847 7.84435,6.7934 7.84142,6.87363 C7.84435,6.95493 7.82921,7.00048 7.77892,7.06304 Z"></path></svg></span>Weighted Grade</th></tr></thead><tbody><tr id="eecde068-c346-417b-852c-b7023d7045fc"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Grades%20d047d77682194126b92715bca1032597/Untitled%20eecde068c346417b852cb7023d7045fc.html">Untitled</a></td><td class="cell-dUh{"></td><td class="cell-mT@Q"></td><td class="cell-Tf={">0</td></tr><tr id="f79edf3e-1dc7-4a23-9e75-a5404b6934c7"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Grades%20d047d77682194126b92715bca1032597/Untitled%20f79edf3e1dc74a239e75a5404b6934c7.html">Untitled</a></td><td class="cell-dUh{"></td><td class="cell-mT@Q"></td><td class="cell-Tf={">0</td></tr><tr id="bca4029d-d154-4598-af0a-6db89c2516da"><td class="cell-title"><a href="Gra%CC%81ficas%20computacionales%209a90259029f243c196b7023bde6959c4/MS%201%20Grades%20d047d77682194126b92715bca1032597/Untitled%20bca4029dd1544598af0a6db89c2516da.html">Untitled</a></td><td class="cell-dUh{"></td><td class="cell-mT@Q"></td><td class="cell-Tf={">0</td></tr></tbody></table></div><p id="b3d4bc08-316f-4b95-ba1b-cb33b79402d2" class="block-color-blue_background">
+</p><h1 id="e484ac0e-53f9-437e-8dd0-0bc96e3d0b4b" class=""><mark class="highlight-blue">Grading Scale</mark></h1><p id="f2d1bd9e-8d9f-474d-a331-932d4eb364e6" class="">1.00         ...                                                       2.25       ...</p><p id="cf0b230c-0690-4379-97d1-0de0bdee34a5" class="">1.25         ...                                                       2.5          ...</p><p id="78d8d704-9213-47e8-8d77-3c573d77975d" class="">1.5            ...                                                       2.75       ...</p><p id="ccad95b2-eee6-404e-bf72-a7831c495e7c" class="">1.75        ...                                                        3.00       ...</p><p id="340719e6-769a-4b49-a3ce-53aeb1872edf" class="">2.00        ...</p><p id="26d00a16-4a2e-4efd-826f-5252c22af5f1" class="block-color-blue_background">
+</p></div></div><p id="29fbe939-c040-47c9-a10a-82b3d9b9446c" class="">
+</p><p id="49690535-49e4-48f6-bdcf-47031bfe5e81" class="">
+</p><p id="f59e0108-f964-42f3-bc39-ea9cf2046ec4" class="">
+</p><p id="59877000-6666-4d9e-a1fa-97b2c746d6d3" class="">
+</p><p id="62232977-24f8-49cc-b2c5-18588b92471c" class="">
+</p></div></article></body></html>
