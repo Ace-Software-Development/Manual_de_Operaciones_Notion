@@ -2,4 +2,4 @@
 
 como pasar a main que requisitos debe tener para psar a produccion
 
-Como hacer una linea base
+Como hacer una linea base en notion
