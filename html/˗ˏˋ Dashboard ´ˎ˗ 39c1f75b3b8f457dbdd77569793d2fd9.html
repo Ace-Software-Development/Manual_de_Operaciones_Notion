@@ -1,0 +1,697 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>˗ˏˋ Dashboard ´ˎ˗</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="68b4ef1f-b5e8-4ae0-957e-bafe35a3e38c" class="page serif"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 89.11%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">💫</span></div><h1 class="page-title">˗ˏˋ Dashboard ´ˎ˗</h1></header><div class="page-body"><div id="a5c29585-3de5-48b0-8b24-6c3b66ad55cc" class="column-list"><div id="97b02037-ea36-48cd-95e7-7356d8fe520c" style="width:33.33333333333333%" class="column"><h2 id="c01c16a0-6aeb-4e8d-a2e0-6c2c6f3a4996" class="block-color-yellow_background">— Daily </h2><hr id="7cc01805-071c-44d8-b423-c0ffb0f12167"/><figure id="c6b89353-2bb6-4388-8da5-c9ddd8b8440b" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Agenda%20c6b893532bb643888da5c9ddd8b8440b.html"><span class="icon">〰️</span>Agenda</a></figure><figure id="776f2865-fdce-42df-a30a-6f9553d44acf" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Content%20Planner%20776f2865fdce42dfa30a6f9553d44acf.html"><span class="icon">💻</span>Content Planner</a></figure><figure id="7f2b89e0-59f5-4e14-8c7a-048751af93c5" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Habit%20Tracker%207f2b89e059f54e148c7a048751af93c5.html"><span class="icon">✔️</span>Habit Tracker</a></figure><figure id="1750d21e-16c5-4cbe-b6dc-2142063a98da" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Journal%201750d21e16c54cbeb6dc2142063a98da.html"><span class="icon">💬</span>Journal</a></figure><figure id="0ed0ecaa-e445-4a7f-a735-c6a4d60feebc" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Language%20Hub%200ed0ecaae4454a7fa735c6a4d60feebc.html"><span class="icon">🇯🇵</span>Language Hub</a></figure><figure id="de046ec9-6e95-49a2-b02c-d07a4eb5911d" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Workouts%20de046ec96e9549a2b02cd07a4eb5911d.html"><span class="icon">👟</span> Workouts</a></figure><p id="352e8808-cf4e-4050-91bc-44adb6411e45" class="">
+</p><h2 id="4914e69c-617a-4bb0-91d5-12d17a171e6b" class="block-color-yellow_background">— <mark class="highlight-yellow_background">Life</mark></h2><hr id="44935c26-eb1a-4e47-badf-ad76f948c1ed"/><figure id="271fe1e2-b7d0-4023-a2d4-e629d0026f0e" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/2021%20Goals%20271fe1e2b7d04023a2d4e629d0026f0e.html"><span class="icon">🌻</span>2021 Goals</a></figure><figure id="d2d7cfa3-1f7f-4ad5-ba6c-1962ff069267" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Bucket%20List%20d2d7cfa31f7f4ad5ba6c1962ff069267.html"><span class="icon">☁️</span>Bucket List</a></figure><figure id="cf9c3a59-84c1-45fa-b6f6-4c195919afa1" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Apartment%20Hunting%20cf9c3a5984c145fab6f64c195919afa1.html"><span class="icon">🚪</span>Apartment Hunting</a></figure><figure id="a50dce65-6072-494f-a9f2-cc8f81fdca29" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Moving%20Checklist%20a50dce656072494fa9f2cc8f81fdca29.html"><span class="icon">📦</span>Moving Checklist</a></figure><p id="451f4408-911d-4867-8483-c5893314cbed" class="">
+</p></div><div id="824a6de5-dcf0-43ba-b0c5-d67345972135" style="width:29.166666666666668%" class="column"><h2 id="a07c09ec-0c99-42af-9eda-597e0bedd926" class="block-color-yellow_background">— Personal </h2><hr id="1a750168-78e0-452e-85d3-f3db1a3322d0"/><figure id="af421624-870a-442b-b9c6-08825629cf7c" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Notes%20af421624870a442bb9c608825629cf7c.html"><span class="icon">📔</span>Notes</a></figure><figure id="83cc41a1-462e-440a-9c51-f72cda9dc04c" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Shopping%20List%2083cc41a1462e440a9c51f72cda9dc04c.html"><span class="icon">🛒</span>Shopping List</a></figure><figure id="649dc449-4f34-4e6a-955c-74cc42799af5" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Recipes%20649dc4494f344e6a955c74cc42799af5.html"><span class="icon">🍽️</span>Recipes</a></figure><figure id="2ecf4d32-b9b3-4ae8-a67a-a46be40686f1" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Budget%20Tracker%202ecf4d32b9b34ae8a67aa46be40686f1.html"><span class="icon">💸</span>Budget Tracker</a></figure><figure id="b393fde1-72aa-4411-bd17-de8457398cf0" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Monthly%20Reflection%20b393fde172aa4411bd17de8457398cf0.html"><span class="icon">🤍</span>Monthly Reflection</a></figure><figure id="88308cbe-3a81-47d6-8d63-026460ecb6ce" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Dream%20Log%2088308cbe3a8147d68d63026460ecb6ce.html"><span class="icon">💭</span>Dream Log</a></figure><p id="900555fc-b016-4ae5-9052-913098d6c726" class="">
+</p><h2 id="3eb28ddc-f518-49fd-aecd-bf58a930ad3a" class="block-color-yellow_background">— Misc.</h2><hr id="c13cc0ce-68cb-45c7-80cc-b497b559749f"/><figure id="2aa06261-d5f0-4a9a-abe5-6f4d2d8a5ee3" class="link-to-page"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Symbols,%20Emojis,%20&amp;%20Emoticons%202aa06261d5f04a9aabe56f4d2d8a5ee3.html"><img class="icon" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/Symbols,%20Emojis,%20&amp;%20Emoticons%202aa06261d5f04a9aabe56f4d2d8a5ee3/9A0A88CB-5CE7-4E70-9B59-84761442A934.png"/>Symbols, Emojis, &amp; Emoticons</a></figure></div><div id="29cc9ad0-c2b7-4658-8cfc-2408716f398b" style="width:37.5%" class="column"><figure id="bd84293c-3f73-44a9-97ba-04bfb9fbd605"><div class="source"><a href="https://apption.co/embeds/zmc461">https://apption.co/embeds/zmc461</a></div></figure></div></div><hr id="80958ecf-a211-499d-abce-c18a8d15ab52"/><div id="94973021-31a3-417e-a2e5-1c9cbb3c1a78" class="column-list"><div id="4779a12d-07b8-4d25-b8ba-e7f4778cfb21" style="width:20%" class="column"><figure id="39c1f75b-3b8f-457d-bdd7-7569793d2fd9" class="image"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/d791076936d2e5252d7eb07ba2454904.jpg"><img style="width:474px" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/d791076936d2e5252d7eb07ba2454904.jpg"/></a></figure><p id="05e8e46d-2ef0-4ec7-8fd9-191d3cb9d805" class="">
+</p><p id="ccb8126e-693e-4d2f-8b1d-a82021ce3c52" class="">
+</p></div><div id="3cbca14e-7d85-4156-9987-cae236c59e11" style="width:20.000000000000007%" class="column"><figure id="2e0f04d3-1419-49ed-bb99-6b1f27b1cbc9" class="image"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/5bda7ecba8916fd134ffbb436dbafb71.jpg"><img style="width:474px" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/5bda7ecba8916fd134ffbb436dbafb71.jpg"/></a></figure><p id="da8cbd0c-60c1-46d2-96e3-e2fac68fae1e" class="">
+</p></div><div id="c1791a30-e877-4767-b14f-2e2260d8b309" style="width:20.000000000000004%" class="column"><figure id="0830560b-a548-4636-9e1e-e5053a3fdfd7" class="image"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/d098e6e4dc89b911068f68c71829e6e8.jpg"><img style="width:473px" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/d098e6e4dc89b911068f68c71829e6e8.jpg"/></a></figure><p id="c6d512f1-133b-4184-88d0-cc2bd7751321" class="">
+</p></div><div id="78ffa2e2-0db6-4d98-9653-ac923838f71e" style="width:20%" class="column"><figure id="940d3572-6e8d-42d2-9728-7a4968d63d45" class="image"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/fe6aa8b566780ec54969bfc8ddae7795_copy.jpg"><img style="width:473px" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/fe6aa8b566780ec54969bfc8ddae7795_copy.jpg"/></a></figure><p id="d4bec689-1add-4866-b625-4f53c4466b1f" class="">
+</p></div><div id="19ab070e-e8b7-4b6c-a50c-d62ec4b0976b" style="width:20.000000000000004%" class="column"><figure id="7344e38c-2805-4903-84c0-99fcced3f7e3" class="image"><a href="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/0b1d040131185935ab83dc17d3ca9732_copy.jpg"><img style="width:474px" src="%CB%97%CB%8F%CB%8B%20Dashboard%20%C2%B4%CB%8E%CB%97%2039c1f75b3b8f457dbdd77569793d2fd9/0b1d040131185935ab83dc17d3ca9732_copy.jpg"/></a></figure><p id="19eb0568-75be-4b20-9be6-3290b07f035d" class="">
+</p></div></div><p id="e4c8c82c-fc7e-43bc-ad9a-19da7b4b97eb" class="">
+</p><p id="768775cc-a9b7-48cc-a70d-4f0df1ad16b9" class="">
+</p><p id="3147a0b8-ee88-42b2-8fa9-9953d7c15e99" class="">
+</p><p id="109cb722-dd01-4ee6-9afd-a4d35d401d45" class="">
+</p><p id="79b29b1d-7d59-4aeb-bb7b-ecc6675c6e88" class="">
+</p><p id="dafcfcc5-744a-4389-9762-a0b131cf9b27" class="">
+</p><p id="f000826f-b4c7-41d0-bb71-4a882f182b55" class="">
+</p><p id="2d35ce5c-fba1-4bba-a645-fc7ff2b3f4eb" class="">
+</p><p id="8786a696-2568-4369-9ec2-24894207f076" class="">
+</p><p id="3f30ab91-ccca-4564-acfb-6b925a76e6ab" class="">
+</p><p id="52ff5d6a-148a-4c21-b637-b9c2011a45f2" class="">
+</p><p id="071aca7a-dbff-4922-adf6-b102f6554fc4" class="">
+</p><p id="ac88555a-6667-4bca-b875-e9bf8a6042f7" class="">
+</p><p id="eabdd77d-95b2-4c0d-9dfc-c35d321f80ee" class="">
+</p><p id="8d44ebaa-7f01-4019-9f9a-0e268ad342fe" class="">
+</p><p id="b46b0f46-a1d9-48e8-aaf4-256d2257f774" class="">
+</p><p id="d261829f-1c64-4c07-a803-efde46706d0a" class="">
+</p><p id="4cb416b1-6170-4a5a-ba38-bed28e392b62" class="">
+</p><p id="a4693c3b-818b-48a8-a379-98e3ead016af" class="">
+</p></div></article></body></html>

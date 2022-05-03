@@ -1,0 +1,11 @@
+# Mal diseño de base de datos
+
+Costo en horas*: 30
+Estado: Done
+Fase de Detección*: Diseño
+Fase de Inyección*: Análisis
+ID: 3
+Iteración: 5
+Proyecto*: Monarca
+Severidad *: Emergency
+Tipo*: Logico

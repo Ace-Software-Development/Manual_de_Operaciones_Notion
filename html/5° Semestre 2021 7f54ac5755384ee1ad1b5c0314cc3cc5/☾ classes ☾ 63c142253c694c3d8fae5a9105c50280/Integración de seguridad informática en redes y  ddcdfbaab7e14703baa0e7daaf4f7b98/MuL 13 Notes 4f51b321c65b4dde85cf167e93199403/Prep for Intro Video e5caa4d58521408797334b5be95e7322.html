@@ -1,0 +1,677 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Prep for Intro Video</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="e5caa4d5-8521-4087-9733-4b5be95e7322" class="page sans"><header><h1 class="page-title">Prep for Intro Video</h1><table class="properties"><tbody><tr class="property-row property-row-date"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Lecture Date</th><td></td></tr><tr class="property-row property-row-select"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Type of Document</th><td><span class="selected-value select-value-color-yellow">Project Prep</span></td></tr></tbody></table></header><div class="page-body"><div id="8d16de15-be53-48e6-9121-d198ad730948" class="column-list"><div id="1a40d342-4a17-4d89-9015-926a0d86a763" style="width:33.33333333333333%" class="column"><h1 id="c6ff0159-b32d-446c-808b-7bf6c40159eb" class="">First Impressions</h1><p id="e50f35e5-10c8-4f6b-9667-30ebf4b75823" class="block-color-orange_background">
+</p><h3 id="cdebd976-0ba6-4924-98bc-56aa42a878ba" class="">General things people know about you or think about you, may be true or not</h3><ul id="43ab853e-cdd3-4512-b241-d0c8b4262007" class="bulleted-list"><li style="list-style-type:disc">Opening<ul id="3aea91f3-5a9a-4cd4-9522-87fefe6468e3" class="bulleted-list"><li style="list-style-type:circle">What first comes to your mind when you see the name &quot;Maisie&quot; <ul id="e06b8892-ded5-40c0-af29-8d8f43367cd1" class="bulleted-list"><li style="list-style-type:square">Maisie Williams? probably</li></ul><ul id="9f9b789e-7178-43af-a260-140773941872" class="bulleted-list"><li style="list-style-type:square">Maisy mouse? </li></ul><ul id="711621ab-bf1e-47df-a536-ba22c8f705e4" class="bulleted-list"><li style="list-style-type:square">hard to spell? </li></ul></li></ul><ul id="1b59db70-7806-47a1-85e9-c7f525e4d776" class="bulleted-list"><li style="list-style-type:circle">So what comes to mind when you see this? <ul id="c32bb858-72a0-43fc-a7db-20c55bcf5150" class="bulleted-list"><li style="list-style-type:square">Photo of me on my desk </li></ul></li></ul><ul id="abace70c-629f-45c3-be97-d367eab80c88" class="bulleted-list"><li style="list-style-type:circle">Obviously you know me as a student <ul id="19a9619e-8861-4cbc-b049-60990213aa9d" class="bulleted-list"><li style="list-style-type:square">you&#x27;ve probably had some ideas about me now that you&#x27;ve seen me in class</li></ul><ul id="2e333ca4-a0c0-4fec-85ea-732980034e92" class="bulleted-list"><li style="list-style-type:square"></li></ul></li></ul><ul id="5e398c12-6e5c-4f4e-8046-2c6ef4ece080" class="bulleted-list"><li style="list-style-type:circle">but what do you think i do in my free time? </li></ul><ul id="2c78ac00-6073-4769-b474-c2f15c9ab54f" class="bulleted-list"><li style="list-style-type:circle">I mean by the editing of this video alone, you&#x27;ve already made assumptions about who i am </li></ul></li></ul><ul id="4136a15b-baa6-4ee2-848f-ed0ba442ba18" class="bulleted-list"><li style="list-style-type:disc">Now let&#x27;s throw those assumptions out the window </li></ul></div><div id="4fb73e5b-d933-46ec-8bea-a9e948a37852" style="width:33.33333333333334%" class="column"><h1 id="2090844e-23a8-49e6-b407-26efe0f0a00d" class="">Aural Analysis</h1><p id="868cf4fa-b651-45fd-be16-acc4865c8597" class="block-color-orange_background">
+</p><h3 id="605fb9c6-a3fc-4aa5-bb35-8e275c53a7e5" class="">facts about you, technical stuff. major, things you do, your hobbies, your instruments/talents, likes/dislikes, favorite color, fave food - - anything :D</h3><ul id="ef9348a8-401b-4f54-82c7-7fe2f880522e" class="bulleted-list"><li style="list-style-type:disc">Name<ul id="cd0f4cd3-1473-4e4e-a235-10f5eb99ce62" class="bulleted-list"><li style="list-style-type:circle">help them spell it? </li></ul><ul id="c43c146c-55f4-4fbe-b5db-6a0b4a4ae8cc" class="bulleted-list"><li style="list-style-type:circle">meaning: pearl<ul id="dd542067-b020-4699-ac9c-1c065937c9d6" class="bulleted-list"><li style="list-style-type:square">which is my favorite crystal gem</li></ul></li></ul></li></ul><ul id="c6f4f856-52ac-4da3-819f-d88b76a8a25f" class="bulleted-list"><li style="list-style-type:disc">non-major under engg<ul id="674ca183-a9ff-4b2c-9964-c230d99c64ba" class="bulleted-list"><li style="list-style-type:circle">used to be cs<ul id="4eda08ea-676e-43b4-9469-b3c405054ea1" class="bulleted-list"><li style="list-style-type:square">fooled into thinking there was game development</li></ul></li></ul></li></ul><ul id="6f975400-3862-4136-9c66-c2959f5531f5" class="bulleted-list"><li style="list-style-type:disc">hobbies<ul id="eb76c754-ce6d-41e8-8430-7ee44cfca96d" class="bulleted-list"><li style="list-style-type:circle">youtube</li></ul><ul id="9735e82b-86ef-4318-b08b-3bbd4c47ca56" class="bulleted-list"><li style="list-style-type:circle">cosplay/diy projects</li></ul></li></ul><ul id="633909f9-bfce-4cf1-8ba4-14dceb790359" class="bulleted-list"><li style="list-style-type:disc">likes<ul id="fa0f5e02-2fe5-400c-abe9-368dad7bd387" class="bulleted-list"><li style="list-style-type:circle">anime</li></ul><ul id="6973e53d-c660-4fef-bb48-50721551c520" class="bulleted-list"><li style="list-style-type:circle">musicals ( i used to be in them) </li></ul><ul id="bad4c4b9-0a16-4ed0-b0dd-b053fae134f1" class="bulleted-list"><li style="list-style-type:circle">stationery</li></ul><ul id="0e1509cc-61c7-4b77-9e7d-9296a80e5ee8" class="bulleted-list"><li style="list-style-type:circle">sweets</li></ul></li></ul><ul id="dfd9dbb7-6e16-4c53-924c-9df65b9b3d1f" class="bulleted-list"><li style="list-style-type:disc">dislikes<ul id="8b4c36db-e847-4bfb-b3b6-ab663cd6372c" class="bulleted-list"><li style="list-style-type:circle">wasting time</li></ul><ul id="971e368c-4196-48ca-8a77-97153fcfcf70" class="bulleted-list"><li style="list-style-type:circle">wasted potential</li></ul></li></ul><ul id="c6f09883-3758-4f10-8123-fc5fdb156952" class="bulleted-list"><li style="list-style-type:disc">instruments i play<ul id="0213047e-80c8-4075-8630-ced4ca21fa4c" class="bulleted-list"><li style="list-style-type:circle">piano</li></ul><ul id="0c47cebc-1677-42dd-9743-28986865f70a" class="bulleted-list"><li style="list-style-type:circle">guitar</li></ul><ul id="9587215f-0034-437e-a765-84c2e45de6b8" class="bulleted-list"><li style="list-style-type:circle">ukulele</li></ul><ul id="3985c3d9-e28f-4781-bd01-c7a961c570d1" class="bulleted-list"><li style="list-style-type:circle">drums</li></ul><ul id="434952a7-7f79-4022-bbb6-1f25fdaf170c" class="bulleted-list"><li style="list-style-type:circle">kalimba</li></ul></li></ul><p id="c3caf844-b7e7-4a9d-8f1c-08ba78033e23" class="">
+</p></div><div id="92c96c95-8963-4c7a-af7e-bb1aa900ff27" style="width:33.33333333333334%" class="column"><h1 id="3f4872b6-03fd-409f-85ed-cda95b726c4d" class="">Cultural Consideration</h1><p id="8dea445b-dd32-41e1-bf1b-990fe694f4fe" class="block-color-orange_background">
+</p><h3 id="8f883cd7-4db5-4da7-a940-5fa7202d8d26" class="">your culture, especially the music side. Like what you grew up with, how you learned, etc :D Where you practice or perform your music, for what purposes. etc</h3><ul id="b9e13e20-d715-4af5-95be-819d6262b373" class="bulleted-list"><li style="list-style-type:disc">If you&#x27;ve seen my last name, it&#x27;s Tan, you probably assumed that I was chinese. <ul id="355499d9-3e09-497f-a071-3435dad03ed2" class="bulleted-list"><li style="list-style-type:circle">and you would be right </li></ul></li></ul><p id="e0cb062d-b037-44aa-a0b2-8aa6266e172f" class="">
+</p></div></div><p id="43d83b72-db7f-465f-bf55-46f5f859924e" class="">
+</p><h1 id="33720c27-866d-4e21-9336-3c511efe9462" class="">VO Script</h1><ul id="bafc33f9-3cc8-474d-9a4b-2fb9ea5c3a22" class="toggle"><li><details open=""><summary>First Impressions</summary><ul id="b33c4048-5e80-425b-8d87-903de1e34c22" class="bulleted-list"><li style="list-style-type:disc">let&#x27;s start this simple, what first comes to your mind when you see the name &quot;Maisie.&quot; It might be Maisie Williams, Maisy mouse or for some, it&#x27;s just a hard name to spell</li></ul><ul id="0b06cbb4-06c1-4133-938f-c82d6eb5d73e" class="bulleted-list"><li style="list-style-type:disc">You&#x27;ve obviously seen me as a student and how i answer? a lot of people say that i&#x27;m very straightforward and unfiltered, sometimes bordering on harsh</li></ul><ul id="3b68ebbe-b184-49b1-b89f-8da75d44188e" class="bulleted-list"><li style="list-style-type:disc">i also tend to talk really fast making people think that i&#x27;m always in a hurry but it&#x27;s helpful for this project so let&#x27;s get going</li></ul><ul id="56809931-3cf1-4268-a491-b8d4c6a55e40" class="bulleted-list"><li style="list-style-type:disc">there are also some that think i really have my life together just because they see my bullet journal and see the scheduling</li></ul><ul id="dfea9316-c84a-40ac-bf1d-94b046bcadb8" class="bulleted-list"><li style="list-style-type:disc">but what do you think i do in my free time? </li></ul><ul id="954c71c6-ddfe-496f-8f6e-4211bf36e23c" class="bulleted-list"><li style="list-style-type:disc">I mean by the editing of this video alone, you&#x27;ve already made assumptions about who i am</li></ul><ul id="55a3fc09-282b-4042-8787-c0c46dde9c7e" class="bulleted-list"><li style="list-style-type:disc">Now let&#x27;s throw those assumptions out the window </li></ul></details></li></ul><ul id="787cefe0-e708-43c7-9181-55039d5a60c2" class="toggle"><li><details open=""><summary>Aural Analysis</summary><ul id="82360cb4-4d19-4ead-b4c5-057f7bc90afc" class="bulleted-list"><li style="list-style-type:disc">so you already know, my name is maisie tan. i&#x27;m a non-major who&#x27;s currently under engineering. i used to be in computer science lured in by the lie that computer science leads to game development </li></ul><ul id="bed50e96-b8f0-4564-bdfc-e44feb915fc8" class="bulleted-list"><li style="list-style-type:disc">so yeah, you heard that right i was planning to go into game development, that&#x27;s because <em>drum roll</em> i like games... wow what a surprise. </li></ul><ul id="39db5252-eea3-4710-b6a9-e2e568471b47" class="bulleted-list"><li style="list-style-type:disc">other stuff i like include anime, which i watch A LOT, musicals, which comprise 90% of my song library and stationery, which populate my already full desk. like seriously, i have drawers upon drawers of stickers and washi tape and i love it </li></ul><ul id="ef5f8cb1-658f-4602-aedc-e2e7bc845d8b" class="bulleted-list"><li style="list-style-type:disc">my hobbies right now are filming videos for my youtube channel, where i post weekly videos about studying, games and other stuff i&#x27;m interested in. </li></ul><ul id="cdd6089e-39c4-40d9-84e4-781a2a759086" class="bulleted-list"><li style="list-style-type:disc">speaking of other stuff i&#x27;m interested in, i also like crafitng and cosplay. with those skills i&#x27;ve made full costumes like a female version of the disney captain hook and also azula from avatar. but also, i&#x27;ve made smaller things like these custom hair pins for an event and these earrings which are part of a costume </li></ul><ul id="0585f0b0-ed4e-4a98-90e6-3a1c7c0aed54" class="bulleted-list"><li style="list-style-type:disc">in terms of instruments i play, i can play the piano, guitar, ukulele, drums, kalimba just prefacing this saying that i can&#x27;t play any of them well... i also sing but that&#x27;s a separate matter </li></ul></details></li></ul><ul id="f8d03ca2-b204-4af1-bff1-21dea2ee8eaa" class="toggle"><li><details open=""><summary>Cultural Consideration</summary><ul id="06b32a02-45a5-40bf-b374-5d4e9fcb8cc1" class="bulleted-list"><li style="list-style-type:disc">If you&#x27;ve seen my last name, it&#x27;s Tan, you probably assumed that I was chinese. and you would be right </li></ul><ul id="59396c86-e09c-49c8-95e1-9667ba8d8c68" class="bulleted-list"><li style="list-style-type:disc">i started in a chinese school until grade 2, homeschool from grades 3-6 then a christian school for all of highschool</li></ul><ul id="841955fd-1323-465c-8d60-ec366ad89a62" class="bulleted-list"><li style="list-style-type:disc">singing was a part of my family ever since i was young, but i was enrolled in piano lessons at 8, went til i was 10. tried to learn drums in grade 5, was taught guitar in highschool and taught myself how to play the ukulele and kalimba when i got into senior high</li></ul><ul id="619f5c79-d97f-4ca5-abef-1446c42fe47f" class="bulleted-list"><li style="list-style-type:disc">i&#x27;ve always had a particular interest in singing, but it was usually in the context of musicals and acting rather than choir or classical singing. didn&#x27;t get any training for it either. i just do it for fun. </li></ul><ul id="4424169f-7722-42ba-ab7c-fe875313e679" class="bulleted-list"><li style="list-style-type:disc">i hope this gave you guys an idea of who i am and my music background as not a music major. Thanks for watching!  </li></ul></details></li></ul><p id="cd2aa4aa-c015-4ff2-917d-74cf22e652b8" class="">
+</p><p id="3486b202-e8f0-49f7-ac6f-5ca6a416d398" class="">
+</p><p id="51c2b00f-7cf1-453b-b5a2-437e41d66d3d" class="">yes, i changed my hair </p></div></article></body></html>

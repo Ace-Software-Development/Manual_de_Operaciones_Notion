@@ -1,0 +1,10 @@
+﻿ID,Nombre Defecto*,Severidad *,Proyecto*,Fase de Inyección*,Fase de Detección*,Costo en horas*,Tipo*,Estado,Responsable,Iteración,Fecha de Detección,Fecha de Corrección
+1,,Cosmetic,NefroVida,Análisis,Implementación,,Formato,Rejected,,,,
+2,Error al importar parse a expo,Emergency,Campanario,Implementacion,Implementación,2,Version,Done,Joaquin,1,,
+3,Mal diseño de base de datos,Emergency,Monarca,Análisis,Diseño,30,Logico,Done,,5,,
+4,Cambio de arquitectura,Emergency,Monarca,Análisis,Diseño,30,Logico,Done,,5,,
+5,,,,,,,,,,,,
+6,,,,,,,,,,,,
+7,,,,,,,,,,,,
+8,,,,,,,,,,,,
+9,,,,,,,,,,,,

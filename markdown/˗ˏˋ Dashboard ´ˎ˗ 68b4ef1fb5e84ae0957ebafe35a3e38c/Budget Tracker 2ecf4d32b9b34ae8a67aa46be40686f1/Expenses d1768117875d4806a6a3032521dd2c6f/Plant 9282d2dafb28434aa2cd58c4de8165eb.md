@@ -1,0 +1,3 @@
+# Plant
+
+Amount: 15

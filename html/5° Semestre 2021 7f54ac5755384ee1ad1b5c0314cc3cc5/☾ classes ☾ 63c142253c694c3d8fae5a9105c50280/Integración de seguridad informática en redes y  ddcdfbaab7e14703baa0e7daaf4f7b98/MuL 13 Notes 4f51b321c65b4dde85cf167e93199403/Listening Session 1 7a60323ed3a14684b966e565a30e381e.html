@@ -1,0 +1,676 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Listening Session 1</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7a60323e-d3a1-4684-b966-e565a30e381e" class="page sans"><header><h1 class="page-title">Listening Session 1</h1><table class="properties"><tbody><tr class="property-row property-row-date"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Lecture Date</th><td><time>@March 16, 2021</time></td></tr><tr class="property-row property-row-select"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesSelect"><path d="M7,13 C10.31348,13 13,10.31371 13,7 C13,3.68629 10.31348,1 7,1 C3.68652,1 1,3.68629 1,7 C1,10.31371 3.68652,13 7,13 Z M3.75098,5.32278 C3.64893,5.19142 3.74268,5 3.90869,5 L10.09131,5 C10.25732,5 10.35107,5.19142 10.24902,5.32278 L7.15771,9.29703 C7.07764,9.39998 6.92236,9.39998 6.84229,9.29703 L3.75098,5.32278 Z"></path></svg></span>Type of Document</th><td><span class="selected-value select-value-color-green">Listening Session</span></td></tr></tbody></table></header><div class="page-body"><p id="e5e6ec63-021e-4c59-bec8-8c44f8322b22" class="">First impressions </p><ul id="950ac1f8-018d-4467-a345-aa786153a152" class="bulleted-list"><li style="list-style-type:disc">what does it sound like to you? </li></ul><p id="53e2c10a-8744-480b-b0e4-0a9ece150522" class="">Aural analysis</p><ul id="00efb235-2eaa-4b71-801b-65186a0afcd5" class="bulleted-list"><li style="list-style-type:disc">what do you hear? </li></ul><ul id="86b8a369-34e4-4e63-b706-0df86b058afd" class="bulleted-list"><li style="list-style-type:disc">how high is it? </li></ul><ul id="9b185680-e53a-44d3-a925-26a6d3785ed4" class="bulleted-list"><li style="list-style-type:disc">structure of it </li></ul><ul id="f9210e1b-1221-44c9-8b29-1fa1d340002d" class="bulleted-list"><li style="list-style-type:disc">rhythm dynamics</li></ul><p id="643e5a6b-8c44-4501-844d-441cbcd5e544" class="">Cultural considerations </p><ul id="2820960e-7e93-4e4c-a23d-ea767d3a7f80" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="c1c44a0d-5ee7-46c2-abb8-ce9c039bfaf7" class="">
+</p><p id="6e7ed3c2-f634-44ec-9562-453bd624436f" class="">
+</p><h3 id="ac514189-5236-4ee0-8ff5-19de2d95e9f4" class="">Revolutionary Beijing Opera</h3><p id="f4ba2eda-c0b7-41a3-99a7-e0f6b507f1f5" class="">First impressions </p><ul id="afca7e75-7596-4d81-bea9-34a1e171376c" class="bulleted-list"><li style="list-style-type:disc">chaotic and overwhelming <ul id="d32f19dc-f355-40c1-9e7a-5ad9a84af787" class="bulleted-list"><li style="list-style-type:circle">chase scene type background music? </li></ul></li></ul><ul id="c9038434-d51f-4f80-a2b4-351279977619" class="bulleted-list"><li style="list-style-type:disc">starts kinda western but then turns kinda &quot;asian&quot;<ul id="0d27a5bc-7d4c-4721-9dac-f6b2906ff4ac" class="bulleted-list"><li style="list-style-type:circle">chinese sounding</li></ul></li></ul><p id="2ee90191-bbaa-47fd-a52f-2f9252116de5" class="">Aural analysis</p><ul id="58b7f1ec-807d-47a9-909b-12851531c5b4" class="bulleted-list"><li style="list-style-type:disc">so much percussion</li></ul><ul id="5f0b4773-67bb-4df5-85c5-28431177046f" class="bulleted-list"><li style="list-style-type:disc">heavy on the brass</li></ul><ul id="2a6b8f9a-90c9-4616-b78a-64245d2f2dcb" class="bulleted-list"><li style="list-style-type:disc">whistle</li></ul><ul id="d18658e0-5033-4bea-8442-1fa5a3ac21b8" class="bulleted-list"><li style="list-style-type:disc">screaming? </li></ul><ul id="91ae3cc1-b9c8-425b-b95e-b587156fd459" class="bulleted-list"><li style="list-style-type:disc">heterophony<ul id="253c978a-e0d7-4516-b541-0285d7188839" class="bulleted-list"><li style="list-style-type:circle">so many different lines</li></ul></li></ul><ul id="08995b8a-93b7-4a32-9ec1-a75a600ae8c3" class="bulleted-list"><li style="list-style-type:disc">strings in that middle section </li></ul><ul id="bfb156b8-5d86-4681-819b-086f13388f31" class="bulleted-list"><li style="list-style-type:disc">asian instruments<ul id="26ed03f8-fa78-483f-9ea7-8eefc5d84062" class="bulleted-list"><li style="list-style-type:circle">did they use asian instruments? </li></ul><ul id="c9838a72-3d7d-4e2b-acbd-ee79fea6dcae" class="bulleted-list"><li style="list-style-type:circle">sounds like they did</li></ul><ul id="2286f8a6-523e-4d64-b497-c6ef2fdac3d0" class="bulleted-list"><li style="list-style-type:circle">maybe the floor xylophone piano thing? </li></ul></li></ul><ul id="9f4687dc-d94a-4c4c-9f57-7f1b6f775689" class="bulleted-list"><li style="list-style-type:disc">soloist singing</li></ul><p id="663bed77-83fd-4525-9e54-1ed4cf183b21" class="">Cultural considerations </p><ul id="9c7d5da8-a956-4681-9e96-8e9bd1006fac" class="bulleted-list"><li style="list-style-type:disc">during mao cultural revolution<ul id="ceb3c368-63d1-4394-9035-109fca50d395" class="bulleted-list"><li style="list-style-type:circle">removing imperial stuff/ more modern</li></ul><ul id="49ab6453-c79c-4cda-8922-a88ffa5addd3" class="bulleted-list"><li style="list-style-type:circle"></li></ul></li></ul><p id="7de105e4-207c-466a-988e-673b5f19cbc2" class="">
+</p><h3 id="f94e9dcf-d12c-4cb8-b806-f8eca71fcdd8" class="">Original Beijing Opera</h3><p id="6044f95e-5a97-423e-a404-6cd7f26edc1c" class="">First impressions </p><ul id="688f4141-1bc9-4160-a262-3e5b03ca99fa" class="bulleted-list"><li style="list-style-type:disc">sounds like someone had an accident in the kitchen <ul id="c36803e4-773f-40b7-9e44-a7fed95e3bf3" class="bulleted-list"><li style="list-style-type:circle">kinda like a toddler having fun </li></ul></li></ul><p id="e1c10941-35e5-40c3-9da0-55c503751e0f" class="">Aural analysis</p><ul id="5acc245f-f27f-4c60-bd3c-a999fc355ae5" class="bulleted-list"><li style="list-style-type:disc">percussion </li></ul><ul id="80625c60-601d-4ad9-a3b0-4b947c5d7ad2" class="bulleted-list"><li style="list-style-type:disc">wood intruments<ul id="4bdd7281-271c-40b5-bfda-981f3296784a" class="bulleted-list"><li style="list-style-type:circle">flutes? </li></ul></li></ul><ul id="e85e9176-b077-4544-9c4b-acf66d40986e" class="bulleted-list"><li style="list-style-type:disc">hollow bamboo souns</li></ul><ul id="a5567003-e3eb-4aea-9ffd-0a5ac652b169" class="bulleted-list"><li style="list-style-type:disc">sounds like a flute but person singing </li></ul><p id="e2f974af-c3ee-4048-b951-d7dbd15a2fd7" class="">Cultural considerations </p><ul id="fac78385-27bc-40ec-88b1-6ff573b19495" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="a7c4b75f-5393-48b4-ae1d-4afc63b8bdbc" class="">
+</p><h3 id="0fa4e4fb-a540-4ef9-9892-c55aba6a547d" class="">P&#x27;ansori</h3><p id="82600d47-4c83-40bb-b1ca-8269d193c82c" class="">First impressions </p><ul id="eed369f5-ea5c-4808-b7a5-fc2c26b8f0e3" class="bulleted-list"><li style="list-style-type:disc">sounds like someone is crying<ul id="1ddd338c-99d8-46f9-9058-fe110ceb7c35" class="bulleted-list"><li style="list-style-type:circle">may breakup? </li></ul><ul id="3fb05067-8b84-435e-96e3-f94ef442f3dc" class="bulleted-list"><li style="list-style-type:circle">hugot spoken word </li></ul><ul id="5f14c0f4-543b-45b4-b9fd-afab14ea8623" class="bulleted-list"><li style="list-style-type:circle">ranting? </li></ul></li></ul><ul id="8b5037db-e17d-47a3-a281-591b44e59e4e" class="bulleted-list"><li style="list-style-type:disc">tv patrol crying </li></ul><p id="f4a86588-1874-41ff-980f-9dfc7e201692" class="">Aural analysis</p><ul id="10d2cbcf-6d4d-4af3-9734-ad5ab3ef9d04" class="bulleted-list"><li style="list-style-type:disc">female soloist sounds like she&#x27;s being strangled and shaked <ul id="edbb7148-b056-4a35-b00f-40a191e4bcf5" class="bulleted-list"><li style="list-style-type:circle">kinda like a theramin? </li></ul></li></ul><ul id="b8e54b98-894d-4018-8b3c-fa612a42c236" class="bulleted-list"><li style="list-style-type:disc">percussion to just punctuate<ul id="133b6959-255c-4d0c-9bac-89e2456bae8f" class="bulleted-list"><li style="list-style-type:circle">reminds me of spoken word </li></ul></li></ul><ul id="231e3279-6b0c-46a1-8253-a42d519b836a" class="bulleted-list"><li style="list-style-type:disc">why is there talking? </li></ul><p id="4d5a91e5-10d6-46e9-830e-b6a578b12deb" class="">Cultural considerations </p><ul id="0a1c6746-949b-430d-877b-41b39c61954c" class="bulleted-list"><li style="list-style-type:disc">Korean epic chanting</li></ul><ul id="37baf7b1-5904-4af9-abcd-161151c94534" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="e0723487-43ab-47bd-a979-fdfc4caf9f18" class="">
+</p><h3 id="7ecd8278-92c9-4fe1-8a4e-4fb5a884af76" class="">Buddhist </h3><p id="0c1b84de-3441-4037-81a3-92da19430474" class="">First impressions</p><ul id="e0c9a62e-0b68-40b0-b637-ae1cf22476ee" class="bulleted-list"><li style="list-style-type:disc">road rage, near the end it&#x27;s like the truck&#x27;s getting angry too </li></ul><ul id="305a3ad7-de5b-4e50-8dfb-54f267faa8ed" class="bulleted-list"><li style="list-style-type:disc">it&#x27;s like you made one of the brass players laugh </li></ul><ul id="353e39f9-1eb8-46d8-8925-732792e353b0" class="bulleted-list"><li style="list-style-type:disc">inception bwaaaa</li></ul><ul id="ad46fa63-f004-465c-a2cd-842c5d5685e1" class="bulleted-list"><li style="list-style-type:disc">fly gets stuck in your ear</li></ul><p id="d0b0f912-fad6-4ae5-b43d-4a4746d9812c" class="">Aural analysis</p><ul id="57b4ff6a-584c-4729-b61b-2a5aa4d242f1" class="bulleted-list"><li style="list-style-type:disc">big drums</li></ul><ul id="c14e5515-2a28-459f-b44e-fed030480074" class="bulleted-list"><li style="list-style-type:disc">brass sounding thing</li></ul><p id="e2e70cf5-24eb-45f8-9b79-2bbac0011b7d" class="">Cultural considerations </p><ul id="6e791f21-6690-436f-b1cd-54acc51d4ee9" class="bulleted-list"><li style="list-style-type:disc"></li></ul><h3 id="2c6f6446-aa63-4d7e-a1bb-4760f781fa19" class="">Kabuki </h3><p id="6c8d277a-5192-40eb-8ab5-9e885068d5fb" class="">First impressions</p><ul id="a8927707-4aa1-4e18-bde6-031a858c0dab" class="bulleted-list"><li style="list-style-type:disc">kinda dancy</li></ul><ul id="f9894357-fc62-4a79-a8c3-2cce3ad24887" class="bulleted-list"><li style="list-style-type:disc">i like the beat </li></ul><ul id="5a434456-a8e1-47a6-a536-093a10e6a686" class="bulleted-list"><li style="list-style-type:disc">sounds more chinese than japanese</li></ul><ul id="ce712530-b94e-4c42-baa2-ac8d47b96cc8" class="bulleted-list"><li style="list-style-type:disc">gets kinda fight scene-y at the end</li></ul><p id="1666ba1e-ab39-480b-9d58-9c54243e066a" class="">Aural analysis</p><ul id="75b89a53-db51-4357-88e2-1202d13881d7" class="bulleted-list"><li style="list-style-type:disc">there&#x27;s singing and some string, it&#x27;s probably a shimasen</li></ul><ul id="304b550f-022c-44d6-b349-7ba51262acc4" class="bulleted-list"><li style="list-style-type:disc">flute</li></ul><ul id="ab92b090-00ae-48d5-970d-1070e1a656cf" class="bulleted-list"><li style="list-style-type:disc">singing is probably narration</li></ul><p id="68ca02d6-d7e4-4b62-9868-bccfd3955455" class="">Cultural considerations </p><ul id="2a13d6ef-4e63-4ae4-94ce-d7fb4079c19e" class="bulleted-list"><li style="list-style-type:disc"></li></ul><h3 id="f36992c2-1c0d-482f-8b04-3fe77c361b6f" class="">Throat singing</h3><p id="d32b115b-0690-43b2-8a73-2da60cda8d59" class="">First impressions</p><ul id="4e49fc18-82eb-4d68-b1c3-c32828265f02" class="bulleted-list"><li style="list-style-type:disc">it&#x27;s like i&#x27;m trying to copy the sound i make when i&#x27;m in front of an electric fan<ul id="fb1b4f82-f946-4462-ab32-1831e03a9b10" class="bulleted-list"><li style="list-style-type:circle">it&#x27;s like you&#x27;re brushing your teeth but put sound </li></ul></li></ul><ul id="35add011-5357-4c4a-b9d0-b29063538f48" class="bulleted-list"><li style="list-style-type:disc"> gentle giant kinda situation</li></ul><ul id="d8893ac4-8f73-4a1f-8898-5f99cdebbb27" class="bulleted-list"><li style="list-style-type:disc">the back sound is kinda alien</li></ul><p id="196826c3-8a45-4efe-87c0-f36e220946c9" class="">Aural analysis</p><ul id="38e77c6d-cf08-4fe6-95ac-deb8a9e68f5c" class="bulleted-list"><li style="list-style-type:disc">there&#x27;s the like a peaceful back sound like a robotic flute </li></ul><ul id="d0c50983-42b7-4b9b-8539-0251b2499c2b" class="bulleted-list"><li style="list-style-type:disc">just one guy and his throat </li></ul><p id="e3062550-9d88-4943-b33d-7179cd1bc08d" class="">Cultural considerations </p><ul id="715c1523-1b65-45a0-9600-691cf0567a42" class="bulleted-list"><li style="list-style-type:disc"></li></ul><h3 id="0b09a1f5-17ee-4f9c-99a4-1ce6cabeacb6" class="">Silk and Bamboo</h3><p id="dcf9a3e7-22cb-4f22-9458-a06992aeec6a" class="">First impressions</p><ul id="c3a1b0ef-1d1f-4922-a330-aebc41ec465e" class="bulleted-list"><li style="list-style-type:disc">chinese to the fullest </li></ul><ul id="6ddf4b4f-25bf-4ec6-bb01-c520207da185" class="bulleted-list"><li style="list-style-type:disc">panning shot of a chinese village</li></ul><ul id="c6cf9e71-d56f-41de-a0f4-99b763788d99" class="bulleted-list"><li style="list-style-type:disc">kung fu panda vibes</li></ul><ul id="3976ea57-5742-4d9f-ae38-e6caa97417ff" class="bulleted-list"><li style="list-style-type:disc">oooo in the back  </li></ul><p id="f4e3d87c-33f9-4740-943f-329b1f2e7225" class="">Aural analysis</p><ul id="51992056-31ee-44a9-b0b6-041e1b478c64" class="bulleted-list"><li style="list-style-type:disc">flute heavy</li></ul><ul id="b648afff-0f83-42ad-b580-de6acfb683a5" class="bulleted-list"><li style="list-style-type:disc">floor string xylophone thingy </li></ul><p id="c5fb5e4a-9f1d-4f01-9e8d-cf2fa561026a" class="">Cultural considerations </p><ul id="f5b546bf-43f3-4c8a-83e9-b81a0aa1640f" class="bulleted-list"><li style="list-style-type:disc"></li></ul><h3 id="efc84252-032b-4476-a797-39725b5ca13e" class="">Qin Seven string</h3><p id="2af738c6-f238-4f8e-8669-99c802f5dc30" class="">First impressions</p><ul id="02c069ae-d849-45fa-bc74-c2cc3d9ff40c" class="bulleted-list"><li style="list-style-type:disc">like someone who doesn&#x27;t know how to play guitar is toying around with it</li></ul><ul id="0e9d0b4f-c29e-4fac-b548-b72465070840" class="bulleted-list"><li style="list-style-type:disc">i feel like there should be chanting accompanying this but there isnt? </li></ul><ul id="12c77056-3418-4285-a074-0dfb2ef83438" class="bulleted-list"><li style="list-style-type:disc">avatar last airbender <ul id="3a48d18a-1682-4730-9ef0-c741c2e40531" class="bulleted-list"><li style="list-style-type:circle">very iroh</li></ul></li></ul><p id="6234e593-353c-4630-b7ca-977938bc0a46" class="">Aural analysis</p><ul id="ca51499f-3a8d-45c2-ad69-f72f6e7cbd97" class="bulleted-list"><li style="list-style-type:disc">calm and still</li></ul><ul id="2172db79-04e6-4426-b52d-7adb9c99cb96" class="bulleted-list"><li style="list-style-type:disc">there&#x27;s only 1 instrument</li></ul><ul id="b02feb0c-634a-418d-b858-5b26315a1d90" class="bulleted-list"><li style="list-style-type:disc">string instrument </li></ul><p id="98d8ff87-9bbc-4411-9b8f-de61bb1b23db" class="">Cultural considerations </p><ul id="774000cd-8897-45c6-bd5e-e57a05cfb740" class="bulleted-list"><li style="list-style-type:disc"></li></ul><h3 id="08210a60-9d4a-49bf-a0f7-d61d5567cc70" class="">Gagaku</h3><p id="2afb90e1-82a9-4ba7-b9d4-f000dc80f3b1" class="">First impressions</p><ul id="a8df7497-f9af-4368-bb76-b9404a1aad7c" class="bulleted-list"><li style="list-style-type:disc">sounds japanese automatically</li></ul><ul id="6257411f-0b9c-43fa-9c6d-6327d79e3940" class="bulleted-list"><li style="list-style-type:disc">japanese theater?</li></ul><ul id="1149a12f-324f-40c0-92c6-4a57dd0090ee" class="bulleted-list"><li style="list-style-type:disc">fight scene-y </li></ul><ul id="30334e28-5f31-48bd-8704-c7aee7db230b" class="bulleted-list"><li style="list-style-type:disc">strings at the end is like you bursting into your parents&#x27; room after your sibling made you cry </li></ul><p id="712a9a56-b967-436a-8e6d-4a1cc445195d" class="">Aural analysis</p><ul id="a5269408-2585-488d-9b07-1d78a832f70b" class="bulleted-list"><li style="list-style-type:disc">koto</li></ul><ul id="8d6f8560-a766-4682-a787-2d5e76436ca5" class="bulleted-list"><li style="list-style-type:disc">chating</li></ul><ul id="fd9147c0-47bd-4909-a876-38829926cca9" class="bulleted-list"><li style="list-style-type:disc">noh theater</li></ul><ul id="31ffa1e6-16ac-43d9-8651-40c7d3aa71fa" class="bulleted-list"><li style="list-style-type:disc">flute </li></ul><ul id="a9b656d7-1432-45e1-8a2c-737144570f6a" class="bulleted-list"><li style="list-style-type:disc">kotsuzumi? </li></ul><ul id="0617b485-2cc9-42f7-828d-ea7c961274a7" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="49a0f05c-e453-4f62-bcdc-df7740c3891f" class="">Cultural considerations </p><ul id="d85d8250-cccf-427b-8388-6ea6d3d789d7" class="bulleted-list"><li style="list-style-type:disc"></li></ul><p id="02992e49-2578-439d-adff-917b9f76dd9a" class="">
+</p><p id="4613ddcf-05df-455b-a995-7a6f0ab355a6" class="">make a listening guide for all the tracks</p><p id="d3b1dcb1-b412-4e46-8399-4198421d25d9" class="">
+</p><p id="a55bb708-bec2-4d3b-9588-4b2d1a4880da" class="">intro video</p><ul id="78aa2d84-7dd7-4850-be1a-bb20b2ef53af" class="bulleted-list"><li style="list-style-type:disc">try to structure your introduction kinda like FI, AA, CC <ul id="578063a6-6711-48de-818a-ba87320c70ee" class="bulleted-list"><li style="list-style-type:circle">FI what people think </li></ul><ul id="93244ecb-2c8e-41ec-8a20-cbaee4534387" class="bulleted-list"><li style="list-style-type:circle">AA why are you like that</li></ul><ul id="9b406781-eb02-4d0b-8421-a559440e1c8f" class="bulleted-list"><li style="list-style-type:circle">CC why do you think that way </li></ul></li></ul></div></article></body></html>

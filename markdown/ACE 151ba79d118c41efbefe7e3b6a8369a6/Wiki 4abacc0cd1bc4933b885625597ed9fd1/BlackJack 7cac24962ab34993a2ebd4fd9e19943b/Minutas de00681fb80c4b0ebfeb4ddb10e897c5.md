@@ -1,0 +1,3 @@
+# Minutas
+
+[02/05/2022](Minutas%20de00681fb80c4b0ebfeb4ddb10e897c5/02%2005%202022%20b3b7704e73714ac0abac51ea54fe9b2f.md)
