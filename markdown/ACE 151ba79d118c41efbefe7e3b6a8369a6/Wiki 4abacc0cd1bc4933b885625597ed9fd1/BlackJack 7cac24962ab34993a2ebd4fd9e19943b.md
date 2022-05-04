@@ -12,6 +12,8 @@
 
 [Minutas](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Minutas%20de00681fb80c4b0ebfeb4ddb10e897c5.md)
 
+[Matriz de riesgos ](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Matriz%20de%20riesgos%2006295d50d5b44ad0bbd3db5e7803386f.csv)
+
 ### Sobre Nosotros
 
 BlackJack es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.
@@ -59,3 +61,7 @@ BlackJack es un equipo del departamento ACE Technology. Todas nuestras política
 - [Estándar ISO 9241-171:2008 Guidance on Software Accessibility](https://www.iso.org/standard/39080.html)
 - [IEEE Std 1028-2008, IEEE Standard for Software and Audits.](https://drive.google.com/file/d/1yzkDqm803HcwFbtt0gxiZy2BXhrenvdq/view)
 - [SCRUM: Engineering Software Products: An Introduction to Modern Software Engineering](https://tec.vitalsource.com/reader/books/9781292376356/pageid/0)
+
+## Tecnologías requeridas y habilidades del equipo
+
+[Conocimientos y tecnologías](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Conocimientos%20y%20tecnologi%CC%81as%200d43010743974b078dbdf46923977d55.csv)

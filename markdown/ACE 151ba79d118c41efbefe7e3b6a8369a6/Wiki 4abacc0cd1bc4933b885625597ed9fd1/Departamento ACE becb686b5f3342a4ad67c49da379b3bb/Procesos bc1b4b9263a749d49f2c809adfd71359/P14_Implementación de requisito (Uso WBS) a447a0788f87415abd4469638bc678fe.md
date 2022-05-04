@@ -20,7 +20,7 @@ Ahorrar tiempo en la detección de errores
         Diseñar todo lo necesario para tener claro  todo lo pertinente a la historia de usuario (ui, algoritmo, modelo, etc.
         
     - Consultar el WBS del equipo. En este se encuentran las actividades a seguir para dar solución al item de trabajo.
-- Build the solution
+- Construir la solución
     - Seguir las actividades definidas en tu WBS. Normalmente consiste en cinco secciones para llevar a cabo el desarrollo completo del item.
         - Análisis. En esta sección se lleva a cabo la inspección del item para tener un conocimiento claro sobre como funciona el mismo.
         - Diseño. En esta sección se realiza el diseño gráfico del ítem de trabajo.

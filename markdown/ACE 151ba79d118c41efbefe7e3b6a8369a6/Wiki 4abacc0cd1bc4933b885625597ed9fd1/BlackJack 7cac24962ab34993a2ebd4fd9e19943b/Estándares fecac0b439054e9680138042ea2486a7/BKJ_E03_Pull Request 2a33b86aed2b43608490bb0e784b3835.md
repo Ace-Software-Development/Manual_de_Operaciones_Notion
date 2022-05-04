@@ -33,11 +33,3 @@
 ## Bitácora de cambios
 
 [Untitled](BKJ_E03_Pull%20Request%202a33b86aed2b43608490bb0e784b3835/Untitled%20Database%206854e27faa144f199f0a855d8e01bb0e.csv)
-
-## Bitácora de cambios
-
-| Versión | Cambios | Fecha | Responsable |
-| --- | --- | --- | --- |
-| 1.0 | Creación base line |  | Black Jack |
-| 1.1 | Adición de criterios de aceptación de un pull request | 01/05/2022 | Adriana Millares |
-|  |  |  |  |

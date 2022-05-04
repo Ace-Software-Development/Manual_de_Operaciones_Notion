@@ -12,9 +12,12 @@ Archivo a edi
 
 | Etapa | Actividad | Encargado | Área del CMMI |
 | --- | --- | --- | --- |
-| Ejecución | Hacer una encuesta cada semana con las siguientes preguntas: ¿Qué tan feliz te sientes?, ¿Por qué te sientes así?, y, En el caso de que tu nivel de felicidad sea bajo ¿Qué te gustaría que cambiara para que subiera? | PM |  |
-|  | Mandar la encuesta al departamento | PM |  |
-|  | El departamento contesta la encuesta | PM |  |
+| Análisis | Analizar la razón o correcciones en el archivo deseado a realizar rollback.  | Responsable |  |
+|  | Hacer click en el historial con el ícono de reloj | PM |  |
+|  | El departamento contesta la encuesta
+ | PM |  |
+
+![Untitled](P22_Rollback%20de%20Wiki%20bf25946982ff489caa0a189e216fe0f1/Untitled.png)
 
 ## Criterios de salida
 

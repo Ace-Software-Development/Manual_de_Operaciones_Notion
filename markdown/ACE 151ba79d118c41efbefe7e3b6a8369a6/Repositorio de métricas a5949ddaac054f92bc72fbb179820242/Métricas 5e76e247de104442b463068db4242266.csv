@@ -8,7 +8,7 @@ M2,Entregar el proyecto en alcance,¿Cuánto valor hemos generado?,Proporcionar 
 
 SPI < 1: El proyecto avanzó menos de lo planeado en el cronograma
 SPI = 1: El proyecto avanzó según lo planeado en el cronograma.",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders
-M3,Entregar el proyecto con calidad,,,,,,,,,,
+M3,Entregar el proyecto con calidad,¿Cuántos defectos tiene el proyecto?,Identificar en qué fase se encontraron e inyectaron los defectos,Tamaño,Cantidad de defectos encontrados,,,,,,
 M4,Formar un ambiente de trabajo que propicie motivación y confianza en el departamento,¿Cuál es el estado de ánimo del departamento?,Identificar qué tan feliz y motivado está el departamento,Estado de ánimo,Encuesta de felicidad,Promedio de felicidad del departamento,"Felicidad > 95: Hay un ambiente de motivación y confianza en el departamento
 
 Felicidad < 95: No hay un ambiente de motivación y confianza en el departamento",Semanalmente,Semanalmente al planear junta departamental,Durante junta departamental,ACE

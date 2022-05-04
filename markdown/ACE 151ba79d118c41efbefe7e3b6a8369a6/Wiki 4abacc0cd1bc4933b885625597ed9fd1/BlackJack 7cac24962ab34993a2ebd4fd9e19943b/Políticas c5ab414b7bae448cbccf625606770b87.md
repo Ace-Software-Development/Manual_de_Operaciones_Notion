@@ -1,5 +1,7 @@
 # Políticas
 
+[Política de manejo de datos](Poli%CC%81ticas%20c5ab414b7bae448cbccf625606770b87/Poli%CC%81tica%20de%20manejo%20de%20datos%20db423eb941ef43f3bdbd009dd86e950b.md)
+
 - Cada integrante del equipo deberá cumplir con sus [Compromisos por rol](https://docs.google.com/document/d/1hGvm3_uUbdyebcCDxmfA9uOIRt_BQnLNGP7VckWxmAc/edit?usp=sharing)
 - Antes de cada iteración los miembros del equipo realizarán una lista priorizada de requerimientos y asignarán un costo estimado a cada elemento.
 - El equipo trabajará en todo momento apegados al código de ética establecido por el comité de ética.
