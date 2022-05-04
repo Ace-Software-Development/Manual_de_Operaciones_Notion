@@ -1,6 +1,6 @@
 # React Native + Expo
 
 Cutberto: Básico
-Daniel: Básico
+Daniel: Intermedio
 Enrique: Básico
 Rafael:
