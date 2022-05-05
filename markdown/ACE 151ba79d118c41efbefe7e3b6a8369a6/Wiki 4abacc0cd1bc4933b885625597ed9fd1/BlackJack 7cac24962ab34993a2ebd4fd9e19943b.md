@@ -2,14 +2,6 @@
 
 [Políticas](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Poli%CC%81ticas%20c5ab414b7bae448cbccf625606770b87.md)
 
-[Estándares](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Esta%CC%81ndares%20fecac0b439054e9680138042ea2486a7.md)
-
-[Procesos](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Procesos%20c526cda1c70642a2a8d1730dcd6eb4c3.md)
-
-[Guías](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Gui%CC%81as%20fbc384be58a74c59bd7142b1a0b3adf0.md)
-
-[Checklists](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Checklists%20c225667861cd47fc8dacadcd0bbbc73d.md)
-
 [Minutas](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Minutas%20de00681fb80c4b0ebfeb4ddb10e897c5.md)
 
 [Matriz de riesgos ](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Matriz%20de%20riesgos%2006295d50d5b44ad0bbd3db5e7803386f.csv)

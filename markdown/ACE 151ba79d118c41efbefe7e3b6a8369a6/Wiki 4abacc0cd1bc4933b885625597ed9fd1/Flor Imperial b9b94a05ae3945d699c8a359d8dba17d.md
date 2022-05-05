@@ -2,10 +2,6 @@
 
 [Políticas](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Poli%CC%81ticas%20da327da7bf5e43b3b33bad990aa47329.md)
 
-[Procesos](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Procesos%20e5bd821b21224647aaaab6bb5ab71eed.md)
-
-[Estándares](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Esta%CC%81ndares%20c85b6e2e0ce947cdb7b5a18ea53dbbfc.md)
-
 # Flor Imperial
 
 Flor Imperial es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.

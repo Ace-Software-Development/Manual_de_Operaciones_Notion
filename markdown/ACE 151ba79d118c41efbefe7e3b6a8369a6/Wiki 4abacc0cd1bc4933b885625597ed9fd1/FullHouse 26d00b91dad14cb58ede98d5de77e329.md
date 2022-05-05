@@ -2,10 +2,6 @@
 
 [Políticas](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402.md)
 
-[Estándares ](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Esta%CC%81ndares%20fa666c9e3ef64be6a736e9a497d732cd.md)
-
-[Procesos](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Procesos%207897ffcba271425aa522216d1deeef60.md)
-
 ### **Sobre Nosotros**
 
 FullHouse es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.

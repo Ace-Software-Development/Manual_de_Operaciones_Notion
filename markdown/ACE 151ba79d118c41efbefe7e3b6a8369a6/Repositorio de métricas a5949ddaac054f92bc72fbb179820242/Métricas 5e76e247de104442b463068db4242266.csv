@@ -7,7 +7,9 @@ CPI = 1: El proyecto cuesta lo que se esperaba",Diariamente,Semanalmente al plan
 M2,Entregar el proyecto en alcance,¿Cuánto valor hemos generado?,Proporcionar visión del avance del proyecto,Valor,Puntos Ágiles,SPI = Valor Ganado Acumulado / Valor Planeado Acumulado,"SPI > 1: El proyecto avanzó más de lo planeado en el cronograma.
 
 SPI < 1: El proyecto avanzó menos de lo planeado en el cronograma
-SPI = 1: El proyecto avanzó según lo planeado en el cronograma.",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders
+SPI = 1: El proyecto avanzó según lo planeado en el cronograma.
+
+SPI < 0.7: Hay que cambiar plan de trabajo para alcanzar a completarlo.",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders
 M3,Entregar el proyecto con calidad,¿Cuántos defectos tiene el proyecto?,Identificar en qué fase se encontraron e inyectaron los defectos,Tamaño,Cantidad de defectos encontrados,,,,,,
 M4,Formar un ambiente de trabajo que propicie motivación y confianza en el departamento,¿Cuál es el estado de ánimo del departamento?,Identificar qué tan feliz y motivado está el departamento,Estado de ánimo,Encuesta de felicidad,Promedio de felicidad del departamento,"Felicidad > 95: Hay un ambiente de motivación y confianza en el departamento
 
