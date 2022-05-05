@@ -10,6 +10,7 @@ Generar un documento donde se visualizan las áreas de mejora y las correctas de
 
 ## Área[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL06_Auditorias#%C3%A1rea)
 
+- PPQA
 - PP - Project Planning
 - REQM - Requirements Management
 

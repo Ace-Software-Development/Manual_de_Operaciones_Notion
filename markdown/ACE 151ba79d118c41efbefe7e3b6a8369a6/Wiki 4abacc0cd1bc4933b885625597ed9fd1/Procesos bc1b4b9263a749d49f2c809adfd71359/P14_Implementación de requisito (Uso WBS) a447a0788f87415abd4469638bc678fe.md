@@ -62,4 +62,8 @@ Team Member
 
 Team Leader
 
+## Área[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL11_WBS#%C3%A1rea)
+
+- PP - Project Planning
+
 [Bitácora de cambios (1)](P14_Implementacio%CC%81n%20de%20requisito%20(Uso%20WBS)%20a447a0788f87415abd4469638bc678fe/Bita%CC%81cora%20de%20cambios%20(1)%20ca5fee3398994ceaacaaaac3e4af99fd.csv)

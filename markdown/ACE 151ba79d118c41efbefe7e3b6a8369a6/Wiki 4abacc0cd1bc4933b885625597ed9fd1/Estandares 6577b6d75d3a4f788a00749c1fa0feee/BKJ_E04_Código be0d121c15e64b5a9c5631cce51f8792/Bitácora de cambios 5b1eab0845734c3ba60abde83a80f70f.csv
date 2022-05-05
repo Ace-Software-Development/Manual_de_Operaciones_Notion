@@ -1,0 +1,4 @@
+﻿Versión,Cambios,Revisado,Fecha de  versión,Quien hizo el cambio,Revisado por,Cuando fue Revisado
+1.0,Creación de base line,Yes,"May 2, 2022 4:00 PM",Pau,Mariana Soto Ochoa,"May 4, 2022 11:18 PM"
+1.1,"- Eliminar línea para test cases en Typescript (debido a que no usaremos Typescript)
+- Especificar variables para tablas y atributos en la base de datos",Yes,"May 4, 2022 11:07 PM",Pau,Mariana Soto Ochoa,"May 4, 2022 11:18 PM"
