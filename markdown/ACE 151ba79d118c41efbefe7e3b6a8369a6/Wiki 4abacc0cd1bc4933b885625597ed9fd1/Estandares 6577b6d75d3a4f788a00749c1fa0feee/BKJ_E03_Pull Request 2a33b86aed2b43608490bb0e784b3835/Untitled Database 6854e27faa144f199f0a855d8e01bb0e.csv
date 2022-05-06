@@ -1,3 +1,4 @@
 ﻿Versión,Cambios,Revisado,Fecha de  versión,Quien hizo el cambio,Revisado por,Cuando fue Revisado
 1.0,Creación base line,Yes,"May 2, 2022 3:58 PM",Pau,Paola Adriana Millares Forno,"May 3, 2022 1:00 PM"
-1.1,Adición de criterios de aceptación de un pull request,No,"May 3, 2022 12:59 PM",Paola Adriana Millares Forno,Paola Adriana Millares Forno,"May 3, 2022 1:02 PM"
+1.1,Adición de criterios de aceptación de un pull request,Yes,"May 3, 2022 12:59 PM",Paola Adriana Millares Forno,Pau,"May 5, 2022 3:26 PM"
+"1.2 ",Quitar los ids para el inicio del nombramiento debido a que ya no usamos Jira,No,"May 5, 2022 3:25 PM",Pau,Pau,"May 5, 2022 3:26 PM"

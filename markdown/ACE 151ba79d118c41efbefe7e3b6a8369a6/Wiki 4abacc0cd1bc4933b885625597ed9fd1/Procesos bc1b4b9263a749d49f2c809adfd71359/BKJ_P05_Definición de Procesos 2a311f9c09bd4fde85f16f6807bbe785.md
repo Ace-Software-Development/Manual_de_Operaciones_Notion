@@ -27,3 +27,7 @@ No aplica.
 ## Bitácora de cambios
 
 [Untitled](BKJ_P05_Definicio%CC%81n%20de%20Procesos%202a311f9c09bd4fde85f16f6807bbe785/Untitled%20Database%20325c05626fc8412185a421570930ee21.csv)
+
+@Mariana Soto Ochoa @Jorge Alan Ramírez Elías chequen cuales procesos y docs de wiki de blackjack crearon y pongan la creación de ella en la bitácora de cambios
+
+[FH_P06_**Proceso de Solicitud de Cambios**](BKJ_P05_Definicio%CC%81n%20de%20Procesos%202a311f9c09bd4fde85f16f6807bbe785/FH_P06_Proceso%20de%20Solicitud%20de%20Cambios%204fa17d4a9f1e40de8fabccb611e80a64.md)

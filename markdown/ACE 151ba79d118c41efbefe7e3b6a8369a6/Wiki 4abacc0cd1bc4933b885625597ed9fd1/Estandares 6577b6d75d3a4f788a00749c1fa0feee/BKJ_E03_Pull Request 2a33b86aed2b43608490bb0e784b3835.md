@@ -14,11 +14,11 @@
 
 ## **Ejemplos del estándar**
 
-- MON-220/Feature/CardComponent
-- MON-450/Fix/WrongLink
-- MON-236/Refactor/LogoutButton
-- MON-572/Feature/HomeInterface
-- MON-145/Estandar/NombramientoDeMR (**Figura 1**)
+- MON/Feature/CardComponent
+- MON/Fix/WrongLink
+- MON/Refactor/LogoutButton
+- MON/Feature/HomeInterface
+- MON/Estandar/NombramientoDeMR (**Figura 1**)
 
 ### Ejemplo de título de MR
 

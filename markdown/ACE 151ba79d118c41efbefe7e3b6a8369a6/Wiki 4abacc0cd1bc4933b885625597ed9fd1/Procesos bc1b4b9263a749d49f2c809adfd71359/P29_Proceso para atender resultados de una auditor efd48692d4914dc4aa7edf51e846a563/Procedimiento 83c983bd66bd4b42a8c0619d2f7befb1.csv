@@ -1,0 +1,5 @@
+﻿Fase,Responsable,Actividad
+Revisión,Team Leader,"Se debe revisar el resultado de la auditoría en el https://www.notion.so/aef96cc564e3403aa1838a15cc89d34c y verificar que no existan informes de No Conformidad. En caso de no existir, se finaliza el proceso. En caso de existir, se sigue con el proceso"
+Implementación,Team Leader,"Se debe crear un https://www.notion.so/d23f5e7debf140a29d99ee6abfe46ca6, en el cual se identifican las acciones correctivas a implementar para cada Informe de No Conformidad existente."
+,Team Leader,Se debe asignar a un responsable de la solución de la No conformidad
+,Responsable de resolver No Conformidad,"Se debe ir actualizando el estatus de la no conformidad en elhttps://www.notion.so/d23f5e7debf140a29d99ee6abfe46ca6s. Los estatus son: Pendiente, en progreso, completado"

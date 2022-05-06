@@ -17,7 +17,7 @@
     - Responsable del item
 2. Tanto las líneas bases identificadas como los elementos de la configuración que las conforman deberán ser nombradas con un identificador único.
 3. Se deberá tener un mecanismo de recuperación de versiones anteriores de los productos bajo gestión de la configuración.
-4. Para hacer cambios a los productos bajo gestión de la configuración  **de la wiki** deberán seguir el proceso [P20_Toma de decisiones](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P20_Toma%20de%20decisiones%201c63004a533c4261979129dee36c2501.md)  antes de ser integrados a la línea base a la que corresponden.
+4. Para hacer cambios a los productos bajo gestión de la configuración  **de la wiki** deberán seguir el proceso [P20_Creacion de ítem de la wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P20_Creacion%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501.md)  antes de ser integrados a la línea base a la que corresponden.
 5. Las peticiones de cambios a los productos bajo gestión de la configuración  **que esten un repositorio de git** deberán ser registradas y deberán seguir un proceso de verificación y validación antes de ser integrada a la linea base a la que corresponde.
 6. Los cambios a los productos bajo gestión de la configuración deberán ser registrados dentro de una bitácora o un historial de cambios que describa los cambios entre las diferentes versiones del producto.
     

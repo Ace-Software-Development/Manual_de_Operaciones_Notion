@@ -80,3 +80,5 @@
 ,Importar componentes no usados,,NefroVida,Implementacion,Implementación,,,,,,,
 ,No se deja espacio entre las llaves en ningún componente (18 componentes),Cosmetic,NefroVida,Implementacion,Implementación,,Formato,Pending,Manolo,2,"May 5, 2022",
 ,No se deja espacio antes ni después de igual =,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Manolo,2,"May 5, 2022","May 5, 2022"
+,Comentarios no siguen estándar,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022"
+,Modelo no utilizado en código,Necessary,NefroVida,Implementacion,Implementación,0.2,Logico,Done,Felipe,2,"May 5, 2022","May 5, 2022"

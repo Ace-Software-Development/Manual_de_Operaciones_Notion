@@ -1,17 +1,17 @@
-﻿ID,Objetivo,Necesidad de información,Objetivo de medición,Categorías de medición,Medidas base,Medida derivada,¿Cómo se analiza?,¿Cada cuánto se mide?,¿Cada cuánto se analiza?,¿Cuándo se comunica?,Interesados
+﻿ID,Objetivo,Necesidad de información,Objetivo de medición,Categorías de medición,Medidas base,Medida derivada,¿Cómo se analiza?,¿Cada cuánto se mide?,¿Cada cuánto se analiza?,¿Cuándo se comunica?,Interesados,Status
 M1,Entregar el proyecto en costo,¿Cuál es el costo del proyecto?,Proporcionar visión del costo estimado y el costo actual,Costo,Tiempo por tarea,"CPI = Costo Real Acumulado / Costo Planeado Acumulado ","CPI > 1: El proyecto cuesta más de lo planeado
 
-CPI < 1: El proyecto cuesta menos de lo planeado
+CPI < : El proyecto cuesta menos de lo planeado
 
-CPI = 1: El proyecto cuesta lo que se esperaba",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders
+CPI = 1: El proyecto cuesta lo que se esperaba",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders,
 M2,Entregar el proyecto en alcance,¿Cuánto valor hemos generado?,Proporcionar visión del avance del proyecto,Valor,Puntos Ágiles,SPI = Valor Ganado Acumulado / Valor Planeado Acumulado,"SPI > 1: El proyecto avanzó más de lo planeado en el cronograma.
 
 SPI < 1: El proyecto avanzó menos de lo planeado en el cronograma
 SPI = 1: El proyecto avanzó según lo planeado en el cronograma.
 
-SPI < 0.7: Hay que cambiar plan de trabajo para alcanzar a completarlo.",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders
-M3,Entregar el proyecto con calidad,¿Cuántos defectos tiene el proyecto?,Identificar en qué fase se encontraron e inyectaron los defectos,Tamaño,Cantidad de defectos encontrados,,,,,,
+SPI < 0.7: Hay que cambiar plan de trabajo para alcanzar a completarlo.",Diariamente,Semanalmente al planear reporte de estado,Durante reporte de estado,ACE y stakeholders,
+M3,Entregar el proyecto con calidad,¿Cuántos defectos tiene el proyecto?,Identificar en qué fase se encontraron e inyectaron los defectos,Tamaño,Cantidad de defectos encontrados,Gráfico de barras comparativo,"Por cada fase del desarrollo, mientras se encuentre el defecto en una fase más temprana toma menos tiempo solucionarlo.",Semanalmente,Semanalmente,Durante reporte de estado,ACE,
 M4,Formar un ambiente de trabajo que propicie motivación y confianza en el departamento,¿Cuál es el estado de ánimo del departamento?,Identificar qué tan feliz y motivado está el departamento,Estado de ánimo,Encuesta de felicidad,Promedio de felicidad del departamento,"Felicidad > 95: Hay un ambiente de motivación y confianza en el departamento
 
-Felicidad < 95: No hay un ambiente de motivación y confianza en el departamento",Semanalmente,Semanalmente al planear junta departamental,Durante junta departamental,ACE
-M5,Gestión eficaz de los activos de la organización.,¿Cuál es la madurez del departamento ACE?,Identificar madurez a través de subprácticas por área de CMMI consideradas.,CMMI,Áreas cubiertas por equipos y subrácticas implementadas por área,Cantidad de subprácticas implementadas,,Semanalmente,Durante junta departamental,Durante reporte de estado,ACE y stakeholders
+Felicidad < 95: No hay un ambiente de motivación y confianza en el departamento",Semanalmente,Semanalmente al planear junta departamental,Durante junta departamental,ACE,
+M5,Gestión eficaz de los activos de la organización.,¿Cuál es la madurez del departamento ACE?,Identificar madurez a través de subprácticas por área de CMMI consideradas.,CMMI,Áreas cubiertas por equipos y subrácticas implementadas por área,Cantidad de subprácticas implementadas,,Semanalmente,Durante junta departamental,Durante reporte de estado,ACE y stakeholders,

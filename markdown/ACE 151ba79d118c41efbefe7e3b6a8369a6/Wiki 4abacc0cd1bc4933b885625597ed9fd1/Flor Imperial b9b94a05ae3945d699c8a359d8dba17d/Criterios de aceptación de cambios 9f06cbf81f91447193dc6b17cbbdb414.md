@@ -1,0 +1,1 @@
+# Criterios de aceptación de cambios

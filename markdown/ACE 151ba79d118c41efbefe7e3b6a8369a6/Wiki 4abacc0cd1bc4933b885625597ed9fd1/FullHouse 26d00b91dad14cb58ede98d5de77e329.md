@@ -20,7 +20,7 @@ Tener acceso en menos de 2 minutos al historial clínico del paciente durante su
 - Andrea Piñeiro Cavazos
 - David Guzmán Leyva
 - Eduardo Rodríguez Gil
-- Felipe Gabriel Yepez Villacreses
+- Felipe Gabriel Yépez Villacreses
 - Manolo Ramírez Pintor
 
 ## Responsabilidades del equipo
@@ -47,10 +47,13 @@ Es un miembro del equipo que cuenta con habilidades como lo pueden ser la progra
 - Drive
 - Discord
 - Notion
-- Visual Studio
+- Visual Studio Code
 - React
 - Mongo db
 - Materialize
-- Auth0
-- Whatsapp
+- WhatsApp
 - Zoom
+
+## Tecnologías requeridas y habilidades del equipo
+
+[Conocimientos y tecnologías ](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Conocimientos%20y%20tecnologi%CC%81as%204bd019cc0018442a9af6025ee5c186fc.csv)

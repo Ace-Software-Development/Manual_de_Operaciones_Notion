@@ -2,4 +2,7 @@
 
 Area CMMI: PP
 Proyecto: Campanario, Monarca, Nefro
-Status: Completed
+Status Campanario: In progress
+Status Monarca: Completed
+Status Nefro: In progress
+Status general: In progress

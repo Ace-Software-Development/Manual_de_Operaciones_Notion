@@ -3,3 +3,4 @@
 Cutberto: Intermedio
 Daniel: Básico
 Enrique: Intermedio
+Luis Edgar: Básico

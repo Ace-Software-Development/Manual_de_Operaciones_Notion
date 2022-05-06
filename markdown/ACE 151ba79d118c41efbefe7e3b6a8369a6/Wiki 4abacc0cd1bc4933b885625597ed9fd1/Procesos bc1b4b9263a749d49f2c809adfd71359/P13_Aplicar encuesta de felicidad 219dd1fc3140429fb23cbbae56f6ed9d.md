@@ -12,9 +12,13 @@ Encuesta de felicidad
 
 | Etapa | Actividad | Encargado | Área del CMMI |
 | --- | --- | --- | --- |
-| Ejecución | Hacer una encuesta cada semana con las siguientes preguntas: ¿Qué tan feliz te sientes?, ¿Por qué te sientes así?, y, En el caso de que tu nivel de felicidad sea bajo ¿Qué te gustaría que cambiara para que subiera? | PM |  |
+| Análisis | Replantear o definir las métricas necesarias para lograr el objetivo de la encuesta de felicidad en el ‣ siguiendo el ‣  | PM | MA |
+| Ejecución | Hacer una encuesta cada semana con las siguientes preguntas: ¿Qué tan feliz te sientes?, ¿Por qué te sientes así?, y, En el caso de que tu nivel de felicidad sea bajo ¿Qué te gustaría que cambiara para que subiera?
+
+Incluir las preguntas necesarias para obtener las mediciones del objetivo. | PM |  |
 |  | Mandar la encuesta al departamento | PM |  |
 |  | El departamento contesta la encuesta | PM |  |
+|  | Obtener, analizar y almacenar los datos de la medición en el  ‣ siguiendo el ‣. | PM | MA |
 
 ## Criterios de salida
 

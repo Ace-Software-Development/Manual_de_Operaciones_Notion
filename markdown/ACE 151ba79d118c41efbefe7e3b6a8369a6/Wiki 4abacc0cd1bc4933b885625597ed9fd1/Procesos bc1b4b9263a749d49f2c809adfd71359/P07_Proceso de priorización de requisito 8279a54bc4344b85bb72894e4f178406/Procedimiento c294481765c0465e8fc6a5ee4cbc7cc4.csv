@@ -1,10 +1,10 @@
 ﻿Fase,Responsable,Actividad,Proceso
-Análisis,Product Owner,Definir una escala con la cual se determinará el nivel de urgencia e importancia/impacto que tiene cada requisito. Esta escala debe estar documentada,
-,Todos,"Analizar qué requisitos tienen dependecias(de terceros, de otro requisito de la lista, de alguna herramienta, etc.)",
-Priorización,Todos,Identificar el nivel de Prioridad: importancia para la satisfacción de la necesidad del cliente,RM 1.1
-,Todos,Identificar el nivel de Complejidad: Si tiene comunicación con otros sistemas o con la base de datos,RM 1.1
-,Todos,Identificar el nivel de Riesgo: Probabilidad de éxito del proyecto si no implementa la función,RM 1.1
-,Todos,Identificar el nivel de Estabilidad: Si hay claridad por parte del cliente y del equipo de desarrollo acerca del requerimiento,RM 1.1
-,Todos,Obtener el promedio de Prioridad con los anteriores 4 valores,RM 1.1
-,Todos,Mover al prinicipio de la lista los requisitos que tienen un nivel alto de urgencia e importancia y al final los de menor importancia/impacto.,
-Validación y Verificación,Todos,Revisar con el equipo la lista de requerimientos priorizada para realizar los últimos cambios de acuerdo a consideraciones que otros miembros del equipo puedan identificar.,
+Análisis,Product Owner,Definir una escala con la cual se determinará el nivel de urgencia e importancia/impacto que tiene cada requisito. Esta escala debe estar documentada,RM 1.2
+,Todos,"Analizar qué requisitos tienen dependecias(de terceros, de otro requisito de la lista, de alguna herramienta, etc.)",RM 1.2
+Priorización,Todos,Identificar el nivel de Prioridad: importancia para la satisfacción de la necesidad del cliente,RM 1.2
+,Todos,Identificar el nivel de Complejidad: Si tiene comunicación con otros sistemas o con la base de datos,RM 1.2
+,Todos,Identificar el nivel de Riesgo: Probabilidad de éxito del proyecto si no implementa la función,RM 1.2
+,Todos,Identificar el nivel de Estabilidad: Si hay claridad por parte del cliente y del equipo de desarrollo acerca del requerimiento,RM 1.2
+,Todos,Obtener el promedio de Prioridad con los anteriores 4 valores,RM 1.2
+,Todos,Mover al prinicipio de la lista los requisitos que tienen un nivel alto de urgencia e importancia y al final los de menor importancia/impacto.,RM 1.2
+Validación y Verificación,Todos,Revisar con el equipo la lista de requerimientos priorizada para realizar los últimos cambios de acuerdo a consideraciones que otros miembros del equipo puedan identificar.,RM 1.2

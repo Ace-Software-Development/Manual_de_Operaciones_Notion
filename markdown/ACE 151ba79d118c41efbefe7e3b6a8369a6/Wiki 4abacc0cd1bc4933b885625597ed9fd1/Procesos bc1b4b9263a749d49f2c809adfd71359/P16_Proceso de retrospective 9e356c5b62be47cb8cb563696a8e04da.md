@@ -15,7 +15,9 @@ Avance del trabajo
 | Planeación | El equipo elige una fecha para hacer la reunión | TL |  |
 |  | El equipo asiste a la reunión | TL |  |
 | Ejecución | Hacer una copia de la Plantilla Retrospective | TL |  |
-|  | Seguir los pasos de la plantilla | TL | RM 1.5 |
+|  | Seguir los pasos de la plantilla | TL |  |
+|  | Identificar los compromisos del equipo para la siguiente iteración | TL | RM 1.2 |
+|  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5 |
 | Reflexión | Pensar y comentar una reflexión por persona | TL |  |
 
 ## **Criterios de salida**

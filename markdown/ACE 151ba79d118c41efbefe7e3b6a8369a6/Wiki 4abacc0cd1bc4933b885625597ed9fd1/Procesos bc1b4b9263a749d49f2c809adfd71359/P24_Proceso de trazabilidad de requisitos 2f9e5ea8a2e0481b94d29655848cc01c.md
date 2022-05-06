@@ -10,7 +10,7 @@ Definir las tareas necesarias para cubrir los requisitos e identificar el estatu
 
 ## **Criterios de entrada**
 
-- Tener establecida la [forma de trabajo](P01_Definicio%CC%81n%20de%20la%20forma%20de%20trabajo%20(WoW)%20e9e2dc1e90804a73aeafe7679c99f706.md).
+- Tener establecida la [forma de trabajo](https://www.notion.so/P01_Definici-n-de-la-forma-de-trabajo-WoW-e9e2dc1e90804a73aeafe7679c99f706).
 - Tener definida y validada la [lista de requisitos](P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286.md).
 
 ## **Procedimiento**

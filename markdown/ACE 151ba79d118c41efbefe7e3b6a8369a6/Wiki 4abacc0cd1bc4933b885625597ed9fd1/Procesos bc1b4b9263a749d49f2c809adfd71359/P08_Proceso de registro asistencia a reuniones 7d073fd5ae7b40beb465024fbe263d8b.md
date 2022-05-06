@@ -29,3 +29,5 @@ PP - Project Planning
 - Program Managers
 
 [Bitácora de cambios (1)](P08_Proceso%20de%20registro%20asistencia%20a%20reuniones%207d073fd5ae7b40beb465024fbe263d8b/Bita%CC%81cora%20de%20cambios%20(1)%208a11ad4a60d64a6fa5c2e0e825c0fde6.csv)
+
+@Cutberto Arizabalo Nava agregar que hiciste la línea base y versión 1.0

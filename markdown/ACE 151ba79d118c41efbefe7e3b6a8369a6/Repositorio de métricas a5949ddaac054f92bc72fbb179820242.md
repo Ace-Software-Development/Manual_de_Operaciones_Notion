@@ -1,5 +1,7 @@
 # Repositorio de métricas
 
+En caso de querer incluir o modificar alguna métrica, revisar [P28_Proceso para crear métricas](Wiki%204abacc0cd1bc4933b885625597ed9fd1/Procesos%20bc1b4b9263a749d49f2c809adfd71359/P28_Proceso%20para%20crear%20me%CC%81tricas%2042dbab27f9954ea6a9c795b460e486c0.md).
+
 [Métricas](Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242/Me%CC%81tricas%205e76e247de104442b463068db4242266.csv)
 
 [Mediciones](Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242/Mediciones%20d31191e6d1ef4ac7a55c5fbc6b85aa2e.csv)

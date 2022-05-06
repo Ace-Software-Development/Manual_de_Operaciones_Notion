@@ -26,3 +26,5 @@
 - Número de cambios en requisitos.
 
 [Bitácora de cambios (1)](P06_Proceso%20de%20cambio%20en%20requisitos%200becb449a14d4804881a6e09f2217530/Bita%CC%81cora%20de%20cambios%20(1)%20a1d5df0760ca46d1bc25c78dc125ba1a.csv)
+
+@Cutberto Arizabalo Nava Agregar que hiciste la línea base del proceso, versión 1.0 en bitácora de cambios

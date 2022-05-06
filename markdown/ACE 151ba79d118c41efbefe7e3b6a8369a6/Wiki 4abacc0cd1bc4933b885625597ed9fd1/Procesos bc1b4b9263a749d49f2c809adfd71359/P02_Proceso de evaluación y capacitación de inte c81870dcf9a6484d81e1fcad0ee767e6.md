@@ -32,4 +32,8 @@ PP - Project Planning SP 2.5
 
 - Architecture Owner
 
-[Bitácora de cambios (1)](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Bita%CC%81cora%20de%20cambios%20(1)%20cf8ac87420634481aaaea6224a974590.csv)
+[Bitácora de cambios ](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Bita%CC%81cora%20de%20cambios%20cf8ac87420634481aaaea6224a974590.csv)
+
+@Paola Adriana Millares Forno Creo que tú hiciste este proceso así que pon un registro de que hiciste la creación línea base y la versión 1.0 en la bitácora de cambios
+
+@Cutberto Arizabalo Nava Ando viendo que hiciste una actualización a este proceso, porfa llena el cambio que hiciste en la bitácora de cambios

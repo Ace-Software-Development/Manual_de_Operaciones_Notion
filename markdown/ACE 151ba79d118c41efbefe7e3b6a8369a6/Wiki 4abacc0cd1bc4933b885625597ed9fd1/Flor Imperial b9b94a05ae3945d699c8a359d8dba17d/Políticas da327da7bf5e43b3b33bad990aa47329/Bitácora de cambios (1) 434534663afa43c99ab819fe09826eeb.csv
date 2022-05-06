@@ -1,0 +1,7 @@
+﻿Versión,Fecha de  versión,Cambios,Razón,Revisado,Quien hizo el cambio,Revisado por,Cuando fue Revisado
+,"May 5, 2022 7:12 PM",Se eliminó la tabla de “Invitados” en la base de datos,Por qué se realizó el cambio: La tabla se había creado por error,Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:16 PM"
+,"May 5, 2022 7:13 PM",Se agregó la columna “isAdmin” en la tabla de “User” en la base de datos,Se necesita saber si un usuario es admin o no,Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:16 PM"
+,"May 5, 2022 7:14 PM",Se eliminó la tabla de “Socio” en la base de datos,Se va a usar la tabla de “User” en su lugar,Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:16 PM"
+,"May 5, 2022 7:15 PM",Se eliminó la tabla de “Role” en la base de datos,La tabla no se usa ni se necesita,Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:16 PM"
+,"May 5, 2022 7:15 PM",Se eliminó la tabla de “Rol” en la base de datos,La tabla no se usa ni se necesita,Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:16 PM"
+,"May 5, 2022 7:15 PM",Se agregó la columna “user” a la tabla de “Reservación” en la base de datos,"El pointer anterior referenciaba a la tabla de Socio, la cual eliminamos (NOTA: hay que eliminar también la columna de Socio en la tabla de Reservacion)",Yes,Luis Edgar Ramírez Pérez,Luis Edgar Ramírez Pérez,"May 5, 2022 7:17 PM"
