@@ -1,0 +1,7 @@
+﻿Name,Módulo,Repo
+El socio puede ingresar a la aplicación después de autenticarse,Autenticación,
+El socio puede hacer log out de su cuenta,Autenticación,
+El socio puede actualizar su contraseña,Autenticación,
+El socio puede consultar los anuncios disponibles,Anuncios,
+El socio puede enviar una petición de mejora o sugerencia,Sugerencias,
+El socio puede consultar reglamento,,

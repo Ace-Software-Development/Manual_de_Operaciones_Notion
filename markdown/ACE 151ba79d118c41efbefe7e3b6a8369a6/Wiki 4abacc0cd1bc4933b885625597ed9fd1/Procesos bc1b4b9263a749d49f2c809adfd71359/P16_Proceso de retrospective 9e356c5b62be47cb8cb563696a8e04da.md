@@ -17,8 +17,9 @@ Avance del trabajo
 | Ejecución | Hacer una copia de la Plantilla Retrospective | TL |  |
 |  | Seguir los pasos de la plantilla | TL |  |
 |  | Identificar los compromisos del equipo para la siguiente iteración | TL | RM 1.2 |
+|  | Identificar los impedimentos acontecidos durante la iteración | Todos |  |
 |  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5 |
-| Reflexión | Pensar y comentar una reflexión por persona | TL |  |
+| Reflexión | Pensar y comentar una reflexión por persona | Todos |  |
 
 ## **Criterios de salida**
 

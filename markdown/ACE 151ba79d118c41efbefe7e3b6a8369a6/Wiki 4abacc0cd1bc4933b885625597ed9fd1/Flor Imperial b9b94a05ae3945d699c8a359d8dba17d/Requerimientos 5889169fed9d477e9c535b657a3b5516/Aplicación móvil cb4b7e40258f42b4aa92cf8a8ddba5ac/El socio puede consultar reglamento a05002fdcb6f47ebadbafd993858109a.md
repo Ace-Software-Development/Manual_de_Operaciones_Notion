@@ -1,0 +1,1 @@
+# El socio puede consultar reglamento

@@ -3,7 +3,7 @@
 Categoría: Organizacional
 Consecuencias: Incapacidad de comunicación entre los miembros y pérdida de datos
 Fecha de definición: 10/03/2022
-ID: May 5 2022, 21:49:00
+ID: May 6 2022, 08:43:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: Hacer copias de seguridad de todos nuestros archivos y guardarlos en un disco duro o USB

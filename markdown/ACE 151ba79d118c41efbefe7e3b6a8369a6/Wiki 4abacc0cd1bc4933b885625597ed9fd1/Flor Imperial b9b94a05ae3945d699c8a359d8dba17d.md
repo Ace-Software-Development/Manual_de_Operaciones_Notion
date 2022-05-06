@@ -56,4 +56,4 @@ Flor Imperial es un equipo del departamento ACE Technology. Todas nuestras polí
 
 [Criterios de aceptación de cambios](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Criterios%20de%20aceptacio%CC%81n%20de%20cambios%209f06cbf81f91447193dc6b17cbbdb414.md)
 
-[requ](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/requ%205889169fed9d477e9c535b657a3b5516.md)
+[Requerimientos](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Requerimientos%205889169fed9d477e9c535b657a3b5516.md)
