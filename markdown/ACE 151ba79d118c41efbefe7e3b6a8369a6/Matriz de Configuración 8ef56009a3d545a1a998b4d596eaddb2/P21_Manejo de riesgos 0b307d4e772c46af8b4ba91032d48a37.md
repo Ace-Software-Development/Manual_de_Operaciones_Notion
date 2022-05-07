@@ -1,7 +1,9 @@
 # P21_Manejo de riesgos
 
 Categoría: Procesos
+Fecha de creación: April 29, 2022
+Fecha de última modificación: April 29, 2022
 Identificador: P21
 Liga: https://www.notion.so/349b15b299e846beb45066c69dddea68
-Se utiliza?: No
+Se utiliza?: Yes
 Última versión: 1.0

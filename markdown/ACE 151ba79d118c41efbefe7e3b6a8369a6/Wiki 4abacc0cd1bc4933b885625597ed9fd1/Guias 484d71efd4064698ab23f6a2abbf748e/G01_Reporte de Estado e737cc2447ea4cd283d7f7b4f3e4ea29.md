@@ -31,7 +31,7 @@ Preparar un reporte de estado
     - Actividades siguientes
     - Patrones y antipatrones
 5. El responsable de la presentación colabora con Measurement and Assurance para definir y  registrar las métricas del reporte de estado en el [Repositorio de métricas](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242.md) siguiendo el [P28_Proceso para crear métricas](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P28_Proceso%20para%20crear%20me%CC%81tricas%2042dbab27f9954ea6a9c795b460e486c0.md) 
-6. El responsable de la presentación registra en el [Repositorio de métricas](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242.md) las mediciones presentadas en el reporte de estado siguiendo el [**P30_Proceso para registrar medición de métrica**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P30_Proceso%20para%20registrar%20medicio%CC%81n%20de%20me%CC%81trica%209fd6387eed6245e6a378148851a19daa.md)
+6. El responsable de la presentación registra en el [Repositorio de métricas](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242.md) las mediciones presentadas en el reporte de estado siguiendo el [**P30_Proceso para registrar medición de métricas**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P30_Proceso%20para%20registrar%20medicio%CC%81n%20de%20me%CC%81tricas%209fd6387eed6245e6a378148851a19daa.md)
 7. El equipo designa a una persona por proyecto como presentador. Esta persona deberá ser una persona distinta al responsable de la presentación.
 8. En caso de que el presentador tenga dudas o correcciones, debe hablar con el responsable de hacer la presentación y realizar las correcciones necesarias.
 

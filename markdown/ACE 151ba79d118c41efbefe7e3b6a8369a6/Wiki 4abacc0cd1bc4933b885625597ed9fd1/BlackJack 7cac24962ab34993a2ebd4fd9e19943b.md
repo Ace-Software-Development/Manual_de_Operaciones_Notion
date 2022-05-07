@@ -6,6 +6,8 @@
 
 [Matriz de riesgos ](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Matriz%20de%20riesgos%2006295d50d5b44ad0bbd3db5e7803386f.csv)
 
+[Retrospectivas](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Retrospectivas%20b14875237f534d3b9ce76c43b7f4c2c9.md)
+
 ### Sobre Nosotros
 
 BlackJack es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.

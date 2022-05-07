@@ -25,5 +25,3 @@ Lista de requerimientos validados y aceptados por los Stakeholders.
 [Bitácora de cambios (1)](P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286/Bita%CC%81cora%20de%20cambios%20(1)%20be2ee5cf94e1489d8b47fcdf107a86f1.csv)
 
 @Cutberto Arizabalo Nava Agrega que hiciste la línea base (la creación) y versión 1.0
-
-@Luis Edgar Ramírez Pérez Agrega en bitácora de cambios las actualizaciones que hiciste y la versión

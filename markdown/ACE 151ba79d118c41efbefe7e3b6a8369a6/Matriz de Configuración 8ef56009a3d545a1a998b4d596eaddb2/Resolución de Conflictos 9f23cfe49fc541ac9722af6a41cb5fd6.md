@@ -1,0 +1,9 @@
+# Resolución de Conflictos
+
+Categoría: Procesos
+Fecha de creación: May 4, 2022
+Fecha de última modificación: May 4, 2022
+Identificador: BKJ_P04
+Liga: https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471
+Se utiliza?: Yes
+Última versión: 1.0

@@ -1,7 +1,11 @@
 ﻿Fase,Responsable,Actividad,CMMI
 Solicitud de cambio,Product Owner,Se realiza una junta con el cliente para llenar en conjunto la https://docs.google.com/document/d/1qw_D6F298AiMbfRJBqwyjUfXwu2Kgvxa/edit?usp=sharing&ouid=100210633990806812310&rtpof=true&sd=true,RM 1.3
-,Todos,Se calcula el impacto en esfuerzo y tiempo de los cambios.,RM 1.3
-Validación de cambio,Product Owner,"Se notifica el impacto del cambio a los stakeholders y se espera su aprobación para continuar con el siguiente paso, de lo contrario se regresa a Solicitud de cambio.",RM 1.3
+,Todos,Se calcula el impacto en esfuerzo y tiempo de los cambios.,"RM 1.3
+PMC 1.1"
+Validación de cambio,Product Owner,"Se notifica el impacto del cambio a los stakeholders y se espera su aprobación para continuar con el siguiente paso, de lo contrario se regresa a Solicitud de cambio.","RM 1.3
+PMC 1.5"
 ,Todos,"Se priorizan los cambios con las tareas por hacer en conjunto con los stakeholders y el program manager del negocio, en relación a lo establecido en el https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos","RM 1.2
-RM 1.3"
-Envío de cambio,Product Owner,Se notifica por correo electrónico de los cambios de requisitos y las nuevas fechas de entrega a todos los involucrados.,RM 1.3
+RM 1.3
+PMC 1.5"
+Envío de cambio,Product Owner,Se notifica por correo electrónico de los cambios de requisitos y las nuevas fechas de entrega a todos los involucrados.,"RM 1.3
+PMC 1.5"

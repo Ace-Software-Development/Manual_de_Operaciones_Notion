@@ -1,0 +1,9 @@
+# Definición Stack tecnológico
+
+Categoría: Documentos técnicos
+Fecha de creación: April 1, 2022
+Fecha de última modificación: April 7, 2022
+Identificador: FH_P01
+Liga: https://www.notion.so/4bd019cc0018442a9af6025ee5c186fc
+Se utiliza?: Yes
+Última versión: 1.0

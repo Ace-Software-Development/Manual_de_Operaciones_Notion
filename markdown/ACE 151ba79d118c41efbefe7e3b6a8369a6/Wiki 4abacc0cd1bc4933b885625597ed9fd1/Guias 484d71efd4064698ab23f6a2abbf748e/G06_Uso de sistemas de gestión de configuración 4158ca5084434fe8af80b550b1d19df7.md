@@ -108,7 +108,9 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     
     Google Drive es un servicio de almacenamiento y sincronización de archivos desarrollado por Google.
     
-    Como departamento tenemos una unidad compartida en la que se encuentran diagramas de arquitectura, contenido multimedia, documentos formales de proyectos y hojas de cálculo, y sobre todo planeación de iteraciones de trabajo de cada equipo.
+    ### Unidad Compartida Departamental
+    
+    Como departamento tenemos una [unidad compartida](https://drive.google.com/drive/u/1/folders/0AL39qAgoCl2_Uk9PVA) en la que se encuentran diagramas de arquitectura, contenido multimedia, documentos formales de proyectos y documentos pertenecientes a la fase inicial del departamento.
     
     ### Estructura
     
@@ -154,14 +156,24 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     - Procesos
         - Plan del departamento
     - Projects
-        - Cada equipo tiene su carpeta con
+        - Cada equipo tiene un carpeta; sin embargo, Flor Imperial es el único que trabaja en esta. Los demás equipos tienen sus unidades compartidas, como se verá más adelante.
             - **Planeación y avance de iteración**
             - Videos de juntas con el socio
             - Documentos de diseño de arquitectura (algunos)
             - **Casos de Uso (algunos)**
     - Videos Avance 1
         - Experiencias individuales del primer bloque
-- **Jira (Campanario)**
+        
+    
+    ### Unidades Compartidas de Equipos
+    
+    [Full House (NefroVida)](https://drive.google.com/drive/u/1/folders/0AJaEPGWkgQRpUk9PVA) 
+    
+    [BlackJack (Aluminio Monarca)](https://drive.google.com/drive/u/1/folders/0AP0ySRxyhtwWUk9PVA)
+    
+    En ambas Unidades Compartidas se encontrarán todos los documentos importantes de los equipos como planeación de iteraciones, progresos, y más. La estructura de archivos en ambas es similar a la que tiene la unidad compartida departamental.
+    
+- **Jira (Flor Imperial)**
     
     ### ¿Qué es?
     

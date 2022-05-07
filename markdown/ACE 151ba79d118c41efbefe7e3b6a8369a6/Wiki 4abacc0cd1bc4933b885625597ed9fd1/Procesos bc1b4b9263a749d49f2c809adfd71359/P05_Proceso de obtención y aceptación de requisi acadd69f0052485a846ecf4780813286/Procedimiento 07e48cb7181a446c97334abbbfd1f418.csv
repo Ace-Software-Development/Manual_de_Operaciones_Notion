@@ -5,7 +5,8 @@ Análisis,Evaluar si las necesidades descritas por los socios atacan la problem�
 Análisis,Priorizar las necesidades con base a la información descrita por los socios.,"RM 1.1
 RM 1.2"
 Análisis,Extraer los requisitos para satisfacer las necesidades,RM 1.1
-Priorización,Estimar el costo de cada unos de los requisitos.,RM 1.2
+Priorización,Estimar el costo de cada unos de los requisitos.,"RM 1.2
+PMC 1.1"
 Priorización,Priorizar los requerimientos en base a las necesidades. Siguiendo el https://www.notion.so/8279a54bc4344b85bb72894e4f178406,RM 1.2
 Aceptación,Evaluar el impacto de acuerdo a los criterios de aceptación de requisitos.  Siguiendo la https://www.notion.so/a7a71ac2e2af4e368174c668c798531e,RM 1.2
 Aceptación,"Generar propuestas de cambio en caso de no cumplan con dichos criterios. ",RM 1.3

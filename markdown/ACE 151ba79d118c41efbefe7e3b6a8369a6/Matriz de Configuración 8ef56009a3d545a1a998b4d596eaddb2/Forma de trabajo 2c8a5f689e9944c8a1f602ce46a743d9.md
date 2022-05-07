@@ -1,0 +1,9 @@
+# Forma de trabajo
+
+Categoría: Políticas
+Fecha de creación: March 11, 2022
+Fecha de última modificación: March 17, 2022
+Identificador: FH_PO04
+Liga: https://docs.google.com/document/d/17mS7cx59CxkpUyrkid9CrqViZYyxjFmZLkuwrDizdeM/edit?usp=sharing
+Se utiliza?: Yes
+Última versión: 1.0

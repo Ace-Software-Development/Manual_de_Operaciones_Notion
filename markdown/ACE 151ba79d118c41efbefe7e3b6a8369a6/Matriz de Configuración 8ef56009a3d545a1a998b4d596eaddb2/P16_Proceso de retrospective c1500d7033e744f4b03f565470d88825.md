@@ -1,7 +1,9 @@
 # P16_Proceso de retrospective
 
 Categoría: Procesos
+Fecha de creación: April 26, 2022
+Fecha de última modificación: May 6, 2022
 Identificador: P16
 Liga: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da
-Se utiliza?: No
-Última versión: 1.0
+Se utiliza?: Yes
+Última versión: 1.2

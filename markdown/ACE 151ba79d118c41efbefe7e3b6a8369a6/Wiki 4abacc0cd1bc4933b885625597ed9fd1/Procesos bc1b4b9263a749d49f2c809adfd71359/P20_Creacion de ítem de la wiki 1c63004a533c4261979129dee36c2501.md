@@ -2,11 +2,13 @@
 
 ## **Objetivo**
 
-texto
+Mantener al departamento informado de los proceso existentes
+
+Promover el uso de los procesos
 
 ## **Criterios de entrada**
 
-texto
+Proceso a definir
 
 ## **Procedimiento**
 

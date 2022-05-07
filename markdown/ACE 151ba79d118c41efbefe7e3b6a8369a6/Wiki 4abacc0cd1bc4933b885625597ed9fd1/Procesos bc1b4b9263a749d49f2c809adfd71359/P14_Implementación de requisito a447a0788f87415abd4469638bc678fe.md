@@ -35,7 +35,7 @@ Ahorrar tiempo en la detección de errores
     
     Nota: En caso de tener otras secciones en tu WBS básate en ellas para el desarrollo del item, recuerda que esto solo es algo general.
     
-- Validate the integradete solution
+- Validate the integrated solution
     - Continuous integration
         
         Asegurarse de integrar a producción las historias desarrolladas al final de cada iteración

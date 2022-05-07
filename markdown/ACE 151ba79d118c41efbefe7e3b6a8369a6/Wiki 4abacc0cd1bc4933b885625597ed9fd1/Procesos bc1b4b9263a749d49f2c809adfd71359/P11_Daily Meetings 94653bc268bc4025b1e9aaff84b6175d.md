@@ -38,6 +38,6 @@ Team Leader
 
 ## Guías de los equipos
 
-hiper vínculos a sus respectivas guías 
+Hiper vínculos a sus respectivas guías 
 
 [Bitácora de cambios (1)](P11_Daily%20Meetings%2094653bc268bc4025b1e9aaff84b6175d/Bita%CC%81cora%20de%20cambios%20(1)%2076e021b23406471390efa5f12fd3c65a.csv)
