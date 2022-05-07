@@ -1,0 +1,9 @@
+# Estrategia de desarrollo
+
+Categoría: Documentos técnicos
+Fecha de creación: March 11, 2022
+Fecha de última modificación: May 6, 2022
+Identificador: IMP_DT04
+Liga: https://docs.google.com/document/d/1WffQK9GLzX2kL0MUVcXMbCiW4hOo_Gay0Mx5KcPrhso/edit#
+Se utiliza?: Yes
+Última versión: 2.0

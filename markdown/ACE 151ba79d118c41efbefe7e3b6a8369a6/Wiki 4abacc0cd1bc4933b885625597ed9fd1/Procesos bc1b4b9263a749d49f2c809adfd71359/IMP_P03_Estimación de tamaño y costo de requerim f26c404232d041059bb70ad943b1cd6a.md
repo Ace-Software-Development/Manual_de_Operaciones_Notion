@@ -1,4 +1,4 @@
-# IMP_P03 Estimación de tamaño y costo de requerimientos
+# IMP_P03_Estimación de tamaño y costo de requerimientos
 
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
@@ -19,7 +19,7 @@ Lista de requisitos
 
 ## **Procedimiento**
 
-[Procedimiento](IMP_P03%20Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerim%20f26c404232d041059bb70ad943b1cd6a/Procedimiento%2035353dd463744a2c93a47914194f4e08.csv)
+[Procedimiento](IMP_P03_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerim%20f26c404232d041059bb70ad943b1cd6a/Procedimiento%2035353dd463744a2c93a47914194f4e08.csv)
 
 ## **Criterios de salida**
 
@@ -35,4 +35,4 @@ Team Leader
 
 ## Bitácora de cambios
 
-[Untitled](IMP_P03%20Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerim%20f26c404232d041059bb70ad943b1cd6a/Untitled%20Database%20fb1451062686407f8c26cf3607419dee.csv)
+[Untitled](IMP_P03_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerim%20f26c404232d041059bb70ad943b1cd6a/Untitled%20Database%20fb1451062686407f8c26cf3607419dee.csv)

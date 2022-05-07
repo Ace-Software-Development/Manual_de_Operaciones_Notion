@@ -15,10 +15,17 @@ Avance del trabajo
 | Planeación | El equipo elige una fecha para hacer la reunión | TL |  |
 |  | El equipo asiste a la reunión | TL |  |
 | Ejecución | Hacer una copia de la Plantilla Retrospective | TL |  |
-|  | Seguir los pasos de la plantilla | TL |  |
-|  | Identificar los compromisos del equipo para la siguiente iteración | TL | RM 1.2 |
-|  | Identificar los impedimentos acontecidos durante la iteración | Todos |  |
-|  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5 |
+|  | Seguir los pasos de la plantilla | TL | PMC 1.2
+PMC 1.4
+PMC 1.6
+PMC 1.7 |
+|  | Identificar los compromisos del equipo para la siguiente iteración | TL | RM 1.2
+PMC 1.7 |
+|  | Identificar los impedimentos acontecidos durante la iteración | Todos | PMC 1.7
+PMC 2.1 |
+|  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5
+PMC 1.7
+PMC 2.1 |
 | Reflexión | Pensar y comentar una reflexión por persona | Todos |  |
 
 ## **Criterios de salida**

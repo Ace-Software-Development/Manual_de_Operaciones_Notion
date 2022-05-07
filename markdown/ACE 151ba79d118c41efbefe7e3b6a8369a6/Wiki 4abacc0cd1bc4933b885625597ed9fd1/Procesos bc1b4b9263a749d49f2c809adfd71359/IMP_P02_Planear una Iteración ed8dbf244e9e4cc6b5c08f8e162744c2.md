@@ -1,4 +1,4 @@
-# IMP_P02 Planear una Iteración
+# IMP_P02_Planear una Iteración
 
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#consideraciones-a-tomar)
 
@@ -17,7 +17,7 @@ Solicitud de nueva iteración
 
 ## Procedimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#procedimiento)
 
-[Untitled](IMP_P02%20Planear%20una%20Iteracio%CC%81n%20ed8dbf244e9e4cc6b5c08f8e162744c2/Untitled%20Database%2005c3e81562024211a962d193a8e9f2da.csv)
+[Untitled](IMP_P02_Planear%20una%20Iteracio%CC%81n%20ed8dbf244e9e4cc6b5c08f8e162744c2/Untitled%20Database%2005c3e81562024211a962d193a8e9f2da.csv)
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-salida)
 
@@ -27,4 +27,4 @@ Solicitud de nueva iteración
 
 No aplica.
 
-[Bitácora de cambios (1)](IMP_P02%20Planear%20una%20Iteracio%CC%81n%20ed8dbf244e9e4cc6b5c08f8e162744c2/Bita%CC%81cora%20de%20cambios%20(1)%202f411fb3f5c646879485ab8e96ca630b.csv)
+[Bitácora de cambios (1)](IMP_P02_Planear%20una%20Iteracio%CC%81n%20ed8dbf244e9e4cc6b5c08f8e162744c2/Bita%CC%81cora%20de%20cambios%20(1)%202f411fb3f5c646879485ab8e96ca630b.csv)

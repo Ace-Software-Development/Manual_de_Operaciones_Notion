@@ -1,0 +1,9 @@
+# Estimación de tamaño y costo de requerimientos
+
+Categoría: Procesos
+Fecha de creación: May 6, 2022
+Fecha de última modificación: May 6, 2022
+Identificador: IMP_P03
+Liga: https://www.notion.so/f26c404232d041059bb70ad943b1cd6a 
+Se utiliza?: Yes
+Última versión: 1.0
