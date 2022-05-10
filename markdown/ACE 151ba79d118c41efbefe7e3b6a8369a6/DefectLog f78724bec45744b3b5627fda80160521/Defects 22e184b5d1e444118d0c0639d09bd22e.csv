@@ -82,3 +82,4 @@
 ,No se deja espacio antes ni después de igual =,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Manolo,2,"May 5, 2022","May 5, 2022"
 ,Comentarios no siguen estándar,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022"
 ,Modelo no utilizado en código,Necessary,NefroVida,Implementacion,Implementación,0.2,Logico,Done,Felipe,2,"May 5, 2022","May 5, 2022"
+,try { } sin identación interna en IniciarSesioon.js,Cosmetic,NefroVida,Implementacion,Implementación,0.08,Formato,Done,Felipe,3,"May 9, 2022","May 9, 2022"
