@@ -5,7 +5,7 @@ Consecuencias: - Posible sobreestimación de la iteración.
 - Cambio en el plan debido a capacitación del integrante.
 - Cambio en capacidad del equipo.
 Fecha de definición: 10/03/2022
-ID: May 10 2022, 22:03:00
+ID: May 11 2022, 08:55:00
 Impacto: Bajo
 Interno: Yes
 Plan de mitigación: - Preparar la documentación necesaria para la capacitación de cualquier miembro al proyecto
