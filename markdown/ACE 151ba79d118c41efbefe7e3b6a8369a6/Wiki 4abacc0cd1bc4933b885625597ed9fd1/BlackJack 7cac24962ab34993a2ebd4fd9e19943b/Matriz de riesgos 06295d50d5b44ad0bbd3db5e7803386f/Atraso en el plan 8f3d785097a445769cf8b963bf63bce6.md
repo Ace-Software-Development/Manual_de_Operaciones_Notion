@@ -2,7 +2,7 @@
 
 Consecuencias: Proyecto entregado fuera de la fecha establecida y/o con poca calidad
 Fecha de definición: 03/05/2022
-ID: May 11 2022, 22:02:00
+ID: May 12 2022, 08:53:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: Realizar las estimaciones siendo realistas

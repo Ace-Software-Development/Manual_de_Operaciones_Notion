@@ -228,7 +228,7 @@ TS,2.2,Manual de arquitectura,"Describir y documentar detalladamente los diseño
 TS,2.3,"Manual de arquitectura
 Wireframes","Defina los criterios de interfaz.
 Aplicar los criterios a las alternativas de diseño de interfaz.
-Documentar los diseños de interfaz seleccionados y la justificación de la selección.",https://www.figma.com/file/475KYHj72QTRt65kqdFtcI/Campanario?node-id=0%3A1,https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Wireframes,No aplica
+Documentar los diseños de interfaz seleccionados y la justificación de la selección.",https://www.figma.com/file/475KYHj72QTRt65kqdFtcI/Campanario?node-id=0%3A1,https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,https://www.figma.com/file/PUMbMJwxHjQGbIONXutc5o/Dise%C3%B1o-final,No aplica
 TS,2.4,"Manual de arquitectura
 Prueba de infraestructura","Desarrollar criterios para la reutilización de diseños producto-componente.
 Analizar diseños para determinar si los componentes del producto deben desarrollarse, reutilizarse o comprarse.
