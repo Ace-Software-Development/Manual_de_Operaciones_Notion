@@ -1,0 +1,9 @@
+# Mejora de procesos
+
+Categoría: Procesos
+Fecha de creación: May 5, 2022
+Fecha de última modificación: May 5, 2022
+Identificador: P26
+Liga: https://www.notion.so/1a25461e941841df846d768975596bc0
+Se utiliza?: Yes
+Última versión: 1.0

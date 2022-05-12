@@ -1,0 +1,9 @@
+# Proceso para atender resultados de una auditoría
+
+Categoría: Procesos
+Fecha de creación: May 5, 2022
+Fecha de última modificación: May 5, 2022
+Identificador: P29
+Liga: https://www.notion.so/efd48692d4914dc4aa7edf51e846a563
+Se utiliza?: No
+Última versión: 1.0

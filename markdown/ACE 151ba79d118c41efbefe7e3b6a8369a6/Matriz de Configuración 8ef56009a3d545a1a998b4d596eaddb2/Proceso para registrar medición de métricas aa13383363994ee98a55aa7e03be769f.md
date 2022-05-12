@@ -1,0 +1,9 @@
+# Proceso para registrar medición de métricas
+
+Categoría: Procesos
+Fecha de creación: May 5, 2022
+Fecha de última modificación: May 5, 2022
+Identificador: P30
+Liga: https://www.notion.so/9fd6387eed6245e6a378148851a19daa
+Se utiliza?: No
+Última versión: 1.0

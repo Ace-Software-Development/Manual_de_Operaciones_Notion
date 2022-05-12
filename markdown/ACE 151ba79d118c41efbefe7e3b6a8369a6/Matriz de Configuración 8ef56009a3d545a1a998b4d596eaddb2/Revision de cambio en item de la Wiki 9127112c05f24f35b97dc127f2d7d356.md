@@ -1,0 +1,9 @@
+# Revision de cambio en item de la Wiki
+
+Categoría: Procesos
+Fecha de creación: May 1, 2022
+Fecha de última modificación: May 1, 2022
+Identificador: P23
+Liga: https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100
+Se utiliza?: Yes
+Última versión: 1.0
