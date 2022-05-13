@@ -3,7 +3,7 @@
 Categoría: De proceso
 Consecuencias: Retraso por curva de aprendizaje
 Fecha de definición: 10/03/2022
-ID: May 12 2022, 22:09:00
+ID: May 13 2022, 08:58:00
 Impacto: Medio
 Interno: Yes
 Plan de mitigación: Estudiar y analizar las nuevas herramientas con anterioridad y previo a la etapa de desarrollo
