@@ -4,6 +4,8 @@
 
 Registrar cada actividad realizada en el repositorio de métricas:
 
+[Repositorio de métricas](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242.md)
+
 ## **Objetivo**
 
 Alinear las actividades de medición y análisis.

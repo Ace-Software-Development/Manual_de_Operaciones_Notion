@@ -16,7 +16,7 @@ Establecer los pasos necesarios para la evaluación y capacitación de los integ
 
 2) Con base en las habilidades del equipo el arquitecto debe asegurarse de que los integrantes que requieran capacitación reciban acceso a los recursos necesarios para alcanzar un nivel Intermedio como mínimo.
 
-3) Durante el tiempo que el integrante esté en capacitación, este deberá realizar sus actividades ([Pair programming](../Guias%20484d71efd4064698ab23f6a2abbf748e/G02_Pair%20Programming%20082432fd59c346259eddeb22a2abea34.md)) acompañado por un integrante con un dominio superior de la tecnología en caso de ser posible.
+3) Durante el tiempo que el integrante esté en capacitación, este deberá realizar sus actividades ([Pair programming](../Gui%CC%81as%20484d71efd4064698ab23f6a2abbf748e/G02_Pair%20Programming%20082432fd59c346259eddeb22a2abea34.md)) acompañado por un integrante con un dominio superior de la tecnología en caso de ser posible.
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P02_Evaluaci%C3%B3n%20y%20Capacitaci%C3%B3n%20de%20integrantes#criterios-de-salida)
 
