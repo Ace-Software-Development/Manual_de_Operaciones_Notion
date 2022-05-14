@@ -3,7 +3,7 @@
 3,Mal diseño de base de datos,Emergency,Monarca,Análisis,Diseño,30,Logico,Done,,5,,
 4,Cambio de arquitectura,Emergency,Monarca,Análisis,Diseño,30,Logico,Done,,5,,
 5,Error al correr la carpeta de cliente y servidor al mismo tiempo en el servidor,Necessary,Monarca,Produccción,Produccion,,Version,Pending,Mariana,6,"May 3, 2022",
-6,No aparecen las tablas del servidor al acceder de manera remota,Urgent,Monarca,Implementacion,Implementación,0.5,Version,Pending,Mariana,6,"May 4, 2022",
+6,No aparecen las tablas del servidor al acceder de manera remota,Urgent,Monarca,Implementacion,Implementación,0.5,Version,Done,Mariana,6,"May 4, 2022",
 7,Archivo Auth.css empieza con mayúscula cuando debe ser en minúscula.,,Campanario,Implementacion,Pruebas,,,,,,,
 8,Hay una carpeta llamada routes que se confunde con las carpetas routes en las convenciones.,,Campanario,Implementacion,Pruebas,,,,,,,
 9,Nombres de archivos no son significativos pues no describen si es componente o qué es: index.js en home,,Campanario,Diseño,Pruebas,,,,,,,
@@ -83,3 +83,7 @@
 ,Comentarios no siguen estándar,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022"
 ,Modelo no utilizado en código,Necessary,NefroVida,Implementacion,Implementación,0.2,Logico,Done,Felipe,2,"May 5, 2022","May 5, 2022"
 ,try { } sin identación interna en IniciarSesioon.js,Cosmetic,NefroVida,Implementacion,Implementación,0.08,Formato,Done,Felipe,3,"May 9, 2022","May 9, 2022"
+,pm2 marca error al correr dev_capullo.json en servidor,Urgent,Monarca,Implementacion,Implementación,2.5,Version,Working On It,Mariana,6,"May 13, 2022",
+,faltan ; en código JS,Cosmetic,NefroVida,Implementacion,Implementación,0.15,Formato,Done,Felipe,3,"May 13, 2022","May 13, 2022"
+,eliminar código sin uso de Auth0,Necessary,NefroVida,Implementacion,Implementación,0.1,Bug,Done,Felipe,3,"May 13, 2022","May 13, 2022"
+,,,NefroVida,,,,,,,,,

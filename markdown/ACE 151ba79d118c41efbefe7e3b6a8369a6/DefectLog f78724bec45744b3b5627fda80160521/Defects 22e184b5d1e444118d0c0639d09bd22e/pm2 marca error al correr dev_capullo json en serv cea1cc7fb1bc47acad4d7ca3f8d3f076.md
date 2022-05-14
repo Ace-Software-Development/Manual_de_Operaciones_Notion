@@ -1,11 +1,10 @@
-# No aparecen las tablas del servidor al acceder de manera remota
+# pm2 marca error al correr dev_capullo.json en servidor
 
-Costo en horas*: 0.5
-Estado: Done
+Costo en horas*: 2.5
+Estado: Working On It
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
-Fecha de Detección: May 4, 2022
-ID: 6
+Fecha de Detección: May 13, 2022
 Iteración: 6
 Proyecto*: Monarca
 Responsable: Mariana
