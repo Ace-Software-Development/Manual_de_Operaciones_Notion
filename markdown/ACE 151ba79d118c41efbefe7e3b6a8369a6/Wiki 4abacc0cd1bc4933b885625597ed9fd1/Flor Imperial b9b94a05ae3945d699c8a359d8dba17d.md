@@ -6,6 +6,11 @@
 
 Flor Imperial es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.
 
+## Objetivos
+
+- Entregar un producto de calidad, lo suficientemente bueno para comercializarse.
+- Aprobar la unidad de formación con una calificación satisfactoria.
+
 ### Integrantes:[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/#integrantes)
 
 - Daniel Cruz Arciniega

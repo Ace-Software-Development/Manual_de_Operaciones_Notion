@@ -1,0 +1,677 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Retro SCAMPI 16.05.22</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="90329867-1ad4-4e87-b1ad-fe51eea35033" class="page sans"><header><h1 class="page-title">Retro SCAMPI 16.05.22</h1></header><div class="page-body"><ul id="14f6afb4-d7a6-439e-8a2d-0eb593a453f0" class="bulleted-list"><li style="list-style-type:disc">Ya tenemos MA básicamente</li></ul><ul id="896dbd82-59eb-4dbd-aa97-bc76c1671762" class="bulleted-list"><li style="list-style-type:disc">Muy buen gestionamiento en el Notion</li></ul><ul id="b95ff2af-4d43-4799-a61b-646e1a134742" class="bulleted-list"><li style="list-style-type:disc">Muchas evidencias incorrectas</li></ul><ul id="5a2065ef-98e6-4366-a8af-3d9af5c7c753" class="bulleted-list"><li style="list-style-type:disc">No hubo acceso a prácticas de Gestión de la Configuración</li></ul><ul id="6b700e7d-c1b2-4cf1-a397-275631a39772" class="bulleted-list"><li style="list-style-type:disc">Links rotos en CM</li></ul><ul id="d8683591-dbf4-4231-9f9c-44f7b63d4662" class="bulleted-list"><li style="list-style-type:disc">Mayormente definición de procesos pero no implementados</li></ul><ul id="db7ee160-6d46-4f05-8197-bc95d0cd414e" class="bulleted-list"><li style="list-style-type:disc">Solo auditorías para 2 o 3</li></ul><ul id="799dc370-1e28-47f4-9450-c62cdbc7f40e" class="bulleted-list"><li style="list-style-type:disc">No se hacen verificaciones</li></ul><ul id="7795d4c7-4e98-4aa8-8502-7b82d53629bc" class="bulleted-list"><li style="list-style-type:disc">Crear checklists de cuestiones de calidad que son repetitivos</li></ul><ul id="065dcec9-95ab-469e-ba82-c34bef101e4b" class="bulleted-list"><li style="list-style-type:disc">Falta verificación para saber si se implementó el proceso</li></ul><ul id="fd9551cc-c231-4b42-88a2-d6334da78eb6" class="bulleted-list"><li style="list-style-type:disc">Objetivo: que todos tengan acceso a los documentos y a sus versiones correctas</li></ul><ul id="5ff619b6-decd-4bb4-9054-7211c47c9afa" class="bulleted-list"><li style="list-style-type:disc">Para auditorías sería más fácil si ponemos todo en el mismo lugar y tener en diferentes pestañas</li></ul><ul id="5c106085-5518-4482-898f-5a9002b7972e" class="bulleted-list"><li style="list-style-type:disc">Chequen los procesos con las auditorías</li></ul><ul id="031e02a9-2f86-49b9-949d-cbad320cd7dc" class="bulleted-list"><li style="list-style-type:disc">Algunos procesos de PPQA y CM no se están siguiendo o implementando</li></ul><ul id="4802af7f-6829-4312-a243-2435abcfdbfd" class="bulleted-list"><li style="list-style-type:disc">La calidad es una cultura y debe estar en todo lo que hacemos</li></ul><ul id="a705f665-bf2d-44f4-936a-11f10d7fc3fc" class="bulleted-list"><li style="list-style-type:disc">En varias evidencias no hay acceso</li></ul><ul id="06d7bc26-317c-41a8-bafe-97b12a629b3f" class="bulleted-list"><li style="list-style-type:disc">PMC<ul id="ec3fbbe4-b686-423d-abd3-1a02eeddb031" class="bulleted-list"><li style="list-style-type:circle">Sí está definida y ejecutada parcialmente pero falta encontrarles sentido a ls prácticas</li></ul><ul id="31e58ccf-3917-4bd2-a93a-c37219fcf744" class="bulleted-list"><li style="list-style-type:circle">¿Sólo se monitorea el proyecto en las retrospectivas y en los reportes de estado?</li></ul><ul id="5f8b3bcf-770c-4b97-afa1-44a65252e0b9" class="bulleted-list"><li style="list-style-type:circle">Si un proceso o algo no funciona revisar qué podemos hacer para que cambie</li></ul><ul id="dbcfbccb-2b23-4abb-a246-79c09b0013ab" class="bulleted-list"><li style="list-style-type:circle">Identificar qué nos sirve y qué no</li></ul><ul id="106d1e39-1a3b-4d14-a05c-d3d536c1a235" class="bulleted-list"><li style="list-style-type:circle">Identificar qué se hizo en M&amp;A para aplicarlo en las demás áreas</li></ul><ul id="634a2467-029b-4461-8b29-bec7e704b740" class="bulleted-list"><li style="list-style-type:circle">PMC: definida e implementada parcialmente</li></ul></li></ul><ul id="f1f2183b-fd89-4b47-9118-39dd2465b1a5" class="bulleted-list"><li style="list-style-type:disc">Falta encontrarle sentido a las prácticas</li></ul><ul id="b4601667-4c63-4814-89e4-e69e86596d8d" class="bulleted-list"><li style="list-style-type:disc">Hacer las cosas por desarrollar una capacidad, no por cumplir</li></ul><ul id="230ba8bc-a9db-49fa-b2ec-c0a992ae5e24" class="bulleted-list"><li style="list-style-type:disc">M&amp;A:<ul id="b2d7a6d1-3a23-49ba-9be8-42dfd58983b6" class="bulleted-list"><li style="list-style-type:circle">Excelente, bien organizado</li></ul></li></ul><ul id="42b8c4e1-2ca0-4767-9e97-fc3c2b2be77d" class="bulleted-list"><li style="list-style-type:disc">Áreas nivel 3<ul id="38758617-2414-4d6a-8f92-f166888ef707" class="bulleted-list"><li style="list-style-type:circle">Hay cosas definidas que no están ejecutadas y cosas ejecutadas que no están definidas</li></ul><ul id="c93c9d64-c4a3-4fa0-8c5a-b0c9e5ce301f" class="bulleted-list"><li style="list-style-type:circle">Hay cosas de las que no se puso evidencia y no lo pusimos (falta entendimiento)</li></ul><ul id="8d89f14a-b101-4d2b-8232-c84cab1f6bb0" class="bulleted-list"><li style="list-style-type:circle">Hacer proceso para rellenar el SCAMPI (incluir qué evidencias se tienen que poner en cada área y asegurar que se tenga acceso a todas)</li></ul><ul id="08fc70b7-3a04-4ef5-8a1b-f57bb97ec33e" class="bulleted-list"><li style="list-style-type:circle">Hay procesos vacíos que se entregaron como evidencia</li></ul><ul id="1dabe707-9cbd-42e8-8ff3-b7c5275adf35" class="bulleted-list"><li style="list-style-type:circle">Avisar qué áreas de nivel 3 tienen que calificar</li></ul></li></ul><ul id="a121a907-00aa-48b7-9a2c-1ccfc206f238" class="bulleted-list"><li style="list-style-type:disc">En cada práctica está la retro específica</li></ul><p id="aba854d3-68fc-4f7a-87ff-93c9c0e059d5" class="">
+</p><h2 id="a6a7333a-5d4e-4913-8555-63133e1d2f1e" class="">Asesores y las áreas que calificaron</h2><p id="a503b103-dc90-46b1-b248-7885560be72f" class=""><strong>Carlos Sánchez</strong>: PMC</p><p id="b3067b90-2b19-4177-8710-4ddbec8ff24c" class=""><strong>Juan Manuel Amador: </strong>CM y PPQA</p><p id="7e8f14ea-f1d1-4273-a3b6-172bca8fbb58" class=""><strong>Raymundo:</strong> Nivel 3 y MA</p><p id="a543344f-dfed-449f-9245-2e9587447203" class=""><strong>Karla</strong>: PP</p><p id="0d568851-2ada-4115-ad49-b3baa802a6bf" class=""><strong>Jose Carlos:</strong> RM</p><p id="9a4f6616-ebd9-4811-a012-c1d8b3c771b2" class=""><strong>Lizzie: </strong>RSKM</p><p id="abcebb3a-d835-42c8-989b-8c52c1759fa0" class="">
+</p><h2 id="c692dc2f-089d-4133-baf6-089973f21099" class="">Mejora</h2><p id="e2922190-21f1-4b98-81dd-7f5741f6c8d0" class="">Cuidar la <strong>disciplina</strong>, porque podemos perder avance si se dejan de seguir las prácticas</p><p id="f24e0382-a18c-4973-8a03-bdf9fefa7859" class="">Bajaron: RKM, PMC, PP, PPQA, RM </p><p id="898198b9-61bb-4e99-aba9-4f2226c334f9" class="">Las áreas bajan porque no todos los equipos implementan sus prácticas</p><p id="49d2d7c5-84f6-4fac-8579-6843425827cb" class="">Los evaluadores de ahorita se quedan igual en la final</p><p id="85da0ccc-4ec4-450b-b00b-c22300b2b397" class="">Hagamos evaluaciones internas<div class="indented"><p id="939d0362-250f-410d-a9c6-aad555a5beae" class="">Bien definido el proceso de evaluación</p><p id="457cd4d8-a6d1-4687-93e9-534e04705303" class="">Profundizar en el modelo</p><p id="21da6984-cfa2-49b1-82bf-0a52d5ee61f2" class="">Entendible</p><p id="e95fb731-573a-4256-b6c0-f5faab959c6d" class="">Podemos retroalimentarnos para el final</p></div></p><p id="22befeee-3b84-4537-b1a9-9b40ba658991" class="">Lo que ya estamos haciendo pero no sabemos que estamos haciendo</p><p id="f287db7e-2d69-464e-b94e-62f8e51e76d3" class="">Revisar en qué práctica ya estamos haciendo cada cosa</p><p id="baf29e9a-664f-4532-be19-4511538e1b65" class="">No definido pero sí ejecutado<div class="indented"><p id="b6eaade1-6b34-4955-9560-c4fd2957137b" class="">PP, PMC, TS, RSKM</p></div></p><p id="874b15ba-23e3-42fb-9217-30097ebb831d" class="">Si ya está definido pero no ejecutado, mejorar el proceso para sí estar ejecutado</p><p id="2fdccdcb-8a0f-4eea-93fb-bcbe27391415" class="">Cuando se esté ejecutando un proceso, tenerlo abierto para si estarlo ejecutando correctamente</p><p id="16bd699e-ff1d-42a0-a041-5ebf3ad46f5d" class="">
+</p><p id="362bb8ff-1ff9-4b49-ab09-2a121065bb42" class="">
+</p><p id="d36b82a5-22cd-4d40-8a5f-616df74765c2" class=""><strong>Proceso vs Guía</strong></p><p id="8baa8c64-8bdd-4c52-a25a-ca8ea980dc08" class="">Proceso es para experos, guía para principiantes. </p><p id="38ff5d1f-72d3-414e-8a1a-a754fd15e0a3" class="">Proceso → qué</p><p id="23d03370-8cfb-4a48-b062-63a8862673bb" class="">Guía → cómo</p><p id="b0d4675d-5f18-40f0-86b8-73ec44231dca" class="">Proceso: lista de pasos / etapas</p><p id="a8b9c98d-5b24-4ad3-a707-e2344bc16e88" class="">Guías: manuales de instrucciones por si hay dudas en la lista de pasos (proceso)</p><p id="c26eaced-609a-458e-808f-72ad0a69325a" class="">Un mecánico no tiene necesidad de ver las guías, alguien que no sabe tanto, sí</p><p id="cc5877ae-99c0-40ff-a1f6-b0466be98948" class="">Longitud ideal de un proceso: 1 cuartilla</p><p id="c051044c-1878-4792-9f61-4b1c0eed95e2" class="">Los criterios si se deben o no hacer procesos o guías deben estar en nuestro proceso para crear procesos o el de decidir qué se hace (estándar, guía, checklist, etc)</p><p id="4e273efa-9ae1-41df-843c-6a6ef13c62fd" class=""><span style="border-bottom:0.05em solid">Las guías deben estar colgadas a los procesos</span></p><p id="b0112a0d-f395-411a-be20-d0479c7a84fc" class="">
+</p><p id="dd6c2c4b-e7a3-469f-9008-25614b5ba0a7" class=""><strong>Fase/Etapas vs Actividades</strong></p><p id="13c2f520-1316-4fee-b46e-9aaf3855e01b" class="">Fase o etapa se hace <em>secuencialmente</em></p><p id="76f4093f-7cf8-4acf-8598-fef8384ef4f5" class="">Las actividades no solo tienes que hacer todas antes de pasar a la siguiente fase</p><p id="8e8bc810-1970-455e-aff7-bb71eae9f1b4" class="">Defines fases o etapas de lo que tienes que hacer antes de pasar a lo siguiente</p><p id="25cf1fd5-c412-42f8-8c43-4e9a9db85834" class="">
+</p><p id="814dfdfb-7fba-49f8-8b47-db2bab95606b" class="">Un buen gobierno organizacional hace que hacer las cosas bien sea fácil</p><p id="8497a2fc-be4c-47be-bedd-5f7caf346091" class="">
+</p><p id="130e6df5-5285-4bdb-8a10-407102d5750d" class=""><strong>Auditorías</strong></p><p id="30887cc5-d363-41a6-8d05-0dbb95ed77e2" class="">
+</p></div></article></body></html>

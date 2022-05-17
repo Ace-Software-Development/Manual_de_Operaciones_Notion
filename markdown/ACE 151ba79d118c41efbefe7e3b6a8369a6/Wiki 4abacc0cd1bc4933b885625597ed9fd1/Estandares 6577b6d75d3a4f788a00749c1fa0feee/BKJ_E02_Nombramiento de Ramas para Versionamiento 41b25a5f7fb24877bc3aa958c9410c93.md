@@ -2,7 +2,7 @@
 
 ## Versión[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#versi%C3%B3n)
 
-1.0.0
+1.1.0
 
 ## Objetivos[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#objetivos)
 
@@ -10,17 +10,17 @@
 
 ## Descripción del estándar para proyecto[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#descripci%C3%B3n-del-est%C3%A1ndar-para-proyecto)
 
-- MON-[Número de tarea en Jira] / [ Feature|Fix ] / [ Nombre de la actividad ]
+- MON/ [ Feature|Fix ] / [ Nombre de la actividad ]
 - En inglés
 - Utilizando PascalCase
 - El nombre de la rama no deberá llevar ningún acento.
 
 ## Ejemplos de rama para proyectos[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#ejemplos-de-rama-para-proyectos)
 
-- MON-220/Feature/CardComponent
-- MON-450/Fix/WrongLink
-- MON-236/Refactor/LogoutButton
-- MON-572/Feature/HomeInterface
+- MON/Feature/CardComponent
+- MON/Fix/WrongLink
+- MON/Refactor/LogoutButton
+- MON/Feature/HomeInterface
 
 ## Bitácora de cambios
 

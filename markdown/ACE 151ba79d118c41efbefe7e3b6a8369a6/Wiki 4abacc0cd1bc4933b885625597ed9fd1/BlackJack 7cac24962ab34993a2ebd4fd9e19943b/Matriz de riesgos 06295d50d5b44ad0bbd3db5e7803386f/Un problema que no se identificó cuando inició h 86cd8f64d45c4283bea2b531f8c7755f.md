@@ -7,7 +7,7 @@ Se intenta resolver cuando ya es muy complejo
 
 Toma más tiempo y esfuerzo resolverlo
 Fecha de definición: 03/05/2022
-ID: May 16 2022, 08:47:00
+ID: May 16 2022, 21:58:00
 Impacto: Alto
 Interno: Yes
 Plan de mitigación: Cuando una persona identifique un problema debe de anunciarlo a todo el equipo y asegurarse de que se resuelva lo antes posible

@@ -1,0 +1,10 @@
+# Untitled
+
+Actividad: El equipo genera una estimación general del proyecto, la cual nos muestre el tiempo que tomará el proyecto y el esfuerzo estimado. Para esto cada equipo se basará en su proceso de estimación. https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b 
+https://www.notion.so/918a56f9fd09449883b03d940da4b7bf 
+https://www.notion.so/f26c404232d041059bb70ad943b1cd6a 
+https://www.notion.so/62920339ed1d44c688ea4704ea65cb51 
+Created time: May 16, 2022 9:00 PM
+Etapa: Aprobación de la idea inicial
+Last edited by: Paola Adriana Millares Forno
+Property: Paola Adriana Millares Forno

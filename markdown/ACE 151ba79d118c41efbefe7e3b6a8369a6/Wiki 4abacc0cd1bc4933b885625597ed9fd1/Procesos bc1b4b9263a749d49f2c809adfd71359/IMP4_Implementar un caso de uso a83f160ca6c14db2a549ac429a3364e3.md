@@ -17,15 +17,15 @@
 
 **Implementación**
 
-- Generar una branch remota en github con el nombre del caso de uso y su número en Jira.
-- Nombrar variables, hacer comentarios, etc. en base al estándar:
+- Generar una branch remota en github con el nombre del caso de uso y su número en Jira o Excel.
+- Nombrar variables, hacer comentarios, etc. en base al estándar: ¿cuál puto estándar?
 - Informar a los demás miembros del equipo en caso de que se vaya a hacer un cambio que pueda afectar a los demás.
 
 **Pruebas**
 
 - **Llevar a cabo las pruebas definidas en la plantilla Caso de uso.**
 - Una vez que todas las pruebas hayan sido exitosas, hacer push a la branch remota.
-- Hacer un pull request a develop y notificar a un miembro del equipo para que revise el código.
+- Hacer un pull request sin conflictos a develop y notificar a un miembro del equipo para que revise el código.
 - El miembro del equipo responsable deberá llevar a cabo las pruebas de la misma forma y verificar que todas sean exitosas.
 - Una vez que exista validación por parte del miembro se hará el merge y el caso de uso se dará por concluido en: [Requerimientos](https://docs.google.com/spreadsheets/d/11b8R4eX2zTpGUFKEB9DdAY1GEvhSiYRjEp2GKOfoY9A/edit#gid=262762532)
 
@@ -33,3 +33,4 @@
 
 - Marcar todo el proceso en Jira, actualizar el estado (En diseño, In progress, etc.)
 - Hacer el time tracking en Jira cada vez que se trabaje en el caso de uso.
+- Notificar al AO de cualquier cambio realizado a la base de datos.
