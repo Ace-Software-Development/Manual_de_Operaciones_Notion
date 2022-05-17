@@ -13,10 +13,10 @@ Preparar un reporte de estado
 1. Accede a la [plantilla del reporte de estado](https://www.canva.com/design/DAE8fep7aag/1YAoE1sKK8AOKJnLCJ47nQ/view?utm_content=DAE8fep7aag&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 2. El responsable de la presentación debe copiar la presentación y compartirla con el resto de los integrantes.
 3. Las presentaciones deberán contar con el siguiente orden de exposición:
-    - Ace
     - Proyecto Monarca
     - Proyecto NefroVida
     - Proyecto Campanario
+    - Ace
 4. Asegurarse de que cada proyecto cumple con la siguiente información:
     - Nombre del proyecto
     - Visión
@@ -48,6 +48,7 @@ Preparar un reporte de estado
 
 1. El responsable de la minuta generará una [minuta](https://github.com/Ace-Software-Development/Manual-de-Operaciones/blob/main/docs/Plantillas/PL01_Minutas.md)
 2. El responsable del TimeLog medirá el tiempo de duración de la presentación y registrarlo en el [TimeLog](../../../ACE%20151ba79d118c41efbefe7e3b6a8369a6.md)
+3. Los profesores y asesores deberán seguir la guía para realizar retroalimentación. [G07_Retro Reporte de Estado](G07_Retro%20Reporte%20de%20Estado%20f714952c22f74115b95c3f10e71663f9.md) 
 
 ## **Después del Reporte de Estado**
 

@@ -7,6 +7,7 @@ https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493
 Retro Asesores: Agregar la url de cada linea base descrita en su estandar. Definir el paso para nombrar las versiones. Agregar un aguia de nombramiento de ramas. El proceso de rollback es una guia. Definir el proceso de release de las lineas base
 SG: 1
 SP: 1.1
+Status: Pending
 Área: CM
 
 ![Untitled](Identificar%20los%20elementos%20de%20configuracio%CC%81n,%20los%20c%206bbb6d600d174a86aec4df2178708856/Untitled.png)
