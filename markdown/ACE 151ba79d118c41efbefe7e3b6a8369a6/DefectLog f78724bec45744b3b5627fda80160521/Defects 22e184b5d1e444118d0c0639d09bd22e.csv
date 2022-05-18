@@ -68,7 +68,6 @@
 69,"(No se permite cambiar la contraseña) Dale al usuario el control y la libertad, dale al usuario el control y la libertad de realizar las acciones que desee incluso de dale la capacidad de deshacer acciones que puede haber tomado por error.",,Campanario,Análisis,Pruebas,,,,,,,
 70,(No se le pide al usuario confirmar su contraseña) Prevención de errores.,,Campanario,Diseño,Pruebas,,,,,,,
 71,"se permiten contraseñas cortas ",,Campanario,Análisis,Pruebas,,,,,,,
-72,¿Defecto en los botones? Se verá,,NefroVida,Implementacion,Implementación,,,,,,,
 73,El botón regresar no tiene posición,,NefroVida,Implementacion,Implementación,,,,,,,
 74,La Sidenav hace scroll cuando no debería de,,NefroVida,Implementacion,Implementación,,,,,,,
 75,FormColaborador no es una page,,NefroVida,Implementacion,Implementación,,,,,,,
@@ -78,7 +77,7 @@
 79,Materialize regresa texto en el datepicker,,NefroVida,Implementacion,Implementación,,,,,,,
 80,Los campos se desplazan unos pixles y hacen overflow hacia abajo,,NefroVida,Implementacion,Implementación,,,,,,,
 81,Importar componentes no usados,,NefroVida,Implementacion,Implementación,,,,,,,
-82,No se deja espacio entre las llaves en ningún componente (18 componentes),Cosmetic,NefroVida,Implementacion,Implementación,,Formato,Pending,Manolo,2,"May 5, 2022",
+82,No se deja espacio entre las llaves en ningún componente (18 componentes),Cosmetic,NefroVida,Implementacion,Implementación,,Formato,Done,Manolo,2,"May 5, 2022",
 83,No se deja espacio antes ni después de igual =,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Manolo,2,"May 5, 2022","May 5, 2022"
 84,no estaba el “código” en el modelo de base de datos para la tabla de tipo de estudio,Necessary,NefroVida,Análisis,Implementación,,Logico,Pending,"Manolo, Jorge, Felipe",3,"May 17, 2022",
 85,eliminar código sin uso de Auth0,Necessary,NefroVida,Implementacion,Implementación,0.1,Bug,Done,Felipe,3,"May 13, 2022","May 13, 2022"
@@ -89,3 +88,5 @@
 90,Comentarios no siguen estándar,Cosmetic,NefroVida,Implementacion,Implementación,0.1,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022"
 91,Icono de cargando permanece después de mostrar el error,Cosmetic,NefroVida,Implementacion,Pruebas,,Logico,,,,,
 ,,,,,,,,,,,,
+,"Texto alineado al centro en el detalle de los parámetros, en la US de ConsultarTipoEstudio",Cosmetic,NefroVida,Implementacion,Implementación,0.2,UI,Done,Manolo,3,"May 17, 2022","May 17, 2022"
+,,,NefroVida,,,,,,,,,

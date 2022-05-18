@@ -1,5 +1,6 @@
 # Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto
 
+Cosas a hacer: Actualizar proceso de retrospectiva
 Cosas que ya tenemos: Proceso de retrospectiva
 Plantilla retrospectiva
 Plantilla reporte de estado

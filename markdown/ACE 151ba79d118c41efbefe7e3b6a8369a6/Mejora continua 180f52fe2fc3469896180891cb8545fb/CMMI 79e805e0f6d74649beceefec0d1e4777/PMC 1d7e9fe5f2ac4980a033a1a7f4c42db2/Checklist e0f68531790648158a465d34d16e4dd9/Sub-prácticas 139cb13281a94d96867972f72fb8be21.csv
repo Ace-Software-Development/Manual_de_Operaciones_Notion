@@ -26,7 +26,7 @@ Plan de valor ganado",,No
 ¿Dónde se guardan los 
 compromisos de los stakeholders?
 ¿Cómo saben cuáles ya fueron realizados?","Planes de comunicación
-Minutas",,No
+Minutas",3,No
 1.6,"Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto",Michelle Aylin Calzada Montes,"Parcialmente definido, ejecutado.
 ¿Cada cuando se revisa el avance del proyecto?
 ¿Dónde se guarda el progreso del proyecto?
@@ -36,14 +36,15 @@ Plantilla reporte de estado
 Plan de trabajo
 Reporte de estados
 Retrospectivas
-Defect Logs",,No
+Defect Logs",Actualizar proceso de retrospectiva,No
 1.7,Revisar los logros y resultados del proyecto en los milestones seleccionados del proyecto,Michelle Aylin Calzada Montes,"Parcialmente definido, ejecutado
 ¿Cuándo se revisan lo resultados del proyecto?
 ¿Cuáles son las milestones del proyecto?
 ¿En dónde presentan los logros o resultados?","Proceso de retrospectiva
 Plantilla de retrospectiva
 Reporte de estado
-Retrospectivas",Registrar milestones de los proyectos,No
+Retrospectivas","Registrar milestones de los proyectos
+Actualizar proceso de retrospectiva",No
 2.1,Recopilar y analizar los problemas y determinar las acciones correctivas necesarias para abordar los problemas,Michelle Aylin Calzada Montes,"Parcialmente definido y ejecutado
 ¿Qué es un acción correctiva?
 ¿Dónde guardan las acciones correctivas a realizar?

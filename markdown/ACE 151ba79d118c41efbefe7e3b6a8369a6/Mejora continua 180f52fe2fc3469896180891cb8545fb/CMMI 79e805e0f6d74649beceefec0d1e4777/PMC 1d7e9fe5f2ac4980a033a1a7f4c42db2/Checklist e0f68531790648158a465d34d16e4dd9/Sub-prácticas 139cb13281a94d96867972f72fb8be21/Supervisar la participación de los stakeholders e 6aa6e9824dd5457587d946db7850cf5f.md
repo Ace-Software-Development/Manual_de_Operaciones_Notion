@@ -1,5 +1,6 @@
 # Supervisar la participación de los stakeholders en el plan del proyecto
 
+Cosas a hacer: 3
 Cosas que ya tenemos: Planes de comunicación
 Minutas
 Responsable: Eduardo Rodríguez Gil

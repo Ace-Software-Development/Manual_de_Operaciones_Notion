@@ -1,6 +1,6 @@
 # No se deja espacio entre las llaves en ningún componente (18 componentes)
 
-Estado: Pending
+Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 Fecha de Detección: May 5, 2022

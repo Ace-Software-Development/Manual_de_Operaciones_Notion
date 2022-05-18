@@ -1,6 +1,7 @@
 # Revisar los logros y resultados del proyecto en los milestones seleccionados del proyecto
 
 Cosas a hacer: Registrar milestones de los proyectos
+Actualizar proceso de retrospectiva
 Cosas que ya tenemos: Proceso de retrospectiva
 Plantilla de retrospectiva
 Reporte de estado
