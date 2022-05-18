@@ -1,8 +1,10 @@
 # Establecer y mantener registros que describan los elementos de configuración.
 
 Completa: No
+Encargado: Jorge Alan Ramírez Elías
 Entregables: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/2def9ed783854191833873f66c47a127 
+Fecha: May 19, 2022
 Retro Asesores: Los procesos de rollback son guias. Agregar los accesos a las lineas base. Mostrar claramente cual es la ultima version en uso de cada baseline. Crear su proceso de release de linea base y documentacion requerida para las versiones de cada release.
 SG: 3
 SP: 3.1

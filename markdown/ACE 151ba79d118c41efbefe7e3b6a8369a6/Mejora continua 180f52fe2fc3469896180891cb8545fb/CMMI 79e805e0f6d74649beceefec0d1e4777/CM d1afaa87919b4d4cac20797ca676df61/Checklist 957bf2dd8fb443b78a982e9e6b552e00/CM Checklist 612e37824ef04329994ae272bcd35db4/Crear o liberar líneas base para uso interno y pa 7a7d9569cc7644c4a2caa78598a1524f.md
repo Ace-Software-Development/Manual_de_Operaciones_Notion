@@ -1,7 +1,9 @@
 # Crear o liberar líneas base para uso interno y para entrega al cliente
 
 Completa: No
+Encargado: Rafael Hinojosa López
 Entregables: https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
+Fecha: May 19, 2022 12:00 PM (CDT)
 Retro Asesores: Definir un proceso de release de linea base. Definir proceso de documentacion de release de linea base. Agregar el acceso a las lineas base desplegadas.
 SG: 1
 SP: 1.3

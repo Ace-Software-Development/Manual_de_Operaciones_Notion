@@ -1,8 +1,10 @@
 # Controlar los cambios en los elementos de configuración.
 
 Completa: No
+Encargado: Pau
 Entregables: -Estandares para manejo de ramas
 -Estandares/procesos /guias para pull request
+Fecha: May 18, 2022 11:00 PM (CDT)
 Retro Asesores: Los links entregados no redirigen a nada, mal manejo de CM y PPQA. Agregar estatus a los items de la configuracion. Verificar que los cambios solicitados resuelven los non compliances por los que fueron aplicados. 
 SG: 2
 SP: 2.2

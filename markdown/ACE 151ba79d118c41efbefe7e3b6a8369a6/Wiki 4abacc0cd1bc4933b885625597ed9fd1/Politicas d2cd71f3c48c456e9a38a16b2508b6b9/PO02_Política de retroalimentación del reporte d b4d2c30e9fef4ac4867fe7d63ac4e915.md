@@ -19,6 +19,6 @@ Establecer los criterios para que las partes involucradas y presentes en el repo
 - Las y los consultores, las partes invitadas y los miembros de Ace podrán brindar retroalimentación por escrito en el lugar indicado por los ponentes durante el reporte de estado.
 - La retroalimentación deberá ser concisa, constructiva y siguiendo la plantilla correspondiente.
 - En caso de que ya se haya atendido algún punto de la retroalimentación se le dará a conocer a quien la brindó.
-- Al finalizar el reporte de estado se dará espacio para que profesores y asesores digan los puntos más importantes de su retroalimentación en un tiempo definido de no más de 15 minutos.
+- Al finalizar el reporte de estado se dará espacio para que profesores y asesores digan los puntos más importantes de su retroalimentación en un tiempo definido de no más de 3 minutos por asesor.
 
 [Bitácora de cambios (1)](PO02_Poli%CC%81tica%20de%20retroalimentacio%CC%81n%20del%20reporte%20d%20b4d2c30e9fef4ac4867fe7d63ac4e915/Bita%CC%81cora%20de%20cambios%20(1)%209e32e88131ae44918ceb2e14082a300a.csv)

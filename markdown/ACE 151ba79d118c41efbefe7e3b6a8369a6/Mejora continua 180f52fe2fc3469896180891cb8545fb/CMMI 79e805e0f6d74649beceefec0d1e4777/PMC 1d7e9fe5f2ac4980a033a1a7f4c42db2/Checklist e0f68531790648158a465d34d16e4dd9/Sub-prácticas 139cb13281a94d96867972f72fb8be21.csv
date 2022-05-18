@@ -1,0 +1,67 @@
+﻿SP,Descripción,Responsable,Retroalimentación,Cosas que ya tenemos,Cosas a hacer,Terminado
+1.1,Supervisar los valores reales de los parámetros de planificación del proyecto con respecto al plan del proyecto,Carolina Herrera Martínez,"Parcialmente definido y ejecutado
+¿Cuándo se actualiza el progreso del plan?
+¿En qué otro momento se monitorea el plan?
+El reporte de estado no es el único momento en el que se evalúan los avances
+No hay conciencia total de la práctica","Plan de valor ganado
+Reportes de estado",,No
+1.2,Supervisar los compromisos frente a los identificados en el plan del proyecto,Eduardo Rodríguez Gil,"Parcialmente definida y ejecutada
+¿Cuándo se checan los compromisos?
+¿Llevan registros de los compromisos?","Proceso de retrospectiva
+Plantilla de retrospectiva
+Retrospectivas",,No
+1.3,Supervisar los riesgos frente a los identificados en el plan del proyecto,Carolina Herrera Martínez,"Parcialmente definida, ejecutada
+No hay un plan de seguimiento a los riesgos
+¿Cómo y cuándo se monitorean los riesgos?","Matriz de riesgos
+Plantilla Matriz de riesgos
+Proceso de Manejo de riesgos",,No
+1.4,Supervisar la gestión de los datos del proyecto con respecto al plan del proyecto.,Manolo Ramírez Pintor,"Parcialmente definida, ejecutada
+¿Cómo y cuándo monitorean los datos?
+¿Cuándo saben el avance de los proyectos?
+¿Existe algún proceso?","Proceso de retrospectiva
+Plantilla de retrospectiva
+Retrospectivas
+Plan de valor ganado",,No
+1.5,Supervisar la participación de los stakeholders en el plan del proyecto,Eduardo Rodríguez Gil,"Ausente
+¿Dónde se guardan los 
+compromisos de los stakeholders?
+¿Cómo saben cuáles ya fueron realizados?","Planes de comunicación
+Minutas",,No
+1.6,"Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto",Michelle Aylin Calzada Montes,"Parcialmente definido, ejecutado.
+¿Cada cuando se revisa el avance del proyecto?
+¿Dónde se guarda el progreso del proyecto?
+¿Sólo en los reportes de estado se monitorea el avance y problemas de los proyectos?","Proceso de retrospectiva
+Plantilla retrospectiva
+Plantilla reporte de estado
+Plan de trabajo
+Reporte de estados
+Retrospectivas
+Defect Logs",,No
+1.7,Revisar los logros y resultados del proyecto en los milestones seleccionados del proyecto,Michelle Aylin Calzada Montes,"Parcialmente definido, ejecutado
+¿Cuándo se revisan lo resultados del proyecto?
+¿Cuáles son las milestones del proyecto?
+¿En dónde presentan los logros o resultados?","Proceso de retrospectiva
+Plantilla de retrospectiva
+Reporte de estado
+Retrospectivas",Registrar milestones de los proyectos,No
+2.1,Recopilar y analizar los problemas y determinar las acciones correctivas necesarias para abordar los problemas,Michelle Aylin Calzada Montes,"Parcialmente definido y ejecutado
+¿Qué es un acción correctiva?
+¿Dónde guardan las acciones correctivas a realizar?
+¿Cómo y cuándo se monitorean las acciones correctivas?","Proceso de manejo de riesgos
+Proceso reporte de estado
+Proceso de retrospectiva
+Guía de reporte de estado
+Reporte de estado
+Matriz de riesgos
+Retrospectivas",,No
+2.2,Tomar medidas correctivas sobre los problemas identificados,Manolo Ramírez Pintor,"Parcialmente definida, no ejecutada
+¿Cómo saben qué acciones correctivas han realizado?
+Los riesgos no son acciones correctivas","Proceso de manejo de riesgos
+Plan de riesgos
+Matriz de riesgos",,No
+2.3,Gestionar acciones correctivas hasta el cierre,Manolo Ramírez Pintor,"Parcialmente definido y ejecutado
+¿Cómo se evalúa el cierre de una acción correctiva?
+La matriz de riesgos no define cuándo 
+se cierran las acciones correctivas","Proceso de manejo de riesgos
+Matriz de riesgos
+Repositorio de métricas",,No

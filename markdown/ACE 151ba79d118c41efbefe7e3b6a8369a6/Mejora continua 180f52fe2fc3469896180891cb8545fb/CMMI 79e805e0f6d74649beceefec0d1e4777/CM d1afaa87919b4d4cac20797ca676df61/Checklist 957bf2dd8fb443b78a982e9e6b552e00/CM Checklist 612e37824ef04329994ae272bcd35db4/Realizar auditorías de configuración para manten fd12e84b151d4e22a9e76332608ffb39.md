@@ -1,7 +1,9 @@
 # Realizar auditorías de configuración para mantener la integridad de las líneas base de configuración.
 
 Completa: No
+Encargado: Rafael Hinojosa López
 Entregables: no se ha hecho
+Fecha: May 19, 2022 5:00 PM (CDT)
 Retro Asesores: No hay evidencia entregada. 
 SG: 3
 SP: 3.2
