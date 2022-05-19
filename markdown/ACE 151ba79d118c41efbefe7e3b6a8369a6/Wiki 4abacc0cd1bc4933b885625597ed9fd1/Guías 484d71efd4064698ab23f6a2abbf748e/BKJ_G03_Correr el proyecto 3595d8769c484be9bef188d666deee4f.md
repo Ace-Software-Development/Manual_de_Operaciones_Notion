@@ -59,8 +59,10 @@ pm2 delete dev_capullo.json
 
 ## Acceder a la app
 
-- Para ver la **aplicación** debes de buscar en tu navegador *localhost:3000*
+- Para ver la **aplicación** debes de buscar en tu navegador *localhost:3000/inicio*
 - Para acceder al **dashboard** escribe *[localhost:8888/dashboard](http://localhost:8888/dashboard) en tu navegador*
+    - User: user
+    - Password: pass
 
 ## Bitácora de cambios
 

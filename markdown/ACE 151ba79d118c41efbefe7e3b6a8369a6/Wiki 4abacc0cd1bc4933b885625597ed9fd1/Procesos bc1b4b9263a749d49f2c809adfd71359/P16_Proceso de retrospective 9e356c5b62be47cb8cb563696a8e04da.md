@@ -8,6 +8,8 @@ Tener una visión de las cosas que hemos abordado y avanzado para poder tener un
 
 Avance del trabajo
 
+Compromisos de la retrospectiva pasada
+
 ## ¿Cuándo usamos este proceso?
 
 Al final de cada iteración

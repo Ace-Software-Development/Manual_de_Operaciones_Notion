@@ -3,7 +3,7 @@
 Categoría: Técnico
 Consecuencias: Caida del sitema
 Fecha de definición: 14/03/2022
-ID: May 18 2022, 22:06:00
+ID: May 19 2022, 08:48:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: Pedirles que compren un modem con datos celulares
