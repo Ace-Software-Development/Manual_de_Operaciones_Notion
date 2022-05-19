@@ -11,6 +11,7 @@ https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 Fecha: May 19, 2022
 Retro Asesores: A su G06 agregar todos los enlaces de los elementos que se mencionan. Agregar los estatus de los items en la matriz de configuracion, resultado de sus procesos de calidad. Agregar el estatus a sus defectos identificados y que sea facilmente identificable si ya han sido resueltos o no. 
+Retro Ray: - Wiki cuando se hizo el scampi es una línea base (es lo calificado)
 SG: 1
 SP: 1.2
 Status: Pending

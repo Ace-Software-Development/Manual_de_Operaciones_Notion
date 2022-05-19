@@ -1,5 +1,6 @@
 # Supervisar la participación de los stakeholders en el plan del proyecto
 
+Atendida: No
 Cosas a hacer: 3
 Cosas que ya tenemos: Planes de comunicación
 Minutas

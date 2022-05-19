@@ -1,13 +1,14 @@
 # Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto
 
+Atendida: No
 Cosas a hacer: Actualizar proceso de retrospectiva
-Cosas que ya tenemos: Proceso de retrospectiva
-Plantilla retrospectiva
-Plantilla reporte de estado
+Revisar y agregar proceso de daily
+Cosas que ya tenemos: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da
+https://www.notion.so/c2762413ae9a45308638bcc34ba1e5a7Plantilla reporte de estado
 Plan de trabajo
 Reporte de estados
 Retrospectivas
-Defect Logs
+https://www.notion.so/f78724bec45744b3b5627fda80160521
 Responsable: Michelle Aylin Calzada Montes
 Retroalimentación: Parcialmente definido, ejecutado.
 ¿Cada cuando se revisa el avance del proyecto?

@@ -18,7 +18,7 @@
 **Implementación**
 
 - Generar una branch remota en github con el nombre del caso de uso y su número en Jira o Excel.
-- Nombrar variables, hacer comentarios, etc. en base al estándar: ¿cuál puto estándar?
+- Nombrar variables, hacer comentarios, etc. en base al estándar: [https://jsdoc.app/](https://jsdoc.app/)
 - Informar a los demás miembros del equipo en caso de que se vaya a hacer un cambio que pueda afectar a los demás.
 
 **Pruebas**

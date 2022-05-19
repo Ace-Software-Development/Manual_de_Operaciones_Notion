@@ -7,5 +7,6 @@ Fase de Inyección*: Análisis
 ID: 3
 Iteración: 5
 Proyecto*: Monarca
+Responsable: Adri
 Severidad *: Emergency
 Tipo*: Logico

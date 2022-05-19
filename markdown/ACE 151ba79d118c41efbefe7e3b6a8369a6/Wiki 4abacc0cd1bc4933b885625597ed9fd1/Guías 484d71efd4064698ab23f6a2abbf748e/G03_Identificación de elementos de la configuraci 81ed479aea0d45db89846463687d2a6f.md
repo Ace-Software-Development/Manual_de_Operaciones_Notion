@@ -125,7 +125,7 @@ Todos los elementos de configuración pueden tener 3 niveles, los que se definen
 
 Una línea base son aquellos elementos de la configuración que han sido *identificados, validados y revisados*. Las líneas base nos sirven como un punto de inicio para modificaciones y desarrollos posteriores. Corresponden a la última versión del elemento de configuración que ya ha pasado por una etapa de revisión y validación para poder ser usado por el departamento o stakeholders. 
 
-La línea base de los proyectos de cada equipo se controla directamente mediante Git. El repositorio de cada proyecto trabaja con un flujo de trabajo con la propuesta de [Vincent Driessen](https://aulasoftwarelibre.github.io/taller-de-git/gitflow/). En este esquema hay dos ramas principales con un tiempo de vida indefinido:
+La línea base de los proyectos de cada equipo se controla directamente mediante Git. El repositorio de cada proyecto trabaja con un flujo de trabajo con la propuesta de [Vincent Driessen](https://aulasoftwarelibre.github.io/taller-de-git/gitflow/). En este esquema, hay dos ramas principales con un tiempo de vida indefinido:
 
 - **main (*origin/main*):** el código apuntado por *HEAD* siempre contiene un estado listo para producción.
 - **develop (*origin/develop*):** el código apuntado por *HEAD* siempre contiene los últimos cambios desarrollados para la próxima versión del software. También se le puede llamar *rama de integración*. No es necesariamente estable.
@@ -135,5 +135,13 @@ Cuando el código de la rama de desarrollo es lo suficientemente estable, se int
 Adicionalmente están las ramas auxiliares para labores concretas como la creación de funcionalidades. Estas ramas tienen tiempo definido y cuando ya no son necesarias se eliminan. 
 
 - ***auxiliar:*** En esta rama va todo aquello que esté en desarrollo. Desde nuevas funcionalidades, arreglos de bugs, refactors de diseño, etc. Toda la implementación debe de iniciar en este tipo de ramas, ser revisado y validado y posteriormente pasarse a la rama *develop.*
+
+### Líneas base en el departamento
+
+- [Línea base del departamento](../../Wiki%204abacc0cd1bc4933b885625597ed9fd1.md)
+- [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca)
+- [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida)
+- [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react)
+- [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile)
 
 [Bitácora de cambios](G03_Identificacio%CC%81n%20de%20elementos%20de%20la%20configuraci%2081ed479aea0d45db89846463687d2a6f/Bita%CC%81cora%20de%20cambios%20dd28bbb609c744bebd4a214aeac3cadb.csv)

@@ -1,7 +1,8 @@
 # Supervisar los compromisos frente a los identificados en el plan del proyecto
 
-Cosas que ya tenemos: Proceso de retrospectiva
-Plantilla de retrospectiva
+Atendida: No
+Cosas que ya tenemos: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da
+https://www.notion.so/c2762413ae9a45308638bcc34ba1e5a7
 Retrospectivas
 Responsable: Eduardo Rodríguez Gil
 Retroalimentación: Parcialmente definida y ejecutada

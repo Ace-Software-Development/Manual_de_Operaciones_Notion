@@ -1,9 +1,10 @@
 # pm2 marca error al correr dev_capullo.json en servidor
 
 Costo en horas*: 2.5
-Estado: Working On It
+Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
+Fecha de Corrección: May 16, 2022
 Fecha de Detección: May 13, 2022
 ID: 87
 Iteración: 6

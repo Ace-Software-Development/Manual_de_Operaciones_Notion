@@ -1,12 +1,10 @@
 # Revisar los logros y resultados del proyecto en los milestones seleccionados del proyecto
 
-Cosas a hacer: Registrar milestones de los proyectos
-Actualizar proceso de retrospectiva
-Cosas que ya tenemos: Proceso de retrospectiva
-Plantilla de retrospectiva
+Atendida: No
+Cosas que ya tenemos: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da
+https://www.notion.so/c2762413ae9a45308638bcc34ba1e5a7
 Reporte de estado
 Retrospectivas
-Responsable: Michelle Aylin Calzada Montes
 Retroalimentación: Parcialmente definido, ejecutado
 ¿Cuándo se revisan lo resultados del proyecto?
 ¿Cuáles son las milestones del proyecto?

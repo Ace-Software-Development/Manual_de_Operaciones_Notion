@@ -8,6 +8,10 @@ Tener una visión de las cosas que hemos abordado y avanzado para poder tener un
 
 Avance del trabajo
 
+## ¿Cuándo usamos este proceso?
+
+Al final de cada iteración
+
 ## **Procedimiento**
 
 | Etapa | Actividad | Encargado | Área del CMMI |
