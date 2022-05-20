@@ -1,0 +1,8 @@
+# Untitled
+
+Actividad: Leer la subpráctica a realizar y tomar notas de la lectura
+Created time: May 19, 2022 2:10 PM
+Encargado: Toda el área
+Etapa: Análisis
+Last edited by: Pau
+Property: Pau

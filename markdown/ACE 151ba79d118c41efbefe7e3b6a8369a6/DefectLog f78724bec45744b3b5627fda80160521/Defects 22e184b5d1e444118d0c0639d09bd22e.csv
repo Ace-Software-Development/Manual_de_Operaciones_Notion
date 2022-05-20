@@ -91,5 +91,6 @@
 93,Alineación de tarjetas en interfaz de chekin y chekout,Cosmetic,Monarca,Diseño,Diseño,,UI,Pending,Diego,6,"May 15, 2022",
 94,Fetch en consultar registro de discos,Necessary,Monarca,Implementacion,Pruebas,,Logico,Pending,Mariana,6,"May 18, 2022",
 97,Las tablas de la base de datos se eliminan cada 4 días,Emergency,Monarca,Implementacion,Implementación,2,Version,Done,Mariana,6,"May 4, 2022","May 18, 2022"
-96,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,Necessary,Monarca,Implementacion,Implementación,,Formato,Pending,Adri,6,"May 18, 2022",
+96,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,Necessary,Monarca,Implementacion,Implementación,0.2,Formato,Done,Adri,6,"May 18, 2022",
 95,Pull request con incompatibilidad en Registrar entrada de discos,Urgent,Monarca,Implementacion,Implementación,1,Version,Done,Diego,6,"May 15, 2022","May 15, 2022"
+96,"Prueba 8 Entrada de discos falló, no se muestra mensaje de retroalimentación",Necessary,Monarca,Implementacion,Pruebas,,Logico,Pending,Mariana,7,,"May 19, 2022"

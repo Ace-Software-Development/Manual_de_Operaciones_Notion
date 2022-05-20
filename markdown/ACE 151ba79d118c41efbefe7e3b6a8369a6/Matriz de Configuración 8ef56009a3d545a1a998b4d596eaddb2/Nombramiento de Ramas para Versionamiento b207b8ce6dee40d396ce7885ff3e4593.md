@@ -5,5 +5,6 @@ Fecha de creación: April 18, 2022
 Fecha de última modificación: April 18, 2022
 Identificador: BKJ_E02
 Liga: https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93
+Nivel o status: Controlado
 Se utiliza?: Yes
 Última versión: 1.0

@@ -35,6 +35,14 @@
 
 El CCB es el comité responsable de asegurar que se esté cumpliendo con el plan de gestión de la configuración dentro de todo el departamento. Es importante que haya por lo menos un miembro del comité en cada equipo para poder asegurar que se esté cumpliendo la gestión de la configuración en ambos equipos.
 
+### Líneas base en el departamento
+
+- [Línea base del departamento](../../Wiki%204abacc0cd1bc4933b885625597ed9fd1.md)
+- [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca)
+- [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida)
+- [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react)
+- [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile)
+
 [Configuration Control Board (CCB).](E01_Elementos%20de%20configuracio%CC%81n%20y%20li%CC%81neas%20base%2014bf0cdb2ba24eb2b0002ae5b08bc493/Configuration%20Control%20Board%20(CCB)%20bf6d5691dc994cb1a676f01234f882f4.csv)
 
 ## Bitácora de cambios

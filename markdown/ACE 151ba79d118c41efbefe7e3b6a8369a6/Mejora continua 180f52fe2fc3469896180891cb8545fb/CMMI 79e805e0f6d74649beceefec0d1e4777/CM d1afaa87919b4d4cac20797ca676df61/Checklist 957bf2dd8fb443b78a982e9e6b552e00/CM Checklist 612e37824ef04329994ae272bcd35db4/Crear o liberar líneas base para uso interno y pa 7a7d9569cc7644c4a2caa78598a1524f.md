@@ -8,6 +8,7 @@ Retro Asesores: Definir un proceso de release de linea base. Definir proceso de 
 Retro Ray: - Proceso de línea base: Criterios para que la línea base sea actualizada (pasar de develop a main)
 - Preguntar a qué se refieren con proceso de documentación de línea base
 - Poner links en la matriz
+Retro atendida: No
 SG: 1
 SP: 1.3
 Status: Pending

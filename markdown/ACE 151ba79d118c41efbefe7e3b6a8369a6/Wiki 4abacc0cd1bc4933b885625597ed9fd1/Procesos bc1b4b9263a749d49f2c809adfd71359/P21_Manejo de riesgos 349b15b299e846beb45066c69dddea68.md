@@ -20,8 +20,6 @@ Nuevo(s) riesgo(s) identificado(s).
 
 [Procedimiento](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Procedimiento%205199794d283b49f78feeb17a77d8f220.csv)
 
-- 
-
 ## **Criterios de salida**
 
 Plan de riesgos 

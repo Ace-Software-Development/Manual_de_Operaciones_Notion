@@ -1,6 +1,9 @@
 # Tomar medidas correctivas sobre los problemas identificados
 
 Atendida: No
+Cosas a hacer: 1. Definir en el proceso de manejo de riesgos que en caso de cambios para arreglar defectos, se tiene que llevar un registro en las minuta de la reunión.
+2. Poner en claro que los riesgos no son las acciones correctivas, sino los cambios que se realicen.
+3. Revisar el proceso para ver qué estamos haciendo parcialmente.
 Cosas que ya tenemos: https://www.notion.so/349b15b299e846beb45066c69dddea68
 Plan de riesgos
 Matriz de riesgos

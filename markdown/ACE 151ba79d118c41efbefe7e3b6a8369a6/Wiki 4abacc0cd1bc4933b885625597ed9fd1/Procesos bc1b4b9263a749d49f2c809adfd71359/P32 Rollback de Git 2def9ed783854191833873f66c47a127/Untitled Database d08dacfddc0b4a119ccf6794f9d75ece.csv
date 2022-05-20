@@ -1,10 +1,7 @@
 ﻿Created time,Last edited by,Etapa,Actividad,Encargado,Subpractica,Property
-"May 6, 2022 7:52 PM",Jorge Alan Ramírez Elías,Validacion de cambio,Validar  con arquitecture owner del cambio que se hará,Miembro de Ace que quiere revertir el cambio,CM 3.1,Jorge Alan Ramírez Elías
+"May 6, 2022 7:52 PM",Pau,Validacion de cambio,Validar con arquitecture owner del cambio que se hará,Miembro de Ace que quiere revertir el cambio,CM 3.1,Jorge Alan Ramírez Elías
 "May 6, 2022 7:52 PM",Jorge Alan Ramírez Elías,,Si es un rollback en producción (main) deben avisar y consultar a todos los stakeholders,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
 "May 6, 2022 8:04 PM",Jorge Alan Ramírez Elías,,Si es un rollback en desarollo(develop) deben avisar a todo el equipo,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:22 PM",Jorge Alan Ramírez Elías,Revertir Cambios,hacer checkout a la rama donde quiere hacer el cambio,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 8:05 PM",Jorge Alan Ramírez Elías,,Si quieres revertir un commit especifico utiliza el comando  git revert #numero_de commit_a_revertir,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:02 PM",Jorge Alan Ramírez Elías,,"Si quieres borrar todas los cambios hasta cierta versión de el código usar el comando git reset --hard #numero del commit al que se quiere regresar 
-Tener mucho cuidado con este comando ya que será irreversible",Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:04 PM",Jorge Alan Ramírez Elías,,En caso de dudas puedes consultar el siguiente video:https://www.youtube.com/watch?v=RIYrfkZjWmA,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:23 PM",Jorge Alan Ramírez Elías,Publicacion del cambio,Una vez hecho el cambio hacer git push,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
+"May 6, 2022 9:22 PM",Pau,Revertir Cambios,"Seguir la guía https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ",Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
+"May 6, 2022 9:23 PM",Pau,Publicacion del cambio,"Comunicar el rollback a todo el equipo en caso de que sea un rollback de desarrollo ",Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
+"May 19, 2022 6:32 PM",Pau,,Comunicar el rollback a todos los stakeholders en caso de que sea un rollback de producción,Arquitecture Owner,CM 3.1,Pau

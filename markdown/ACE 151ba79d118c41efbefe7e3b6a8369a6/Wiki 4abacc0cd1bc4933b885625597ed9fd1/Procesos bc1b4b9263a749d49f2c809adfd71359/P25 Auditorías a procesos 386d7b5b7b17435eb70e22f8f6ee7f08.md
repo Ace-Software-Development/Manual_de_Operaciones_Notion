@@ -28,5 +28,3 @@
 ## Bitácora de cambios
 
 [Untitled](P25%20Auditori%CC%81as%20a%20procesos%20386d7b5b7b17435eb70e22f8f6ee7f08/Untitled%20Database%20f6907eaa82c04fc6ad86a032597bfdb2.csv)
-
-@Cutberto Arizabalo Nava Actualizar creación y versión 1.0 en bitácora de cambios

@@ -190,8 +190,12 @@ https://www.notion.so/9fd6387eed6245e6a378148851a19daa ","https://www.notion.so/
 https://www.notion.so/9fd6387eed6245e6a378148851a19daa ",Yes
 CM,1.1,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
-https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493 ","Identificar los elementos de configuración, los componentes, y los productos
-de trabajo relacionados que serán puestos bajo gestión de configuración.","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493 
+- Estándar de nombramiento de ramas","Identificar los elementos de configuración, los componentes, y los productos
+de trabajo relacionados que serán puestos bajo gestión de configuración.","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/6b1de44ac0a140868af7f31b416dd476 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/1007de6e0ff14f2888dc0c83b84fda88 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
 https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493 ",No
 CM,1.2,"https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
@@ -221,14 +225,19 @@ https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://github.com/Ace
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 cada ítem de la wiki tiene su bitácora de cambios",Yes
 CM,2.2,"-Estandares para manejo de ramas
--Estandares/procesos /guias para pull request",Controlar los cambios en los elementos de configuración.,"https://www.notion.so/11968e3d836c4ec2b18e15bb2a6de39b 
+-Estandares/procesos /guias para pull request
+-Matrices de configuración",Controlar los cambios en los elementos de configuración.,"https://www.notion.so/11968e3d836c4ec2b18e15bb2a6de39b 
 https://www.notion.so/1007de6e0ff14f2888dc0c83b84fda88 
-https://www.notion.so/4e476dd3fd20414c9a81c58df7ea4d4e ","https://docs.google.com/document/d/12n144NyS7S-g4RKkl7kjZyfoHCvMGDC5jU1S2PMr5IM/edit?usp=sharing
+https://www.notion.so/4e476dd3fd20414c9a81c58df7ea4d4e 
+https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://docs.google.com/document/d/12n144NyS7S-g4RKkl7kjZyfoHCvMGDC5jU1S2PMr5IM/edit?usp=sharing
 https://docs.google.com/document/d/1EeGmUUmx61dsZXy5PBmerGRb_oj610neiqMHozRFnYE/edit?usp=sharing
-https://docs.google.com/document/d/1d5C3ruorxlI5tkZE17NUYwnzErZJL74EccCoVZezg5U/edit?usp=sharing","https://docs.google.com/document/d/1BkVj5qH1de0DSw2mxf960yACtC-bJwRfMpBuBCtPIg8/edit?usp=sharing
+https://docs.google.com/document/d/1d5C3ruorxlI5tkZE17NUYwnzErZJL74EccCoVZezg5U/edit?usp=sharing
+https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://docs.google.com/document/d/1BkVj5qH1de0DSw2mxf960yACtC-bJwRfMpBuBCtPIg8/edit?usp=sharing
 https://docs.google.com/document/d/1BobtF2HLKjx4G2Rq1aULLjX03287z2oxWb-kK6-TsrI/edit?usp=sharing
-https://docs.google.com/document/d/1sABtD2fCO1g7hYjfC4f7_BDvUY_r8w6vBeatQrnHx58/edit?usp=sharing","https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 ",No
+https://docs.google.com/document/d/1sABtD2fCO1g7hYjfC4f7_BDvUY_r8w6vBeatQrnHx58/edit?usp=sharing
+https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 
+https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
+https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ",No
 CM,3.1,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/2def9ed783854191833873f66c47a127 ",Establecer y mantener registros que describan los elementos de configuración.,"https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
 https://www.notion.so/2def9ed783854191833873f66c47a127 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
@@ -241,7 +250,7 @@ CM,3.2,no se ha hecho,Realizar auditorías de configuración para mantener la in
 TS,1.1,"Manual de arquitectura
 Estrategia de desarrollo",Seleccionar un stack tecnológico y crear un criterio de selección de tecnologías.,https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing,https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit?usp=sharing,"No se puede compartir el Manual técnico por anuncio de privacidad
 https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit?usp=sharing",No aplica,No
-TS,1.2,Prueba de arquitectura,Realizar una prueba de arquitectura donde se analice el entorno donde la aplicación va a correr.,,https://docs.google.com/document/d/1Ix3781tZV4ucq3b2ikmf9h4NZx9BdyZOAsaxzwr59zI/edit?usp=sharing,https://docs.google.com/document/d/1HUceUUszWIXxZlutNnlBc_s4CJW-eGRfOZT_de44RXQ/edit,No aplica,No
+TS,1.2,Prueba de arquitectura,Realizar una prueba de arquitectura donde se analice el entorno donde la aplicación va a correr.,,https://docs.google.com/document/d/1Ix3781tZV4ucq3b2ikmf9h4NZx9BdyZOAsaxzwr59zI/edit?usp=sharing,https://docs.google.com/document/d/1HUceUUszWIXxZlutNnlBc_s4CJW-eGRfOZT_de44RXQ/edit?usp=sharing,No aplica,No
 TS,1.3,"Manual de arquitectura
 Estrategia de desarrollo",Argumentar el uso de las tecnologías seleccionadas.,"https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing
 https://docs.google.com/document/d/1WffQK9GLzX2kL0MUVcXMbCiW4hOo_Gay0Mx5KcPrhso/edit#",https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit?usp=sharing,https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit?usp=sharing,No aplica,Yes
@@ -252,7 +261,7 @@ Wireframes","Defina los criterios de interfaz.
 Aplicar los criterios a las alternativas de diseño de interfaz.
 Documentar los diseños de interfaz seleccionados y la justificación de la selección.",https://www.figma.com/file/475KYHj72QTRt65kqdFtcI/Campanario?node-id=0%3A1,https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,https://www.figma.com/file/PUMbMJwxHjQGbIONXutc5o/Dise%C3%B1o-final,No aplica,No
 TS,2.4,"Manual de arquitectura
-Prueba de infraestructura","Desarrollar criterios para la reutilización de diseños producto-componente.
+Prueba de arquitectura","Desarrollar criterios para la reutilización de diseños producto-componente.
 Analizar diseños para determinar si los componentes del producto deben desarrollarse, reutilizarse o comprarse.
 Planificar su mantenimiento en caso de que sean comprados o no sean de desarrollo.",,https://docs.google.com/document/d/1Ix3781tZV4ucq3b2ikmf9h4NZx9BdyZOAsaxzwr59zI/edit?usp=sharing,https://docs.google.com/document/d/1HUceUUszWIXxZlutNnlBc_s4CJW-eGRfOZT_de44RXQ/edit,No aplica,No
 TS,3.1,"Manual de arquitectura
@@ -277,7 +286,8 @@ https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/
 https://docs.google.com/spreadsheets/d/175ahn0uCx5s1QWTb-lTVCrFA0dw7-gRo5owXoDad0U8/edit?usp=sharing",No
 PP,1.4,"https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b 
 https://www.notion.so/918a56f9fd09449883b03d940da4b7bf 
-https://www.notion.so/f26c404232d041059bb70ad943b1cd6a ",Estimar el esfuerzo y el costo del proyecto para los productos de trabajo y las tareas basados en una estimación racional.,https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467,"https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158
+https://www.notion.so/f26c404232d041059bb70ad943b1cd6a ",Estimar el esfuerzo y el costo del proyecto para los productos de trabajo y las tareas basados en una estimación racional.,"https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467
+https://docs.google.com/spreadsheets/d/1TLxCuTym9CVzjSFSKslSXwWaxFP6B2tqPcmsS5fd8nY/edit#gid=1870117847","https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158
 ","https://docs.google.com/spreadsheets/u/1/d/1om8iYmkU3GqTv_iqXZNlFjtid7N7lXKv/edit#gid=1168316553 https://docs.google.com/spreadsheets/d/16v4OjKUs22GUT8xoDtQDKgFqLNTCDnqK/edit?usp=sharing&ouid=105928939339299755939&rtpof=true&sd=true
 https://docs.google.com/spreadsheets/d/1MRO5T_VGLGJf0tEX8OwmFtHVbBq0HBad/edit?usp=sharing&ouid=104650025455859779660&rtpof=true&sd=true
 https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849",https://docs.google.com/spreadsheets/d/1c6Hiu_N86OKgZpEs_suE02_pqB89-yMG/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true,No
@@ -285,21 +295,40 @@ PP,2.1,"https://www.notion.so/87d9af16e8534c6897b915954bc66e51 ",Establecer y ma
 ",https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849,https://docs.google.com/spreadsheets/d/1c6Hiu_N86OKgZpEs_suE02_pqB89-yMG/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true,Yes
 PP,2.2,"https://www.notion.so/349b15b299e846beb45066c69dddea68 
 https://www.notion.so/a17640175ab84a00b893729ff62c499a ","Identificar y documentar sus riesgos y posibles formas de contingencia y mitigación ",https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit#gid=1656331401,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,Yes
-PP,2.3,"https://www.notion.so/18c89d5e58474432b750fc2f796c3fcf ",Definir una política de manejo de datos,https://www.back4app.com/InformationSecurityManual.docx.pdf,,https://docs.google.com/document/d/1bawxeowvC1bn4w3YMZAT9sU89alsNilmmlYzO8AoYxc/edit?usp=sharing,No aplica,No
+PP,2.3,"https://www.notion.so/18c89d5e58474432b750fc2f796c3fcf
+https://www.notion.so/ac4a97d1d2214c78ad58a80c3b96542e ",Definir una política de manejo de datos,https://www.back4app.com/InformationSecurityManual.docx.pdf,https://docs.google.com/document/d/1k662G6r1GMFuFDTpK8d4RN60jxu7k3NbKdg7plsbd2Q/edit?usp=sharing,https://docs.google.com/document/d/1bawxeowvC1bn4w3YMZAT9sU89alsNilmmlYzO8AoYxc/edit?usp=sharing,No aplica,No
 PP,2.4,,Planificar los recursos necesarios para realizar el proyecto.,https://docs.google.com/document/d/1WffQK9GLzX2kL0MUVcXMbCiW4hOo_Gay0Mx5KcPrhso/edit?usp=sharing,https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit,https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit,"https://www.notion.so/53dbffc18b6e45eeb9bb39c46eff0874 ",No
 PP,2.5,"https://www.notion.so/082432fd59c346259eddeb22a2abea34   
 https://www.notion.so/c81870dcf9a6484d81e1fcad0ee767e6 
 https://www.notion.so/d96c2fa60cae4c4885b4773676c24863 
 https://www.notion.so/643c9ce7587e4ff1915cc9642affe9cf ","Identificar las habilidades y conocimientos necesarios para desarrollar el proyecto ","https://www.notion.so/26bf5c69ed04497fbd1fbe9a78145a9d ","https://www.notion.so/0d43010743974b078dbdf46923977d55 ","https://www.notion.so/4bd019cc0018442a9af6025ee5c186fc ",No aplica,Yes
-PP,2.6,,Planificar la participación de los stakeholders identificados,https://docs.google.com/document/d/148TFaqCl7sKZljcwYn3pu6u_hfYzjwtt63Kioc1HMkQ/edit?usp=sharing,https://docs.google.com/document/d/1ver_Hm4LyGAqk2qoysLFHdP0UbUtATFU/edit#heading=h.tvax2jeclqni,https://docs.google.com/document/d/11t80_aib7QCfwUyCkWCHnoIF-GQmeoQ0/edit,No aplica,No
-PP,2.7,"https://www.notion.so/87d9af16e8534c6897b915954bc66e51 ",Establecer y mantener el contenido general del plan del proyecto.,https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467,"https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158
+PP,2.6,"https://www.notion.so/03a2df1581f34d6a987c6daafb995cfa 
+https://www.notion.so/0a06bfc99c1548ff92046fb751e4bcdc ",Planificar la participación de los stakeholders identificados,https://docs.google.com/document/d/148TFaqCl7sKZljcwYn3pu6u_hfYzjwtt63Kioc1HMkQ/edit?usp=sharing,https://docs.google.com/document/d/1ver_Hm4LyGAqk2qoysLFHdP0UbUtATFU/edit#heading=h.tvax2jeclqni,https://docs.google.com/document/d/11t80_aib7QCfwUyCkWCHnoIF-GQmeoQ0/edit,No aplica,No
+PP,2.7,"https://www.notion.so/87d9af16e8534c6897b915954bc66e51  
+https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
+https://www.notion.so/38496412c5c84378b582eb61bfc071ff 
+https://www.notion.so/918a56f9fd09449883b03d940da4b7bf 
+https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b 
+https://www.notion.so/ed8dbf244e9e4cc6b5c08f8e162744c2  ",Establecer y mantener el contenido general del plan del proyecto.,https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467,"https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158
 ",https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849,https://docs.google.com/spreadsheets/d/1c6Hiu_N86OKgZpEs_suE02_pqB89-yMG/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true,No
-PP,3.1,,Revisar todos los planes que afectan el proyecto para comprender los compromisos del mismo.,https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing                                https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467,"https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true                                https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158 ",https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit                              https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849,"https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
+PP,3.1,"
+https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
+https://www.notion.so/38496412c5c84378b582eb61bfc071ff 
+https://www.notion.so/918a56f9fd09449883b03d940da4b7bf 
+https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b 
+https://www.notion.so/ed8dbf244e9e4cc6b5c08f8e162744c2  
+https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29  ",Revisar todos los planes que afectan el proyecto para comprender los compromisos del mismo.,https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing                                https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit#gid=1628855467,"https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true                                https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158 ",https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit                              https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849,"https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing",No
 PP,3.2,"https://www.notion.so/87d9af16e8534c6897b915954bc66e51 ",Conciliar el plan del proyecto para reflejar los recursos disponibles y estimados.,https://docs.google.com/spreadsheets/d/13z7kBN9uYrVDxf3KlX2ODkQEVqAQ7ITG8ICAvQSVMT4/edit?usp=sharing,"https://docs.google.com/spreadsheets/d/1HbzMiXttUKZ8cT7_ojR3IjItOwgFFwI6_DVSh30Vvn0/edit#gid=21482158
 ",https://docs.google.com/spreadsheets/d/1QKA_3P5wmbxxDLRjFDFoHVFJ7ZXYtG7g/edit?rtpof=true#gid=1759118849,https://docs.google.com/spreadsheets/d/1c6Hiu_N86OKgZpEs_suE02_pqB89-yMG/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true,No
-PP,3.3,"https://www.notion.so/87d9af16e8534c6897b915954bc66e51 ",Obtener el compromiso stakeholders responsables de realizar y apoyar la ejecución del plan.,https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing,https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing,https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing,"https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
+PP,3.3,"https://www.notion.so/e1e5bbb4e08b47f9b6410324c808721f 
+https://www.notion.so/4da9d22eadff41788a3cab5fa6daed30 
+https://www.notion.so/03a2df1581f34d6a987c6daafb995cfa 
+https://www.notion.so/c2c879c63b17431aaef027b787db8387 ",Obtener el compromiso stakeholders responsables de realizar y apoyar la ejecución del plan.,"https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing
+https://docs.google.com/document/d/148TFaqCl7sKZljcwYn3pu6u_hfYzjwtt63Kioc1HMkQ/edit?usp=sharing","https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing
+https://docs.google.com/document/d/1ver_Hm4LyGAqk2qoysLFHdP0UbUtATFU/edit#heading=h.tvax2jeclqni","https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing
+https://docs.google.com/document/d/11t80_aib7QCfwUyCkWCHnoIF-GQmeoQ0/edit","https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing",No
 PPQA,1.1,"https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08

@@ -1,8 +1,12 @@
-# IMP_P03_Estimación de tamaño y costo de requerimientos
+# IMP_P03_Estimación de tamaño y costo de requerimiento
 
-## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
+## Versión
 
-Tener métricas de medición para tener una planeación adecuada.
+1.1
+
+# Objetivo
+
+- Tener métricas de medición para tener una planeación adecuada.
 
 ## **Consideraciones a tomar**
 
@@ -13,9 +17,12 @@ El proceso se aplica en la etapa de planeación del proyecto.
 - 13 es el valor máximo, y representa que el requerimiento tiene el mayor tamaño posible.
 - El aumento del tamaño entre puntos ágiles es exponencial.
 
+[Tiempo en Agile Points](IMP_P03_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerim%20f26c404232d041059bb70ad943b1cd6a/Tiempo%20en%20Agile%20Points%20336d4d3dfbd847dea185673217460f20.csv)
+
 ## **Criterios de entrada**
 
-Lista de requisitos
+- Lista de requisitos
+- Retrospectiva de la iteración anterior.
 
 ## **Procedimiento**
 
@@ -23,7 +30,7 @@ Lista de requisitos
 
 ## **Criterios de salida**
 
-Tabla de requerimientos con valores de puntos ágiles asignados que determinan el tamaño de cada uno.
+- Tabla de requerimientos con valores de puntos ágiles asignados que determinan el tamaño de cada uno.
 
 ## **Métricas**
 

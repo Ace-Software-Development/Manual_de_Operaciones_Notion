@@ -1,6 +1,7 @@
 # No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos
 
-Estado: Pending
+Costo en horas*: 0.2
+Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 Fecha de Detección: May 18, 2022

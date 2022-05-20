@@ -21,5 +21,3 @@
 ## Bitácora de cambios
 
 [Untitled](P29_Proceso%20para%20atender%20resultados%20de%20una%20auditor%20efd48692d4914dc4aa7edf51e846a563/Untitled%20Database%20d0aaf2c1b9524d4db09a2be30ebda24e.csv)
-
-@Cutberto Arizabalo Nava agregar que hiciste la línea base y versión 1.0

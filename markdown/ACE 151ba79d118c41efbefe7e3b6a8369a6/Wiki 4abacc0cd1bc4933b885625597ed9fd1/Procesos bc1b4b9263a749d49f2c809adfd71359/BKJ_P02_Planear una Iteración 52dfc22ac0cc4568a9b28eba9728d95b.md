@@ -2,14 +2,13 @@
 
 ## Versión
 
-2.0.0
+1.3
 
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#consideraciones-a-tomar)
 
 - Todo el equipo debe de estar presente durante la planeación de una iteración.
 - La asignación de tareas se llevará a cabo en las Dailys
 - Si se requiere realizar un cambio al plan de iteración, es necesario consultarlo con el resto del equipo.
-- Agile points: 1, 2, 3, 8, 13, 21, 36
 
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#objetivo)
 
@@ -30,7 +29,7 @@ Documento de plan de iteración sin iteración activa o Jira sin iteración acti
 | 5. Obtener los datos detalles del ítem de trabajo | Especificar qué necesita tener el ítem de trabajo para que esté completo | Product Owner |
 | 6. Modelar una solución potencial | Hacer un bosquejo, explicación verbal y resolver dudas de la forma en la que se va a realizar el ítem de trabajo. | Product Owner |
 | 7. Descomponer el ítem de trabajo en tareas | Definir subtareas a partir del ítem de trabajo | Product Owner |
-| 8. Estimación del ítem de trabajo | Se estima con puntos ágiles el costo que tendrá realizar cada tarea del item de trabajo mediante una votación grupal | Team Lead |
+| 8. Estimación del ítem de trabajo | Se estima con puntos ágiles el costo que tendrá realizar cada tarea del item de trabajo siguiendo el proceso de ‣  | Team Lead |
 | 9. Repetir los pasos 4, 5, 6, 7 y 8 con los items que serán asignados a la iteración | N/A | Team Lead |
 | 9. Definición de actividades | Se establecen fechas y horas para realizar: Daily, Weekly, Retrospective, siguiente Sprint Planning y Comunicación con el cliente. | Product Owner y Team Lead |
 | 10.  Revisar la sensatez del plan | ¿La carga de trabajo es más de lo que podemos manejar? Si la respuesta es sí, eliminar tareas.

@@ -8,16 +8,16 @@ Tener métricas de medición para tener una planeación adecuada.
 
 El proceso se aplica en la etapa de planeación del proyecto.
 
-- Valores posibles para puntos seleccionables: 1, 3, 5, 7, 11, 13.
+- Valores posibles para puntos seleccionables: 1, 2, 3, 5, 8, 13.
 - 1 es el valor mínimo, y representa que el requerimiento tiene el menor tamaño posible.
 - 13 es el valor máximo, y representa que el requerimiento tiene el mayor tamaño posible.
-- El aumento del tamaño entre puntos ágiles es exponencial.
-- Los promedios se redondean hacia arriba. Ej. 5.2 = 6
-- Cada punto es equivalente a un costo de media hora Ej. 6pa = 3hrs
+- El aumento del tamaño entre puntos ágiles sigue la sucesión de Fibonacci.
+- El promedio de punto ágil se redondea hacia arriba. Ej. 5.2 = 6 AP
+- Cada punto es equivalente a un costo de media hora Ej. 6 AP = 3hrs
 
 ## **Criterios de entrada**
 
-Lista de requisitos
+Lista de requerimientos priorizada.
 
 ## **Procedimiento**
 

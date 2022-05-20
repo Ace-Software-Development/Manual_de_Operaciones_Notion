@@ -18,8 +18,7 @@
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#criterios-de-salida)
 
-- Nuevas fechas para implementación de cambios.
-- Correo electrónico con acuerdos.
+- Plantilla de Solicitud De Cambios con las firmas y las nuevas fechas.
 
 ## Métricas[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#m%C3%A9tricas)
 

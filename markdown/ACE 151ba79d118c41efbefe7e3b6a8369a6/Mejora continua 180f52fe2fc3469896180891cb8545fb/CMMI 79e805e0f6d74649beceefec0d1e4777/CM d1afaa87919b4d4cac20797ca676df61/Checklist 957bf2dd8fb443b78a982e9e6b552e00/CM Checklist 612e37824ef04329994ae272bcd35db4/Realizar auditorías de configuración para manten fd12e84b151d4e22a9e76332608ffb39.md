@@ -10,6 +10,7 @@ Retro Ray: Hay que poner la auditoría, cuándo se corrigió y las líneas base 
 - Auditar wiki: links rotos?, permisos?, bien redactado (ortografía, etc.)?
 - En plantilla de auditoría chcar qué tiene que hacer cad aequipo para que todo esto se cumpla
 - Monitorear que los items de trabajo se atiendan y si sí se cierra la auditoría. PMC monitorea que se hagan los cambios / los items 
+Retro atendida: No
 SG: 3
 SP: 3.2
 Status: Pending

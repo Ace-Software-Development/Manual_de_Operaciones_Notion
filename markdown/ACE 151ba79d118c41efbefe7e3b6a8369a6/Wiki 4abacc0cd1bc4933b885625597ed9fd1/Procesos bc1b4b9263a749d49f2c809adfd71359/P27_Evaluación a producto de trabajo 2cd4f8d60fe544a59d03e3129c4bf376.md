@@ -1,0 +1,29 @@
+# P27_Evaluación a producto de trabajo
+
+## Objetivos
+
+- Asegurar que los productos de trabajo se generaron siguiendo
+
+## Criterios de entrada
+
+- Lista de productos de trabajo a auditar.
+- Descripcion de procesos
+
+[Procedimiento](P27_Evaluacio%CC%81n%20a%20producto%20de%20trabajo%202cd4f8d60fe544a59d03e3129c4bf376/Procedimiento%20af4905f7197e4fd9870fe372ebeae2d9.csv)
+
+## Criterios de salida
+
+- Resultado de la auditoría guardado en el log de auditoria (siguiendo el formato previamente indicado).
+- Calendarización de la nueva auditoría.
+- Documento de auditoría
+- Informes de no conformidad (en caso de aplicar)
+
+## Métricas
+
+- Tiempo de duración de auditoría.
+- Tareas correctivas y/o mejora de proceso.
+- Número de no conformidades.
+
+## Bitácora de cambios
+
+[Untitled](P27_Evaluacio%CC%81n%20a%20producto%20de%20trabajo%202cd4f8d60fe544a59d03e3129c4bf376/Untitled%20Database%20032c392b34bc469383601d319db0cdd5.csv)

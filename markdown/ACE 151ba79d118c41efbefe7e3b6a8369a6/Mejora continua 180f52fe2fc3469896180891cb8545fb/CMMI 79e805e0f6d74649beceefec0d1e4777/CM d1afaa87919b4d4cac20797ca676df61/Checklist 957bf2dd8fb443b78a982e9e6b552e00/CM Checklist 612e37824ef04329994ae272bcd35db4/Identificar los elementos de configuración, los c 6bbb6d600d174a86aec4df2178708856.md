@@ -12,6 +12,7 @@ Retro Ray: - Hay que definir los criterios para cambiar una versión en la bitá
 - BKJ sí tiene
 - Agregar líneas base de cada proyecto
 - Main es la línea base
+Retro atendida: No
 SG: 1
 SP: 1.1
 Status: Pending

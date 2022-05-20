@@ -1,10 +1,10 @@
 ﻿Etapa,Tarea,Encargado,Subpractica
 ,Mostrar el plan y reunirse de pie alrededor de donde se está mostrando el plan,,
 ,Iniciar la reunión a la hora planeada.,,
-,Compartir lo que se hizo desde la daily pasada y lo actualiza en el plan.,,
+,Compartir lo que se hizo desde la daily pasada y lo actualiza en el plan.,,PMC 1.6
 ,Compartir los impedimentos que tiene (si no se completó la actividad de ayer debe identificar el impedimento) y con quién los debe atender.,,
 ,Compartir lo que hará hasta la daily del día siguiente y actualiza el estatus de la tarea en el plan de trabajo.,,
 ,"El Team Leader comparte el progreso de la iteración (jira, excel).",,PMC 1.6
 ,"Si se va de acuerdo al plan, se felicita al equipo de trabajo.",,
-,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos.",,
+,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos.",,"PMC "
 ,Se da por terminada la junta y se inicia la atención de los impedimentos.,,

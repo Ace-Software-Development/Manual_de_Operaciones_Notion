@@ -1,18 +1,18 @@
 ﻿Identificador,Nombre,Categoría,Última versión,Fecha de creación,Fecha de última modificación,Liga,Se utiliza?,Nivel o status
-P01,P01_Definición de la forma de trabajo (WoW),Procesos,1.1,"March 7, 2022","May 19, 2022",https://www.notion.so/1a26647e0c134b95b2c42c228eb813c5,Yes,
-P02,P02_Proceso de evaluación y capacitación de integrantes,Procesos,1.0,"March 7, 2022","April 30, 2022",https://www.notion.so/c81870dcf9a6484d81e1fcad0ee767e6,Yes,
-P03,P03_Proceso de definición de stack tecnológico,Procesos,1.0,"March 7, 2022","April 30, 2022",https://www.notion.so/643c9ce7587e4ff1915cc9642affe9cf,No,
-P04,P04_Revision de pull request,Procesos,1.0,"March 14, 2022","April 22, 2022",https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926,Yes,
-P05,P05_Proceso de aceptación de requisitos,Procesos,1.0,"March 17, 2022","May 1, 2022",https://www.notion.so/acadd69f0052485a846ecf4780813286,Yes,
-P06,P06_Proceso de cambio en requisitos,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/0becb449a14d4804881a6e09f2217530,Yes,
-P07,P07_Proceso de priorización de requisito,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/8279a54bc4344b85bb72894e4f178406,Yes,
-P08,P08_Proceso de registro asistencia a reuniones,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/7d073fd5ae7b40beb465024fbe263d8b,Yes,
-P09,P09_Junta departamental,Procesos,1.0,"April 21, 2022","April 25, 2022",https://www.notion.so/359b02816577489d9b420769d4765972,Yes,
-P10,P10_Club de lectura,Procesos,1.1,"April 21, 2022","May 1, 2022",https://www.notion.so/3a924492a2864c55ae60d463788d245e,Yes,
-P11,P11_Daily Meetings,Procesos,1.0,"April 21, 2022","May 6, 2022",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Yes,
-P12,P12_Proceso de cambio de roles,Procesos,1.0,"April 22, 2022","May 29, 2022",https://www.notion.so/28f27b671826474184dbfd7db8a7015d,Yes,
-P13,P13_Aplicar encuesta de felicidad,Procesos,2.0,"April 22, 2022","May 5, 2022",https://www.notion.so/219dd1fc3140429fb23cbbae56f6ed9d,Yes,
-P14,P14_Implementación de requisito (Uso WBS),Procesos,2.0,"April 22, 2022","May 5, 2022",https://www.notion.so/a447a0788f87415abd4469638bc678fe,Yes,
+P01,P01_Definición de la forma de trabajo (WoW),Procesos,1.1,"March 7, 2022","May 19, 2022",https://www.notion.so/1a26647e0c134b95b2c42c228eb813c5,Yes,Controlado
+P02,P02_Proceso de evaluación y capacitación de integrantes,Procesos,1.0,"March 7, 2022","April 30, 2022",https://www.notion.so/c81870dcf9a6484d81e1fcad0ee767e6,Yes,Controlado
+P03,P03_Proceso de definición de stack tecnológico,Procesos,1.0,"March 7, 2022","April 30, 2022",https://www.notion.so/643c9ce7587e4ff1915cc9642affe9cf,No,Estático
+P04,P04_Revision de pull request,Procesos,1.0,"March 14, 2022","April 22, 2022",https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926,Yes,Controlado
+P05,P05_Proceso de aceptación de requisitos,Procesos,1.0,"March 17, 2022","May 1, 2022",https://www.notion.so/acadd69f0052485a846ecf4780813286,Yes,Controlado
+P06,P06_Proceso de cambio en requisitos,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/0becb449a14d4804881a6e09f2217530,Yes,Controlado
+P07,P07_Proceso de priorización de requisito,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/8279a54bc4344b85bb72894e4f178406,Yes,Controlado
+P08,P08_Proceso de registro asistencia a reuniones,Procesos,1.0,"March 17, 2022","March 17, 2022",https://www.notion.so/7d073fd5ae7b40beb465024fbe263d8b,Yes,Controlado
+P09,P09_Junta departamental,Procesos,1.0,"April 21, 2022","April 25, 2022",https://www.notion.so/359b02816577489d9b420769d4765972,Yes,Controlado
+P10,P10_Club de lectura,Procesos,1.1,"April 21, 2022","May 1, 2022",https://www.notion.so/3a924492a2864c55ae60d463788d245e,Yes,Controlado
+P11,P11_Daily Meetings,Procesos,1.0,"April 21, 2022","May 6, 2022",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Yes,Controlado
+P12,P12_Proceso de cambio de roles,Procesos,1.0,"April 22, 2022","May 29, 2022",https://www.notion.so/28f27b671826474184dbfd7db8a7015d,Yes,Controlado
+P13,P13_Aplicar encuesta de felicidad,Procesos,2.0,"April 22, 2022","May 5, 2022",https://www.notion.so/219dd1fc3140429fb23cbbae56f6ed9d,Yes,Controlado
+P14,P14_Implementación de requisito (Uso WBS),Procesos,2.0,"April 22, 2022","May 5, 2022",https://www.notion.so/a447a0788f87415abd4469638bc678fe,Yes,Controlado
 P15,P15_Reporte de estado,Procesos,1.0,"April 23, 2022","April 23, 2022",https://www.notion.so/e9549f04511143c5b3735cd790aa02f9,Yes,
 P16,P16_Proceso de retrospective,Procesos,1.2,"April 26, 2022","May 6, 2022",https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da,Yes,
 P17,P17_Proceso de reunión de roles,Procesos,1.0,"April 25, 2022","April 25, 2022",https://www.notion.so/8fd4dd93f94a4cd0b64e813e9d4de41a,No,
@@ -29,29 +29,29 @@ PL01,PL01_Minuta,Plantillas,1.0,"March 6, 2022","March 6, 2022",https://www.noti
 PL04,PL04_Acta de Proyecto,Plantillas,1.0,"March 6, 2022","March 6, 2022",https://www.notion.so/e1273403effb4d078bdde9d828ebbe13,No,
 PL02,PL02_Cronograma,Plantillas,1.0,"March 6, 2022","March 6, 2022",https://www.notion.so/efcaa06ae0f743d0a944e244cb50c4ba,Yes,
 PL03,PL03_Creación de Procesos,Plantillas,1.0,"March 19, 2022","May 2, 2022",https://www.notion.so/5213d4ff6e93472fa1f37d3651463782,Yes,
-G01,G01_Reporte de Estado,Guías,1.0,"May 5, 2022","May 5, 2022",https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29,Yes,
-G02,G02_Pair Programming,Guías,1.0,"April 30, 2022","April 30, 2022",https://www.notion.so/082432fd59c346259eddeb22a2abea34,Yes,
-G03,G03_Identificación de elementos de la configuración y líneas base,Guías,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/81ed479aea0d45db89846463687d2a6f,Yes,
+G01,G01_Reporte de Estado,Guías,1.0,"May 5, 2022","May 5, 2022",https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29,Yes,Controlado
+G02,G02_Pair Programming,Guías,1.0,"April 30, 2022","April 30, 2022",https://www.notion.so/082432fd59c346259eddeb22a2abea34,Yes,Controlado
+G03,G03_Identificación de elementos de la configuración y líneas base,Guías,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/81ed479aea0d45db89846463687d2a6f,Yes,Controlado
 PL12,PL12_Plan de Riesgos,Plantillas,1.0,"March 8, 2022",,https://www.notion.so/a17640175ab84a00b893729ff62c499a,Yes,
 PL10,PL10_Fase de inicio,Plantillas,1.0,"March 7, 2022",,https://www.notion.so/661e4856e2c8415db9ef2e6db52b98c5,No,
 PL11,PL11_WBS,Plantillas,1.0,"March 7, 2022",,https://www.notion.so/d2b272431a224c0fb05d517d92716d73,No,
 PL14,PL14_Checklist de Implementación,Plantillas,1.0,,,https://www.notion.so/9f84d98979934903a0134a838d083f0d,Yes,
 PL13,PL13_Junta departamental,Plantillas,1.0,,,https://www.notion.so/b176899f900f4044961c9505731aca62,Yes,
 E01,Elementos de configuración y líneas base.,Estándares,1.1,"May 1, 2022","May 2, 2022",https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493,Yes,
-BKJ_WBS01,WBS,WBS,1.0,"March 11, 2022","March 13, 2022",https://docs.google.com/presentation/d/184T2fyVqAaaqeI85jSmn6tjHJOC8Xcs9/edit#slide=id.p1,Yes,
-BKJ_PO01,Forma de trabajo,Políticas,1.0,"March 11, 2022","May 3, 2022",https://www.notion.so/c5ab414b7bae448cbccf625606770b87,Yes,
-BKJ_D01,Diagrama prototipo,Diagramas,2.0,"March 18, 2022","May 3, 2022",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Yes,
-BKJ_P01,Definición Stack tecnológico,Documentos técnicos,1.0,"March 11, 2022","May 3, 2022",https://www.notion.so/0d43010743974b078dbdf46923977d55,Yes,
-BKJ_C01,Repositorio,Código fuente,1.0,"April 19, 2022","May 4, 2022",https://github.com/Ace-Software-Development/blackjack_monarca,Yes,
-BKJ_DT03,Priorización de requerimientoss,Documentos técnicos,1.0,"March 9, 2022","March 28, 2022",https://docs.google.com/spreadsheets/d/1gXcvx568BftBr6yiyN0Z4cd5XehfMIp5wo_ZPrxNfXM/edit?usp=sharing,Yes,
-BKJ_DT02,Requerimientos de Software,Documentos técnicos,1.0,"March 9, 2022","March 31, 2022",https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit?usp=sharing&ouid=101615671840703134956&rtpof=true&sd=true,Yes,
-BKJ_DT01,Requisitos de información,Documentos técnicos,1.0,"March 10, 2022","April 1, 2022",https://docs.google.com/document/d/1VuA8_k11-PPxwZlNN9tjvc2ixm2a8sMS0SKQzuTLt4s/edit?usp=sharing,Yes,
-BKJ_DT04,Acta de proyecto,Documentos técnicos,1.0,"February 23, 2022","March 7, 2022",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=111933760542760943344&rtpof=true&sd=true,Yes,
-BKJ_DT06,Historias de usuario,Documentos técnicos,1.0,"March 1, 2022","March 29, 2022",https://docs.google.com/spreadsheets/d/1YnYJleRABW8lhHR7r_mIi46yFs9vieahdQp9kwj3HgE/edit?usp=sharing,Yes,
-BKJ_D02,MER,Diagramas,4.1,"March 14, 2022","May 3, 2022",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Yes,
-BKJ_E04,Código,Estándares,1.1,"April 19, 2022","May 4, 2022",https://www.notion.so/be0d121c15e64b5a9c5631cce51f8792,Yes,
-BKJ_D03,Diagrama de arquitectura,Diagramas,2.0,"March 18, 2022","May 2, 2022",https://www.figma.com/file/oAhgTpJE1c0Ly1V97O1ZWv/Arquitectura,Yes,
-BKJ_DT05,Matriz de requerimientos,Documentos técnicos,1.0,"March 17, 2022","March 29, 2022",https://docs.google.com/spreadsheets/d/1geuVnd1ByaFLBXFXNAlN5PL-K0QVR2rq/edit?usp=sharing&ouid=101615671840703134956&rtpof=true&sd=true,Yes,
+BKJ_WBS01,WBS,WBS,1.0,"March 11, 2022","March 13, 2022",https://docs.google.com/presentation/d/184T2fyVqAaaqeI85jSmn6tjHJOC8Xcs9/edit#slide=id.p1,Yes,Controlado
+BKJ_PO01,Forma de trabajo,Políticas,1.0,"March 11, 2022","May 3, 2022",https://www.notion.so/c5ab414b7bae448cbccf625606770b87,Yes,Controlado
+BKJ_D01,Diagrama prototipo,Diagramas,2.0,"March 18, 2022","May 3, 2022",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Yes,Controlado
+BKJ_P01,Definición Stack tecnológico,Documentos técnicos,1.0,"March 11, 2022","May 3, 2022",https://www.notion.so/0d43010743974b078dbdf46923977d55,Yes,Controlado
+BKJ_C01,Repositorio,Código fuente,1.0,"April 19, 2022","May 4, 2022",https://github.com/Ace-Software-Development/blackjack_monarca,Yes,Controlado
+BKJ_DT03,Priorización de requerimientoss,Documentos técnicos,1.0,"March 9, 2022","March 28, 2022",https://docs.google.com/spreadsheets/d/1gXcvx568BftBr6yiyN0Z4cd5XehfMIp5wo_ZPrxNfXM/edit?usp=sharing,Yes,Controlado
+BKJ_DT02,Requerimientos de Software,Documentos técnicos,1.0,"March 9, 2022","March 31, 2022",https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit?usp=sharing&ouid=101615671840703134956&rtpof=true&sd=true,Yes,Controlado
+BKJ_DT01,Requisitos de información,Documentos técnicos,1.0,"March 10, 2022","April 1, 2022",https://docs.google.com/document/d/1VuA8_k11-PPxwZlNN9tjvc2ixm2a8sMS0SKQzuTLt4s/edit?usp=sharing,Yes,Controlado
+BKJ_DT04,Acta de proyecto,Documentos técnicos,1.0,"February 23, 2022","March 7, 2022",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=111933760542760943344&rtpof=true&sd=true,Yes,Controlado
+BKJ_DT06,Historias de usuario,Documentos técnicos,1.0,"March 1, 2022","March 29, 2022",https://docs.google.com/spreadsheets/d/1YnYJleRABW8lhHR7r_mIi46yFs9vieahdQp9kwj3HgE/edit?usp=sharing,Yes,Controlado
+BKJ_D02,MER,Diagramas,4.1,"March 14, 2022","May 3, 2022",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Yes,Controlado
+BKJ_E04,Código,Estándares,1.1,"April 19, 2022","May 4, 2022",https://www.notion.so/be0d121c15e64b5a9c5631cce51f8792,Yes,Controlado
+BKJ_D03,Diagrama de arquitectura,Diagramas,2.0,"March 18, 2022","May 2, 2022",https://www.figma.com/file/oAhgTpJE1c0Ly1V97O1ZWv/Arquitectura,Yes,Controlado
+BKJ_DT05,Matriz de requerimientos,Documentos técnicos,1.0,"March 17, 2022","March 29, 2022",https://docs.google.com/spreadsheets/d/1geuVnd1ByaFLBXFXNAlN5PL-K0QVR2rq/edit?usp=sharing&ouid=101615671840703134956&rtpof=true&sd=true,Yes,Controlado
 P22,Rollback de Wiki,Procesos,1.0,"May 3, 2022","May 5, 2022",https://www.notion.so/bf25946982ff489caa0a189e216fe0f1,Yes,
 FH_PO01,"Wiki%204abacc0cd1bc4933b885625597ed9fd1/FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402/FH_PO01_Poli%CC%81tica%20de%20desarrollo%2026b6cf177f6d44b294f828baa2de036f.md ",Políticas,2.0,"March 15, 2022","April 21, 2022","Wiki%204abacc0cd1bc4933b885625597ed9fd1/FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402/FH_PO01_Poli%CC%81tica%20de%20desarrollo%2026b6cf177f6d44b294f828baa2de036f.md ",Yes,
 FH_PO03,"Wiki%204abacc0cd1bc4933b885625597ed9fd1/FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402/FH_PO03_Poli%CC%81tica%20Definition%20of%20Done%20Feature%20c64c1d319c7a4de0aff022f4e835e3d8.md ",Políticas,1.0,"March 13, 2022","March 15, 2022","Wiki%204abacc0cd1bc4933b885625597ed9fd1/FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402/FH_PO03_Poli%CC%81tica%20Definition%20of%20Done%20Feature%20c64c1d319c7a4de0aff022f4e835e3d8.md ",Yes,
@@ -71,20 +71,20 @@ FH_D02,Diagrama de arquitectura,Diagramas,1.0,"March 15, 2022","May 5, 2022",htt
 FH_DT04,Acta de proyecto,Documentos técnicos,1.0,"March 7, 2022","March 18, 2022",https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit?usp=sharing&ouid=104650025455859779660&rtpof=true&sd=true,Yes,
 FH_DT05,Historias de usuario,Documentos técnicos,1.0,"March 8, 2022","March 15, 2022",https://docs.google.com/spreadsheets/d/1jzgaVgh7YrdKTzVgLVYLMcu1L0sUGlpLFHAao-nMNNw/edit?usp=sharing,Yes,
 FH_P01,Definición Stack tecnológico,Documentos técnicos,1.0,"April 1, 2022","April 7, 2022",https://www.notion.so/4bd019cc0018442a9af6025ee5c186fc,Yes,
-BKJ_P02,Planear una Iteración,Procesos,1.0,"March 18, 2022","May 4, 2022",https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b,Yes,
-BKJ_P03,Asignación y Cambio de Roles,Procesos,1.0,"March 14, 2022","March 14, 2022",https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef,Yes,
-BKJ_P04,Resolución de Conflictos,Procesos,1.0,"May 4, 2022","May 4, 2022",https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471,Yes,
-BKJ_P05,Definición de Procesos,Procesos,1.0,"May 4, 2022","May 4, 2022",https://www.notion.so/2a311f9c09bd4fde85f16f6807bbe785,Yes,
-BKJ_P06,Toma de decisiones,Procesos,1.2,"May 1, 2022","May 2, 2022",https://www.notion.so/e1e5bbb4e08b47f9b6410324c808721f,Yes,
-BKJ_P07,Estimación de tamaño y costo de requerimientos,Procesos,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/62920339ed1d44c688ea4704ea65cb51,Yes,
-G05,Definir una política de manejo de datos,Guías,1.0,"May 1, 2022","May 1, 2022",https://www.notion.so/18c89d5e58474432b750fc2f796c3fcf,Yes,
-G06,Uso de sistemas de gestión de configuración,Guías,1.1,"May 1, 2022","May 6, 2022",https://www.notion.so/4158ca5084434fe8af80b550b1d19df7,Yes,
-BKJ_G01,Guía del servidor,Guías,1.0,"April 29, 2022","April 29, 2022",https://www.notion.so/76ffad5f45c54fdabea9d5c68909c8ca,Yes,
-BKJ_G02,Aceptación de un pull request,Guías,1.0,"May 1, 2022","May 1, 2022",https://www.notion.so/8d338cd4bd724e1680119c3af60171fd,Yes,
-BKJ_G03,Correr el proyecto,Guías,1.0,"May 2, 2022","May 2, 2022",https://www.notion.so/3595d8769c484be9bef188d666deee4f,Yes,
-BKJ_E01,Commits,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/070395d29e4c4e8c9a3b53ed98a5bfe7,Yes,
-BKJ_E03,Pull Request,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/2a33b86aed2b43608490bb0e784b3835,Yes,
-BKJ_E02,Nombramiento de Ramas para Versionamiento,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93,Yes,
+BKJ_P02,Planear una Iteración,Procesos,1.0,"March 18, 2022","May 4, 2022",https://www.notion.so/52dfc22ac0cc4568a9b28eba9728d95b,Yes,Controlado
+BKJ_P03,Asignación y Cambio de Roles,Procesos,1.0,"March 14, 2022","March 14, 2022",https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef,Yes,Controlado
+BKJ_P04,Resolución de Conflictos,Procesos,1.0,"May 4, 2022","May 4, 2022",https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471,Yes,Controlado
+BKJ_P05,Definición de Procesos,Procesos,1.0,"May 4, 2022","May 4, 2022",https://www.notion.so/2a311f9c09bd4fde85f16f6807bbe785,Yes,Controlado
+BKJ_P06,Toma de decisiones,Procesos,1.2,"May 1, 2022","May 2, 2022",https://www.notion.so/e1e5bbb4e08b47f9b6410324c808721f,Yes,Controlado
+BKJ_P07,Estimación de tamaño y costo de requerimientos,Procesos,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/62920339ed1d44c688ea4704ea65cb51,Yes,Controlado
+G05,Definir una política de manejo de datos,Guías,1.0,"May 1, 2022","May 1, 2022",https://www.notion.so/18c89d5e58474432b750fc2f796c3fcf,Yes,Controlado
+G06,Uso de sistemas de gestión de configuración,Guías,1.1,"May 1, 2022","May 6, 2022",https://www.notion.so/4158ca5084434fe8af80b550b1d19df7,Yes,Controlado
+BKJ_G01,Guía del servidor,Guías,1.0,"April 29, 2022","April 29, 2022",https://www.notion.so/76ffad5f45c54fdabea9d5c68909c8ca,Yes,Controlado
+BKJ_G02,Aceptación de un pull request,Guías,1.0,"May 1, 2022","May 1, 2022",https://www.notion.so/8d338cd4bd724e1680119c3af60171fd,Yes,Controlado
+BKJ_G03,Correr el proyecto,Guías,1.0,"May 2, 2022","May 2, 2022",https://www.notion.so/3595d8769c484be9bef188d666deee4f,Yes,Controlado
+BKJ_E01,Commits,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/070395d29e4c4e8c9a3b53ed98a5bfe7,Yes,Controlado
+BKJ_E03,Pull Request,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/2a33b86aed2b43608490bb0e784b3835,Yes,Controlado
+BKJ_E02,Nombramiento de Ramas para Versionamiento,Estándares,1.0,"April 18, 2022","April 18, 2022",https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93,Yes,Controlado
 IMP_P01,Resolución de conflictos,Procesos,1.0,"April 22, 2022","May 4, 2022","https://www.notion.so/0bf3a276ad1e4af0bdfe8a5732fd13d6 ",Yes,
 IMP_P03,Estimación de tamaño y costo de requerimientos,Procesos,1.0,"May 6, 2022","May 6, 2022","https://www.notion.so/f26c404232d041059bb70ad943b1cd6a ",Yes,
 IMP_P02,Planear una Iteración,Procesos,1.0,"April 22, 2022","May 2, 2022","https://www.notion.so/ed8dbf244e9e4cc6b5c08f8e162744c2 ",Yes,
@@ -108,3 +108,4 @@ P30,Proceso para registrar medición de métricas,Procesos,1.0,"May 5, 2022","Ma
 P31,Proceso de definición y actualización del plan de proyecto,Procesos,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/87d9af16e8534c6897b915954bc66e51,No,
 P32,Rollback de Git,Procesos,1.0,"May 6, 2022","May 6, 2022",https://www.notion.so/2def9ed783854191833873f66c47a127,Yes,
 P33,Proceso de definición de la estrategia de desarrollo,Procesos,1.0,"May 16, 2022","May 16, 2022",https://www.notion.so/2e4a2ab3f2074a3683365f1cb3aa05bb,No,
+P34,"Wiki%204abacc0cd1bc4933b885625597ed9fd1/Procesos%20bc1b4b9263a749d49f2c809adfd71359/P34%20Proceso%20para%20juntas%20con%20los%20stakeholders%2003a2df1581f34d6a987c6daafb995cfa.md ",Procesos,1.0,"May 19, 2022","May 19, 2022",Wiki%204abacc0cd1bc4933b885625597ed9fd1/Procesos%20bc1b4b9263a749d49f2c809adfd71359/P34%20Proceso%20para%20juntas%20con%20los%20stakeholders%2003a2df1581f34d6a987c6daafb995cfa.md,Yes,
