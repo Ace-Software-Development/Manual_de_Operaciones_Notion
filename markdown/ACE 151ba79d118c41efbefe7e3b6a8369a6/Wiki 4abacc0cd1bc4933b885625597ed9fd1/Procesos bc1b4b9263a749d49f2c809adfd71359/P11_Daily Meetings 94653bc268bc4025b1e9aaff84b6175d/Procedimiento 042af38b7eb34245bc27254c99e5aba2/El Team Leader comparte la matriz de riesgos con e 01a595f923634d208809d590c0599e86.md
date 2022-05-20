@@ -1,0 +1,1 @@
+# El Team Leader comparte la matriz de riesgos con el propósito de llevar un seguimiento de los posibles riesgos presentados o por presentarse.

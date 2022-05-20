@@ -1,7 +1,7 @@
 # Supervisar los valores reales de los parámetros de planificación del proyecto con respecto al plan del proyecto
 
 Atendida: No
-Cosas a hacer: Editar el proceso de Daily meeting para decir que ahí se encuentra el plan, que ahí se monitorea, al igual que en las retrospectivas.
+Cosas a hacer:  Agregar el proceso de Daily meeting para decir que ahí se encuentra el plan, que ahí se monitorea, al igual que en las retrospectivas.
 Cosas que ya tenemos: Plan de valor ganado
 Reportes de estado
 Responsable: Carolina Herrera Martínez
