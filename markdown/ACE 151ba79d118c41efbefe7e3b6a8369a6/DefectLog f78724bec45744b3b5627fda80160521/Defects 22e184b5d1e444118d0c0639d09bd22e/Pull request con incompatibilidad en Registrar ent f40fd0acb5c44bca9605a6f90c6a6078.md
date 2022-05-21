@@ -1,6 +1,6 @@
 # Pull request con incompatibilidad en Registrar entrada de discos
 
-Costo en horas*: 1
+Costo en minutos: 60
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

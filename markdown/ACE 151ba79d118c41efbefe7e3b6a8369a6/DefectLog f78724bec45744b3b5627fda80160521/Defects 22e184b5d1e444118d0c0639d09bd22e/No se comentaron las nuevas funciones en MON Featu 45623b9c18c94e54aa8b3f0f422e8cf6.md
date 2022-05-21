@@ -1,6 +1,6 @@
 # No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos
 
-Costo en horas*: 0.2
+Costo en minutos: 12
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

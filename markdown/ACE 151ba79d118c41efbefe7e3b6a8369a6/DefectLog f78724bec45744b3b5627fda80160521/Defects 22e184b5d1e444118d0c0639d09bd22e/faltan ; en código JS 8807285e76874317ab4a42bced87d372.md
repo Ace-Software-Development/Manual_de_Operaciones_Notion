@@ -1,6 +1,6 @@
 # faltan ; en código JS
 
-Costo en horas*: 0.15
+Costo en minutos: 0.15
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

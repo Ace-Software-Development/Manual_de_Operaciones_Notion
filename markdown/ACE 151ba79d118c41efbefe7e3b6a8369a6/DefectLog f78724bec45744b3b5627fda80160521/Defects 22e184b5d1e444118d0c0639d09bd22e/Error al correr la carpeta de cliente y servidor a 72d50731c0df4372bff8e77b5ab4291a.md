@@ -1,6 +1,6 @@
 # Error al correr la carpeta de cliente y servidor al mismo tiempo en el servidor
 
-Costo en horas*: 1
+Costo en minutos: 60
 Estado: Done
 Fase de Detección*: Produccion
 Fase de Inyección*: Produccción

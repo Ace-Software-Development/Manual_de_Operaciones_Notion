@@ -1,6 +1,6 @@
 # Comentarios no siguen estándar
 
-Costo en horas*: 0.1
+Costo en minutos: 0.1
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

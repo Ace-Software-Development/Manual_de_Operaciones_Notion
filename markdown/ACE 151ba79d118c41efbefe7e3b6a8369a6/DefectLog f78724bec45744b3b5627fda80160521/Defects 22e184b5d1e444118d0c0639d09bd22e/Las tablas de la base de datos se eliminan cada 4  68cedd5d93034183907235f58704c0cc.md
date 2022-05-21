@@ -1,6 +1,6 @@
 # Las tablas de la base de datos se eliminan cada 4 días
 
-Costo en horas*: 2
+Costo en minutos: 120
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

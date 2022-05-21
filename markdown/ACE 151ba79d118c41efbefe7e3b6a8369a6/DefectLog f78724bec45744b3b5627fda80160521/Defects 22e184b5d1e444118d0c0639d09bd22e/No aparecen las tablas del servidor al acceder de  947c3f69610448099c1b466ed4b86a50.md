@@ -1,6 +1,6 @@
 # No aparecen las tablas del servidor al acceder de manera remota
 
-Costo en horas*: 0.5
+Costo en minutos: 30
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

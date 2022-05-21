@@ -1,6 +1,6 @@
 # pm2 marca error al correr dev_capullo.json en servidor
 
-Costo en horas*: 2.5
+Costo en minutos: 150
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

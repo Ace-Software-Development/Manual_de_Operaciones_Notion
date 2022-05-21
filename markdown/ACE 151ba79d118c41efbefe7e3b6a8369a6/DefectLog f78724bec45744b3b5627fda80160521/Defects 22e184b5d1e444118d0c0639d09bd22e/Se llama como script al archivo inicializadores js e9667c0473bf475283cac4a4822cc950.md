@@ -1,6 +1,6 @@
 # Se llama como script al archivo inicializadores.js desde el index.html, ya se había eliminado el archivo
 
-Costo en horas*: 0.05
+Costo en minutos: 0.05
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

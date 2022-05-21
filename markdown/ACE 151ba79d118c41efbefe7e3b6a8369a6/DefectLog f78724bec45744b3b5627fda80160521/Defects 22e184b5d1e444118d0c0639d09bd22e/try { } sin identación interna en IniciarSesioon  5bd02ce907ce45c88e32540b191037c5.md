@@ -1,6 +1,6 @@
 # try { } sin identación interna en IniciarSesioon.js
 
-Costo en horas*: 0.08
+Costo en minutos: 0.08
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

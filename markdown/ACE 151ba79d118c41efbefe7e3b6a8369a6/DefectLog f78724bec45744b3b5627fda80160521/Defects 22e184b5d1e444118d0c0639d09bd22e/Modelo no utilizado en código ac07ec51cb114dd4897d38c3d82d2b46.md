@@ -1,6 +1,6 @@
 # Modelo no utilizado en código
 
-Costo en horas*: 0.2
+Costo en minutos: 0.2
 Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion

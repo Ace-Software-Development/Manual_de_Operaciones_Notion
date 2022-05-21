@@ -1,6 +1,6 @@
 # Cambio de arquitectura
 
-Costo en horas*: 30
+Costo en minutos: 1800
 Estado: Done
 Fase de Detección*: Diseño
 Fase de Inyección*: Análisis
