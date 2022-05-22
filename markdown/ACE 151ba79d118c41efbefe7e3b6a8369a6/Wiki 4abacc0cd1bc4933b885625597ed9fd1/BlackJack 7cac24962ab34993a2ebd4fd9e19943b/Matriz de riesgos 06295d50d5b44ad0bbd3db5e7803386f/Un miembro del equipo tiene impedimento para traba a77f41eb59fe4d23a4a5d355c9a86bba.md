@@ -5,7 +5,7 @@ Consecuencias: - Reducción del equipo
 - Rendimiento disminuido
 - La carga de trabajo se deberá redistribuir
 Fecha de definición: 10/03/2022
-ID: May 21 2022, 08:39:00
+ID: May 21 2022, 21:52:00
 Impacto: Medio
 Interno: Yes
 Plan de mitigación: - Definir qué integrante va a cubrir las actividades del ausente.
