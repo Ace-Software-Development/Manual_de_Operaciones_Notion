@@ -42,13 +42,13 @@ npm install
 1. Guarda los archivos *dev_capullo.json* y *prod_capullo.json* en la carpeta *server.* Recuerda no compartir estos archivos con nadie.
 2. Corre el proyecto
 
-```cpp
+```bash
 pm2 start dev_capullo.json
 ```
 
 1. **IMPORTANTE:** Cuando termines de correr el proyecto debes de detener el proceso que corre en pm2 y borrarlo para que no siga consumiendo recursos. Además, pm2 se puede dañar si reinicias tu computadora mientras hay un proceso corriendo.
 
-```cpp
+```bash
 pm2 stop dev_capullo.json
 pm2 delete dev_capullo.json
 ```
