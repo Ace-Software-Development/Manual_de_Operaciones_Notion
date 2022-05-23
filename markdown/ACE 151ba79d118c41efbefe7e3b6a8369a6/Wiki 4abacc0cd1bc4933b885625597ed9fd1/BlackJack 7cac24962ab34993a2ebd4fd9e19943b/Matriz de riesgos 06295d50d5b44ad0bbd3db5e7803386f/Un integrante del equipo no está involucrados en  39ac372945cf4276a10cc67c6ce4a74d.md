@@ -5,7 +5,7 @@ Consecuencias: Atraso en el plan del proyecto
 
 Disminución de la confianza en el equipo
 Fecha de definición: 03/05/2022
-ID: May 22 2022, 21:56:00
+ID: May 23 2022, 08:44:00
 Impacto: Medio
 Interno: Yes
 Plan de mitigación: Realizar actividades de integración para conocer a los integrantes del equipo

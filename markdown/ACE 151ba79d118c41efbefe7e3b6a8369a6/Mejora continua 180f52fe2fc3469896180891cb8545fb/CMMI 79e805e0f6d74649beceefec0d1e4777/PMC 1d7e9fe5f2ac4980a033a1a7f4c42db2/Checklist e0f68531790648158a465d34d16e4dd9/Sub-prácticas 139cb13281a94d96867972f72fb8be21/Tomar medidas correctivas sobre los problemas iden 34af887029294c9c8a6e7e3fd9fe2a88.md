@@ -7,9 +7,10 @@ Cosas a hacer: 1. Definir en el proceso de manejo de riesgos que en caso de camb
 Cosas que ya tenemos: https://www.notion.so/349b15b299e846beb45066c69dddea68
 Plan de riesgos
 Matriz de riesgos
+https://www.notion.so/60947c2ed01243be97dd3ed1710050d6
 Responsable: Manolo Ramírez Pintor
 Retroalimentación: Parcialmente definida, no ejecutada
 ¿Cómo saben qué acciones correctivas han realizado?
 Los riesgos no son acciones correctivas
 SP: 2.2
-Terminado: No
+Terminado: Yes

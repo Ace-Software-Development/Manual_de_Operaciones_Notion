@@ -32,6 +32,8 @@ PMC 2.1 |
 |  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5
 PMC 1.7
 PMC 2.1 |
+|  | Con el Plan de Trabajo, DefectLog y el TimeLog, el mismo día en el que se realiza la retrospectiva, analizar los datos nuevos para ver rápidamente el avance el proyecto. | Todos | PMC 1.4 |
+|  | Después de revisar el avance rápidamente, crear un evento en el calendario para el miércoles con el fin de hacer comparativa de avance con porcentaje, gráficos y cálculos de SPI y CPI | Todos | PMC 1.4 |
 | Reflexión | Pensar y comentar una reflexión por persona | Todos |  |
 
 ## **Criterios de salida**

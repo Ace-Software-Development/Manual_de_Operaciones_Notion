@@ -1,1 +1,0 @@
-# El equipo planea las acciones correctivas para llevar a cabo la mitigación de los riesgos

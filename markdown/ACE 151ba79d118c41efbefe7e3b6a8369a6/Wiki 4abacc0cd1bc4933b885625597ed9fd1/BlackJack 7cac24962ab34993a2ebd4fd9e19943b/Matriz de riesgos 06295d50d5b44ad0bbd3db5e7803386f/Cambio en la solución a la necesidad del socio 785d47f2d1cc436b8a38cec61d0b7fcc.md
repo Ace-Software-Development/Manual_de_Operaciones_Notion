@@ -3,7 +3,7 @@
 Categoría: De proceso
 Consecuencias: Incumplimiento de las fechas de entrega, posible apresuramiento del desarrollo, desperdico de trabajo
 Fecha de definición: 13/03/2022
-ID: May 22 2022, 21:56:00
+ID: May 23 2022, 08:44:00
 Impacto: Alto
 Interno: Yes
 Plan de mitigación: Confirmar la solución propuesta tanto con el socio como con el cliente final

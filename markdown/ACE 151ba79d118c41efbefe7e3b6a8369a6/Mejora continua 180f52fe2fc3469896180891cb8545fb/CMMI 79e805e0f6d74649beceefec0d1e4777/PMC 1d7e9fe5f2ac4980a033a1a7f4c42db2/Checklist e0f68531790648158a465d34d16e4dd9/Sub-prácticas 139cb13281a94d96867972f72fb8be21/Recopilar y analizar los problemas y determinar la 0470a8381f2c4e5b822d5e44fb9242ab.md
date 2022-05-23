@@ -10,11 +10,12 @@ https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29
 Reporte de estado
 Matriz de riesgos
 Retrospectivas
-Plantilla de acciones correctivas
+https://www.notion.so/60947c2ed01243be97dd3ed1710050d6
+https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
 Responsable: Michelle Aylin Calzada Montes
 Retroalimentación: Parcialmente definido y ejecutado
 ¿Qué es un acción correctiva?
 ¿Dónde guardan las acciones correctivas a realizar?
 ¿Cómo y cuándo se monitorean las acciones correctivas?
 SP: 2.1
-Terminado: No
+Terminado: Yes

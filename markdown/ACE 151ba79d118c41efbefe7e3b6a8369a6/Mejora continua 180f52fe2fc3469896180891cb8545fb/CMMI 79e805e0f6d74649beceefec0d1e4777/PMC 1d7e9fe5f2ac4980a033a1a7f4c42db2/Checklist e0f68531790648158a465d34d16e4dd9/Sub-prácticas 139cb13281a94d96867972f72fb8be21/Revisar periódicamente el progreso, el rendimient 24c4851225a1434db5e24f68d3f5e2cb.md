@@ -15,4 +15,4 @@ Retroalimentación: Parcialmente definido, ejecutado.
 ¿Dónde se guarda el progreso del proyecto?
 ¿Sólo en los reportes de estado se monitorea el avance y problemas de los proyectos?
 SP: 1.6
-Terminado: No
+Terminado: Yes

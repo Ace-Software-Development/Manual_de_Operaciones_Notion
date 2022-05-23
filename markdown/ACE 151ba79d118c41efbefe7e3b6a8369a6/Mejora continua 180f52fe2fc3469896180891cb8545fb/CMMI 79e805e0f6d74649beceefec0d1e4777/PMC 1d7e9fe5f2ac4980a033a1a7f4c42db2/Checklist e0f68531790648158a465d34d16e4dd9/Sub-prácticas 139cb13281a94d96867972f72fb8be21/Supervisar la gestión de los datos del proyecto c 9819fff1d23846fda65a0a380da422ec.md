@@ -11,10 +11,11 @@ Plan de valor ganado (Plan de Trabajo de cada quien)
 https://www.notion.so/f78724bec45744b3b5627fda80160521
 https://www.notion.so/d0b010b2501247249550d356bc2003f2
 Comparación de SPI y ESPI (Plan de Trabajo)
+https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
 Responsable: Manolo Ramírez Pintor
 Retroalimentación: Parcialmente definida, ejecutada
 ¿Cómo y cuándo monitorean los datos?
 ¿Cuándo saben el avance de los proyectos?
 ¿Existe algún proceso?
 SP: 1.4
-Terminado: No
+Terminado: Yes
