@@ -4,7 +4,7 @@ Categoría: Operacional
 Consecuencias: - Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.
 Fecha de definición: 10/03/2022
-ID: May 23 2022, 22:03:00
+ID: May 24 2022, 08:48:00
 Impacto: Bajo
 Interno: Yes
 Plan de mitigación: - Preparar los manuales para que su salida no afecte.

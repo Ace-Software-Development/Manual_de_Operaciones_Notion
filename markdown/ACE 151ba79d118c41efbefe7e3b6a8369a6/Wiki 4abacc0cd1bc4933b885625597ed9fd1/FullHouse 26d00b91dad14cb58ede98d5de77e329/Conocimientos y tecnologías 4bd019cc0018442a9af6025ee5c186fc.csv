@@ -1,7 +1,7 @@
-﻿Tecnologías requeridas,Nivel,Andrea,Felipe,Manolo,Carolina,Eddy,David,Jorge
-"React ",Intermedio,Yes,No,Yes,Yes,Yes,Yes,Yes
-Parse,Intermedio,Yes,Yes,No,No,No,Yes,No
-Mongo db,Intermedio,Yes,Yes,No,No,No,Yes,No
-Git,Avanzado,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-HTML + CSS,Intermedio,Yes,Yes,Yes,Yes,Yes,No,Yes
-Materialize,Intermedio,Yes,Yes,Yes,Yes,Yes,No,Yes
+﻿Tecnologías requeridas,Nivel,Andrea,Felipe,Manolo,Carolina,Eddy,David,Jorge,Mich
+"React ",Intermedio,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+Parse,Intermedio,Yes,Yes,No,No,No,Yes,No,No
+Mongo db,Intermedio,Yes,Yes,No,No,No,Yes,No,No
+Git,Avanzado,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+HTML + CSS,Intermedio,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+Materialize,Intermedio,Yes,Yes,Yes,Yes,Yes,No,Yes,No

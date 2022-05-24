@@ -1,6 +1,6 @@
 # Recopilar y analizar los problemas y determinar las acciones correctivas necesarias para abordar los problemas
 
-Atendida: No
+Atendida: Yes
 Atendida 2: No
 Cosas a hacer: Actualizar proceso de manejo de riesgos 
 

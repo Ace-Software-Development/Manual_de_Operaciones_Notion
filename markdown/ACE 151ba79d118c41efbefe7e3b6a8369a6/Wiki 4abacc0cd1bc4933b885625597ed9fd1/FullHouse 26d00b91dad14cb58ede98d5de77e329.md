@@ -49,6 +49,8 @@ Es un miembro del equipo que cuenta con habilidades como lo pueden ser la progra
 
 [Pruebas de Seguridad](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20Seguridad%209a1580ceb92a4028ba87c9f9c8a1c97c.md)
 
+[Pruebas de integración](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20integracio%CC%81n%200f1ab8006ddf44038fdfeb654aadf76d.md)
+
 - Figma
 - Drive
 - Discord
