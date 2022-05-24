@@ -1,5 +1,9 @@
 # Los cambios en los productos de trabajo bajo la gestión de configuración se rastrean y controlan.
 
+Actividades a realizar (Análisis): 1. Revisar a un equipo sus productos de trabajo y realizar una petición de cambio en caso de que haga falta algo
+2. Monitorear que se haya cumplido para la fecha establecida
+3. Agregar enlaces de sus líneas base
+4. Verificar los estatus de los items en la matriz de configuración
 Completa: Yes
 Encargado: Pau
 Entregables: -Repositorios por proyecto

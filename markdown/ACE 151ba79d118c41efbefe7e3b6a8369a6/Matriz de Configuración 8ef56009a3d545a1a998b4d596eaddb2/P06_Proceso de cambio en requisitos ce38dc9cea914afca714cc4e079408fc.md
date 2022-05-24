@@ -5,6 +5,6 @@ Fecha de creación: March 17, 2022
 Fecha de última modificación: March 17, 2022
 Identificador: P06
 Liga: https://www.notion.so/0becb449a14d4804881a6e09f2217530
-Nivel o status: Controlado
+Nivel o status: Dinámico
 Se utiliza?: Yes
 Última versión: 1.0

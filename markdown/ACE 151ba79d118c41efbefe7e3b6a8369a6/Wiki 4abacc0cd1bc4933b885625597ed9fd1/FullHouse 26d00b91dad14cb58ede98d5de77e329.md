@@ -18,7 +18,9 @@ Tener acceso en menos de 2 minutos al historial clínico del paciente durante su
 
 - Carolina Herrera Martínez.
 - Andrea Piñeiro Cavazos
+- Jorge Alan Ramírez Elías
 - David Guzmán Leyva
+- Michelle Aylin Calzada Montes
 - Eduardo Rodríguez Gil
 - Felipe Gabriel Yépez Villacreses
 - Manolo Ramírez Pintor
@@ -44,6 +46,8 @@ Es un miembro del equipo que cuenta con habilidades como lo pueden ser la progra
 ## Herramientas de trabajo
 
 [Pruebas de Software](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20Software%204da96005c1f548549bcdd3b5b652690e.md)
+
+[Pruebas de Seguridad](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20Seguridad%209a1580ceb92a4028ba87c9f9c8a1c97c.md)
 
 - Figma
 - Drive

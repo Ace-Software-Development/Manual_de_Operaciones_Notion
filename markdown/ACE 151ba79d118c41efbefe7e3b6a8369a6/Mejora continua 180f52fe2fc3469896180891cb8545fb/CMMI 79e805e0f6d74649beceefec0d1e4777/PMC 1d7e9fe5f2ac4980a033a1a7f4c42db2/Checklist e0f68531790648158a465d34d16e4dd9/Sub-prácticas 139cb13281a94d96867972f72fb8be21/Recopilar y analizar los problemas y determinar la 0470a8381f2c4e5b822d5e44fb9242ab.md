@@ -1,6 +1,7 @@
 # Recopilar y analizar los problemas y determinar las acciones correctivas necesarias para abordar los problemas
 
 Atendida: No
+Atendida 2: No
 Cosas a hacer: Actualizar proceso de manejo de riesgos 
 
 Cosas que ya tenemos: https://www.notion.so/349b15b299e846beb45066c69dddea68
@@ -13,6 +14,7 @@ Retrospectivas
 https://www.notion.so/60947c2ed01243be97dd3ed1710050d6
 https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
 Responsable: Michelle Aylin Calzada Montes
+Retro de asesoría: Proceso para definir acciones correctivas 
 Retroalimentación: Parcialmente definido y ejecutado
 ¿Qué es un acción correctiva?
 ¿Dónde guardan las acciones correctivas a realizar?

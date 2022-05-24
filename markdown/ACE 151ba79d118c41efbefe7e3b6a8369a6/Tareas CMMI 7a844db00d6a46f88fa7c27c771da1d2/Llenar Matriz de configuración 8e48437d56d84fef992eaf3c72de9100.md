@@ -7,6 +7,6 @@ Crear  un nuevo registro para cada ítem de tu proyecto que entren dentro de de 
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
 Proyecto: Campanario, Monarca, Nefro
 Status Campanario: In progress
-Status Monarca: In progress
+Status Monarca: Completed
 Status Nefro: In progress
 Status general: In progress

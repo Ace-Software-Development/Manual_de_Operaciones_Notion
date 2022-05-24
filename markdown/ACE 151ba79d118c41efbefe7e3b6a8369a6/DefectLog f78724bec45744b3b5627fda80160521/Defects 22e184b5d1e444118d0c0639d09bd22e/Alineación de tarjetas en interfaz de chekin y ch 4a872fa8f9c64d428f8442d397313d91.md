@@ -1,6 +1,7 @@
 # Alineación de tarjetas en interfaz de chekin y chekout
 
-Estado: Pending
+Costo en minutos: 0.5
+Estado: Done
 Fase de Detección*: Diseño
 Fase de Inyección*: Diseño
 Fecha de Detección: May 15, 2022

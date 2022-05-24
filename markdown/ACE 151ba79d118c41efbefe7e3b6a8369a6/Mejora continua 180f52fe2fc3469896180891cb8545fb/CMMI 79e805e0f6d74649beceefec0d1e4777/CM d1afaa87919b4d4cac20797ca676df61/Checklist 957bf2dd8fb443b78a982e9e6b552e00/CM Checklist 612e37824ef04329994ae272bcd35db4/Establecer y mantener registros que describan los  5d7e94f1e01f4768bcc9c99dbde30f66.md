@@ -1,5 +1,10 @@
 # Establecer y mantener registros que describan los elementos de configuración.
 
+Actividades a realizar (Análisis): 1. Definir cuando se ejecuta el proceso de rollback de wiki
+2. Incluir en la matriz de configuracion las lineas base con su version
+3. Crear proceso de release
+4. Dejar claro para los equipos que al hacer un realse de linea base  deben de listarse los nuevos features de la versión
+5. Mencionar en los procesos de desarrollo el proceso de rollback como uno de los posibles pasos
 Completa: No
 Encargado: Jorge Alan Ramírez Elías
 Entregables: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 

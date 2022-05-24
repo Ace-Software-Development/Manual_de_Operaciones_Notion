@@ -1,16 +1,26 @@
 # Identificar los elementos de configuración, los componentes, y los productos de trabajo relacionados que serán puestos bajo gestión de configuración.
 
+Actividades a realizar (Análisis): 1. Agregar la url de cada línea base descrita en estándar (ya en Scampi Ace)
+2. Ubicar y subir guía para nombrar ramas (ya en Matriz de Configuración)
+3. Corroborar que proceso de rollback es una guía (ya está)
+4. Agregar líneas base de cada proyecto en la matriz de configuración 
+5. Definir criterios para cambiar una versión en la bitácora de cambios de cada documento (cómo incrementan los números de versiones y así)
+6. Definir criterios y proceso para release de líneas base
 Completa: No
 Encargado: Rafael Hinojosa López
 Entregables: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
 https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493 
 Fecha: May 19, 2022 12:00 PM (CDT)
-Retro Asesores: Agregar la url de cada linea base descrita en su estandar. Definir el paso para nombrar las versiones. Agregar una guía de nombramiento de ramas. El proceso de rollback es una guia. Definir el proceso de release de las lineas base
+Retro Asesores: - Agregar la url de cada linea base descrita en su estandar. 
+- Definir el paso para nombrar las versiones. 
+- Agregar una guía de nombramiento de ramas (checar si ya está en la matriz). 
+- El proceso de rollback es una guia (ya está). 
+- Definir el proceso de release de las lineas base (completar: criterios para pasar de versión a línea base)
 Retro Ray: - Hay que definir los criterios para cambiar una versión en la bitácora de cambios de cada documento.
-- Entregar estándar de nombramiento de ramas
+- Entregar estándar de nombramiento de ramas (poner en la matriz de configuración)
 - BKJ sí tiene
-- Agregar líneas base de cada proyecto
+- Agregar líneas base de cada proyecto en la matriz de configuración
 - Main es la línea base
 Retro atendida: No
 SG: 1

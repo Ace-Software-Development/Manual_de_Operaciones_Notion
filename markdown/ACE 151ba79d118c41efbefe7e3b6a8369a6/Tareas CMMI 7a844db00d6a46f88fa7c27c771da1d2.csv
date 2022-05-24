@@ -1,18 +1,18 @@
 ﻿Name,Proyecto,Status general,Area CMMI,Status Campanario,Status Monarca,Status Nefro,Descripcion,Evidencia
-"Hacer política de manejo de datos ","Campanario, Monarca, Nefro",In progress,PP,In progress,In progress,Completed,,
+"Hacer política de manejo de datos ","Campanario, Monarca, Nefro",In progress,PP,In progress,Completed,Completed,,
 Llenar tabla de habilidades (ejemplo en el Campanario),"Campanario, Monarca, Nefro",In progress,PP,In progress,Completed,In progress,,
-Llenar Matriz de configuración,"Campanario, Monarca, Nefro",In progress,CM,In progress,In progress,In progress,"Entra a la siguiente pagina: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+Llenar Matriz de configuración,"Campanario, Monarca, Nefro",In progress,CM,In progress,Completed,In progress,"Entra a la siguiente pagina: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 
 Crear  un nuevo registro para cada ítem de tu proyecto que entren dentro de de las categorías mencionadas en esta guía :
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f ",
-Mantener actualizado proceso de estimaciones,,,PP,In progress,,,,
-Actualizar matriz de riesgos,,,PP,In progress,,,,
-"Llenar tabla de conocimientos y tecnologías ",,,PP,In progress,,,,
+Mantener actualizado proceso de estimaciones,,,PP,In progress,Not started,,,
+"Llenar tabla de conocimientos y tecnologías ",,,PP,In progress,Completed,,,
+Actualizar matriz de riesgos,,,PP,In progress,Not started,,,
 "Gráficas:
 - Valor estimado vs real
 - Costo estimado vs real
-- CPI y SPI a lo largo del proyecto",,,,In progress,,,,
-Reuniones de retrospectiva,,,,In progress,,,,
-Evaluaciones PPQA,,,,In progress,,,,
-Seguir y actualizar métricas,,,,In progress,,,,
-Seguir con reportes de estado,,,,In progress,,,,
+- CPI y SPI a lo largo del proyecto",,,,In progress,Not started,,,
+Reuniones de retrospectiva,,,,In progress,Completed,,,
+Evaluaciones PPQA,,,PPQA,In progress,Not started,,,
+Petición de cambio de requisitos,,,RM,,In progress,,,
+Escribir criterios para la arquitectura (por qué se eligió?),,,TS,,Not started,,,

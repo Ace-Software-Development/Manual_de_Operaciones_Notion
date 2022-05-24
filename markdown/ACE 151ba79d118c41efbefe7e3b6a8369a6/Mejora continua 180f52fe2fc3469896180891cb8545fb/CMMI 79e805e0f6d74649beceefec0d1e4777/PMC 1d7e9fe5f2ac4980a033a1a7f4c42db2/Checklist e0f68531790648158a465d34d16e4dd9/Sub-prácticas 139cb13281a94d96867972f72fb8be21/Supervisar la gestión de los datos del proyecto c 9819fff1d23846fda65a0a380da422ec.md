@@ -1,6 +1,7 @@
 # Supervisar la gestión de los datos del proyecto con respecto al plan del proyecto.
 
-Atendida: No
+Atendida: Yes
+Atendida 2: No
 Cosas a hacer: 1. Definir el cómo y cuándo se monitorean los datos en el proceso de retrospectiva.
 2. Definir en el proceso de retrospectiva el día (miércoles) en el que revisamos el avance de los proyectos.
 3. Darle una review al proceso de retrospectiva para revisar agujeros argumentales y cosas que hagan falta. (respecto al cuadro de la izq)
@@ -13,6 +14,7 @@ https://www.notion.so/d0b010b2501247249550d356bc2003f2
 Comparación de SPI y ESPI (Plan de Trabajo)
 https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
 Responsable: Manolo Ramírez Pintor
+Retro de asesoría: Ok 
 Retroalimentación: Parcialmente definida, ejecutada
 ¿Cómo y cuándo monitorean los datos?
 ¿Cuándo saben el avance de los proyectos?

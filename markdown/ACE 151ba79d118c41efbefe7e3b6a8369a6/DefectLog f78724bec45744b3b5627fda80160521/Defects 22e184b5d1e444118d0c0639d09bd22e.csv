@@ -88,13 +88,16 @@
 90,Comentarios no siguen estándar,0.1,Cosmetic,NefroVida,Implementacion,Implementación,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022"
 91,Icono de cargando permanece después de mostrar el error,,Cosmetic,NefroVida,Implementacion,Pruebas,Logico,,,,,
 92,"Texto alineado al centro en el detalle de los parámetros, en la US de ConsultarTipoEstudio",0.2,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,Manolo,3,"May 17, 2022","May 17, 2022"
-93,Alineación de tarjetas en interfaz de chekin y chekout,,Cosmetic,Monarca,Diseño,Diseño,UI,Pending,Diego,6,"May 15, 2022",
-94,Fetch en consultar registro de discos,,Necessary,Monarca,Implementacion,Pruebas,Logico,Pending,Mariana,6,"May 18, 2022",
-97,Las tablas de la base de datos se eliminan cada 4 días,120,Emergency,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022","May 18, 2022"
-96,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,12,Necessary,Monarca,Implementacion,Implementación,Formato,Done,Adri,6,"May 18, 2022",
-95,Pull request con incompatibilidad en Registrar entrada de discos,60,Urgent,Monarca,Implementacion,Implementación,Version,Done,Diego,6,"May 15, 2022","May 15, 2022"
-96,"Prueba 8 Entrada de discos falló, no se muestra mensaje de retroalimentación",,Necessary,Monarca,Implementacion,Pruebas,Logico,Pending,Mariana,7,,"May 19, 2022"
-93,Texto desalineado para el rango de valores en consultarTipoEstudio,0.3,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,"Manolo, Jorge",3,"May 19, 2022","May 20, 2022"
-94,La descripción del tipo de estudio se sale verticalmente en la vista de consultarTipoEstudio (modo móvil),,Cosmetic,NefroVida,Implementacion,Implementación,UI,Pending,Manolo,3,"May 17, 2022",
-97,Ciclo infinito de gets,12,Urgent,Monarca,Implementacion,Pruebas,Logico,Done,Diego,7,"May 20, 2022","May 20, 2022"
+93,Alineación de tarjetas en interfaz de chekin y chekout,0.5,Cosmetic,Monarca,Diseño,Diseño,UI,Done,Diego,6,"May 15, 2022",
+94,Fetch en consultar registro de discos,0.3,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,6,"May 18, 2022",
+,No existen datos en la base de datos,13,Urgent,Monarca,Implementacion,Pruebas,Datos,Done,Adri,7,"May 23, 2022","May 23, 2022"
+,Los botones no se ven bien en la interfaz,,Cosmetic,Monarca,Implementacion,Pruebas,UI,Pending,Diego,7,,"May 23, 2022"
 ,El atributo de unidad para un Parametro debe ser opcional,10,,NefroVida,Análisis,Implementación,,Working On It,,,"May 22, 2022","May 22, 2022"
+97,Ciclo infinito de gets,12,Urgent,Monarca,Implementacion,Pruebas,Logico,Done,Diego,7,"May 20, 2022","May 20, 2022"
+94,La descripción del tipo de estudio se sale verticalmente en la vista de consultarTipoEstudio (modo móvil),,Cosmetic,NefroVida,Implementacion,Implementación,UI,Pending,Manolo,3,"May 17, 2022",
+93,Texto desalineado para el rango de valores en consultarTipoEstudio,0.3,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,"Manolo, Jorge",3,"May 19, 2022","May 20, 2022"
+96,"Prueba 8 Entrada de discos falló, no se muestra mensaje de retroalimentación",0.4,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,7,"May 19, 2022","May 19, 2022"
+95,Pull request con incompatibilidad en Registrar entrada de discos,60,Urgent,Monarca,Implementacion,Implementación,Version,Done,Diego,6,"May 15, 2022","May 15, 2022"
+96,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,12,Necessary,Monarca,Implementacion,Implementación,Formato,Done,Adri,6,"May 18, 2022","May 19, 2022"
+97,Las tablas de la base de datos se eliminan cada 4 días,120,Emergency,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022","May 18, 2022"
+,El código dentro del TipoEstudio estaba pensado como requerido cuando no todos lo tienen,15,Emergency,NefroVida,Análisis,Implementación,Logico,Done,Andrea,3,"May 23, 2022","May 23, 2022"

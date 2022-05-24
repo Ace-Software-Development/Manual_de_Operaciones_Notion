@@ -1,6 +1,7 @@
 # Fetch en consultar registro de discos
 
-Estado: Pending
+Costo en minutos: 0.3
+Estado: Done
 Fase de Detección*: Pruebas
 Fase de Inyección*: Implementacion
 Fecha de Detección: May 18, 2022
