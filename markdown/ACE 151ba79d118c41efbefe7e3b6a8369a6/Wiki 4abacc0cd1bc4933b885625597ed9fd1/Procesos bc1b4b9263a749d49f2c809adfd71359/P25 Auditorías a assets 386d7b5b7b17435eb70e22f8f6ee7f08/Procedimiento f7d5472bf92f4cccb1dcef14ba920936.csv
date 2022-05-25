@@ -1,9 +1,11 @@
 ﻿Fase,Actividad,Responsable
-Revisión,"Si la auditoría salió como revisión de una auditoría pasada, verificar que las acciones correctivas establecidas en esta hayan sido ejecutadas, de lo contrario, analizar las causas y documentar las nuevas acciones correctivas.",Responsable de auditoría
-,"Verificar que el https://www.notion.so/aef96cc564e3403aa1838a15cc89d34c no tenga informes de no conformidad. Si tiene faltas, verificar que las acciones correctivas establecidas en esta hayan sido ejecutadas, de lo contrario, analizar las causas y documentar las nuevas acciones correctivas.",Responsable de auditoría
-,Duplicar el checklist de https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0 en una nueva pestaña. Marcar con una palomilla los elementos con los que cumple el asset.,Responsable de auditoría
-Propuesta de mejora,"En caso de que el auditor lo considere necesario, realizar una mejora de proceso conforme al https://www.notion.so/1a25461e941841df846d768975596bc0ejora de procesos",Responsable de auditoría
-Calendarización,Establecer fecha de siguiente auditoría.,Responsable de auditoría
-Documentación,Documentar lo encontrado conforme a la https://www.notion.so/d6711de344ae486cb1ffc68037d9ae81.,Responsable de auditoría
-,Actualizar https://www.notion.so/aef96cc564e3403aa1838a15cc89d34c.,Responsable de auditoría
-,"Crear, priorizar y/o calendarizar las nuevas tareas en la herramienta de gestión de tareas correspondiente al equipo auditado y/o departamento.",Responsable de auditoría
+Revisión,"Seleccionar un asset a auditar (proceso, guía, estándar o política) y verificar que esté registrado en la Matriz de Configuración.",Responsable de auditoría
+,Duplicar el checklist de https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0 en una nueva pestaña del documento.,Responsable de auditoría
+,Escribir la información general de la auditoría en su respectivo checklist.,Responsable de auditoría
+,Marcar con una palomilla los elementos con los que cumple el asset.,Responsable de auditoría
+,"Registrar las no conformidades (aspectos de la checklist que no están presentes en el asset) en el https://www.notion.so/f78724bec45744b3b5627fda80160521 con sus respectivos nombres, estado, fase de detección, fase de inyección, fecha de detección, ID, iteración, proyecto, responsable del defecto, severidad y tipo.",Responsable de auditoría
+,Escribir en la sección de comentarios de la checklist las lecciones aprendidas que pueden mejorar la calidad de los assets en el futuro.,Responsable de auditoría
+Propuesta de mejora,"En caso de que el auditor lo considere necesario, realizar una mejora de proceso conforme al proceso de https://www.notion.so/1a25461e941841df846d768975596bc0.",Responsable de auditoría
+Calendarización,Establecer fecha de siguiente auditoría en el checklist de la auditoría.,Responsable de auditoría
+Documentación,"Actualizar el https://www.notion.so/aef96cc564e3403aa1838a15cc89d34c  con la información de la auditoría realizada (ID, elemento auditado, equipo auditor, equipo auditado, resultados a la auditoría, no conformidades y fecha de la auditoría).",Responsable de auditoría
+,Actualizar el nivel o estado del asset en la https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 siguiendo la guía de https://www.notion.so/81ed479aea0d45db89846463687d2a6f (Nivel de los elementos de la configuración),Responsable de auditoría

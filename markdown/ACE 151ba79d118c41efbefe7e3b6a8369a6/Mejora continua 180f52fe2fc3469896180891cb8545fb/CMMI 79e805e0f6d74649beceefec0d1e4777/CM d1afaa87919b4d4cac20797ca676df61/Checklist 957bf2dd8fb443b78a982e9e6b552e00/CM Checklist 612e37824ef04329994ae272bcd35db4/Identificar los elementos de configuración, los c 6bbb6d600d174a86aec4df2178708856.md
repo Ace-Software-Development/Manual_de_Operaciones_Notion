@@ -3,9 +3,9 @@
 Actividades a realizar (Análisis): 1. Agregar la url de cada línea base descrita en estándar (ya en Scampi Ace)
 2. Ubicar y subir guía para nombrar ramas (ya en Matriz de Configuración)
 3. Corroborar que proceso de rollback es una guía (ya está)
-4. Agregar líneas base de cada proyecto en la matriz de configuración 
-5. Definir criterios para cambiar una versión en la bitácora de cambios de cada documento (cómo incrementan los números de versiones y así)
-6. Definir criterios y proceso para release de líneas base
+4. Agregar líneas base de cada proyecto en la matriz de configuración (es de la 1.2, ya esta la vista creada, falta ponerlas)
+5. Definir criterios para cambiar una versión en la bitácora de cambios de cada documento (cómo incrementan los números de versiones y así) (listo)
+6. Definir criterios y proceso para release de líneas base (https://www.notion.so/9dc0aa2e083e43dab7911b28ce98979a+ https://www.notion.so/030c4f81d6e84eeebef55e154d94d949)
 Completa: No
 Encargado: Rafael Hinojosa López
 Entregables: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
@@ -22,7 +22,7 @@ Retro Ray: - Hay que definir los criterios para cambiar una versión en la bitá
 - BKJ sí tiene
 - Agregar líneas base de cada proyecto en la matriz de configuración
 - Main es la línea base
-Retro atendida: No
+Retro atendida: Yes
 SG: 1
 SP: 1.1
 Status: Pending

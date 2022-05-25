@@ -14,8 +14,6 @@
     
 2. Descargar la llave privada llamada *proyecto-capullo.ppk* para autenticarte mediante SSH
 
-[Meet Google Drive - One place for all your files](https://drive.google.com/drive/u/1/folders/1146hJDSfmY4JJL1rCnn18jDkVWCE-DXn)
-
 1. En *Connection → SSH → Auth* adjuntar la llave privada con el botón *Browse*
 
 ![Untitled](Conectarse%20al%20servidor%20b1c883942674456e87cbb250e7283227/Untitled%202.png)

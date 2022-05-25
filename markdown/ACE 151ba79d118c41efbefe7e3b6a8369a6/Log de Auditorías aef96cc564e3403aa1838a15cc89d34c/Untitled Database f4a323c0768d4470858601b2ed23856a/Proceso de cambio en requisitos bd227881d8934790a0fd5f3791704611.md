@@ -6,5 +6,4 @@ Equipo Auditado: NefroVida
 Fecha de la auditoría: May 19, 2022
 ID: A5
 Núm de No Conformidades: 2
-Próxima Auditoría: May 23, 2022
 Resultados de auditoría: https://docs.google.com/spreadsheets/d/1V73og6t7LrwK0tR2d-lbLIyRKqdGLfFx0TMztIPs8xM/edit?usp=sharing

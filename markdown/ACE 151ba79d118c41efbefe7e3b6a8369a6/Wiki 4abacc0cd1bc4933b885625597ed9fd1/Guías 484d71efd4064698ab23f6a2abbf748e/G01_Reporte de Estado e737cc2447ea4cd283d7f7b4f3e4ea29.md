@@ -10,16 +10,15 @@ Preparar un reporte de estado
 
 ## **¿Cómo preparo una presentación de reporte de estado?**
 
-1. Accede a la [plantilla del reporte de estado](https://www.canva.com/design/DAE8fep7aag/1YAoE1sKK8AOKJnLCJ47nQ/view?utm_content=DAE8fep7aag&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+1. Accede a la [plantilla del reporte de estado](https://www.canva.com/design/DAFBhdNzmC0/PHB5GAn4Ioe5EG9IuIjWfg/edit?utm_content=DAFBhdNzmC0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 2. El responsable de la presentación debe copiar la presentación y compartirla con el resto de los integrantes.
 3. Las presentaciones deberán contar con el siguiente orden de exposición:
+    - Ace
     - Proyecto Monarca
     - Proyecto NefroVida
     - Proyecto Campanario
-    - Ace
 4. Asegurarse de que cada proyecto cumple con la siguiente información:
     - Nombre del proyecto
-    - Visión
     - Objetivo
     - Salud del proyecto
         - ¿Dónde estamos? ¿Qué va a pasar?(milestones)

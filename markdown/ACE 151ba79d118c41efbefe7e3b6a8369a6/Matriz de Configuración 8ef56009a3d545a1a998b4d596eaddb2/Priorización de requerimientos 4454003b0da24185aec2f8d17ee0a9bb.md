@@ -1,9 +1,0 @@
-# Priorización de requerimientos
-
-Categoría: Documentos técnicos
-Fecha de creación: April 29, 2022
-Fecha de última modificación: May 6, 2022
-Identificador: IMP_DT02
-Liga: https://docs.google.com/spreadsheets/d/1GVr1YLZwKTiE-zdUhtN19vfXt3iYtX96chIZ6eZrspY/edit#gid=0
-Se utiliza?: Yes
-Última versión: 1.0

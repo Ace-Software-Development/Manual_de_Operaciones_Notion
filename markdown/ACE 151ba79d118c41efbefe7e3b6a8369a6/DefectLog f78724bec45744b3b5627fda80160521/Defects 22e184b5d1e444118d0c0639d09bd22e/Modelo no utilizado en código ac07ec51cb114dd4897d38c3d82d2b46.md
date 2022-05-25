@@ -11,4 +11,4 @@ Iteración: 2
 Proyecto*: NefroVida
 Responsable: Felipe
 Severidad *: Necessary
-Tipo*: Logico
+Tipo*: Formato

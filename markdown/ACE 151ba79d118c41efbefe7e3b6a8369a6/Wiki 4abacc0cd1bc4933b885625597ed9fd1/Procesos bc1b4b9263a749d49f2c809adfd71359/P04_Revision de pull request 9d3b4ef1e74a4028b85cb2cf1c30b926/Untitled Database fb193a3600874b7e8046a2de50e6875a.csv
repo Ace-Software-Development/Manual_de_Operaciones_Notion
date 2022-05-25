@@ -1,5 +1,5 @@
 ﻿Fase,Responsable,Actividad,Áreas del CMMI
-Revisión,Miembro responsable de revisión,"Se identifica el Merge Request, y se descargan los cambios.",
+Revisión,Miembro responsable de revisión,"Se identifica el Pull Request, y se descargan los cambios.",
 Revisión,Miembro responsable de revisión,Se siguen las instrucciones para ejecutar la implementación.,
 ,Miembro responsable de revisión,Se verifica que la implementación cumpla con todo lo documentado en el requisito.,
 ,Miembro responsable de revisión,Se verifica que la implementación esté libre de errores.,"PMC 1.4, PMC 1.5, PMC 1.6, PMC 1.7, PMC 2.1"

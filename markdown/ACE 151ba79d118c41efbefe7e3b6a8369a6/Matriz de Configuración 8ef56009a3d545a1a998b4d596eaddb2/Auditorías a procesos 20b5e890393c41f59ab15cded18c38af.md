@@ -1,9 +1,0 @@
-# Auditorías a procesos
-
-Categoría: Procesos
-Fecha de creación: May 5, 2022
-Fecha de última modificación: May 5, 2022
-Identificador: P25
-Liga: https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08
-Se utiliza?: Yes
-Última versión: 1.0

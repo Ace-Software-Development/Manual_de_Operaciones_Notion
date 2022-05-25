@@ -1,9 +1,0 @@
-# Repositorio Móvil
-
-Categoría: Código fuente
-Fecha de creación: March 28, 2022
-Fecha de última modificación: May 4, 2022
-Identificador: IMP_C02
-Liga: https://github.com/Ace-Software-Development/florimperial_campanario_mobile
-Se utiliza?: Yes
-Última versión: 1.0

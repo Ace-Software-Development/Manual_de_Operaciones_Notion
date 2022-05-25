@@ -23,7 +23,7 @@ server {
 								proxy_set_header Host $host;
 								proxy_cache_bypass $http_upgrade;
         }
-}
+} 
 ```
 
 sudo ln -s /etc/nginx/sites-available/capullo /etc/nginx/sites-enabled/

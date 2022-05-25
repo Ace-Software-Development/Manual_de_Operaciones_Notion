@@ -6,6 +6,10 @@
 
 ---
 
+## Plantilla
+
+[Matriz de trazabilidad](https://docs.google.com/spreadsheets/d/1SabEsCCNVtxFJoqglCguCcy1aq_SM-P5ZXAz9y8DDaY/edit?usp=sharing)
+
 ## **Consideraciones a tomar**
 
 La plantilla varía dependiendo el equipo

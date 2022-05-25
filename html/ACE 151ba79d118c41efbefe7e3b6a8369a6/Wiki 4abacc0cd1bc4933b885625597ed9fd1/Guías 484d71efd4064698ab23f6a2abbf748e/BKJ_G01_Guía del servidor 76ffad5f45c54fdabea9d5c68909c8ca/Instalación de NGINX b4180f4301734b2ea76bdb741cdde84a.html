@@ -682,7 +682,7 @@ sudo apt install nginx</code></p><p id="3e505699-9227-4b8b-97e5-90973dd5c215" cl
 								proxy_set_header Host $host;
 								proxy_cache_bypass $http_upgrade;
         }
-}</code></pre><p id="46fc235f-3d96-4632-9be3-619305b71632" class="">sudo ln -s /etc/nginx/sites-available/capullo /etc/nginx/sites-enabled/</p><p id="7d8b6634-a994-46f6-ac1d-45d780473139" class="">sudo nano /etc/nginx/nginx.conf</p><pre id="59b05dc9-c517-4001-8ea8-b16d8babcd65" class="code"><code>http {
+} </code></pre><p id="46fc235f-3d96-4632-9be3-619305b71632" class="">sudo ln -s /etc/nginx/sites-available/capullo /etc/nginx/sites-enabled/</p><p id="7d8b6634-a994-46f6-ac1d-45d780473139" class="">sudo nano /etc/nginx/nginx.conf</p><pre id="59b05dc9-c517-4001-8ea8-b16d8babcd65" class="code"><code>http {
     . . .
 
     server_names_hash_bucket_size 64;

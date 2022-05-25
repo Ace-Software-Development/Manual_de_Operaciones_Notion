@@ -9,6 +9,7 @@ Encargado: Pau
 Entregables: -Repositorios por proyecto
 https://www.notion.so/4158ca5084434fe8af80b550b1d19df7 
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+- log de compliances (todos)
 Fecha: May 18, 2022 11:00 PM (CDT)
 Retro Asesores: Para mantener esta subpráctica agregar la verificacion de que los cambios realizados resuelven los reportes de no compliance. Agregar el estatus en la matriz de configuracion. Agregar el enlace a cada linea base (de github) en sus documentos
 Retro Ray: - que la auditoría hecha en la 3.2 se atienda

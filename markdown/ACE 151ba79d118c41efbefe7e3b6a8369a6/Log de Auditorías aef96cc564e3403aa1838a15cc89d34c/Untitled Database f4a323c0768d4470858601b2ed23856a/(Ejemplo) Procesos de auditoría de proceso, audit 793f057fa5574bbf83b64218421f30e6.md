@@ -6,5 +6,4 @@ Equipo Auditado: Monarca
 Fecha de la auditoría: May 4, 2022
 ID: A1
 Núm de No Conformidades: 3
-Próxima Auditoría: May 12, 2022
 Resultados de auditoría: (plantilla) https://docs.google.com/spreadsheets/d/1dfWAf-2kfE3AdnEDhens_GeVB39zBVs1DH2b8ErN2fw/edit?usp=sharing

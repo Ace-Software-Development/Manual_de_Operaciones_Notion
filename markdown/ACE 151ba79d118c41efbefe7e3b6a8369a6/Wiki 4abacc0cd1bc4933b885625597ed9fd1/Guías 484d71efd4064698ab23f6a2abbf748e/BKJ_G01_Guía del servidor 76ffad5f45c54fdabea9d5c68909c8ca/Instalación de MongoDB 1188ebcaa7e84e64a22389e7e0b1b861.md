@@ -41,6 +41,6 @@ sudo chmod +x /etc/init.d/mongodb`
 
 ```
 sudo chown -R mongodb:mongodb /var/lib/mongodb
-sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+sudo chown mongodb:mongodb /tmp/mongodb-PUERTO.sock
 sudo service mongod restart
 ```

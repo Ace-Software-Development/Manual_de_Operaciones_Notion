@@ -1,9 +1,0 @@
-# Acta de proyecto
-
-Categoría: Documentos técnicos
-Fecha de creación: March 7, 2022
-Fecha de última modificación: March 18, 2022
-Identificador: FH_DT04
-Liga: https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit?usp=sharing&ouid=104650025455859779660&rtpof=true&sd=true
-Se utiliza?: Yes
-Última versión: 1.0

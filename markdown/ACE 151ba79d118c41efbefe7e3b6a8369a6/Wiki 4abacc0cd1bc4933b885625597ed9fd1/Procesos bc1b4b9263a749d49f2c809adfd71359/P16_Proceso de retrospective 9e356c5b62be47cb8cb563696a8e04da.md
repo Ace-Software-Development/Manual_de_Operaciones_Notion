@@ -29,7 +29,7 @@ PMC 1.7 |
 PMC 1.7 |
 |  | Identificar los impedimentos acontecidos durante la iteración | Todos | PMC 1.7
 PMC 2.1 |
-|  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración | TL | RM 1.5
+|  | Identificar si hubo inconsistencias con lo acordado en la planeación de la iteración y lo entregado al termino de la iteración. En cambio de detectar inconsistencias, se debe de agregar al plan, hacer una re-estimación y re-priorización. | TL | RM 1.5
 PMC 1.7
 PMC 2.1 |
 |  | Con el Plan de Trabajo, DefectLog y el TimeLog, el mismo día en el que se realiza la retrospectiva, analizar los datos nuevos para ver rápidamente el avance el proyecto. | Todos | PMC 1.4 |

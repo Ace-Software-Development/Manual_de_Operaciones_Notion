@@ -11,4 +11,4 @@ Iteración: 3
 Proyecto*: NefroVida
 Responsable: Felipe
 Severidad *: Necessary
-Tipo*: Bug
+Tipo*: Logico

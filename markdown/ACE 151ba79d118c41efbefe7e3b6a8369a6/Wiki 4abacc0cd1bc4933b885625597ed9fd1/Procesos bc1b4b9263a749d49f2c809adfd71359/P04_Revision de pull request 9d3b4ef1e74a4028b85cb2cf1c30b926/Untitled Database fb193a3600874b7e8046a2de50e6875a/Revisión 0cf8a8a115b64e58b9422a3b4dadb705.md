@@ -1,4 +1,4 @@
 # Revisión
 
-Actividad: Se identifica el Merge Request, y se descargan los cambios.
+Actividad: Se identifica el Pull Request, y se descargan los cambios.
 Responsable: Miembro responsable de revisión

@@ -1,5 +1,8 @@
 # Crear o liberar líneas base para uso interno y para entrega al cliente
 
+Actividades a realizar (Análisis): 1. Colocar procesos y políticas de línea base en la matriz y scampi
+2. Generar proceso de documentación de release de línea base (supongo que hacer un documento que mencione que se liberó la línea base: Proceso que incluya plantilla)
+3. POner links de las líneas base
 Completa: No
 Encargado: Rafael Hinojosa López
 Entregables: https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
