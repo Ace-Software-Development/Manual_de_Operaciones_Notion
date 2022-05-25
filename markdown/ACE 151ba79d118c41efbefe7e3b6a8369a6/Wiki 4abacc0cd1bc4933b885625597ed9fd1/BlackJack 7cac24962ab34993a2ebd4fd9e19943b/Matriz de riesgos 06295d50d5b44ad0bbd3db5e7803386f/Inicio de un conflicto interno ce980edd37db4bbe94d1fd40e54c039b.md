@@ -3,7 +3,7 @@
 Categoría: Organizacional
 Consecuencias: Disconformidad en alguna decisión, o acción dentro del equipo
 Fecha de definición: 10/03/2022
-ID: May 24 2022, 22:01:00
+ID: May 25 2022, 08:47:00
 Impacto: Medio
 Interno: Yes
 Plan de mitigación: Comunicar las disconformidades antes de realizar una decisión

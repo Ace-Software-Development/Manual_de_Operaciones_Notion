@@ -5,7 +5,7 @@ Atendida 2: No
 Cosas que ya tenemos: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da
 https://www.notion.so/c2762413ae9a45308638bcc34ba1e5a7
 Reporte de estado
-Retrospectivas
+Retrospectivas                              https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29                   https://www.notion.so/e9549f04511143c5b3735cd790aa02f9
 Responsable: Joaquín Zermeño Saldaña
 Retro de asesoría: Proceso para el reporte de estado agregarlo, guía del ciclo de vida del proyecto
 Retroalimentación: Parcialmente definido, ejecutado

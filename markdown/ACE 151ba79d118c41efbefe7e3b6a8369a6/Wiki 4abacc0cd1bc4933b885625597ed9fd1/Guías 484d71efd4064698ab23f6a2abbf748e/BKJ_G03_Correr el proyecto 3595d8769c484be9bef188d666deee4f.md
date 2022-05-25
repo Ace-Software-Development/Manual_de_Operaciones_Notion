@@ -35,11 +35,11 @@ cd server
 npm install
 ```
 
-1. Descarga los archivos *dev_capullo.json* y *prod_capullo.json*
+1. Descarga el archivo *dev_capullo.json*
 
-[Meet Google Drive - One place for all your files](https://drive.google.com/drive/u/0/folders/1146hJDSfmY4JJL1rCnn18jDkVWCE-DXn)
+[dev_capullo.json](https://drive.google.com/file/d/1ZV965uwlXma8qOXvWAzm0IVBoMOl0eoB/view?usp=sharing)
 
-1. Guarda los archivos *dev_capullo.json* y *prod_capullo.json* en la carpeta *server.* Recuerda no compartir estos archivos con nadie.
+1. Guarda el archivo *dev_capullo.json* en la carpeta *server.* Recuerda no compartir estos archivos con nadie.
 2. Corre el proyecto
 
 ```bash

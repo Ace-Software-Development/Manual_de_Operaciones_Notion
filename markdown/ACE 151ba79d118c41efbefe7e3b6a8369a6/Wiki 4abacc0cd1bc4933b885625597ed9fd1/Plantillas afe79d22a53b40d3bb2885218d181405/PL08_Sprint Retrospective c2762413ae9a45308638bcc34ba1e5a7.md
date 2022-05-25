@@ -11,6 +11,7 @@ Tener una retroalimentación constante y generar un plan de mejoras para el equi
 ## Área[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL08_Plantilla%20Sprint%20Retrospective#%C3%A1rea)
 
 - PP - Project Planning
+- RM - Requirements Management
 - PMC - Project Monitoring and Control
 
 ## Responsables de cumplimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL08_Plantilla%20Sprint%20Retrospective#responsables-de-cumplimiento)

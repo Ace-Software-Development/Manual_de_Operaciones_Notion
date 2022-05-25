@@ -14,6 +14,8 @@
     
 2. Descargar la llave privada llamada *proyecto-capullo.ppk* para autenticarte mediante SSH
 
+[proyecto-capullo.ppk](https://drive.google.com/file/d/1SItz4BusIver7L-f5j2TTwh0Au1_Iuyb/view?usp=sharing)
+
 1. En *Connection → SSH → Auth* adjuntar la llave privada con el botón *Browse*
 
 ![Untitled](Conectarse%20al%20servidor%20b1c883942674456e87cbb250e7283227/Untitled%202.png)

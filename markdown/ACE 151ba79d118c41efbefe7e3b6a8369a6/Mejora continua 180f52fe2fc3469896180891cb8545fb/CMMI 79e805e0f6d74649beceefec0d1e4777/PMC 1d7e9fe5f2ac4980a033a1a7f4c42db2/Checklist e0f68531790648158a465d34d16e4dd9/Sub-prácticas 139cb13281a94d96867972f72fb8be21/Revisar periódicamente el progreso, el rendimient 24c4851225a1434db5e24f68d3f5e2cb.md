@@ -1,6 +1,6 @@
 # Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto
 
-Atendida: No
+Atendida: Yes
 Atendida 2: No
 Cosas a hacer: Actualizar proceso de retrospectiva
 Revisar y agregar proceso de daily
@@ -10,6 +10,8 @@ Plan de trabajo
 Reporte de estados
 Retrospectivas
 https://www.notion.so/f78724bec45744b3b5627fda80160521
+https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d
+https://www.notion.so/4da9d22eadff41788a3cab5fa6daed30
 Responsable: Michelle Aylin Calzada Montes
 Retro de asesoría: Historial de mejoras pueden agregar, presentaciones con los stakeholders, toma de decisiones 
 Retroalimentación: Parcialmente definido, ejecutado.
