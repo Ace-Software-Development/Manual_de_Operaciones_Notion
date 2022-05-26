@@ -6,7 +6,7 @@ Consecuencias: - Retraso en el plan.
 - Baja prioridad hacia el equipo.
 - Incongruencia en visión y objetivos entre el equipo y el PO.
 Fecha de definición: 10/03/2022
-ID: May 25 2022, 08:47:00
+ID: May 25 2022, 22:05:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: - Agendar juntas semanales para garantizar involucramiento del PO y dar a conocer las implicaciones de cambios a requisitos.

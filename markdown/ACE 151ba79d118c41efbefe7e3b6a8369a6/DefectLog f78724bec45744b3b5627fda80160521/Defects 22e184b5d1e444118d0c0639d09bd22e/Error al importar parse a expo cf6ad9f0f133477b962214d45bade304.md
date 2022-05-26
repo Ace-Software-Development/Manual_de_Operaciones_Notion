@@ -5,7 +5,7 @@ Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 ID: 2
-Iteración: 1
+Iteración: 3
 Proyecto*: Campanario
 Responsable: Joaquin
 Severidad *: Emergency

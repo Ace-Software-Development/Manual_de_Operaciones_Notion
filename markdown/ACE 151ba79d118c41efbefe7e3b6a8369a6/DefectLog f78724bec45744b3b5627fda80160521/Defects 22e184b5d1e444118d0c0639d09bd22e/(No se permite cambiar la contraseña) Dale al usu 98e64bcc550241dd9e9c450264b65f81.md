@@ -3,4 +3,5 @@
 Fase de Detección*: Pruebas
 Fase de Inyección*: Análisis
 ID: 69
+Iteración: 2
 Proyecto*: Campanario

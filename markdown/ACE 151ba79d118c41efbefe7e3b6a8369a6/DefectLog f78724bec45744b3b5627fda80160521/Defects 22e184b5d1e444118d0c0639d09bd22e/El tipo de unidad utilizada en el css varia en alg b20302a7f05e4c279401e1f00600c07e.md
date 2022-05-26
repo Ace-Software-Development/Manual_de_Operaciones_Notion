@@ -3,4 +3,5 @@
 Fase de Detección*: Pruebas
 Fase de Inyección*: Implementacion
 ID: 23
+Iteración: 2
 Proyecto*: Campanario

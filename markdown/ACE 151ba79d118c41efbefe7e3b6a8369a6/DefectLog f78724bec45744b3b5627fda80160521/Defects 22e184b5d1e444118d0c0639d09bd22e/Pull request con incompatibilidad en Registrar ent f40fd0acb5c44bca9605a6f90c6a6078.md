@@ -11,4 +11,5 @@ Iteración: 6
 Proyecto*: Monarca
 Responsable: Diego
 Severidad *: Urgent
+Solución del defecto: Visualizar las incompatibilidades y tomar la mas actual
 Tipo*: Version

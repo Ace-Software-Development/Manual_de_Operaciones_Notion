@@ -1,13 +1,15 @@
 # P27_Evaluación a producto de trabajo
 
+[https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit?usp=sharing)
+
 ## Objetivos
 
-- Asegurar que los productos de trabajo se generaron siguiendo
+- Asegurar que los productos de trabajo generados cumplan con los criterios de calidad determinados por Ace.
 
 ## Criterios de entrada
 
-- Lista de productos de trabajo a auditar.
-- Descripcion de procesos
+- Producto de trabajo a auditar
+- Checklist para productos de trabajo
 
 [Procedimiento](P27_Evaluacio%CC%81n%20a%20producto%20de%20trabajo%202cd4f8d60fe544a59d03e3129c4bf376/Procedimiento%20af4905f7197e4fd9870fe372ebeae2d9.csv)
 

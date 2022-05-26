@@ -6,7 +6,7 @@ Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 Fecha de Corrección: April 26, 2022
 Fecha de Detección: April 26, 2022
-ID: 75
+ID: 8
 Iteración: 2
 Proyecto*: NefroVida
 Severidad *: Necessary

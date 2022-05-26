@@ -10,4 +10,5 @@ Iteración: 6
 Proyecto*: Monarca
 Responsable: Diego
 Severidad *: Cosmetic
+Solución del defecto: Convertir en d-flex
 Tipo*: UI

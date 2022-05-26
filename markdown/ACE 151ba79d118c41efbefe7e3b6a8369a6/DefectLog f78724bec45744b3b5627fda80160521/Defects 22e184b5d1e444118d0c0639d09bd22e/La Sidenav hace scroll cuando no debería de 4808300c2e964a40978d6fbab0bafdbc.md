@@ -3,7 +3,7 @@
 Estado: Pending
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
-ID: 74
+ID: 9
 Iteración: 2
 Proyecto*: NefroVida
 Severidad *: Cosmetic

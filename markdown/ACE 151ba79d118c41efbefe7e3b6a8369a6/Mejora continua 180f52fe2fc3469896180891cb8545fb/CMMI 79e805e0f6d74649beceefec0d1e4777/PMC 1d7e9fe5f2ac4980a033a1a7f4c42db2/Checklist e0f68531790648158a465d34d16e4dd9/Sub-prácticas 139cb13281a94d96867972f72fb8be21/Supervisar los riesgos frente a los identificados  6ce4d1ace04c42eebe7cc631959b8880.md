@@ -1,6 +1,6 @@
 # Supervisar los riesgos frente a los identificados en el plan del proyecto
 
-Atendida: No
+Atendida: Yes
 Atendida 2: No
 Cosas a hacer: Definir en la matriz de riesgos cada cuando se va a revisar (semanalmente, etc) , al igual que agregar en el proceso de Daily meeting se revise la matriz de riesgos.                       
 Cosas que ya tenemos: Matriz de riesgos

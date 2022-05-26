@@ -6,9 +6,10 @@ Fase de Detección*: Implementación
 Fase de Inyección*: Análisis
 Fecha de Corrección: May 23, 2022
 Fecha de Detección: May 23, 2022
-ID: 96
+ID: 27
 Iteración: 3
 Proyecto*: NefroVida
 Responsable: Andrea
 Severidad *: Emergency
+Solución del defecto: Modificar el código para cambiar el valor requerido a no requerido
 Tipo*: Logico

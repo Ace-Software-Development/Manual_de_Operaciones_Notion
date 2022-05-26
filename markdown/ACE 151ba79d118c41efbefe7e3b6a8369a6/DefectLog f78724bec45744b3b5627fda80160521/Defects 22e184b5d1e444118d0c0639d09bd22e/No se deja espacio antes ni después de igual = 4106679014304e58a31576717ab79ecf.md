@@ -6,7 +6,7 @@ Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 Fecha de Corrección: May 5, 2022
 Fecha de Detección: May 5, 2022
-ID: 83
+ID: 11
 Iteración: 2
 Proyecto*: NefroVida
 Responsable: Manolo
