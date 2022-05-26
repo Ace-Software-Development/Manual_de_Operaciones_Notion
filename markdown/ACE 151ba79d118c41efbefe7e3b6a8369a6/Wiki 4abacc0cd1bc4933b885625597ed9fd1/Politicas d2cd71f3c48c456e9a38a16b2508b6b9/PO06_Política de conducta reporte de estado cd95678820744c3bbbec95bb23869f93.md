@@ -6,6 +6,8 @@
 
 # Objetivo
 
+3
+
 Establecer la forma de conducta durante el reporte de estado.
 
 # Política

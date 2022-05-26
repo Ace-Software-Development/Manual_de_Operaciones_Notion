@@ -105,8 +105,8 @@
 100,Modificar (parse no se permite un equalTo),50,Necessary,Monarca,Implementacion,Implementación,Logico,Done,Diego,7,"May 24, 2022","May 24, 2022","Realzar como si se fuera a insertar un nuevo registro, pero se toma el id del registro que quieres modificar"
 101,Log al servidor de la base de datos sin contraseña,180,Emergency,Monarca,Implementacion,Implementación,Seguridad,Done,Todos,7,"May 25, 2022","May 25, 2022",Configurar usuario administrador en la base de datos
 16,Las validaciones no están siendo utilizadas con react-hook-form en iniciar sesión,0.5,,NefroVida,Implementacion,Implementación,,Done,Eddy,3,"May 10, 2022","May 11, 2022",
-26,"El detalle para cada parámetro en consultarTipoEstudio, registrarEstudio y consultarEstudio se desalinean horriblemente cuando existe un overflow de texto. Se van elementos al medio de la página, izquierda, derecha, etc.",60,Cosmetic,NefroVida,Implementacion,Implementación,,Working On It,Manolo,3,"May 23, 2022","May 25, 2022",
-24,La descripción del estudio da overflow en consultarEstudio,15,Cosmetic,NefroVida,Implementacion,Implementación,,Pending,Manolo,3,"May 23, 2022","May 25, 2022",
+26,"El detalle para cada parámetro en consultarTipoEstudio, registrarEstudio y consultarEstudio se desalinean horriblemente cuando existe un overflow de texto. Se van elementos al medio de la página, izquierda, derecha, etc.",180,Cosmetic,NefroVida,Implementacion,Implementación,,Done,Manolo,3,"May 23, 2022","May 25, 2022",
+24,La descripción del estudio da overflow en consultarEstudio,15,Cosmetic,NefroVida,Implementacion,Implementación,,Done,Manolo,3,"May 23, 2022","May 25, 2022",
 29,"En la consola, sale un error de que estamos usando un render de react a punto de ser completamente deprecated.",5,,NefroVida,Implementacion,Implementación,,Done,Jorgito,3,"May 24, 2022","May 24, 2022",
 ,No se puede buscar por CURP/Folio en la tabla de pacientes,15,,NefroVida,Análisis,Implementación,,Done,,,,,
 ,El CURP/Folio no se muestra en ningún lugar de la table,5,,NefroVida,Análisis,Implementación,,Done,,,,,
@@ -114,3 +114,4 @@
 ,"En el diseño de Figma, existe una columna “Rol” en cada tabla de la vista de empleados (sugerencia: cambiarlo por el correo)",10,Cosmetic,NefroVida,Diseño,Implementación,UI,Done,Manolo,3,"May 25, 2022","May 25, 2022",Cambiar el Rol por el Correo
 ,Los archivos de web no usan jsx,,,Campanario,,Implementación,,Pending,,3,"May 17, 2022",,
 ,No se documentan los casos de prueba,,,Campanario,Diseño,Pruebas,,Done,,3,"May 17, 2022",,
+,.on-load-anim se rompió súper raro en el último commit de consultarTipoEstudio (revisar otros CSS también!!),,,NefroVida,,Implementación,,Pending,,,,,

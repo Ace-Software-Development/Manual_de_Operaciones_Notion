@@ -4,7 +4,7 @@ Categoría: Técnico
 Consecuencias: Perdemos tiempo de desarrollo
 No podemos hacer pruebas
 Fecha de definición: 24/05/2022
-ID: May 25 2022, 22:05:00
+ID: May 26 2022, 08:46:00
 Impacto: Alto
 Interno: Yes
 Plan de mitigación: Todas las personas que prueben la aplicación deben tener el mismo documento de dev y prod .json 

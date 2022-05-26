@@ -1,7 +1,7 @@
 # La descripción del estudio da overflow en consultarEstudio
 
 Costo en minutos: 15
-Estado: Pending
+Estado: Done
 Fase de Detección*: Implementación
 Fase de Inyección*: Implementacion
 Fecha de Corrección: May 25, 2022
