@@ -6,7 +6,7 @@ Registrar y dar seguimiento al estado de las acciones correctivas para el plan d
 
 ## Acceso a la plantilla [](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL06_Auditorias#acceso-a-la-plantilla)
 
-[Plantilla de acciones correctivas para problemas detectados](PL18_Plantilla%20de%20acciones%20correctivas%20para%20proble%2060947c2ed01243be97dd3ed1710050d6.md)
+[Plantilla de acciones correctivas para problemas detectados](https://docs.google.com/spreadsheets/d/1_rpmXq2xCUOPe3UGp3J5acmfI1oRbOMK3ipTxLXA0RQ/edit?usp=sharing)
 
 ## Uso de plantilla
 

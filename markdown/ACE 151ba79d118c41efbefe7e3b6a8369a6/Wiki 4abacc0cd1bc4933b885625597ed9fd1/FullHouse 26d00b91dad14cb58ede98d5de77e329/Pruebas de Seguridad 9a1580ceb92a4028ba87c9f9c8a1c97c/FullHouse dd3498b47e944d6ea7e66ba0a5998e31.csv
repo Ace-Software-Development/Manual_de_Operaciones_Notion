@@ -7,4 +7,10 @@
 6,Iniciar sesión en el sistema,"Si el usuario bloqueado intenta entrar a login e ingresar de nuevo, lo volvera a redireccionar a la vista de restablecer contraseña.",No Aprobado,"May 24, 2022",Andrea,IT3,
 7,Iniciar sesión en el sistema,"Si el usuario cierra la pestaña en donde se encuentra el sistema, tendra que volver a iniciar sesión.",Aprobado,"May 24, 2022",Andrea,IT3,
 8,Iniciar sesión en el sistema,El usuario que quiera cambiar su contraseña debe de ser diferente con la que cuenta actualmente.,No Aprobado,"May 24, 2022",Andrea,IT3,
-9,,,,,,,
+1,Registrar información del paciente,El usuario debe estar autenticado y tener un rol de trabajador social para poder registrar al paciente,Aprobado,"May 26, 2022",Carolina,IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+2,Registrar información del paciente,"Se debe permitir registros tan solo provenientes de la aplicación, es decir no un Post cualquiera a la ruta con un json",,,Carolina,IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+3,Registrar información del paciente,El CURP debe tener un formato válido y ser único,Aprobado,"May 26, 2022",Carolina,IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

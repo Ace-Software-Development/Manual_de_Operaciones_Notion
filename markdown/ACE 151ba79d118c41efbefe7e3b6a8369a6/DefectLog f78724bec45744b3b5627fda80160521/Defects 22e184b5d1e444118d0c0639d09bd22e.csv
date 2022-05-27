@@ -1,9 +1,9 @@
 ﻿ID,Nombre Defecto*,Costo en minutos,Severidad *,Proyecto*,Fase de Inyección*,Fase de Detección*,Tipo*,Estado,Responsable,Iteración,Fecha de Detección,Fecha de Corrección,Solución del defecto
 2,Error al importar parse a expo,2,Emergency,Campanario,Implementacion,Implementación,Version,Done,Joaquin,3,,,
-3,Mal diseño de base de datos,1800,Emergency,Monarca,Análisis,Diseño,Logico,Done,Adri,5,,,
-4,Cambio de arquitectura,1800,Emergency,Monarca,Análisis,Diseño,Logico,Done,Adri,5,,,
-5,Error al correr la carpeta de cliente y servidor al mismo tiempo en el servidor,60,Necessary,Monarca,Produccción,Produccion,Version,Done,Mariana,6,"May 3, 2022","May 16, 2022",
-6,No aparecen las tablas del servidor al acceder de manera remota,30,Urgent,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022",,
+MON-1,Mal diseño de base de datos,1800,Emergency,Monarca,Análisis,Diseño,Logico,Done,Adri,5,,,
+MON-2,Cambio de arquitectura,1800,Emergency,Monarca,Análisis,Diseño,Logico,Done,Adri,5,,,
+MON-10,Error al correr la carpeta de cliente y servidor al mismo tiempo en el servidor,60,Necessary,Monarca,Produccción,Produccion,Version,Done,Mariana,6,"May 3, 2022","May 16, 2022",
+MON-9,No aparecen las tablas del servidor al acceder de manera remota,30,Urgent,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022",,
 7,Archivo Auth.css empieza con mayúscula cuando debe ser en minúscula.,,,Campanario,Implementacion,Pruebas,,,,2,,,
 8,Hay una carpeta llamada routes que se confunde con las carpetas routes en las convenciones.,,,Campanario,Implementacion,Pruebas,,,,2,,,
 9,Nombres de archivos no son significativos pues no describen si es componente o qué es: index.js en home,,,Campanario,Diseño,Pruebas,,,,2,,,
@@ -82,28 +82,28 @@
 19,No estaba en el modelo de base de datos para la tabla de tipo de estudio,,Necessary,NefroVida,Análisis,Implementación,UI,Rejected,"Manolo, Jorge, Felipe",3,"May 17, 2022",,
 18,eliminar código sin uso de Auth0,0.1,Necessary,NefroVida,Implementacion,Implementación,Logico,Done,Felipe,3,"May 13, 2022","May 13, 2022",
 17,faltan ; en código JS,0.15,Cosmetic,NefroVida,Implementacion,Implementación,Formato,Done,Felipe,3,"May 13, 2022","May 13, 2022",
-87,pm2 marca error al correr dev_capullo.json en servidor,150,Urgent,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 13, 2022","May 16, 2022",
+MON-8,pm2 marca error al correr dev_capullo.json en servidor,150,Urgent,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 13, 2022","May 16, 2022",
 15,try { } sin identación interna en IniciarSesioon.js,0.08,Cosmetic,NefroVida,Implementacion,Implementación,Formato,Done,Felipe,3,"May 9, 2022","May 9, 2022",
 14,Modelo no utilizado en código,0.2,Necessary,NefroVida,Implementacion,Implementación,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022",
 13,Comentarios no siguen estándar,0.1,Cosmetic,NefroVida,Implementacion,Implementación,Formato,Done,Felipe,2,"May 5, 2022","May 5, 2022",
 20,Icono de cargando permanece después de mostrar el error,10,Cosmetic,NefroVida,Implementacion,Pruebas,Logico,Done,Piña,3,"April 15, 2022","April 15, 2022",
 21,"Texto alineado al centro en el detalle de los parámetros, en la US de ConsultarTipoEstudio",0.2,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,Manolo,3,"May 17, 2022","May 17, 2022",
-93,Alineación de tarjetas en interfaz de chekin y chekout,0.5,Cosmetic,Monarca,Diseño,Diseño,UI,Done,Diego,6,"May 15, 2022",,Convertir en d-flex
-94,Fetch en consultar registro de discos,0.3,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,6,"May 18, 2022",,
-99,No existen datos en la base de datos,13,Urgent,Monarca,Implementacion,Pruebas,Datos,Done,Adri,7,"May 23, 2022","May 23, 2022",
-98,Los botones no se ven bien en la interfaz,7,Cosmetic,Monarca,Implementacion,Pruebas,UI,Done,Diego,7,"May 23, 2022","May 23, 2022",
+MON-7,Alineación de tarjetas en interfaz de chekin y chekout,0.5,Cosmetic,Monarca,Diseño,Diseño,UI,Done,Diego,6,"May 15, 2022",,Convertir en d-flex
+MON-5,Fetch en consultar registro de discos,0.3,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,6,"May 18, 2022",,
+MON-14,No existen datos en la base de datos,13,Urgent,Monarca,Implementacion,Pruebas,Datos,Done,Adri,7,"May 23, 2022","May 23, 2022",
+MON-15,Los botones no se ven bien en la interfaz,7,Cosmetic,Monarca,Implementacion,Pruebas,UI,Done,Diego,7,"May 23, 2022","May 23, 2022",
 25,El atributo de unidad para un Parametro debe ser opcional,10,Urgent,NefroVida,Análisis,Implementación,Logico,Done,Andrea,3,"May 22, 2022","May 22, 2022",Modificar el código para cambiar el valor requerido a no requerido
-97,Ciclo infinito de gets,12,Urgent,Monarca,Implementacion,Pruebas,Logico,Done,Diego,7,"May 20, 2022","May 20, 2022",
+MON-16,Ciclo infinito de gets,12,Urgent,Monarca,Implementacion,Pruebas,Logico,Done,Diego,7,"May 20, 2022","May 20, 2022",
 23,La descripción del tipo de estudio se sale verticalmente en la vista de consultarTipoEstudio (modo móvil),,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,Manolo,3,"May 17, 2022","May 23, 2022","Hacer que el elemento crezca de acuerdo a la cantidad de texto, tenía tamaño estático"
 22,Texto desalineado para el rango de valores en consultarTipoEstudio,0.3,Cosmetic,NefroVida,Implementacion,Implementación,UI,Done,"Manolo, Jorge",3,"May 19, 2022","May 20, 2022",
-96,"Prueba 8 Entrada de discos falló, no se muestra mensaje de retroalimentación",0.4,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,7,"May 19, 2022","May 19, 2022",
-95,Pull request con incompatibilidad en Registrar entrada de discos,60,Urgent,Monarca,Implementacion,Implementación,Version,Done,Diego,6,"May 15, 2022","May 15, 2022",Visualizar las incompatibilidades y tomar la mas actual
-96,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,12,Necessary,Monarca,Implementacion,Implementación,Formato,Done,Adri,6,"May 18, 2022","May 19, 2022",
-97,Las tablas de la base de datos se eliminan cada 4 días,120,Emergency,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022","May 18, 2022",
+MON-17,"Prueba 8 Entrada de discos falló, no se muestra mensaje de retroalimentación",0.4,Necessary,Monarca,Implementacion,Pruebas,Logico,Done,Mariana,7,"May 19, 2022","May 19, 2022",
+MON-3,Pull request con incompatibilidad en Registrar entrada de discos,60,Urgent,Monarca,Implementacion,Implementación,Version,Done,Diego,6,"May 15, 2022","May 15, 2022",Visualizar las incompatibilidades y tomar la mas actual
+MON-4,No se comentaron las nuevas funciones en MON/Feature/endtradaDiscos,12,Necessary,Monarca,Implementacion,Implementación,Formato,Done,Adri,6,"May 18, 2022","May 19, 2022",
+MON-6,Las tablas de la base de datos se eliminan cada 4 días,120,Emergency,Monarca,Implementacion,Implementación,Version,Done,Mariana,6,"May 4, 2022","May 18, 2022",
 27,El código dentro del TipoEstudio estaba pensado como requerido cuando no todos lo tienen,15,Emergency,NefroVida,Análisis,Implementación,Logico,Done,Andrea,3,"May 23, 2022","May 23, 2022",Modificar el código para cambiar el valor requerido a no requerido
 28,"En el diseño de figma, existen varios campos: “teléfono”, “correo”, en la lista de estudios. ¿Cómo diablos un estudio puede tener número telefónico? JAJAJAJ",15,Cosmetic,NefroVida,Diseño,Implementación,Formato,Done,"Andrea, Manolo, David",3,"May 24, 2022","May 25, 2022","Modificar el diseño en la página de figma, campo correo cambiado a código y campo teléfono cambiado a químico, fecha desplazada a la derecha."
-100,Modificar (parse no se permite un equalTo),50,Necessary,Monarca,Implementacion,Implementación,Logico,Done,Diego,7,"May 24, 2022","May 24, 2022","Realzar como si se fuera a insertar un nuevo registro, pero se toma el id del registro que quieres modificar"
-101,Log al servidor de la base de datos sin contraseña,180,Emergency,Monarca,Implementacion,Implementación,Seguridad,Done,Todos,7,"May 25, 2022","May 25, 2022",Configurar usuario administrador en la base de datos
+MON-13,Modificar (parse no se permite un equalTo),50,Necessary,Monarca,Implementacion,Implementación,Logico,Done,Diego,7,"May 24, 2022","May 24, 2022","Realzar como si se fuera a insertar un nuevo registro, pero se toma el id del registro que quieres modificar"
+MON-12,Log al servidor de la base de datos sin contraseña,180,Emergency,Monarca,Implementacion,Implementación,Seguridad,Done,Todos,7,"May 25, 2022","May 25, 2022",Configurar usuario administrador en la base de datos
 16,Las validaciones no están siendo utilizadas con react-hook-form en iniciar sesión,0.5,,NefroVida,Implementacion,Implementación,,Done,Eddy,3,"May 10, 2022","May 11, 2022",
 26,"El detalle para cada parámetro en consultarTipoEstudio, registrarEstudio y consultarEstudio se desalinean horriblemente cuando existe un overflow de texto. Se van elementos al medio de la página, izquierda, derecha, etc.",180,Cosmetic,NefroVida,Implementacion,Implementación,,Done,Manolo,3,"May 23, 2022","May 25, 2022",
 24,La descripción del estudio da overflow en consultarEstudio,15,Cosmetic,NefroVida,Implementacion,Implementación,,Done,Manolo,3,"May 23, 2022","May 25, 2022",
@@ -114,4 +114,9 @@
 ,"En el diseño de Figma, existe una columna “Rol” en cada tabla de la vista de empleados (sugerencia: cambiarlo por el correo)",10,Cosmetic,NefroVida,Diseño,Implementación,UI,Done,Manolo,3,"May 25, 2022","May 25, 2022",Cambiar el Rol por el Correo
 ,Los archivos de web no usan jsx,,,Campanario,,Implementación,,Pending,,3,"May 17, 2022",,
 ,No se documentan los casos de prueba,,,Campanario,Diseño,Pruebas,,Done,,3,"May 17, 2022",,
-,.on-load-anim se rompió súper raro en el último commit de consultarTipoEstudio (revisar otros CSS también!!),,,NefroVida,,Implementación,,Pending,,,,,
+,.on-load-anim se rompió súper raro en el último commit de consultarTipoEstudio (revisar otros CSS también!!),,,NefroVida,,Implementación,,Done,,,,,
+MON-11,"Error en pm2 code: 'MODULE_NOT_FOUND',",30,Urgent,Monarca,Implementacion,Implementación,Version,Done,Mariana,7,"May 26, 2022","May 26, 2022",Modificar un import que no existe
+MON-18,Creación de Pointers en la base de datos,,Emergency,Monarca,Diseño,Implementación,Datos,Working On It,Mariana,7,"May 26, 2022",,
+MON-19,Botones mal definidos,,Cosmetic,Monarca,Implementacion,Implementación,UI,Working On It,Pau,7,"May 26, 2022",,
+,NFR/Feature/ConsutarInfoPaciente tiene muchos className como class,5,,NefroVida,Implementacion,Implementación,,Pending,,,"May 26, 2022","May 26, 2022",
+,,,Necessary,NefroVida,,,Formato,,,,,,Cambiar class por className
