@@ -1,8 +1,8 @@
 ﻿AP,Tiempo estimado,Descripción
-1,30 min,Tarea pequeña y de baja complejidad. Se cuenta con el conocimiento técnico y no demora mucho tiempo.
-3,3 - 5 horas,"Complejidad media baja, se necesita poca investigación de conocimiento técnico"
-5,4-12 horas,"Entrega de complejidad media, se conocen algunas cosas de la tarea. Puede demorar un poco de tiempo."
-7,3 - 5 días,"Complejidad media alta, se necesita una buena parte investigación técnica para poder completar la tarea."
-9,1 - 2 semanas,Alta complejidad. Casi no se conoce información de como completa la tarea.
-11,2 semanas o más,"Largo de entregar, alta complejidad, casi no se conoce información de como completar la tarea y se necesita investigación técnica."
+1,30-60 min,Tarea pequeña y de baja complejidad. Se cuenta con el conocimiento técnico y no demora mucho tiempo.
+3,180-300 min,"Complejidad media baja, se necesita poca investigación de conocimiento técnico"
+5,240-720 min,"Entrega de complejidad media, se conocen algunas cosas de la tarea. Puede demorar un poco de tiempo."
+7,720- 1200 min,"Complejidad media alta, se necesita una buena parte investigación técnica para poder completar la tarea."
+9,1200 - 2400 min,Alta complejidad. Casi no se conoce información de como completa la tarea.
+11,+2400 min,"Largo de entregar, alta complejidad, casi no se conoce información de como completar la tarea y se necesita investigación técnica."
 13,Excesivo,Complejidad muy alta.
