@@ -5,9 +5,9 @@ Llenar Matriz de configuración,"Campanario, Monarca, Nefro",In progress,CM,In p
 
 Crear  un nuevo registro para cada ítem de tu proyecto que entren dentro de de las categorías mencionadas en esta guía :
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f ",
-"Cambiar la matriz de trazabilidad de acuerdo al proceso ","Campanario, Monarca",Not started,RM,In progress,Not started,Completed,,
+"Cambiar la matriz de trazabilidad de acuerdo al proceso ","Campanario, Monarca",Not started,RM,In progress,Completed,Completed,,
 Escribir criterios para la arquitectura (por qué se eligió?),,,TS,,Not started,,,
-Petición de cambio de requisitos,,,RM,,In progress,,,
+Petición de cambio de requisitos,,,RM,,Completed,,,
 Reuniones de retrospectiva,,,,In progress,Completed,,,
 Evaluaciones PPQA,,,PPQA,In progress,Not started,,,
 "Gráficas:
@@ -15,5 +15,5 @@ Evaluaciones PPQA,,,PPQA,In progress,Not started,,,
 - Costo estimado vs real
 - CPI y SPI a lo largo del proyecto",,,,In progress,Not started,,,
 "Llenar tabla de conocimientos y tecnologías ",,,PP,In progress,Completed,,,
-Actualizar matriz de riesgos,,,PP,In progress,Not started,,,
+Actualizar matriz de riesgos,,,PP,In progress,Completed,,,
 Mantener actualizado proceso de estimaciones,,,PP,In progress,Not started,,,

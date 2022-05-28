@@ -11,16 +11,7 @@ Flor Imperial es un equipo del departamento ACE Technology. Todas nuestras polí
 - Entregar un producto de calidad, lo suficientemente bueno para comercializarse.
 - Aprobar la unidad de formación con una calificación satisfactoria.
 
-### Integrantes:[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/#integrantes)
-
-- Daniel Cruz Arciniega
-- Diego Carrillo Torres
-- Enrique Santos Fraire
-- Joaquín Zermeño Saldaña
-- Julio César Gómez González
-- Luis Edgar Ramírez Pérez
-- Michelle Aylin Calzada Montes
-- Rafael Hinojosa López
+[Interesados en el proyecto](Flor%20Imperial%20b9b94a05ae3945d699c8a359d8dba17d/Interesados%20en%20el%20proyecto%208009344b06b843bab2b658870f4d1471.csv)
 
 ---
 

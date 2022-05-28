@@ -2,6 +2,8 @@
 
 [Políticas](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Poli%CC%81ticas%20e35644bf50104f949b1ac75484cdf402.md)
 
+[Pruebas](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20f3f04072412740e996c6b98f71b57d3f.md)
+
 ### **Sobre Nosotros**
 
 FullHouse es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.
@@ -44,14 +46,6 @@ Es un miembro del equipo con un perfil técnico muy completo, presenta dominio d
 Es un miembro del equipo que cuenta con habilidades como lo pueden ser la programación, la estimación, planeación de proyectos, arquitectura de software, pruebas, diseño, entre otras. Su rol se enfoca en trabajar para que quede lista la solución a las necesidades de su(s) stakeholder(s).
 
 ## Herramientas de trabajo
-
-[Pruebas de Software](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20Software%204da96005c1f548549bcdd3b5b652690e.md)
-
-[Pruebas de Seguridad](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20Seguridad%209a1580ceb92a4028ba87c9f9c8a1c97c.md)
-
-[Pruebas de integración](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20de%20integracio%CC%81n%200f1ab8006ddf44038fdfeb654aadf76d.md)
-
-[Pruebas UAT](FullHouse%2026d00b91dad14cb58ede98d5de77e329/Pruebas%20UAT%20beb6b75f4ac147de9a7fdcb4f65471ad.md)
 
 - Figma
 - Drive

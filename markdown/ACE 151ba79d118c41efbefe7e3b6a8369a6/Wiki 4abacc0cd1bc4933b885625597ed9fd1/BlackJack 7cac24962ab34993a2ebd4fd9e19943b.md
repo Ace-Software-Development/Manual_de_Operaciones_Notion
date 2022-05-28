@@ -12,15 +12,7 @@
 
 BlackJack es un equipo del departamento ACE Technology. Todas nuestras políticas, procesos y plantillas se basan en la forma de trabajo del departamento, en caso de requerir cambios serán documentados en la Wiki del equipo.
 
-### Integrantes:[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/#integrantes)
-
-- Diego Arturo Padilla Domínguez
-- Jorge Alan Ramírez Elías
-- Leonardo Alvarado Menéndez
-- Mariana Soto Ochoa
-- Paulina Cardoso Fuentes
-- Wenguang Hu
-- Paola Adriana Millares Forno
+[Interesados en el proyecto](BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Interesados%20en%20el%20proyecto%20a2bed33a72984ebe9f1d96744e07ce09.csv)
 
 ## Responsabilidades del equipo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/#responsabilidades-del-equipo)
 
