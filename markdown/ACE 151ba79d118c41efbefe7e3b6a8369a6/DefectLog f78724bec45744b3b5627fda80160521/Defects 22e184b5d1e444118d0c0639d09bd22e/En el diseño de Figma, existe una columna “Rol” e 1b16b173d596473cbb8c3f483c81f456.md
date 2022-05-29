@@ -1,5 +1,6 @@
 # En el diseño de Figma, existe una columna “Rol” en cada tabla de la vista de empleados (sugerencia: cambiarlo por el correo)
 
+Acción correctiva: Cambiar el Rol por el Correo
 Costo en minutos: 10
 Estado: Done
 Fase de Detección*: Implementación
@@ -10,5 +11,4 @@ Iteración: 3
 Proyecto*: NefroVida
 Responsable: Manolo
 Severidad *: Cosmetic
-Solución del defecto: Cambiar el Rol por el Correo
 Tipo*: UI

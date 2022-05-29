@@ -1,5 +1,6 @@
 # Error en pm2 code: 'MODULE_NOT_FOUND',
 
+Acción correctiva: Modificar un import que no existe
 Costo en minutos: 30
 Estado: Done
 Fase de Detección*: Implementación
@@ -11,5 +12,4 @@ Iteración: 7
 Proyecto*: Monarca
 Responsable: Mariana
 Severidad *: Urgent
-Solución del defecto: Modificar un import que no existe
 Tipo*: Version

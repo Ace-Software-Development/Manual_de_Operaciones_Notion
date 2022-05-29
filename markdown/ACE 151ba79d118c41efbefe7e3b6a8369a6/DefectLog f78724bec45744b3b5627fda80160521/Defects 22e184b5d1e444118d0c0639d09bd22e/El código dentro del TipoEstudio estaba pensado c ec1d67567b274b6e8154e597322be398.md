@@ -1,5 +1,6 @@
 # El código dentro del TipoEstudio estaba pensado como requerido cuando no todos lo tienen
 
+Acción correctiva: Modificar el código para cambiar el valor requerido a no requerido
 Costo en minutos: 15
 Estado: Done
 Fase de Detección*: Implementación
@@ -11,5 +12,4 @@ Iteración: 3
 Proyecto*: NefroVida
 Responsable: Andrea
 Severidad *: Emergency
-Solución del defecto: Modificar el código para cambiar el valor requerido a no requerido
 Tipo*: Logico

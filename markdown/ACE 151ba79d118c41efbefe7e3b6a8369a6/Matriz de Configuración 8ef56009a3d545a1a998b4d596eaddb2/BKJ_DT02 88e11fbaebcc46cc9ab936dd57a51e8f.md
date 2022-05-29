@@ -1,5 +1,6 @@
 # BKJ_DT02
 
+Auditado: No
 Categoría: Documentos técnicos
 Fecha de creación: March 9, 2022
 Fecha de última modificación: March 31, 2022

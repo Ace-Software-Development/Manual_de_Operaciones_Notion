@@ -1,5 +1,6 @@
 # Alineación de tarjetas en interfaz de chekin y chekout
 
+Acción correctiva: Convertir en d-flex
 Costo en minutos: 0.5
 Estado: Done
 Fase de Detección*: Diseño
@@ -10,5 +11,4 @@ Iteración: 6
 Proyecto*: Monarca
 Responsable: Diego
 Severidad *: Cosmetic
-Solución del defecto: Convertir en d-flex
 Tipo*: UI

@@ -1,5 +1,6 @@
 # En el diseño de figma, existen varios campos: “teléfono”, “correo”, en la lista de estudios. ¿Cómo diablos un estudio puede tener número telefónico? JAJAJAJ
 
+Acción correctiva: Modificar el diseño en la página de figma, campo correo cambiado a código y campo teléfono cambiado a químico, fecha desplazada a la derecha.
 Costo en minutos: 15
 Estado: Done
 Fase de Detección*: Implementación
@@ -11,5 +12,4 @@ Iteración: 3
 Proyecto*: NefroVida
 Responsable: Andrea, Manolo, David
 Severidad *: Cosmetic
-Solución del defecto: Modificar el diseño en la página de figma, campo correo cambiado a código y campo teléfono cambiado a químico, fecha desplazada a la derecha.
 Tipo*: Formato

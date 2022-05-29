@@ -1,5 +1,6 @@
 # IMP_D02
 
+Auditado: No
 Categoría: Diagramas
 Fecha de creación: March 29, 2022
 Fecha de última modificación: April 18, 2022

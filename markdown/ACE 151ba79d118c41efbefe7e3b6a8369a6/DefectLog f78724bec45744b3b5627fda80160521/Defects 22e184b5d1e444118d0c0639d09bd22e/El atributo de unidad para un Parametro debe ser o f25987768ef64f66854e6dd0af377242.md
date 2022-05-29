@@ -1,5 +1,6 @@
 # El atributo de unidad para un Parametro debe ser opcional
 
+Acción correctiva: Modificar el código para cambiar el valor requerido a no requerido
 Costo en minutos: 10
 Estado: Done
 Fase de Detección*: Implementación
@@ -11,5 +12,4 @@ Iteración: 3
 Proyecto*: NefroVida
 Responsable: Andrea
 Severidad *: Urgent
-Solución del defecto: Modificar el código para cambiar el valor requerido a no requerido
 Tipo*: Logico

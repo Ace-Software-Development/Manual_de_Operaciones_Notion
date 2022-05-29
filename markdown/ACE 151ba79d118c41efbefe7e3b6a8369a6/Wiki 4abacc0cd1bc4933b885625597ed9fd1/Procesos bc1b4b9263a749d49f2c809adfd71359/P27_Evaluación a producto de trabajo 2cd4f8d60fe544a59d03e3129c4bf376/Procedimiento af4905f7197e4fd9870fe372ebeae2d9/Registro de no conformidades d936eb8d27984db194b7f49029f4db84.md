@@ -1,5 +1,0 @@
-# Registro de no conformidades
-
-Actividad: Registrar las no conformidades (aspectos de la checklist que no están presentes en el asset) en el https://www.notion.so/f78724bec45744b3b5627fda80160521 con sus respectivos nombres, estado, fase de detección, fase de inyección, fecha de detección, ID, iteración, proyecto, responsable del defecto, severidad y tipo.
-Responsable: Responsable de auditoría
-Subpractica CMMI: PPQA 1.2, 2.1

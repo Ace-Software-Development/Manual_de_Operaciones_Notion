@@ -1,0 +1,16 @@
+﻿Fase,Actividad,Responsable
+Revisión,"En la junta de coordinación diaria departamental los líderes de área/Product Owners deberán de seleccionar los productos de trabajo (proceso, guía, estándar o política) en la https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 con status dinámico.",Líder de área/Product Owner
+,Los líderes de área/Product Owners deberán asignar los productos de trabajo identificados a auditores.,Líder de área/Product Owner
+,Duplicar el checklist de https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit?usp=sharing en una nueva pestaña del documento.,Responsable de auditoría
+,Escribir la información general de la auditoría en su respectivo checklist.,Responsable de auditoría
+,Marcar con una palomilla los elementos con los que cumple el producto de trabajo.,Responsable de auditoría
+,Registrar las no conformidades (aspectos de la checklist que no están presentes en el producto de trabajo) en el https://www.notion.so/f78724bec45744b3b5627fda80160521 siguiendo la guía para https://www.notion.so/b4264c111ef94064b4a19744c3aee61e.,Responsable de auditoría
+Propuesta de mejora,Escribir las propuestas de mejora en la sección de comentarios.,Responsable de auditoría
+,"Actualizar el estado del producto de trabajo en la https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 según el resultado de la auditoría.
+- Controlado: Fue auditado, pero tiene defectos sin resolver.
+- Estático: Fue auditado y no tiene defectos. En este caso se tiene que agregar la fecha en la que el producto de trabajo se volvió estático.",Responsable de auditoría
+,Marcar como auditado el asset en la https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 y adjuntar el link de la auditoría.,Responsable de auditoría
+,Comunicar al responsable del proceso las no conformidades que surgieron en la auditoría.,Responsable de auditoría
+,El responsable del proceso deberá de corregir los defectos en un tiempo máximo de 3 días.,Líder de área/Product Owner
+Verificación,"En caso de contar con no conformidades, se debe repetir el proceso de auditorías a productos de trabajo una vez que estas se hayan atendido.",Responsable de auditoría
+,"Si los defectos no se resolvieron después de 3 días, el Comité de Calidad realizará una reunión 1 a 1 con el responsable del producto de trabajo.",Comité de Calidad

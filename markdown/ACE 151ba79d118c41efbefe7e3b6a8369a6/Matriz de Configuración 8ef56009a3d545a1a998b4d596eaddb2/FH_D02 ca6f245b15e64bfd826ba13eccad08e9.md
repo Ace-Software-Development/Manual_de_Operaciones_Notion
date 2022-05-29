@@ -1,5 +1,6 @@
 # FH_D02
 
+Auditado: No
 Categoría: Diagramas
 Fecha de creación: March 15, 2022
 Fecha de última modificación: May 5, 2022
