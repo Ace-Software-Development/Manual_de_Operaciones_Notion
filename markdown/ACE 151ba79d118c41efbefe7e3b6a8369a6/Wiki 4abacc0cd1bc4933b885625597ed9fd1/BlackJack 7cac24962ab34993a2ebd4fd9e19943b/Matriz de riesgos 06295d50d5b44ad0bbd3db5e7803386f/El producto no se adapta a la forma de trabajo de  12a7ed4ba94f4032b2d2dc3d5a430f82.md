@@ -5,7 +5,7 @@ Consecuencias: Retrabajo
 
 Poca satisfacción para el cliente
 Fecha de definición: 03/05/2022
-ID: May 28 2022, 22:13:00
+ID: May 29 2022, 08:40:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: Hacer pruebas con el usuario final en cada versión
