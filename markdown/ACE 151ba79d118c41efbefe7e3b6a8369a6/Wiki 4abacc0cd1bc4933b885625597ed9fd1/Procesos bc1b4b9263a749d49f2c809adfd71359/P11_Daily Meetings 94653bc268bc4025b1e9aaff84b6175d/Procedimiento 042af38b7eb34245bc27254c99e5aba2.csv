@@ -2,13 +2,14 @@
 ,Mostrar el plan y reunirse de pie alrededor de donde se está mostrando el plan,,
 ,Iniciar la reunión a la hora planeada.,,
 ,Compartir lo que se hizo desde la daily pasada y lo actualiza en el plan.,,PMC 1.6
-,Compartir los impedimentos que tiene (si no se completó la actividad de ayer debe identificar el impedimento) y con quién los debe atender.,,
+,Compartir los impedimentos que tiene  y con quién los debe atender. (si no se completó la actividad de ayer debe identificar el impedimento),,
 ,Revisar cómo van los riesgos siguiendo el proceso ../P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md../P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md y posteriormente con el proceso ../P42_Acciones%20correctivas%2093b37b250e7e4fb2ba4d05f44e294d75.md,,
 ,Compartir lo que hará hasta la daily del día siguiente y actualiza el estatus de la tarea en el plan de trabajo.,,
 ,Realizar un compromiso de las tareas o requisitos que se trabajarán en el día.,,RM 1.2
 ,"El Team Leader comparte el progreso de la iteración (jira, excel).",,PMC 1.6
 ,"Si se va de acuerdo al plan, se felicita al equipo de trabajo.",,
-,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos. Se debe de evaluar si se encuentra una inconsistencia, re-estimarla y priorizarla, de acuerdo al proceso de priorización de requisitos.",,"PMC 
+,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos. Se debe de evaluar si se encuentra una inconsistencia, re-estimarla y priorizarla, de acuerdo al proceso de../P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286.md.",,"PMC 
 RM 1.5"
+,El Team Leader actualiza el ../../../Log%20comunicacio%CC%81n%20stakeholders%20c2c879c63b17431aaef027b787db8387.csv en caso de haber nuevos acuerdos y/o pedidos.,,PP 3.3
 ,El Team Leader compartirá semanalmente la matriz de riesgos con el propósito de llevar un seguimiento de los posibles riesgos presentados o por presentarse.,,
 ,Se da por terminada la junta y se inicia la atención de los impedimentos.,,

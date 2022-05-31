@@ -28,6 +28,10 @@ Plan de acción
 
 Team Leader
 
+## Acciones correctivas de los equipos
+
+[Ace](https://drive.google.com/drive/folders/1-K0nkWe027-H7NCr2e8Vn3yYcee-VvvW)
+
 ## Bitácora de cambios
 
 [Untitled](P42_Acciones%20correctivas%2093b37b250e7e4fb2ba4d05f44e294d75/Untitled%20Database%20bf6169c508454737b3a319675f04d281.csv)

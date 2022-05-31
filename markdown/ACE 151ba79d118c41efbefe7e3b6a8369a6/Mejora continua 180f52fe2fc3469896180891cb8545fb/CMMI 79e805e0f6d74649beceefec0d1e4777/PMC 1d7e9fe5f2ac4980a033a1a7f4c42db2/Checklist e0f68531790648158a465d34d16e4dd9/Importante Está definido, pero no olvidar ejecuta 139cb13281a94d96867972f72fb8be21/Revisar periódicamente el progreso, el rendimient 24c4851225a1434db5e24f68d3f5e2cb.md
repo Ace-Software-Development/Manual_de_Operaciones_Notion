@@ -1,7 +1,7 @@
 # Revisar periódicamente el progreso, el rendimiento y los problemas del proyecto
 
 Atendida: Yes
-Atendida 2: No
+Atendida 2: Yes
 Cosas a hacer: Actualizar proceso de retrospectiva
 Revisar y agregar proceso de daily
 Cosas que ya tenemos: https://www.notion.so/9e356c5b62be47cb8cb563696a8e04da

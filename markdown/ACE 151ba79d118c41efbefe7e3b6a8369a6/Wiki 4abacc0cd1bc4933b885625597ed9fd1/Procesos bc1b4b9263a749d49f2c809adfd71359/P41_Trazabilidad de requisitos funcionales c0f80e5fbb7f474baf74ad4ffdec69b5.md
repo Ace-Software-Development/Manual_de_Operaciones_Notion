@@ -28,7 +28,7 @@ La plantilla varía dependiendo el equipo
 
 ## **Métricas**
 
-texto
+No aplica
 
 ## **Responsable**
 

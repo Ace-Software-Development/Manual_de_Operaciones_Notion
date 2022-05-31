@@ -22,7 +22,7 @@ Llevar un registro y monitoreo de los defectos.
     4. Fecha de detección: Fecha en la que se halló el defecto.
     5. Proyecto: Proyecto en el que se detectó el defecto (solo para productos de trabajo).
     6. Responsable del defecto: Encargado de dar solución al defecto (dueño del producto o asset).
-    7. Severidad: 
+    7. Severidad:
         - Necessary: El defecto debe resolverse, sin embargo no compromete el flujo de trabajo.
         - Urgent: El defecto debe atenderse prioritariamente porque representa un retraso en el flujo de trabajo.
         - Emergency: El defecto debe atenderse inmediatamente porque detiene el flujo de trabajo.

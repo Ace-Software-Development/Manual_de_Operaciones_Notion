@@ -40,4 +40,12 @@ PMC - Project Monitoring and Control
 
 RKM - Risk Management
 
+## Plan de riesgos de los equipos
+
+[Nefrovida](https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing)
+
+[Monarca](../BlackJack%207cac24962ab34993a2ebd4fd9e19943b/Matriz%20de%20riesgos%2006295d50d5b44ad0bbd3db5e7803386f.csv)
+
+[Ace](https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit)
+
 [Bitácora de cambios (1)](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Bita%CC%81cora%20de%20cambios%20(1)%20023022eaf9ab4d488da7a51bb4cea6be.csv)

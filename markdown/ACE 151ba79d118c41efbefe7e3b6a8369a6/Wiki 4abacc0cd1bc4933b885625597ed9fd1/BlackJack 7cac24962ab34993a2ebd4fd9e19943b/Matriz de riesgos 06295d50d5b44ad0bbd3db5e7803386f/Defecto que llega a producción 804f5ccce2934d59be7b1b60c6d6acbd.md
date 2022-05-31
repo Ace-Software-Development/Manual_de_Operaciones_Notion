@@ -5,7 +5,7 @@ Consecuencias: - Presentar problemas e incidencias del lado del cliente.
 - Se perjudica la operación del negocio.
 - Se afecta la experiencia de usuario para el cliente.
 Fecha de definición: 10/03/2022
-ID: May 30 2022, 08:47:00
+ID: May 30 2022, 22:05:00
 Impacto: Alto
 Interno: Yes
 Plan de mitigación: - Pruebas unitarias previas a cada integración de código.
