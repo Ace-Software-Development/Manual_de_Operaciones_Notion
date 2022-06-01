@@ -27,4 +27,4 @@ git commit -m "fix lint by removing console logs"
 
 ## Bitácora de cambios
 
-[Untitled](BKJ_E01_Commits%20070395d29e4c4e8c9a3b53ed98a5bfe7/Untitled%20Database%209c15d3a69427460298913d9bcbb2e106.csv)
+[Bitácora de cambios ](BKJ_E01_Commits%20070395d29e4c4e8c9a3b53ed98a5bfe7/Bita%CC%81cora%20de%20cambios%209c15d3a69427460298913d9bcbb2e106.csv)

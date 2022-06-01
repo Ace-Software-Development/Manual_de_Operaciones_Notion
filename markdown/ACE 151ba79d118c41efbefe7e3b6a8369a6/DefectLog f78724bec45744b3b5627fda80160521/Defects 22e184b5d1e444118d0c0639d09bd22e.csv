@@ -1,0 +1,14 @@
+﻿ID,Nombre del defecto*,Estado,Fecha de detección,Proyecto/área*,Responsable,Asset/Producto de trabajo,Severidad *,Tipo*,Acción correctiva,Fecha de Corrección
+1,Áreas del CMMI inexistentes,Pending,"May 31, 2022",N/A," ",,Necessary,Gestión de la configuración,,
+2,Hay una práctica de PMC pero no se indica cuál es,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,
+3,Wireframe dice “Aiuda Pofavo”,Done,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Formato y gramática,"Corregir ortografía/ eliminar ","May 31, 2022"
+4,"No se llena el apartado de ""Fase”",Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,
+5,No se agrega enlace al proceso de priorización de requisitos,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Gestión de la configuración,,
+6,El asset es redundante,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Valor,,
+7,No se encuentra en la matriz de configuración,Pending,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Gestión de la configuración,,
+8,No hay prácticas de CMMI en el proceso,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Definición,,
+9,Falta incluir versión 1.0 en la bitácora del asset,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93 ",Necessary,Gestión de la configuración,,
+10,,,,,,,,,,
+11,"No están enlistados los niveles de conflicto ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471 ",Necessary,Formato y gramática,Enlistar niveles de conflicto,
+12,Actualizar información,Pending,"May 31, 2022",Monarca," ",https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit,Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=994565989,
+13,"No esta versionado ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/8d338cd4bd724e1680119c3af60171fd ",Necessary,Gestión de la configuración,"Versionar ",

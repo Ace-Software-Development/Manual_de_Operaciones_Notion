@@ -16,7 +16,7 @@ Gestionar los cambios de los items de la wiki asegurar su revisión
 
 [Untitled](P23_Revision%20de%20cambio%20en%20item%20de%20la%20Wiki%20c8d92fb8afa7421b81f8cdd652b6f100/Untitled%20Database%2067a2e4c2b0494e268f51a580de1968b1.csv)
 
-## **Critérios de salida**
+## **Criterios de salida**
 
 Item de la wiki revisado
 

@@ -35,3 +35,4 @@
 - Marcar todo el proceso en Jira, actualizar el estado (En diseño, In progress, etc.)
 - Hacer el time tracking en Jira cada vez que se trabaje en el caso de uso.
 - Notificar al AO de cualquier cambio realizado a la base de datos.
+- Llenar la [matriz de trazabilidad](https://docs.google.com/spreadsheets/d/11b8R4eX2zTpGUFKEB9DdAY1GEvhSiYRjEp2GKOfoY9A/edit#gid=262762532)

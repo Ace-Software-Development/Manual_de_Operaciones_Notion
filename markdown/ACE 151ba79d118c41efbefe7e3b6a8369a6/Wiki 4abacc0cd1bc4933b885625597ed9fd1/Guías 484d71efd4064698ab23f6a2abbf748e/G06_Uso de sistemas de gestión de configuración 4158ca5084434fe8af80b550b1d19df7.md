@@ -63,7 +63,7 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     - Log de Auditorías
         - Es una matriz con las auditorías que se realizan entre equipos. Es importante registrar el documento que contiene el resumen de la auditoría.
     - Repositorio de métricas
-        - Se encuentran las métricas que utiliza el departamento y las mediciones que han hecho los equipos basandose en esas métricas.
+        - Se encuentran las métricas que utiliza el departamento y las mediciones que han hecho los equipos basándose en esas métricas.
     - SCAMPI ACE
         - Contiene el resumen y evidencia del avance de las diferentes áreas del CMMI.
     - Matriz de Configuración
@@ -97,7 +97,7 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     
     ![Untitled](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Untitled%201.png)
     
-    En caso de no ser parte de la organización, el *mainteiner* de la misma deberá darte acceso directo para visualizar los repositorios y equipos privados. 
+    En caso de no ser parte de la organización, el *maintainer* de la misma deberá darte acceso directo para visualizar los repositorios y equipos privados. 
     
     **Acceder al repositorio de un equipo**
     
@@ -106,7 +106,7 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
         ![Untitled](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Untitled%202.png)
         
     2. Acceder a algún equipo (ejemplo: Campanario)
-    3. Ir a la pestaña *Repositories.* En ella podrás visualizar los proyectos a los que tienes acceso. En caso de querer acceder a algún repositorio que no aparece, contactar al Arquitecture Owner del equipo. 
+    3. Ir a la pestaña *Repositories.* En ella podrás visualizar los proyectos a los que tienes acceso. En caso de querer acceder a algún repositorio que no aparece, contactar al Architecture Owner del equipo. 
         
         ![Untitled](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Untitled%203.png)
         
@@ -125,7 +125,7 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     
     ![Untitled](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Untitled%204.png)
     
-    Para acceder a cualqueir carpeta y documento de la unidad compartida, contactar a la persona encargada de la misma para solicitar acceso. 
+    Para acceder a cualquier carpeta y documento de la unidad compartida, contactar a la persona encargada de la misma para solicitar acceso. 
     
     A continuación, los documentos más significativos que se podrán encontrar en las carpetas de la unidad compartida del departamento.
     
@@ -138,6 +138,7 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     - Encuestas
         - De felicidad
         - De cambio de roles
+        - Departamentales
     - Entregable plan de trabajo
         - Archivos zip con el plan de trabajo terminado de los equipos
     - Ética

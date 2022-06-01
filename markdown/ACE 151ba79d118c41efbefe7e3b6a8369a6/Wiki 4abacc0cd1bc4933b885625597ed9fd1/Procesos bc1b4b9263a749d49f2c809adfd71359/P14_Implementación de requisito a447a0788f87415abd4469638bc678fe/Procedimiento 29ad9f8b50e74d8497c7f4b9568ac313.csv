@@ -7,7 +7,7 @@
 • Hacer pair programing al momento del desarrollo.
 • Registrar defectos encontrados en el defect log.
 • Medir el tiempo que tomaste en el desarrollo de cada sección y anotarlos en el Time Log.",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:52 PM",Jorge Alan Ramírez Elías,Análisis,En esta sección se lleva a cabo la inspección del item para tener un conocimiento claro sobre como funciona el mismo.,,,Jorge Alan Ramírez Elías
+"May 24, 2022 7:52 PM",Enrique Santos Fraire,Análisis,En esta sección se lleva a cabo la inspección del item para tener un conocimiento claro sobre como funciona el mismo.,,TS 2.1,Jorge Alan Ramírez Elías
 "May 24, 2022 7:53 PM",Jorge Alan Ramírez Elías,Diseño,En esta sección se realiza el diseño gráfico del ítem de trabajo.,,,Jorge Alan Ramírez Elías
 "May 24, 2022 7:56 PM",Jorge Alan Ramírez Elías,Desarollo,Esta sección conlleva el desarrollo del item con base al análisis y diseño definidos anteriormente. Nota: Checar checklist de análisis y diseño.,,,Jorge Alan Ramírez Elías
 "May 24, 2022 7:56 PM",Jorge Alan Ramírez Elías,Pruebas,"En esta sección se trabaja el diseño de las pruebas definidas en el plan de pruebas del equipo, así como también su ejecución y arreglos.",,,Jorge Alan Ramírez Elías
@@ -15,5 +15,6 @@
 "May 24, 2022 7:54 PM",Jorge Alan Ramírez Elías,Validate the integrated solution,"Asegurarse de integrar a producción las historias desarrolladas al final de cada iteración
 En caso de que no se cumpla con lo que debería lograr el requisito
 https://www.notion.so/2def9ed783854191833873f66c47a127",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:59 PM",Jorge Alan Ramírez Elías,Share the solution,Crear documentación  para el usuario,,,Jorge Alan Ramírez Elías
-"May 24, 2022 8:00 PM",Jorge Alan Ramírez Elías,,Crear documentación para el desarrollador,,,Jorge Alan Ramírez Elías
+"May 24, 2022 7:59 PM",Leonardo Alvarado Menéndez,Share the solution,Crear documentación  para el usuario,,TS3.1,Jorge Alan Ramírez Elías
+"May 24, 2022 8:00 PM",Leonardo Alvarado Menéndez,,Crear documentación para el desarrollador,,TS3.1,Jorge Alan Ramírez Elías
+"May 31, 2022 7:22 PM",Paola Adriana Millares Forno,Evaluación constante,"Llenar la matriz de trazabilidad con toda la información del requisito https://www.notion.so/2a6094b09f214e6a9515bc73ce626e2c ",Team Leader,RKM1.5,Paola Adriana Millares Forno

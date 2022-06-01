@@ -3,7 +3,7 @@
 Categoría: Operacional
 Consecuencias: La solución no sería funcional en toda la fábrica
 Fecha de definición: 26/05/2022
-ID: May 31 2022, 08:46:00
+ID: May 31 2022, 22:23:00
 Impacto: Medio
 Interno: No
 Plan de mitigación: Mantener la comunicación 

@@ -17,3 +17,10 @@
 2,Consultar los tipos de estudio,El usuario debe estar autenticado y tener el rol de administrador o químico para poder consultar los tipos de estudio,Aprobado,"May 27, 2022",Eddy,IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 3,Consultar los tipos de estudio,El usuario debe estar autenticado y tener el rol de administrador para poder editar y eliminar los tipos de estudio,,,Eddy,IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 1,Cerrar sesión en el sistema,Un usuario no autenticado intenta ingresar a la ruta de cerrar sesión,Aprobado,"May 27, 2022",Jorge,IT3,
+1,Consultar información del paciente,Se debe validar que el rol tenga los privilegios para acceder a la información del paciente,Aprobado,"May 30, 2022",Mich,IT3,
+2,Consultar información del paciente,Se debe validar que el backend no entregue información sensible sin antes haber recibido credenciales apropiadas,Aprobado,"May 30, 2022",Mich,IT3,
+1,Consultar los estudios del paciente,"Se debe validar que el rol tenga los privilegios para acceder a la información del paciente
+",Aprobado,"May 31, 2022"," ",IT3,
+2,Consultar los estudios del paciente,"El usuario debe de estar autenticado y tener un rol de químico para poder editar o eliminar el detalle del estudio del paciente
+",No reproducible,"May 31, 2022"," ",IT3,
+3,Consultar los estudios del paciente,El usuario debe de estar autenticado y tener un rol de doctor o nutrióloga para poder visualizar el resultado del estudio del paciente,Aprobado,"May 31, 2022"," ",IT3,

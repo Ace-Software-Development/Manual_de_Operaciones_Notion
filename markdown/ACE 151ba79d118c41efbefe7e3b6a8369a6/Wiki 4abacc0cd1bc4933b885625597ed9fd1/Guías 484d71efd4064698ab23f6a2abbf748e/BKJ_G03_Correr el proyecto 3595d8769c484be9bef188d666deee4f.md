@@ -46,16 +46,12 @@ npm install
 pm2 start dev_capullo.json
 ```
 
-1. **IMPORTANTE:** Cuando termines de correr el proyecto debes de detener el proceso que corre en pm2 y borrarlo para que no siga consumiendo recursos. Además, pm2 se puede dañar si reinicias tu computadora mientras hay un proceso corriendo.
+1. **IMPORTANTE:** Cuando termines de correr el proyecto, debes de detener el proceso que corre en pm2 y borrarlo para que no siga consumiendo recursos. Además, pm2 se puede dañar si reinicias tu computadora mientras hay un proceso corriendo.
 
 ```bash
 pm2 stop dev_capullo.json
-pm2 delete dev_capullo.json
+pm2 delete dev_capu
 ```
-
-1. Para conocer más comandos de pm2 visita la siguiente guía
-
-[Instalación de pm2](BKJ_G01_Gui%CC%81a%20del%20servidor%2076ffad5f45c54fdabea9d5c68909c8ca/Instalacio%CC%81n%20de%20pm2%20d06ff367d4624a51afb995e6e12bb402.md) 
 
 ## Acceder a la app
 

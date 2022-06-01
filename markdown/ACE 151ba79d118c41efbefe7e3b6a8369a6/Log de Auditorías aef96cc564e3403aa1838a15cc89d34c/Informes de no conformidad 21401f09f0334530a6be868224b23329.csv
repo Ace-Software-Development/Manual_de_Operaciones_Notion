@@ -1,5 +1,0 @@
-﻿Auditoría,No conformidad,¿Por qué no se cumple?,Acciones correctivas,Responsable,Estatus de las acciones correctivas,Fecha de resolución,Fecha límite de resolución
-A6,No se sigue el proceso de cambios a requisitos,Al cambiar un requisitos no se siguieron los pasos dentro del proceso,Llenar la plantilla de cambios a requisitos,,Pending,,
-A7,Los hipervínculos no funcionan,No se tienen los permisos para poder acceder a los recursos FH_D01 y DH_D02,Habilitar permisos para todo el departamento,,Pending,,
-A7,No se tiene bitácora de cambios en políticas,No se tiene un control de cambios en la bitácora de sus políticas y no hay registros ni revisiones de ellas,Llenar la bitácora de cambios de las políticas y un miembro diferente a quien escribió la política debe registrar que revisó el cambio/creación,,Pending,,
-A7,No se tienen todos los documentos en la matriz,Falta agregar sus procesos y guías,Agregar todos sus procesos y todas sus guías en la matriz de configuración,,Pending,,

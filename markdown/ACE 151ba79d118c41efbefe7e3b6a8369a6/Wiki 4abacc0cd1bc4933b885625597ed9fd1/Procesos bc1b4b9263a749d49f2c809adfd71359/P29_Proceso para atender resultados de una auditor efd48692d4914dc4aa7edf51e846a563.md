@@ -12,7 +12,7 @@
 
 ## Criterios de salida
 
-- Informe de acciones correctivas ligado a la auditoría correspondiente en el l[og de auditorías](../../Log%20de%20Auditori%CC%81as%20aef96cc564e3403aa1838a15cc89d34c.md) (en caso de haber no conformidades)
+- Informe de acciones correctivas ligado a la auditoría correspondiente en el l[og de auditorías](https://www.notion.so/Log-de-Auditor-as-aef96cc564e3403aa1838a15cc89d34c) (en caso de haber no conformidades)
 
 ## Métricas
 

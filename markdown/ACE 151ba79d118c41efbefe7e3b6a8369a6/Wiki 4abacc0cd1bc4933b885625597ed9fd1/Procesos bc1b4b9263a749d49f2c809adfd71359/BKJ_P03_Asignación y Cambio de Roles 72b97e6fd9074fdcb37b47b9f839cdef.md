@@ -22,7 +22,7 @@ Solicitud de cambio de roles
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P03_Asignaci%C3%B3n%20y%20Cambio%20de%20Roles#criterios-de-salida)
 
-1) Lista de roles actualizada
+Lista de roles actualizada
 
 ## Métricas[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P03_Asignaci%C3%B3n%20y%20Cambio%20de%20Roles#m%C3%A9tricas)
 

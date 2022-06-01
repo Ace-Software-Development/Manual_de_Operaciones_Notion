@@ -10,7 +10,7 @@ Registrar y dar seguimiento al estado de las acciones correctivas para los resul
 
 ## Uso de plantilla
 
-Se debe crear una copia de esta plantilla por cada auditoría en la que se desee dar seguimiento a las no conformidades. El link a la instancia de la plantilla se debe colocar en su auditoría correspondiente en el [Log de Auditorías](../../Log%20de%20Auditori%CC%81as%20aef96cc564e3403aa1838a15cc89d34c.md)
+Se debe crear una copia de esta plantilla por cada auditoría en la que se desee dar seguimiento a las no conformidades. El link a la instancia de la plantilla se debe colocar en su auditoría correspondiente en el [Log de Auditorías](https://www.notion.so/Log-de-Auditor-as-aef96cc564e3403aa1838a15cc89d34c)
 
 ## Área[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL06_Auditorias#%C3%A1rea)
 

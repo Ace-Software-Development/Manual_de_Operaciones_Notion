@@ -16,9 +16,9 @@ Llevar un registro y monitoreo de los defectos.
     1. ID: ID del defecto anterior +1
     2. Nombre: Nombre representativo del defecto.
     3. Estado:
-        - Pending: Aún no se empieza.
-        - Working on it: Ya se está trabajando en la solución.
-        - Done: Ya se resolvió el defecto.
+        - **Pending**: Aún no se empieza.
+        - **Working on it:** Ya se está trabajando en la solución.
+        - **Done**: Ya se resolvió el defecto.
     4. Fecha de detección: Fecha en la que se halló el defecto.
     5. Proyecto: Proyecto en el que se detectó el defecto (solo para productos de trabajo).
     6. Responsable del defecto: Encargado de dar solución al defecto (dueño del producto o asset).
