@@ -1,3 +1,4 @@
 # El equipo designa un responsable de la documentación de riesgos
 
+Encargado: Todo el equipo
 Subpractica: PMC 2.1

@@ -12,7 +12,7 @@ Definir las fases por las que pasará el proyecto para poder tener una mejor est
 
 - Este proceso debe realizarse al iniciar un proyecto.
 - Es importante que cada vez que se detecte una variación en el avance del plan de proyecto, se actualice el plan de liberaciones a las nuevas necesidades.
-- Si alguno de los items de la estrategia de desarrollo tiene un cambio, es necesario documentarlo de inmediato.
+- Si alguno de los ítems de la estrategia de desarrollo tiene un cambio, es necesario documentarlo de inmediato.
 
 ## **Criterios de entrada**
 

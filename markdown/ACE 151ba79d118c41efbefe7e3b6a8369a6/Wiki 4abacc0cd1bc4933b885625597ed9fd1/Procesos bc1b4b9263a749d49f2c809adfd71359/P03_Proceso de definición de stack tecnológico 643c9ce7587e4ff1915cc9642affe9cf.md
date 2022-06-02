@@ -42,5 +42,3 @@
 - Versiones del documento.
 
 [Bitácora de cambios (1)](P03_Proceso%20de%20definicio%CC%81n%20de%20stack%20tecnolo%CC%81gico%20643c9ce7587e4ff1915cc9642affe9cf/Bita%CC%81cora%20de%20cambios%20(1)%2039ac6e9931724fda94d0bccfe537a0a4.csv)
-
-@Cutberto Arizabalo Nava @Paola Adriana Millares Forno  Igual hagan update del cambio que hicieron

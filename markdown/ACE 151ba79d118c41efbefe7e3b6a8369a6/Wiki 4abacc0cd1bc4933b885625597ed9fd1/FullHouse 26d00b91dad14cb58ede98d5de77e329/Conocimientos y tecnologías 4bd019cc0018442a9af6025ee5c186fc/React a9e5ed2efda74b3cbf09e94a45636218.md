@@ -7,5 +7,5 @@ Eddy: Yes
 Felipe: No
 Jorge: Yes
 Manolo: Yes
-Mich: No
+Mich: Yes
 Nivel: Intermedio
