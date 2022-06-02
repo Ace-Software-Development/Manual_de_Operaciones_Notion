@@ -1,17 +1,18 @@
-﻿ID,Nombre del defecto*,Estado,Fecha de detección,Proyecto/área*,Responsable,Asset/Producto de trabajo,Severidad *,Tipo*,Acción correctiva,Fecha de Corrección
-1,Áreas del CMMI inexistentes,Pending,"May 31, 2022",N/A," ",,Necessary,Gestión de la configuración,,
-2,Hay una práctica de PMC pero no se indica cuál es,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,
-3,Wireframe dice “Aiuda Pofavo”,Done,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Formato y gramática,"Corregir ortografía/ eliminar ","May 31, 2022"
-4,"No se llena el apartado de ""Fase”",Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,
-5,No se agrega enlace al proceso de priorización de requisitos,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Gestión de la configuración,,
-6,El asset es redundante,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Valor,,
-7,No se encuentra en la matriz de configuración,Pending,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Gestión de la configuración,,
-8,No hay prácticas de CMMI en el proceso,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Definición,,
-9,Falta incluir versión 1.0 en la bitácora del asset,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93 ",Necessary,Gestión de la configuración,,
-10,Actualizar calendario de hitos,Pending,"June 1, 2022",Monarca," ",https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit#heading=h.vcf7gdpoxeaw,Necessary,Valor,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1434300928,
-11,"No están enlistados los niveles de conflicto ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471 ",Necessary,Formato y gramática,,
-12,Actualizar información,Pending,"May 31, 2022",Monarca," ",https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit,Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=994565989,
-13,"No esta versionado ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/8d338cd4bd724e1680119c3af60171fd ",Necessary,Gestión de la configuración,,
-14,No se encuentra en matriz de configuración,Pending,"June 1, 2022",Monarca," ","https://www.notion.so/9cdbff2d4e774e6bae4907745d0fd83d ",Necessary,Gestión de la configuración,,
-15,No se encuentra en matriz de configuración,Pending,"June 1, 2022",TS,"  ","https://www.notion.so/687628ee402e4ebbb83041ec8d49c32c ",Necessary,Gestión de la configuración,,
-16,,,,,,,,,,
+﻿ID,Nombre del defecto*,Estado,Fecha de detección,Proyecto/área*,Responsable,Asset/Producto de trabajo,Severidad *,Tipo*,Acción correctiva,Fecha límite de corrección,Fecha de Corrección
+1,Áreas del CMMI inexistentes,Pending,"May 31, 2022",N/A," ",,Necessary,Gestión de la configuración,,,
+2,Hay una práctica de PMC pero no se indica cuál es,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,,
+3,Wireframe dice “Aiuda Pofavo”,Done,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Formato y gramática,"Corregir ortografía/ eliminar ",,"May 31, 2022"
+4,"No se llena el apartado de ""Fase”",Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,,
+5,No se agrega enlace al proceso de priorización de requisitos,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Gestión de la configuración,,,
+6,El asset es redundante,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Valor,,,
+7,No se encuentra en la matriz de configuración,Pending,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Gestión de la configuración,,,
+8,No hay prácticas de CMMI en el proceso,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Definición,,,
+9,Falta incluir versión 1.0 en la bitácora del asset,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93 ",Necessary,Gestión de la configuración,,,
+10,Actualizar calendario de hitos,Pending,"June 1, 2022",Monarca," ",https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit#heading=h.vcf7gdpoxeaw,Necessary,Valor,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1434300928,,
+11,"No están enlistados los niveles de conflicto ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/be9ca8f2914245d6a8a29409b0d2e471 ",Necessary,Formato y gramática,,,
+12,Actualizar información,Pending,"May 31, 2022",Monarca," ",https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit,Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=994565989,,
+13,"No esta versionado ",Pending,"May 31, 2022",Monarca," ","https://www.notion.so/8d338cd4bd724e1680119c3af60171fd ",Necessary,Gestión de la configuración,,,
+14,No se encuentra en matriz de configuración,Pending,"June 1, 2022",Monarca," ","https://www.notion.so/9cdbff2d4e774e6bae4907745d0fd83d ",Necessary,Gestión de la configuración,,,
+15,No se encuentra en matriz de configuración,Done,"June 1, 2022",TS,"  ","https://www.notion.so/687628ee402e4ebbb83041ec8d49c32c ",Necessary,Gestión de la configuración,,,"June 1, 2022"
+16,No agrega valor a la forma de trabajo,Pending,"June 1, 2022",CM," ","https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 ",Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=216331358,"June 2, 2022",
+17,No se versiona el documento,Done,"June 1, 2022",Monarca," ",https://docs.google.com/document/d/1_c7FelLye5r8Uy17W_b6kmUf9ClzLdKlCy6OZQi4rvI/edit,Necessary,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1663938010,"June 1, 2022","June 1, 2022"

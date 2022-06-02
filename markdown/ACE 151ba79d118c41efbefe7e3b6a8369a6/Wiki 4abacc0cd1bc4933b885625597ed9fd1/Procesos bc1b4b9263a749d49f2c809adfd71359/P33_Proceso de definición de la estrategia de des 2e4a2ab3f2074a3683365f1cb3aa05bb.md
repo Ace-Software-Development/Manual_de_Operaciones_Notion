@@ -1,4 +1,4 @@
-# P33 Proceso de definición de la estrategia de desarrollo
+# P33_Proceso de definición de la estrategia de desarrollo
 
 ## Versión
 
@@ -23,7 +23,7 @@ Definir las fases por las que pasará el proyecto para poder tener una mejor est
 
 ## **Procedimiento**
 
-[Definición de la estrategia de desarrollo](P33%20Proceso%20de%20definicio%CC%81n%20de%20la%20estrategia%20de%20des%202e4a2ab3f2074a3683365f1cb3aa05bb/Definicio%CC%81n%20de%20la%20estrategia%20de%20desarrollo%204911f33d2c964e7f878f372abb84bec1.csv)
+[Definición de la estrategia de desarrollo](P33_Proceso%20de%20definicio%CC%81n%20de%20la%20estrategia%20de%20des%202e4a2ab3f2074a3683365f1cb3aa05bb/Definicio%CC%81n%20de%20la%20estrategia%20de%20desarrollo%204911f33d2c964e7f878f372abb84bec1.csv)
 
 ## **Criterios de salida**
 
@@ -39,6 +39,6 @@ Team Leader
 
 ## Bitácora de cambios
 
-[Bitácora de cambios ](P33%20Proceso%20de%20definicio%CC%81n%20de%20la%20estrategia%20de%20des%202e4a2ab3f2074a3683365f1cb3aa05bb/Bita%CC%81cora%20de%20cambios%207a8bb6d346f542fd998a7a2d92e86e03.csv)
+[Bitácora de cambios ](P33_Proceso%20de%20definicio%CC%81n%20de%20la%20estrategia%20de%20des%202e4a2ab3f2074a3683365f1cb3aa05bb/Bita%CC%81cora%20de%20cambios%207a8bb6d346f542fd998a7a2d92e86e03.csv)
 
 ---

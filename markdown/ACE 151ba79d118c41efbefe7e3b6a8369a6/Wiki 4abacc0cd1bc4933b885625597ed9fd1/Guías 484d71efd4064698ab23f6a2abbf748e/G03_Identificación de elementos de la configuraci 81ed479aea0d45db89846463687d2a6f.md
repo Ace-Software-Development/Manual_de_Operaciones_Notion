@@ -110,9 +110,9 @@ Todos los elementos de configuración pueden tener 3 niveles, los que se definen
     
     [P04_**Revision de pull request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20pull%20request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
     
-    Si el item de configuracion esta almacenado en **Notion** se seguirá el siguiente proceso:
+    Si el item de configuracion esta almacenado en **Notion** o **Drive** se seguirá el siguiente proceso:
     
-    [P23_Revision de cambio en item de la Wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P23_Revision%20de%20cambio%20en%20item%20de%20la%20Wiki%20c8d92fb8afa7421b81f8cdd652b6f100.md) 
+    [P25_Auditorías a assets y productos de trabajo](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P25_Auditori%CC%81as%20a%20assets%20y%20productos%20de%20trabajo%20386d7b5b7b17435eb70e22f8f6ee7f08.md) 
     
 3. **Nivel estático**
     

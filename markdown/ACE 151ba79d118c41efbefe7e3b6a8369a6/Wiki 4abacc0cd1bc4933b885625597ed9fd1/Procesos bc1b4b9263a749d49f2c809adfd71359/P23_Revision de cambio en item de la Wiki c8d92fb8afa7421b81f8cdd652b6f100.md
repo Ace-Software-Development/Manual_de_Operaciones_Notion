@@ -6,7 +6,7 @@ texto
 
 ## **Objetivo**
 
-Gestionar los cambios de los items de la wiki asegurar su revisión
+Gestionar los cambios de los ítems de la wiki asegurar su revisión
 
 ## **Criterios de entrada**
 
@@ -18,9 +18,9 @@ Gestionar los cambios de los items de la wiki asegurar su revisión
 
 ## **Criterios de salida**
 
-Item de la wiki revisado
+Ítem de la wiki revisado
 
-Bitácora de cambios  del item actualizada
+Bitácora de cambios del ítem actualizada
 
 ## **Métricas**
 
