@@ -77,9 +77,9 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
     
     Para conocer las políticas de cambios y revisión de los elementos de la configuración, revisar los siguientes elementos:
     
-    [E01_E**lementos de configuración y líneas base.**](../Estandares%206577b6d75d3a4f788a00749c1fa0feee/E01_Elementos%20de%20configuracio%CC%81n%20y%20li%CC%81neas%20base%2014bf0cdb2ba24eb2b0002ae5b08bc493.md)
+    [E01_E**lementos de configuración y líneas base.**](../Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/E01_Elementos%20de%20configuracio%CC%81n%20y%20li%CC%81neas%20base%2014bf0cdb2ba24eb2b0002ae5b08bc493.md)
     
-    [P23_Revision de cambio en item de la Wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P23_Revision%20de%20cambio%20en%20item%20de%20la%20Wiki%20c8d92fb8afa7421b81f8cdd652b6f100.md)
+    [P23_Revision de cambio en ítem de la Wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P23_Revision%20de%20cambio%20en%20i%CC%81tem%20de%20la%20Wiki%20c8d92fb8afa7421b81f8cdd652b6f100.md)
     
     [P20_Creacion de ítem de la wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P20_Creacion%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501.md)
     

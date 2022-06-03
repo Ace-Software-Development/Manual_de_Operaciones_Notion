@@ -1,5 +1,9 @@
 # P06_Proceso de cambio en requisitos
 
+## Versión
+
+1.2
+
 ## Objetivos[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#objetivos)
 
 - Asegurar que los stakeholders son conscientes del impacto que tiene hacer cambios a los requisitos.

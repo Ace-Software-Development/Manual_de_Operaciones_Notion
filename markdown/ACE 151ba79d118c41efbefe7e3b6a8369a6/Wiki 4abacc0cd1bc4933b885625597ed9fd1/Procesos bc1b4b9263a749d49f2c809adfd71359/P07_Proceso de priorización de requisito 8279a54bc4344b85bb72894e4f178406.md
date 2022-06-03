@@ -1,5 +1,9 @@
 # P07_Proceso de priorización de requisito
 
+## Versión
+
+1.0
+
 ## Consideraciones importantes[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#consideraciones-importantes)
 
 Todos los requisitos funcionales identificados deben pasar por este proceso de priorización

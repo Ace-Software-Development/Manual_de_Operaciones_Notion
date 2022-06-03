@@ -1,5 +1,9 @@
 # P41_Trazabilidad de requisitos funcionales
 
+## Versión
+
+1.0
+
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 - Saber en dónde están los requerimientos funcionales implementados en el código

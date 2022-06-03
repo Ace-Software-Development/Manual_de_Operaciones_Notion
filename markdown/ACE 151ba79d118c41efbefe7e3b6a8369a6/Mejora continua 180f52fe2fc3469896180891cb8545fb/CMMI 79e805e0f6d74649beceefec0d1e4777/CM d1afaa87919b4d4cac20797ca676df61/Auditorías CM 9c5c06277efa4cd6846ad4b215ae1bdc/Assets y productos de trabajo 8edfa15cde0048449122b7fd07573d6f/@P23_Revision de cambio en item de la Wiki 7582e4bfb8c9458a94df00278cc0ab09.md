@@ -1,1 +1,0 @@
-# @P23_Revision de cambio en item de la Wiki

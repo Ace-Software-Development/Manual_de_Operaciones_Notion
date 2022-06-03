@@ -155,7 +155,24 @@ https://www.notion.so/de00681fb80c4b0ebfeb4ddb10e897c5 ","https://docs.google.co
 https://docs.google.com/document/d/11t80_aib7QCfwUyCkWCHnoIF-GQmeoQ0/edit","https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1AjXaQsXhOOvYaxDNU9vdZ2g6kdl9C6oI/edit?usp=sharing&ouid=103099851932148131705&rtpof=true&sd=true
 https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing",No
-RD,,,,,,,,No
+RD,1.1,"Matriz de trazabilidad(añadir necesidad y objetivos)
+Documento de validación de socios
+https://www.notion.so/c0f80e5fbb7f474baf74ad4ffdec69b5 https://www.notion.so/c0f80e5fbb7f474baf74ad4ffdec69b5https://www.notion.so/8279a54bc4344b85bb72894e4f178406 
+Falta definir como lo obtenemos
+Definir que hardware puede usar y con que otros sistemas se comunica
+Diagrama de casos de uso","Obtener las necesidades, las expectativas, las restricciones y las interfaces de las
+partes interesadas para todas las fases del ciclo de vida del producto.",,,,,No
+RD,1.2,"Documento de validación de socios
+Matriz de Trazabilidad
+https://www.notion.so/c0f80e5fbb7f474baf74ad4ffdec69b5 
+https://www.notion.so/8279a54bc4344b85bb72894e4f178406 
+Definir el como
+https://www.notion.so/acadd69f0052485a846ecf4780813286 ","Transformar las necesidades, las expectativas, las restricciones y las interfaces
+de las partes interesadas en requisitos de cliente priorizados.",,,,,No
+RD,2.1,"https://www.notion.so/0becb449a14d4804881a6e09f2217530 
+Analisis y Diseño de requisitos
+Acta de Proyecto
+Mejorar Fase de diseño en proceso de implementacion","Establecer y mantener los requisitos de producto y de componente de producto, basados en los requisitos de cliente",,,,,No
 TS,1.1,"Manual de arquitectura
 Estrategia de desarrollo",Seleccionar un stack tecnológico y crear un criterio de selección de tecnologías.,"https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing
 https://www.notion.so/e1e5bbb4e08b47f9b6410324c808721f 
@@ -213,7 +230,10 @@ https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1
 https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a ",No
 CM,1.2,"https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
 https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
+https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
+https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 
 https://www.notion.so/4158ca5084434fe8af80b550b1d19df7 
+https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 
 https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 
 https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926 
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ","Establecer y mantener un sistema de gestión de configuración y de gestión de
@@ -227,7 +247,8 @@ cambios para controlar los productos de trabajo","- https://drive.google.com/dri
 - https://github.com/Ace-Software-Development/Manual_de_Operaciones_Notion
 ",Yes
 CM,1.3,"https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
-https://www.notion.so/030c4f81d6e84eeebef55e154d94d949https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a",Crear o liberar líneas base para uso interno y para entrega al cliente.,"https://github.com/Ace-Software-Development/florimperial_campanario_web_react
+https://www.notion.so/030c4f81d6e84eeebef55e154d94d949 
+https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a ",Crear o liberar líneas base para uso interno y para entrega al cliente.,"https://github.com/Ace-Software-Development/florimperial_campanario_web_react
 https://github.com/Ace-Software-Development/florimperial_campanario_mobile",https://github.com/Ace-Software-Development/blackjack_monarca,https://github.com/Ace-Software-Development/fullhouse-nefrovida,"https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
 https://www.notion.so/030c4f81d6e84eeebef55e154d94d949https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a",No
 CM,2.1,"-Repositorios por proyecto
@@ -263,6 +284,8 @@ https://github.com/Ace-Software-Development/fullhouse-nefrovida/pulls","https://
 https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ",No
 CM,3.1,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
+https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 
 https://www.notion.so/2def9ed783854191833873f66c47a127 ",Establecer y mantener registros que describan los elementos de configuración.,"https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
 https://www.notion.so/2def9ed783854191833873f66c47a127 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
 https://www.notion.so/2def9ed783854191833873f66c47a127 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
@@ -272,7 +295,17 @@ https://www.notion.so/2def9ed783854191833873f66c47a127
 Cada ítem de la wiki tiene su bitácora de cambios",No
 CM,3.2,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
-- Auditorías",Realizar auditorías de configuración para mantener la integridad de las líneas base de configuración.,No se ha hecho,No se ha hecho,No se ha hecho,No se ha hecho,No
+https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ",Realizar auditorías de configuración para mantener la integridad de las líneas base de configuración.,"https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ","https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ","https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ","https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ",No
 M&A,1.1,"https://www.notion.so/5e76e247de104442b463068db4242266 
 https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0 ",Establecer los objetivos de medición,"https://www.notion.so/5e76e247de104442b463068db4242266 
 https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0 ","https://www.notion.so/5e76e247de104442b463068db4242266 

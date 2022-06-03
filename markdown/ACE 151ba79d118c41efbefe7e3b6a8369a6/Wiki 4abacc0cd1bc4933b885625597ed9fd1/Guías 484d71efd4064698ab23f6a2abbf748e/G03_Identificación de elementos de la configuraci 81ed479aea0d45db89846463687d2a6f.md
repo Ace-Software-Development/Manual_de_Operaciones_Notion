@@ -14,7 +14,7 @@ Esta guía ayudará para elegir los elementos que deben ser gestionados, identif
 
 ---
 
-- Definir qué elementos entran bajo de gestión de configuración y criterios para identificarlos
+- Definir qué elementos entran bajo gestión de configuración y criterios para identificarlos
 
 ## Criterios para identificar elementos de configuración
 
@@ -106,11 +106,11 @@ Todos los elementos de configuración pueden tener 3 niveles, los que se definen
     
     Nivel intermedio donde existe cierto control sobre los elementos de configuración pero que aún no han sido verificados. Para que un elemento de configuración entre o salga de nivel controlado se debe de pasar por un proceso de verificación. 
     
-    Si el ítem de configuracion esta almacenado en **Github** se seguirá el siguiente proceso:
+    Si el ítem de configuración esta almacenado en **Github** se seguirá el siguiente proceso:
     
     [P04_**Revision de pull request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20pull%20request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
     
-    Si el item de configuracion esta almacenado en **Notion** o **Drive** se seguirá el siguiente proceso:
+    Si el ítem de configuración esta almacenado en **Notion** o **Drive** se seguirá el siguiente proceso:
     
     [P25_Auditorías a assets y productos de trabajo](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P25_Auditori%CC%81as%20a%20assets%20y%20productos%20de%20trabajo%20386d7b5b7b17435eb70e22f8f6ee7f08.md) 
     

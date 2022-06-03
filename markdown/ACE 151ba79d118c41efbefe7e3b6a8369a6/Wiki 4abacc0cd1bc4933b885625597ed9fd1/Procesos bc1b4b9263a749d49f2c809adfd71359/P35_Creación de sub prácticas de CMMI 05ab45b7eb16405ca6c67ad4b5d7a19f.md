@@ -22,7 +22,7 @@ Sub práctica completada en su totalidad
 
 ## **Métricas**
 
-texto
+N/A
 
 ## **Responsable**
 

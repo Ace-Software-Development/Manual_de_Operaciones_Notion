@@ -2,7 +2,7 @@
 
 Para la aceptación de un pull request el revisor deberá: 
 
-- Revisar que se sigue el [estándar de código](../Estandares%206577b6d75d3a4f788a00749c1fa0feee/BKJ_E04_Co%CC%81digo%20be0d121c15e64b5a9c5631cce51f8792.md)
+- Revisar que se sigue el [estándar de código](../Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/BKJ_E04_Co%CC%81digo%20be0d121c15e64b5a9c5631cce51f8792.md)
 - Ingresar al documento de pruebas del caso de uso
 
 ![Untitled](BKJ_G02_Aceptacio%CC%81n%20de%20un%20pull%20request%208d338cd4bd724e1680119c3af60171fd/Untitled.png)
