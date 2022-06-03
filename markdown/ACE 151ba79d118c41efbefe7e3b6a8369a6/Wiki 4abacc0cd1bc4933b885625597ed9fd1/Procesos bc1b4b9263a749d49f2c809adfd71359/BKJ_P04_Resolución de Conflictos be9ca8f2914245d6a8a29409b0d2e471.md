@@ -4,10 +4,11 @@
 
 Niveles de conflicto:
 
-<aside>
-💡 `Los involucrados están dispuestos a dialogar de manera pacífica para resolver un problema.Los involucrados tienen una actitud de autoprotección y la discusión se ha vuelto personal.El problema real se pierde y distorsiona.El lenguaje se vuelve más ideológico. Por ejemplo, “nunca van a cambiar” o “están mal”.Agresión física, verbal o psicológica contra otros integrantes del equipo.`
-
-</aside>
+1. Los involucrados están dispuestos a dialogar de manera pacífica para resolver un problema.
+2. Los involucrados tienen una actitud de autoprotección y la discusión se ha vuelto personal.
+3. El problema real se pierde y distorsiona.
+4. El lenguaje se vuelve más ideológico. Por ejemplo, “nunca van a cambiar” o “están mal”.
+5. Agresión física, verbal o psicológica contra otros integrantes del equipo.
 
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P04_Resoluci%C3%B3n%20de%20Conflictos#objetivo)
 
