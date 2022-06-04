@@ -7,9 +7,9 @@ Definir la forma en la que vamos a realizar el desarrollo a través de reglas y 
 ## Estándar
 
 - Una vez completada una historia de usuario, el desarrollador se asignará una pendiente basada en la priorización realizada con el equipo.
-- Las historias de usuario se trabajarán en parejas (pair programming)
-- Para la codificación se usará el [Estándar de codificación de Airbnb](https://github.com/airbnb/javascript)
-- Los nombres de variable serán asignados con camelCase
+- Las historias de usuario se trabajarán en parejas (pair programming).
+- Para la codificación se usará el [Estándar de codificación de Airbnb](https://github.com/airbnb/javascript).
+- Los nombres de variable serán asignados con camelCase.
 - Estándar de carpetas:
     - Nombres de carpetas:
         - Se utilizarán tan solo letras minúsculas y el carácter especial “-” para nombrar las carpetas.

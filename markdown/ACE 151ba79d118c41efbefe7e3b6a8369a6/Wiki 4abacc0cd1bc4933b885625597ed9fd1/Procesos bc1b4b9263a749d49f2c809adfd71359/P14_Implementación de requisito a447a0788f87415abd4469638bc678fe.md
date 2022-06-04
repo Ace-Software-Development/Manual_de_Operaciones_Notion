@@ -13,7 +13,7 @@ Ahorrar tiempo en la detección de errores
 
 [Procedimiento](P14_Implementacio%CC%81n%20de%20requisito%20a447a0788f87415abd4469638bc678fe/Procedimiento%2029ad9f8b50e74d8497c7f4b9568ac313.csv)
 
-**Criterios de salida**
+## **Criterios de salida**
 
 Ítem de trabajo de alta calidad terminado y listo para su crear pull request
 

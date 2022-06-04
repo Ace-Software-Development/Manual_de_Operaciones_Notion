@@ -4,13 +4,15 @@
 
 Leer previamente los estándares de tu equipo 
 
+[BKJ_E04_Código](../Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/BKJ_E04_Co%CC%81digo%20be0d121c15e64b5a9c5631cce51f8792.md) 
+
 ## **Objetivo**
 
-Crear pull request faciles de revisar y que aseguren  la calidad
+Verificar la calidad del código
 
 ## **Criterios de entrada**
 
-Rama de github a integrar
+Rama de github sin conflictos
 
 ## **Procedimiento**
 

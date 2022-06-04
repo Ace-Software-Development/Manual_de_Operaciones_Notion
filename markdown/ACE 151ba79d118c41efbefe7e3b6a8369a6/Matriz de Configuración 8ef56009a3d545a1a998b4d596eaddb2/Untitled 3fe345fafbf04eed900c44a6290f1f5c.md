@@ -1,0 +1,14 @@
+# Untitled
+
+Auditado: No
+Auditor: Anonymous
+Categoría: Estrategias
+Fecha de creación: April 21, 2022
+Fecha de última modificación: April 21, 2022
+Identificador: FH
+Liga: https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit
+Link auditoría: https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=1980879503
+Nivel o status: Controlado
+Nombre: Estrategia de desarrollo
+Se utiliza?: Yes
+Última versión: 1.0

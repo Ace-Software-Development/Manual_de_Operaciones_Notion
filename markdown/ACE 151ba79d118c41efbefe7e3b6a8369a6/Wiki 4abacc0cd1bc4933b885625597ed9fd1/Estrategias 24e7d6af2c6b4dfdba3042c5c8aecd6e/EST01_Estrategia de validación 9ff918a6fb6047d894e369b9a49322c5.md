@@ -1,4 +1,4 @@
-# ST01_Estrategia de validación
+# EST01_Estrategia de validación
 
 # Fases en las que se realizarán validaciones:
 

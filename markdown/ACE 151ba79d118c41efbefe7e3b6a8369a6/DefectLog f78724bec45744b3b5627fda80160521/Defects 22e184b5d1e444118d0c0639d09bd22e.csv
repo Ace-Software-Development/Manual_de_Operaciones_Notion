@@ -1,11 +1,11 @@
 ﻿ID,Nombre del defecto*,Estado,Fecha de detección,Proyecto/área*,Responsable,Asset/Producto de trabajo,Severidad *,Tipo*,Acción correctiva,Fecha límite de corrección,Fecha de Corrección
-1,Áreas del CMMI inexistentes,Pending,"May 31, 2022",N/A," ",,Necessary,Gestión de la configuración,,,
+1,Áreas del CMMI inexistentes,Done,"May 31, 2022",N/A," ","https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 ",Necessary,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=204890813,"June 4, 2022",
 2,Hay una práctica de PMC pero no se indica cuál es,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,,
 3,Wireframe dice “Aiuda Pofavo”,Done,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Formato y gramática,"Corregir ortografía/ eliminar ",,"May 31, 2022"
 4,"No se llena el apartado de ""Fase”",Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Definición,,,
 5,No se agrega enlace al proceso de priorización de requisitos,Pending,"May 30, 2022",PP," ",https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d,Necessary,Gestión de la configuración,,,
 6,El asset es redundante,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Valor,,,
-7,No se encuentra en la matriz de configuración,Pending,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Gestión de la configuración,,,
+7,No se encuentra en la matriz de configuración,Pending,"May 31, 2022",Monarca," ",https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,Necessary,Gestión de la configuración,,,"June 2, 2022"
 8,No hay prácticas de CMMI en el proceso,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/72b97e6fd9074fdcb37b47b9f839cdef ",Necessary,Definición,,,
 9,Falta incluir versión 1.0 en la bitácora del asset,Pending,"May 31, 2022",Monarca," ","https://www.notion.so/41b25a5f7fb24877bc3aa958c9410c93 ",Necessary,Gestión de la configuración,,,
 10,Actualizar calendario de hitos,Done,"June 1, 2022",Monarca," ",https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit#heading=h.vcf7gdpoxeaw,Necessary,Valor,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1434300928,"June 4, 2022","June 2, 2022"
@@ -26,8 +26,8 @@
 25,Asset no sigue la plantilla de procesos,Pending,"June 2, 2022",CM," ","https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926 ",Urgent,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=1246138906,"June 4, 2022",
 26,Asset no aporta a la forma de trabajo,Pending,"June 2, 2022",CM," ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 ",Urgent,Valor,,"June 4, 2022",
 27,Asset no sigue la plantilla de procesos,Pending,"June 2, 2022",CM," ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 ",Urgent,Gestión de la configuración,,"June 4, 2022",
-28,El producto de trabajo no tiene identificador,Pending,"June 2, 2022",Monarca," ",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Necessary,Gestión de la configuración,,,
-29,El producto de trabajo no está versionado,Pending,"June 2, 2022",Monarca," ",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Necessary,Gestión de la configuración,,,
+28,El producto de trabajo no tiene identificador,Done,"June 2, 2022",Monarca," ",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Necessary,Gestión de la configuración,https://drive.google.com/file/d/1MPFGlAt91__8qRD6w60E-xediUHo7ZPu/view?usp=sharing,,"June 3, 2022"
+29,El producto de trabajo no está versionado,Done,"June 2, 2022",Monarca," ",https://drive.google.com/file/d/1mjPaqucVPG_CFcR3snMowfKuwCSlTE3t/view?usp=sharing,Necessary,Gestión de la configuración,https://drive.google.com/file/d/1MPFGlAt91__8qRD6w60E-xediUHo7ZPu/view?usp=sharing,,"June 3, 2022"
 30,El producto de trabajo es redundante,Pending,"June 2, 2022",Monarca," ",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit,Necessary,Gestión de la configuración,,,
 31,El producto de trabajo no tiene identificador,Pending,"June 2, 2022",Monarca," ",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit,Necessary,Gestión de la configuración,,,
 32,El producto de trabajo no está versionado,Pending,"June 2, 2022",Monarca,@Diego Arturo Padilla Domínguez,https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit,Necessary,Gestión de la configuración,,,
@@ -36,3 +36,15 @@
 35,La plantilla no tiene identificador,Pending,"June 3, 2022",PPQA," ",https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258,Necessary,Gestión de la configuración,,,
 36,La plantilla no está versionada,Pending,"June 3, 2022",PPQA," ",https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258,Necessary,Gestión de la configuración,,,
 37,La plantilla no está en la matriz de configuración,Pending,"June 3, 2022",PPQA," ",https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258,Urgent,Gestión de la configuración,,,
+38,NO está versionado FH_P03,Pending,"June 3, 2022",NefroVida," ",FH_P03_Proceso de Implementación de Requisitos,Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
+39,NO está versionado FH_P02,Pending,"June 3, 2022",NefroVida," ",FH_P02 Proceso de despliegue,Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
+40,NO está versionado FH_G02,Pending,"June 3, 2022",NefroVida," ",FH_G02 Guía de instalación,Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
+41,Hay procesos y guias a los que redirecciona que ya no son utilizados,Pending,"June 3, 2022",Ace," ","https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29 ",Urgent,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=773067603,"June 6, 2022",
+42,No esta versionada correctamente la plantilla,Pending,"June 3, 2022",PPQA," ",,,,,,
+43,No tiene identificador,Pending,"June 3, 2022",PPQA," ",,,,,,
+44,No se ocupa,Pending,"June 3, 2022",PP," ","https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Urgent,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=1625610389,"June 6, 2022",
+45,No se encuentra en la matriz de Configuración,Pending,"June 3, 2022",NefroVida," ",FH_P03_Proceso de Implementación de Requisitos,Necessary,Gestión de la configuración,Agregar a matriz de configuración,"June 6, 2022",
+46,No se encuentra en la matriz de la configuración,Pending,"June 3, 2022",NefroVida,,FH_E02_Estándar de Desarrollo,Necessary,Gestión de la configuración,Agregar a matriz de configuración,"June 6, 2022",
+47,No está versionado en la plantilla,Pending,"June 3, 2022",PP," ","https://www.notion.so/082432fd59c346259eddeb22a2abea34 ",Necessary,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=1298095047,"June 4, 2022",
+48,"NO esta en notion la estrategia de desarollo de FH, no esta versionado",Pending,"June 3, 2022",NefroVida," ",https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit,Necessary,Gestión de la configuración,"Agregar a notion, versionar","June 6, 2022",
+49,El asset “PL18_Plantilla de acciones correctivas para problemas detectados” no está registrado en la matríz de configuración,Pending,"June 3, 2022",PMC," ",https://www.notion.so/60947c2ed01243be97dd3ed1710050d6,Urgent,Gestión de la configuración,Agregar a la matriz de configuración,"June 6, 2022",

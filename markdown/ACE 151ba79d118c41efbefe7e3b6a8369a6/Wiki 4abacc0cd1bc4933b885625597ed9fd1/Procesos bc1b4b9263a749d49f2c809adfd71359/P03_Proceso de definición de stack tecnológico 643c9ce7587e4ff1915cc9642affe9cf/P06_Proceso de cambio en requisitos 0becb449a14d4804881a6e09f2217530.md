@@ -27,7 +27,7 @@
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#criterios-de-salida)
 
 - [Plantilla de cambios en requisitos](https://docs.google.com/document/d/1qw_D6F298AiMbfRJBqwyjUfXwu2Kgvxa/edit?usp=sharing&ouid=100210633990806812310&rtpof=true&sd=true) con el acuerdo y las nuevas fechas.
-- Nuevo registro del cambio en la [Bitácora de Cambios a Requisitos](../../Bita%CC%81cora%20de%20Solicitud%20de%20Cambios%20a%20Requisitos%20ce96fc4e7ca44e7581e91e365a6d12ba.csv)
+- Nuevo registro del cambio en la [Bitácora de Cambios a Requisitos](../../../Bita%CC%81cora%20de%20Solicitud%20de%20Cambios%20a%20Requisitos%20ce96fc4e7ca44e7581e91e365a6d12ba.csv)
 
 ## Métricas[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#m%C3%A9tricas)
 

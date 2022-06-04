@@ -8,7 +8,7 @@ Asegúrese de descargar la versión de Node JS que se encuentra bajo la etiqueta
 
 [https://lh4.googleusercontent.com/kWso82_4XZ8TdtnOD0b0jVUh3vRJVTK8k5UdODui_8CkF_l412CJDmT_bh5cdvxsd2qS6_UMp5qPo8KY9ZuX4Qgocy14H8_Gcw4RxCAqlmiCfOG6bALplIE7Fn1PgAhjisCY9fDYnaLgjgB-Dg](https://lh4.googleusercontent.com/kWso82_4XZ8TdtnOD0b0jVUh3vRJVTK8k5UdODui_8CkF_l412CJDmT_bh5cdvxsd2qS6_UMp5qPo8KY9ZuX4Qgocy14H8_Gcw4RxCAqlmiCfOG6bALplIE7Fn1PgAhjisCY9fDYnaLgjgB-Dg)
 
-Ejecute el instalador que acabamos de descargar, Únicamente debemos avanzar en el proceso de instalación
+Ejecute el instalador que acabamos de descargar. Únicamente debemos avanzar en el proceso de instalación
 
 [https://lh3.googleusercontent.com/0EQlG0eQORDf-fzhGCoQxT4QRax5RtGnZL2b-ego9z1VXiRRuulZBnyUcR8i4PgZrr1ldhkDlj1NmoW6JS1IhuMKk7d4ogHzvih6Losod_HBDAEQskCxBtEU3KSl2N6zrGuwAJIvT2X2vUR1Iw](https://lh3.googleusercontent.com/0EQlG0eQORDf-fzhGCoQxT4QRax5RtGnZL2b-ego9z1VXiRRuulZBnyUcR8i4PgZrr1ldhkDlj1NmoW6JS1IhuMKk7d4ogHzvih6Losod_HBDAEQskCxBtEU3KSl2N6zrGuwAJIvT2X2vUR1Iw)
 

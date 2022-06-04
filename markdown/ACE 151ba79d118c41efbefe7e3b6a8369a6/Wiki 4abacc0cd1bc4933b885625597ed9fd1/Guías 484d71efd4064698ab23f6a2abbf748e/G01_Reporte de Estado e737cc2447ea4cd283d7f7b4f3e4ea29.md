@@ -2,7 +2,7 @@
 
 ## **Versión**
 
-2.0 05/05/2022
+2.3
 
 ## **Objetivo**
 
@@ -26,6 +26,7 @@ Preparar un reporte de estado
         - ¿Cuánto nos ha costado? (en términos de esfuerzo)
         - ¿Por qué estamos donde estamos?
         - ¿Cómo está la calidad?
+        - ¿Cómo podemos mejorar?
     - Problemas detectados
     - Actividades siguientes
     - Patrones y antipatrones

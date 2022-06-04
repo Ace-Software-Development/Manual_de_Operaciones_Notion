@@ -49,6 +49,7 @@ cambio en uno implica un cambio en los otros).
 - Estándares
 - WBS
 - Mapa de procesos
+- Estrategias
 
 ### Herramientas y activos esenciales del entorno de trabajo del
 proyecto
@@ -81,6 +82,7 @@ En la siguiente tabla se muestra cómo se deberá de identificar cada producto d
 | Diagramas | D##_ |
 | Base de datos | BD##_ |
 | Stack tecnológicos | ST##_ |
+| Estrategias | EST##_ |
 
 En el caso de los productos de trabajo de los equipos, se deberá poner como prefijo el identificador de cada equipo. El glosario para los identificadores por equipo es el siguiente.
 
