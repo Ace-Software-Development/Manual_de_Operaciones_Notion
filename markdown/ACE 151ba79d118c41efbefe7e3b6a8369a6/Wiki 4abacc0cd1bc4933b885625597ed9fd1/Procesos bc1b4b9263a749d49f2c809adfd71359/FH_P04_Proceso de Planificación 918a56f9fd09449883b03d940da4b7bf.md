@@ -28,4 +28,4 @@
 - Capacidad del equipo.
 - Costo por cada tarea.
 
-[Bitácora de cambios (1)](FH_P04_Proceso%20de%20Planificacio%CC%81n%20918a56f9fd09449883b03d940da4b7bf/Bita%CC%81cora%20de%20cambios%20(1)%2020adc0123fed40cb84e568deb29a4b58.csv)
+[Bitácora de cambios ](FH_P04_Proceso%20de%20Planificacio%CC%81n%20918a56f9fd09449883b03d940da4b7bf/Bita%CC%81cora%20de%20cambios%2020adc0123fed40cb84e568deb29a4b58.csv)

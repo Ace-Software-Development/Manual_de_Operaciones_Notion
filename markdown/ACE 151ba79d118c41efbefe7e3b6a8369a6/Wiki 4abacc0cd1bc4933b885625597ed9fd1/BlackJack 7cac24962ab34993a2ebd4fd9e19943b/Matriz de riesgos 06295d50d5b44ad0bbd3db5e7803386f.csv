@@ -1,16 +1,16 @@
 ﻿ID,Riesgo,Fecha de definición,Consecuencias,Categoría,Probabilidad,Impacto,Interno,Plan de mitigación,Plan de respuesta,Status,Responsable
-"June 4 2022, 22:02:00",Salida de uno o más miembros del equipo.,10/03/2022,"- Baja la velocidad del equipo.
+"June 5 2022, 08:36:00",Salida de uno o más miembros del equipo.,10/03/2022,"- Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.",Operacional,Media,Bajo,Yes,"- Preparar los manuales para que su salida no afecte.
 
 - Capacitación de ese integrante a uno nuevo que ocupe su rol.
 
 - Aviso a stakeholders previo a la salida por un posible cambio en las fechas de entrega.",Apoyar todos en el área de desarrollo que se encuentre estancada,Identificado/ Sin datos,TL
-"June 4 2022, 22:02:00",Nuevo miembro del equipo.,10/03/2022,"- Posible sobreestimación de la iteración.
+"June 5 2022, 08:36:00",Nuevo miembro del equipo.,10/03/2022,"- Posible sobreestimación de la iteración.
 - Cambio en el plan debido a capacitación del integrante.
 - Cambio en capacidad del equipo.",Operacional,Media,Bajo,Yes,"- Preparar la documentación necesaria para la capacitación de cualquier miembro al proyecto
 - Definición de persona encargada para el acompañamiento del nuevo miembro","- Capacitar al nuevo miembro en el proyecto
 - Facilitarle la documentación necesaria para su capacitación",Identificado/ Sin datos,TL
-"June 4 2022, 22:02:00",Falta de involucramiento de PO de negocio.,10/03/2022,"- Retraso en el plan.
+"June 5 2022, 08:36:00",Falta de involucramiento de PO de negocio.,10/03/2022,"- Retraso en el plan.
 - Incumplimiento en los tiempos de inicio.
 - Baja prioridad hacia el equipo.
 - Incongruencia en visión y objetivos entre el equipo y el PO.",Organizacional,Media,Alto,No,"- Agendar juntas semanales para garantizar involucramiento del PO y dar a conocer las implicaciones de cambios a requisitos.
@@ -18,13 +18,13 @@
 - Revisión de requisitos implementados para ver posibles cambios.","- Informar a los involucrados en la matriz RACI.
 - Solicitar apoyo a los PMs.
 - Repriorizar de acuerdo a lo más crítico y a la magnitud del cambio.",Identificado / Sin datos,PO
-"June 4 2022, 22:02:00",Un miembro del equipo tiene impedimento para trabajar por algun imprevisto o enfermedad,10/03/2022,"- Reducción del equipo
+"June 5 2022, 08:36:00",Un miembro del equipo tiene impedimento para trabajar por algun imprevisto o enfermedad,10/03/2022,"- Reducción del equipo
 - Rendimiento disminuido
 - La carga de trabajo se deberá redistribuir",Organizacional,Alta,Medio,Yes,"- Definir qué integrante va a cubrir las actividades del ausente.
 - Dar aviso sobre posible retraso en la entrega de la iteración y/o despliegue
 - Planes de trabajo flexibles
 - Documentación constante",Transferencia de un miembro al equipo de por parte de otros proyectos,Sin datos,TL
-"June 4 2022, 22:02:00",Defecto que llega a producción.,10/03/2022,"- Presentar problemas e incidencias del lado del cliente.
+"June 5 2022, 08:36:00",Defecto que llega a producción.,10/03/2022,"- Presentar problemas e incidencias del lado del cliente.
 - Se perjudica la operación del negocio.
 - Se afecta la experiencia de usuario para el cliente.",Técnico,Media,Alto,Yes,"- Pruebas unitarias previas a cada integración de código.
 - Revisión del listado de funcionalidad previo al despliegue.
@@ -32,17 +32,17 @@
 - Realizar un backup de la BD antes del despliegue.","- Dependiendo del defecto, priorizar la fecha de corrección.
 - Considerar un rollback del despliegue dependiendo del defecto.
 - Restaurar la BD.",Sin datos,AO
-"June 4 2022, 22:02:00",Uso de herramientas desconocidas,10/03/2022,Retraso por curva de aprendizaje,De proceso,Alta,Medio,Yes,Estudiar y analizar las nuevas herramientas con anterioridad y previo a la etapa de desarrollo,Apoyo de los más experimentados para dar asesorías y seguimiento con los que tienen complicaciones,Identificado,Equipo
-"June 4 2022, 22:02:00",Inicio de un conflicto interno,10/03/2022,"Disconformidad en alguna decisión, o acción dentro del equipo",Organizacional,Media,Medio,Yes,Comunicar las disconformidades antes de realizar una decisión,"- Seguir el proceso con el que contamos
+"June 5 2022, 08:36:00",Uso de herramientas desconocidas,10/03/2022,Retraso por curva de aprendizaje,De proceso,Alta,Medio,Yes,Estudiar y analizar las nuevas herramientas con anterioridad y previo a la etapa de desarrollo,Apoyo de los más experimentados para dar asesorías y seguimiento con los que tienen complicaciones,Identificado,Equipo
+"June 5 2022, 08:36:00",Inicio de un conflicto interno,10/03/2022,"Disconformidad en alguna decisión, o acción dentro del equipo",Organizacional,Media,Medio,Yes,Comunicar las disconformidades antes de realizar una decisión,"- Seguir el proceso con el que contamos
 - Comunicarlo con el equipo
 - Hablarlo con un tercero de requerirlo",Identificado,Equipo
-"June 4 2022, 22:02:00",Fallo masivo en las telecomunicaciones,10/03/2022,Incapacidad de comunicación entre los miembros y pérdida de datos,Organizacional,Baja,Alto,No,Hacer copias de seguridad de todos nuestros archivos y guardarlos en un disco duro o USB,Establecer un plan de comunicación que no dependa de herramientas tecnológicas,Sin datos,Equipo
-"June 4 2022, 22:02:00",Cambio en la solución a la necesidad del socio,13/03/2022,"Incumplimiento de las fechas de entrega, posible apresuramiento del desarrollo, desperdico de trabajo",De proceso,Baja,Alto,Yes,Confirmar la solución propuesta tanto con el socio como con el cliente final,Reajustar requerimientos y elaborar un nuevo plan de trabajo,Identificado/ Sin datos,TL
-"June 4 2022, 22:02:00",Que se caiga el internet del cliente,14/03/2022,Caida del sitema,Técnico,Alta,Alto,No,Pedirles que compren un modem con datos celulares,Prender el model alterno para que se conecte a los repetidores,Identificado,PO
-"June 4 2022, 22:02:00",Atraso en el plan,03/05/2022,Proyecto entregado fuera de la fecha establecida y/o con poca calidad,,Alta,Alto,No,Realizar las estimaciones siendo realistas,"Adaptar el plan al tiempo que nos queda 
+"June 5 2022, 08:36:00",Fallo masivo en las telecomunicaciones,10/03/2022,Incapacidad de comunicación entre los miembros y pérdida de datos,Organizacional,Baja,Alto,No,Hacer copias de seguridad de todos nuestros archivos y guardarlos en un disco duro o USB,Establecer un plan de comunicación que no dependa de herramientas tecnológicas,Sin datos,Equipo
+"June 5 2022, 08:36:00",Cambio en la solución a la necesidad del socio,13/03/2022,"Incumplimiento de las fechas de entrega, posible apresuramiento del desarrollo, desperdico de trabajo",De proceso,Baja,Alto,Yes,Confirmar la solución propuesta tanto con el socio como con el cliente final,Reajustar requerimientos y elaborar un nuevo plan de trabajo,Identificado/ Sin datos,TL
+"June 5 2022, 08:36:00",Que se caiga el internet del cliente,14/03/2022,Caida del sitema,Técnico,Alta,Alto,No,Pedirles que compren un modem con datos celulares,Prender el model alterno para que se conecte a los repetidores,Identificado,PO
+"June 5 2022, 08:36:00",Atraso en el plan,03/05/2022,Proyecto entregado fuera de la fecha establecida y/o con poca calidad,,Alta,Alto,No,Realizar las estimaciones siendo realistas,"Adaptar el plan al tiempo que nos queda 
 
 Identificar mejoras para la forma de trabajo",Identificado,TL
-"June 4 2022, 22:02:00",Un integrante del equipo no está involucrados en el proyecto,03/05/2022,"Atraso en el plan del proyecto
+"June 5 2022, 08:36:00",Un integrante del equipo no está involucrados en el proyecto,03/05/2022,"Atraso en el plan del proyecto
 
 Disminución de la confianza en el equipo",Organizacional,Baja,Medio,Yes,"Realizar actividades de integración para conocer a los integrantes del equipo
 
@@ -51,22 +51,22 @@ Tener juntas uno a uno para escuchar las necesidades de cada persona","Preguntar
 Resolver las inquietudes de la persona
 
 Hacer un plan para reintegrar a la persona al equipo",Identificado,TL
-"June 4 2022, 22:02:00",Las métricas indican que la calidad del proyecto es baja,03/05/2022," Aumento de defectos
+"June 5 2022, 08:36:00",Las métricas indican que la calidad del proyecto es baja,03/05/2022," Aumento de defectos
 
 Retrabajo",Técnico,Media,Medio,No,Identificar las fases en las que se inyectan más defectos y las acciones que llevan a ello para evitarlas o mitigarlas con nuevas acciones,"Mejorar los componentes que tengan menor calidad y sean de mayor importancia ",Sin datos,PO
-"June 4 2022, 22:02:00",El producto no se adapta a la forma de trabajo de los usuarios finales,03/05/2022,"Retrabajo
+"June 5 2022, 08:36:00",El producto no se adapta a la forma de trabajo de los usuarios finales,03/05/2022,"Retrabajo
 
 Poca satisfacción para el cliente",De proceso,Media,Alto,No,Hacer pruebas con el usuario final en cada versión,Escuchar las inquietudes del usuario final y mejorar las más relevantes y viables,Sin datos,PO
-"June 4 2022, 22:02:00",Un problema que no se identificó cuando inició ha crecido,03/05/2022,"El problema se vuelve más difícil de resolver
+"June 5 2022, 08:36:00",Un problema que no se identificó cuando inició ha crecido,03/05/2022,"El problema se vuelve más difícil de resolver
 
 Se intenta resolver cuando ya es muy complejo
 
 Toma más tiempo y esfuerzo resolverlo",De proceso,Alta,Alto,Yes,Cuando una persona identifique un problema debe de anunciarlo a todo el equipo y asegurarse de que se resuelva lo antes posible,"Utilizar el proceso de toma de decisiones o resolución de conflictos para resolver el problema
 
 Pedir ayuda a un asesor en caso de ser necesario",Identificado,PO
-"June 4 2022, 22:02:00",Se borra la base de datos,24/05/2022,"Perdemos tiempo de desarrollo
+"June 5 2022, 08:36:00",Se borra la base de datos,24/05/2022,"Perdemos tiempo de desarrollo
 No podemos hacer pruebas",Técnico,Alta,Alto,Yes,"Todas las personas que prueben la aplicación deben tener el mismo documento de dev y prod .json 
 Generar un backup ",Volver a crear la base de datos,Identificado,AO
-"June 4 2022, 22:02:00",Hackeo a la base de datos/servidor,24/05/2022,Perder información de la base de datos,Técnico,Alta,Alto,No,Configurar el servidor para permitir la conexión únicamente mediante SSH y al puerto de la base de datos mediante usuario y contraseña,Asesorarnos con un profesor y consultar la guía para la configuración que se tenga que volver a hacer,Identificado,AO
-"June 4 2022, 22:02:00","El socio no cuenta con la infraestructura para tener la solución ",26/05/2022,La solución no sería funcional en toda la fábrica,Operacional,Alta,Medio,No,"Mantener la comunicación ",Recordarle lo que pierde,,PO
-"June 4 2022, 22:02:00",,,,,,,No,,,,
+"June 5 2022, 08:36:00",Hackeo a la base de datos/servidor,24/05/2022,Perder información de la base de datos,Técnico,Alta,Alto,No,Configurar el servidor para permitir la conexión únicamente mediante SSH y al puerto de la base de datos mediante usuario y contraseña,Asesorarnos con un profesor y consultar la guía para la configuración que se tenga que volver a hacer,Identificado,AO
+"June 5 2022, 08:36:00","El socio no cuenta con la infraestructura para tener la solución ",26/05/2022,La solución no sería funcional en toda la fábrica,Operacional,Alta,Medio,No,"Mantener la comunicación ",Recordarle lo que pierde,,PO
+"June 5 2022, 08:36:00",,,,,,,No,,,,

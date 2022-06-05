@@ -2,7 +2,7 @@
 
 Acción correctiva: Poner la versión, autor, etc
 Asset/Producto de trabajo: FH_P03_Proceso de Implementación de Requisitos
-Estado: Pending
+Estado: Done
 Fecha de detección: June 3, 2022
 Fecha límite de corrección: June 6, 2022
 ID: 38
