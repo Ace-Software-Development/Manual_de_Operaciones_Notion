@@ -2,25 +2,25 @@
 
 ## **Objetivo**
 
-Asegurar que las tareas que se harán en el sprint conformen un producto valioso para el cliente
+Asegurar que las tareas que se harán en el sprint conformen un producto valioso para el cliente.
 
-Estimar el tiempo que tomara cada tarea 
+Estimar el tiempo que tomara cada tarea.
 
 ## Criterios de entrada
 
-- Recursos disponibles
+- Recursos disponibles.
 - Retrospectiva de la iteración anterior.
 
 ## Procedimiento
 
-1. Definir objetivo de la iteración(validad con SH) **Responsable: Product Owner**
+1. Definir objetivo de la iteración (validad con SH) **Responsable: Product Owner**
 2. Registrar el tiempo disponible diario por miembro
 3. Determinar la complejidad de ítem de trabajo siguiendo el siguiente proceso:
     1. Elegir un ítem de trabajo
     2. Modelar una posible solución ( usando dibujos/ diagramas rápidos/algoritmos hablados)
-    3. Descomponer los Items de trabajo en tareas(analisis,diseño,backend, frontend,etc)
-    4. Votar por la complejidad de la tarea sugerimos usar [Planning Pocker](https://planningpokeronline.com/)
-4. Seleccionar primeras tarea para cada miembro(usando peer programing siempre que se pueda)
+    3. Descomponer los Items de trabajo en tareas (análisis, diseño, backend, frontend, etc)
+    4. Votar por la complejidad de la tarea, sugerimos usar [Planning Pocker](https://planningpokeronline.com/)
+4. Seleccionar primeras tarea para cada miembro (usando peer programing siempre que se pueda)
 5. Hacer una calendarización de las tareas para saber en todo momento donde deberían estar
 
 ## Criterios de salida

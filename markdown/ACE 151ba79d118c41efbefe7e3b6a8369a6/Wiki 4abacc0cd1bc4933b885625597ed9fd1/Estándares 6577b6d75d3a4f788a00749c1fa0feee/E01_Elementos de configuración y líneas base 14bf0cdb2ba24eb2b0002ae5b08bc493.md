@@ -17,7 +17,7 @@
     - Responsable del item
 2. Tanto las líneas bases identificadas como los elementos de la configuración que las conforman deberán ser nombradas con un identificador único.
 3. Se deberá tener un mecanismo de recuperación de versiones anteriores de los productos bajo gestión de la configuración.
-4. Para hacer cambios a los productos bajo gestión de la configuración  **de la wiki** deberán seguir el proceso [P20_Creacion de ítem de la wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P20_Creacion%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501.md)  antes de ser integrados a la línea base a la que corresponden.
+4. Para hacer cambios a los productos bajo gestión de la configuración  **de la wiki** deberán seguir el proceso [P20_Creación o modificación de ítem de la wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P20_Creacio%CC%81n%20o%20modificacio%CC%81n%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501.md)  antes de ser integrados a la línea base a la que corresponden.
 5. Las peticiones de cambios a los productos bajo gestión de la configuración  **que estén un repositorio de git** deberán ser registradas y deberán seguir un proceso de verificación y validación antes de ser integrada a la línea base a la que corresponde.
 6. Los cambios a los productos bajo gestión de la configuración deberán ser registrados dentro de una bitácora o un historial de cambios que describa los cambios entre las diferentes versiones del producto.
     
@@ -38,10 +38,14 @@ El CCB es el comité responsable de asegurar que se esté cumpliendo con el plan
 ### Líneas base en el departamento
 
 - [Línea base del departamento](../../Wiki%204abacc0cd1bc4933b885625597ed9fd1.md)
-- [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca)
-- [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida)
-- [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react)
-- [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile)
+- [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca) (repositorio)
+- [Línea base de Blackjack](http://inventario.aluminiomonarca.mx/) (aplicación web)
+- [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida) (repositorio)
+- Línea base de Full House (aplicación web)
+- [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react) (repositorio)
+- [Línea base de Flor Imperial Web](https://campanario.b4a.app/) (aplicación web)
+- [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile) (repositorio)
+- Línea base de Flor Imperial Móvil (aplicación móvil)
 
 [Configuration Control Board (CCB).](E01_Elementos%20de%20configuracio%CC%81n%20y%20li%CC%81neas%20base%2014bf0cdb2ba24eb2b0002ae5b08bc493/Configuration%20Control%20Board%20(CCB)%20bf6d5691dc994cb1a676f01234f882f4.csv)
 

@@ -1,0 +1,37 @@
+# P20_Creación o modificación de ítem de la wiki
+
+## Consideraciones a tomar
+
+Haber seguido el [Proceso de la Forma de Trabajo](P01_Definir%20la%20Forma%20de%20Trabajo%20(Way%20of%20Working)%201a26647e0c134b95b2c42c228eb813c5.md) 
+
+## **Objetivo**
+
+Mantener al departamento informado de los proceso existentes
+
+Promover el uso de los procesos
+
+## **Criterios de entrada**
+
+Proceso a crear/modificar
+
+## **Procedimiento**
+
+[Untitled](P20_Creacio%CC%81n%20o%20modificacio%CC%81n%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501/Untitled%20Database%2021568c4398914443977ee328c3326486.csv)
+
+## **Critérios de salida**
+
+Creación/modificación de un item
+
+Auditoría a item
+
+## **Métricas**
+
+Cantidad de errores en la creación/modificación.
+
+## **Responsable**
+
+@Rafael Hinojosa López 
+
+## Bitácora de cambios
+
+[Untitled](P20_Creacio%CC%81n%20o%20modificacio%CC%81n%20de%20i%CC%81tem%20de%20la%20wiki%201c63004a533c4261979129dee36c2501/Untitled%20Database%20d5a37399b872482e96d07c7fdd56662b.csv)

@@ -18,9 +18,9 @@ Tabla de [](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179
 
 [Untitled](P30_Proceso%20para%20registrar%20medicio%CC%81n%20de%20me%CC%81tricas%209fd6387eed6245e6a378148851a19daa/Untitled%20Database%20c7510cf86cbc4f4ebecad39ca6390841.csv)
 
-## **Critérios de salida**
+## **Criterios de salida**
 
-Backlog de Mediciones actualizado con nuevo registro.
+Backlog de [](../../Repositorio%20de%20me%CC%81tricas%20a5949ddaac054f92bc72fbb179820242/Mediciones%20d31191e6d1ef4ac7a55c5fbc6b85aa2e.csv) actualizado con nuevo registro.
 
 ## **Métricas**
 

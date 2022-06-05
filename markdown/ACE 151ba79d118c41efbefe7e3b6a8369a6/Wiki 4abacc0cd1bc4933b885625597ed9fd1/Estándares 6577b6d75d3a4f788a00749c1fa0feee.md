@@ -14,7 +14,7 @@
 
 [IMP_E02_Nombrar branches, commits y pull requests](Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/IMP_E02_Nombrar%20branches,%20commits%20y%20pull%20requests%206b1de44ac0a140868af7f31b416dd476.md)
 
-[IMP_E03_Escritura de código ](Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/IMP_E03_Escritura%20de%20co%CC%81digo%2089ed1b64545d4fe19f0495caf04b2556.md)
+[(Deprecated) IMP_E03_Escritura de código ](Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/(Deprecated)%20IMP_E03_Escritura%20de%20co%CC%81digo%2089ed1b64545d4fe19f0495caf04b2556.md)
 
 [FH_E01_**Estándar de Commits**](Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/FH_E01_Esta%CC%81ndar%20de%20Commits%2011968e3d836c4ec2b18e15bb2a6de39b.md)
 

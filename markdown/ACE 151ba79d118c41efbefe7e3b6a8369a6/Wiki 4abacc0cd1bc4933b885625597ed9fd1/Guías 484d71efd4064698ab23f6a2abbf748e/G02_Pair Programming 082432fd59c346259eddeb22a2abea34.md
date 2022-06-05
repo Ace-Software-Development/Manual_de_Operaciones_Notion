@@ -17,4 +17,6 @@ Para implementar este estilo, se definen dos roles:
 
 Es recomendable que los roles se alternen, la frecuencia de alternarlos queda a criterio de los integrantes de cada equipo.
 
-[Bitácora de cambios (1)](G02_Pair%20Programming%20082432fd59c346259eddeb22a2abea34/Bita%CC%81cora%20de%20cambios%20(1)%208412d2a998e0446183f904b37aadb975.csv)
+## Bitácora de cambios
+
+[Untitled](G02_Pair%20Programming%20082432fd59c346259eddeb22a2abea34/Untitled%20Database%2026b48c2130904e069151ef208009830a.csv)

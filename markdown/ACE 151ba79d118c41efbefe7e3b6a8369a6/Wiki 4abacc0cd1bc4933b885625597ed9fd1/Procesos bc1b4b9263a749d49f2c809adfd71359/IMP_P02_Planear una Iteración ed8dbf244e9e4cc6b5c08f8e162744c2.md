@@ -13,7 +13,7 @@ Cumplir los objetivos de cada iteración asignando a cada miembro del equipo res
 
 ## Criterios de entrada[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-entrada)
 
-Solicitud de nueva iteración
+Plan de iteración sin iteración activa o Jira sin iteración activa.
 
 ## Procedimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#procedimiento)
 

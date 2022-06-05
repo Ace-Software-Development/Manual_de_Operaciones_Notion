@@ -6,7 +6,7 @@
 
 ## Criterios de entrada
 
-- Solicitud de cambio de roles realizada por al menos un integrante del equipo. El integrante debe llenar está solicitud cuando se sienta seguro de haber alcanzado el nivel a desarrollar.
+- Solicitud de cambio de roles realizada por al menos un integrante del equipo. El integrante debe llenar esta solicitud cuando se sienta seguro de haber alcanzado el nivel a desarrollar.
 
 ## Procedimiento
 
