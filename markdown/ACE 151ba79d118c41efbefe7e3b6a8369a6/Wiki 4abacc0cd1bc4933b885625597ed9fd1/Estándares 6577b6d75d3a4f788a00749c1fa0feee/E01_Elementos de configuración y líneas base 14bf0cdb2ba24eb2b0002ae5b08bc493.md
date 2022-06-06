@@ -41,7 +41,7 @@ El CCB es el comité responsable de asegurar que se esté cumpliendo con el plan
 - [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca) (repositorio)
 - [Línea base de Blackjack](http://inventario.aluminiomonarca.mx/) (aplicación web)
 - [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida) (repositorio)
-- Línea base de Full House (aplicación web)
+- [Línea base de Full House](https://nefroweb.nefrovidaac.com/) (aplicación web)
 - [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react) (repositorio)
 - [Línea base de Flor Imperial Web](https://campanario.b4a.app/) (aplicación web)
 - [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile) (repositorio)

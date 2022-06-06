@@ -3,7 +3,7 @@
 Categoría: Técnico
 Consecuencias: Perder información de la base de datos
 Fecha de definición: 24/05/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: Configurar el servidor para permitir la conexión únicamente mediante SSH y al puerto de la base de datos mediante usuario y contraseña

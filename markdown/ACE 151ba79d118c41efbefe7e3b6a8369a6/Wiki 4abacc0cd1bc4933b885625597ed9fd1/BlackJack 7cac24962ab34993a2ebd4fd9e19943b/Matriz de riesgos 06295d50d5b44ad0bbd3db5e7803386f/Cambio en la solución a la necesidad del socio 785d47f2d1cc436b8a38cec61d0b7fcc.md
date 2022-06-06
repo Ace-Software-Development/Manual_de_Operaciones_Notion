@@ -1,13 +1,14 @@
 # Cambio en la solución a la necesidad del socio
 
-Categoría: De proceso
+Categoría: Proceso
 Consecuencias: Incumplimiento de las fechas de entrega, posible apresuramiento del desarrollo, desperdico de trabajo
 Fecha de definición: 13/03/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Alto
 Interno: Yes
 Plan de mitigación: Confirmar la solución propuesta tanto con el socio como con el cliente final
 Plan de respuesta: Reajustar requerimientos y elaborar un nuevo plan de trabajo
+Prob: 0.4
 Probabilidad: Baja
 Responsable: TL
 Status: Identificado/ Sin datos

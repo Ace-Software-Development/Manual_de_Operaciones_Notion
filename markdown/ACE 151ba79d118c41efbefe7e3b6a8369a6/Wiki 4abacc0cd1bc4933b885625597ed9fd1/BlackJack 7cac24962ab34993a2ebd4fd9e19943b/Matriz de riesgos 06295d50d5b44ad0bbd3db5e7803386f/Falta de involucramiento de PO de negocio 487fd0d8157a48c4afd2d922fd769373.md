@@ -6,7 +6,7 @@ Consecuencias: - Retraso en el plan.
 - Baja prioridad hacia el equipo.
 - Incongruencia en visión y objetivos entre el equipo y el PO.
 Fecha de definición: 10/03/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Alto
 Interno: No
 Plan de mitigación: - Agendar juntas semanales para garantizar involucramiento del PO y dar a conocer las implicaciones de cambios a requisitos.
@@ -15,6 +15,7 @@ Plan de mitigación: - Agendar juntas semanales para garantizar involucramiento 
 Plan de respuesta: - Informar a los involucrados en la matriz RACI.
 - Solicitar apoyo a los PMs.
 - Repriorizar de acuerdo a lo más crítico y a la magnitud del cambio.
+Prob: 0.5
 Probabilidad: Media
 Responsable: PO
 Status: Identificado / Sin datos

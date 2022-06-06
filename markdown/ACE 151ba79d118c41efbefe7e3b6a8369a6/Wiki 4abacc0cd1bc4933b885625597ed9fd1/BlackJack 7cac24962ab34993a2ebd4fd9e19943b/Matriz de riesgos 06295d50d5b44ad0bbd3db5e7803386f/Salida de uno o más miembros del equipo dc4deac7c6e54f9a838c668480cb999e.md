@@ -1,10 +1,10 @@
 # Salida de uno o más miembros del equipo.
 
-Categoría: Operacional
+Categoría: Organizacional
 Consecuencias: - Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.
 Fecha de definición: 10/03/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Bajo
 Interno: Yes
 Plan de mitigación: - Preparar los manuales para que su salida no afecte.
@@ -13,6 +13,7 @@ Plan de mitigación: - Preparar los manuales para que su salida no afecte.
 
 - Aviso a stakeholders previo a la salida por un posible cambio en las fechas de entrega.
 Plan de respuesta: Apoyar todos en el área de desarrollo que se encuentre estancada
+Prob: 0.4
 Probabilidad: Media
 Responsable: TL
 Status: Identificado/ Sin datos

@@ -28,8 +28,8 @@
 2,Registrar la información del coloborador,"Se debe permitir registros tan solo provenientes de la aplicación, es decir no un Post cualquiera a la ruta con un json",Aprobado,"June 3, 2022","  ",IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 3,Registrar la información del coloborador,La contraseña debe tener un formato válido,Aprobado,"June 3, 2022","  ",IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 4,Registrar la información del coloborador,El correo electrónico y el número de teléfono debe tener un formato válido y ser único,Aprobado,"June 3, 2022","  ",IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
-,,,,,,,
-,,,,,,,
+1,Consultar información del personal,El usuario debe de estar autenticado y tener un rol de administrador para poder consultar la información del personal,Aprobado,"June 5, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+2,Consultar información del personal,Se debe validar que el backend no entregue información sensible sin antes haber recibido credenciales apropiadas,Aprobado,"June 5, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,

@@ -2,11 +2,15 @@
 
 ## Versión
 
-1.0.0 29/04/2022
+1.0 29/04/2022
+
+2.0 05/06/2022
 
 ## Objetivo
 
-Tener una visión de los posibles riesgos que corre el proyecto con sus respectivos planes de contingencia y mitigación.
+Identificar las fuentes y categorías de riesgos del proyecto para su seguimiento y monitoreo.
+
+Generar planes de contingencia y mitigación.
 
 ## ¿Cuándo usamos este proceso?
 
@@ -15,6 +19,8 @@ Cada vez que se identifique un nuevo riesgo para el equipo y el desarrollo del p
 ## Criterios de entrada
 
 Nuevo(s) riesgo(s) identificado(s).
+
+Guía [G14_Identificación de Riesgos](../Gui%CC%81as%20484d71efd4064698ab23f6a2abbf748e/G14_Identificacio%CC%81n%20de%20Riesgos%20768277ee6a8042a4abd8023ebf31dd10.md) 
 
 ## **Procedimiento**
 

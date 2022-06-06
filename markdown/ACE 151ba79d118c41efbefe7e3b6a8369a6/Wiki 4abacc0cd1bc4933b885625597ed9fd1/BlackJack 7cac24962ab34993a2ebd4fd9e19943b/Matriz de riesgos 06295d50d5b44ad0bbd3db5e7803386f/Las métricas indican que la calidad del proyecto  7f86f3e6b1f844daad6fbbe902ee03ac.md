@@ -5,11 +5,12 @@ Consecuencias:  Aumento de defectos
 
 Retrabajo
 Fecha de definición: 03/05/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Medio
 Interno: No
 Plan de mitigación: Identificar las fases en las que se inyectan más defectos y las acciones que llevan a ello para evitarlas o mitigarlas con nuevas acciones
 Plan de respuesta: Mejorar los componentes que tengan menor calidad y sean de mayor importancia 
+Prob: 0.5
 Probabilidad: Media
 Responsable: PO
 Status: Sin datos

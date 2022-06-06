@@ -1,8 +1,25 @@
-﻿Name,Encargado,Subpractica
-"Los integrantes del equipo identifican los riesgos por los que puede estar comprometido el proyecto. ",Todo el equipo,PMC 2.1
-"El equipo designa un responsable de la documentación de riesgos ",Todo el equipo,PMC 2.1
-El equipo identifica formas de contingencia y de mitigación de los riesgos,Todo el equipo,PMC 2.2
-"El equipo planea acciones correctivas para llevar a cabo la mitigación de los riesgos a través de los cambios que se realicen con la ../../Plantillas%20afe79d22a53b40d3bb2885218d181405/PL18_Plantilla%20de%20acciones%20correctivas%20para%20proble%2060947c2ed01243be97dd3ed1710050d6.md ",Todo el equipo,PMC 2.2
-"El responsable de la documentación de riesgos llenará la plantilla  ../../Plantillas%20afe79d22a53b40d3bb2885218d181405/PL12_Plan%20de%20Riesgos%20a17640175ab84a00b893729ff62c499a.md ",Team leader,"PMC 2.1, PMC 2.2, PMC 2.3"
-"En caso de que exista un cambio para arreglar defectos, se debe de llevar un registro en la minuta de la reunión",Team leader,PMC 2.2
-El responsable de la documentación de riesgos mantendrá actualizado el documento,Team leader,"PMC 2.2, PMC 2.3"
+﻿Name,Actividad,Encargado,Subpractica
+Identificación,"Abrir el plan de riesgos del equipo el cual debe seguir la plantilla https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Todo el equipo,"PMC 2.1
+RKM 1.1"
+,"Consultar la Guía https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ",Todo el equipo,RKM 1.2
+,Los integrantes del equipo identifican los riesgos que puedan suceder o hayan sucedido.,Todo el equipo,"PMC 2.1
+RKM 1.1 
+RKM 1.3
+PP 2.2"
+,"El equipo designa un responsable de la documentación de riesgos ",Todo el equipo,PMC 2.1
+,"Escribir la descripción del riesgo, analizando su causa u origen.",Todo el equipo,"RKM 1.1
+RKM 1.2"
+,Identificar el tipo de riesgo. (Interno / Externo),Todo el equipo,"RKM 1.1
+RKM 1.2
+RKM 2.1
+PP 2.2"
+,"Identificar la categoría del riesgo de acuerdo a la Guía https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ",Todo el equipo,"RKM 1.1
+RKM 2.2"
+Análisis,"Definir la probabilidad de que el riesgo ocurra.  (0% - 100%) siguiendo la guía https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ",Todo el equipo,RKM 1.2
+,"Definir el impacto del riesgo en caso de ocurrir (En una escala de 1 a 10) siguiendo la guía https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ",Todo el equipo,RKM 1.2
+,Calcular la magnitud del riesgo. (Magnitud = Probabilidad * Impacto),Todo el equipo,RKM 1.2
+Estrategia,El equipo identifica formas de contingencia y de mitigación de los riesgos,Todo el equipo,PMC 2.2
+,"El equipo planea acciones correctivas para llevar a cabo la mitigación de los riesgos a través de los cambios que se realicen con la https://www.notion.so/60947c2ed01243be97dd3ed1710050d6 ",Todo el equipo,PMC 2.2
+Documentación,"El responsable de la documentación de riesgos llenará la plantilla  https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Team leader,"PMC 2.1, PMC 2.2, PMC 2.3"
+,"En caso de que exista un cambio para arreglar defectos, se debe de llevar un registro en la minuta de la reunión",Team leader,PMC 2.2
+,El responsable de la documentación de riesgos mantendrá actualizado el documento,Team leader,"PMC 2.2, PMC 2.3"

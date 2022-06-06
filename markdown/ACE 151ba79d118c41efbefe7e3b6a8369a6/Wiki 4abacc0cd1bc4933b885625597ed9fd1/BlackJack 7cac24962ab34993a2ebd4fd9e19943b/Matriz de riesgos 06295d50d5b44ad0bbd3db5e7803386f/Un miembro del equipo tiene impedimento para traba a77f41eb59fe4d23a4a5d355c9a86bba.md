@@ -5,7 +5,7 @@ Consecuencias: - Reducción del equipo
 - Rendimiento disminuido
 - La carga de trabajo se deberá redistribuir
 Fecha de definición: 10/03/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Medio
 Interno: Yes
 Plan de mitigación: - Definir qué integrante va a cubrir las actividades del ausente.
@@ -13,6 +13,7 @@ Plan de mitigación: - Definir qué integrante va a cubrir las actividades del a
 - Planes de trabajo flexibles
 - Documentación constante
 Plan de respuesta: Transferencia de un miembro al equipo de por parte de otros proyectos
+Prob: 0.7
 Probabilidad: Alta
 Responsable: TL
 Status: Sin datos

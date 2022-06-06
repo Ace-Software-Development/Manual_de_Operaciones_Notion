@@ -1,9 +1,8 @@
 # El socio no cuenta con la infraestructura para tener la solución
 
-Categoría: Operacional
 Consecuencias: La solución no sería funcional en toda la fábrica
 Fecha de definición: 26/05/2022
-ID: June 5 2022, 08:37:00
+ID: June 5 2022, 22:02:00
 Impacto: Medio
 Interno: No
 Plan de mitigación: Mantener la comunicación 

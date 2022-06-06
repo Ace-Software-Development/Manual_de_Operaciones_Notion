@@ -28,7 +28,7 @@ El proceso se aplica en la etapa de planeación de cada iteración.
 
 ## **Critérios de salida**
 
-texto
+Plan de trabajo actualizado con historias de usuario y tareas con su respectiva complejidad y tiempos estimados.
 
 ## **Métricas**
 

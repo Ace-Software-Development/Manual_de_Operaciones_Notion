@@ -14,7 +14,7 @@
 13,,"https://www.notion.so/8d338cd4bd724e1680119c3af60171fd ","No esta versionado ",Done,"May 31, 2022",Monarca," ",Necessary,Gestión de la configuración,,,"June 4, 2022"
 14,,"https://www.notion.so/9cdbff2d4e774e6bae4907745d0fd83d ",No se encuentra en matriz de configuración,Done,"June 1, 2022",Monarca," ",Necessary,Gestión de la configuración,Añadir a la matriz de configuración,"June 4, 2022","June 2, 2022"
 15,,"https://www.notion.so/687628ee402e4ebbb83041ec8d49c32c ",No se encuentra en matriz de configuración,Done,"June 1, 2022",TS,"  ",Necessary,Gestión de la configuración,,,"June 1, 2022"
-16,,"https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 ",No agrega valor a la forma de trabajo,Pending,"June 1, 2022",CM," ",Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=216331358,"June 2, 2022",
+16,,"https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 ",No agrega valor a la forma de trabajo,Done,"June 1, 2022",CM," ",Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=216331358,"June 2, 2022",
 17,,https://docs.google.com/document/d/1_c7FelLye5r8Uy17W_b6kmUf9ClzLdKlCy6OZQi4rvI/edit,No se versiona el documento,Done,"June 1, 2022",Monarca," ",Necessary,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1663938010,"June 1, 2022","June 1, 2022"
 18,,"https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a ",Las entradas no son de valor,Done,"June 2, 2022",CM," ",Urgent,Valor,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=18245404,"June 3, 2022",
 19,,"https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a ","Faltas de ortografía ",Done,"June 2, 2022",CM," ",Necessary,Formato y gramática,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=18245404,"June 3, 2022",
@@ -37,8 +37,8 @@
 36,,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258,La plantilla no está versionada,Done,"June 3, 2022",PPQA," ",Necessary,Gestión de la configuración,se versionó,,"July 4, 2022"
 37,,https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258,La plantilla no está en la matriz de configuración,Done,"June 3, 2022",PPQA," ",Urgent,Gestión de la configuración,se puso en la matriz,,"July 4, 2022"
 38,,FH_P03_Proceso de Implementación de Requisitos,NO está versionado FH_P03,Done,"June 3, 2022",NefroVida," ",Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
-39,,FH_P02 Proceso de despliegue,NO está versionado FH_P02,Pending,"June 3, 2022",NefroVida," ",Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
-40,,FH_G02 Guía de instalación,NO está versionado FH_G02,Pending,"June 3, 2022",NefroVida," ",Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
+39,,FH_P02 Proceso de despliegue,NO está versionado FH_P02,Done,"June 3, 2022",NefroVida," ",Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
+40,,FH_G02 Guía de instalación,NO está versionado FH_G02,Done,"June 3, 2022",NefroVida," ",Necessary,Gestión de la configuración,"Poner la versión, autor, etc","June 6, 2022",
 41,,"https://www.notion.so/e737cc2447ea4cd283d7f7b4f3e4ea29 ",Hay procesos y guias a los que redirecciona que ya no son utilizados,Pending,"June 3, 2022",Ace," ",Urgent,Gestión de la configuración,https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=773067603,"June 6, 2022",
 42,,,No esta versionada correctamente la plantilla,Pending,"June 3, 2022",PPQA," ",,,,,
 43,,,No tiene identificador,Pending,"June 3, 2022",PPQA," ",,,,,

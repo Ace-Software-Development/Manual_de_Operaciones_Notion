@@ -4,7 +4,7 @@ Andrea: Yes
 Carolina: Yes
 David: Yes
 Eddy: Yes
-Felipe: No
+Felipe: Yes
 Jorge: Yes
 Manolo: Yes
 Mich: Yes
