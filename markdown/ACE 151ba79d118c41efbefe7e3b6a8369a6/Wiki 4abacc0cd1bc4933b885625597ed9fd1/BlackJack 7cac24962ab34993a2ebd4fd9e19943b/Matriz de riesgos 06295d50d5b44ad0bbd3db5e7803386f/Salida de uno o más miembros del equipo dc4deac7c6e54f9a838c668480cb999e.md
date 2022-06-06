@@ -4,9 +4,10 @@ Categoría: Organizacional
 Consecuencias: - Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.
 Fecha de definición: 10/03/2022
-ID: June 5 2022, 22:02:00
-Impacto: Bajo
+ID: June 6 2022, 08:47:00
+Impact: 2
 Interno: Yes
+Magnitud: 0.8
 Plan de mitigación: - Preparar los manuales para que su salida no afecte.
 
 - Capacitación de ese integrante a uno nuevo que ocupe su rol.
@@ -14,6 +15,5 @@ Plan de mitigación: - Preparar los manuales para que su salida no afecte.
 - Aviso a stakeholders previo a la salida por un posible cambio en las fechas de entrega.
 Plan de respuesta: Apoyar todos en el área de desarrollo que se encuentre estancada
 Prob: 0.4
-Probabilidad: Media
 Responsable: TL
 Status: Identificado/ Sin datos

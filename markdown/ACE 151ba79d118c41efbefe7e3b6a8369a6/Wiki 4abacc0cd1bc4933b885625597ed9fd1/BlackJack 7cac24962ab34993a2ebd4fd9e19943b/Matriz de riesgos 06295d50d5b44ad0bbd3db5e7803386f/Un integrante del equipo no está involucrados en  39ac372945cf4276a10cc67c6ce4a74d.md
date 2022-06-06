@@ -5,9 +5,10 @@ Consecuencias: Atraso en el plan del proyecto
 
 Disminución de la confianza en el equipo
 Fecha de definición: 03/05/2022
-ID: June 5 2022, 22:02:00
-Impacto: Medio
+ID: June 6 2022, 08:47:00
+Impact: 6
 Interno: Yes
+Magnitud: 1.2
 Plan de mitigación: Realizar actividades de integración para conocer a los integrantes del equipo
 
 Tener juntas uno a uno para escuchar las necesidades de cada persona
@@ -17,6 +18,5 @@ Resolver las inquietudes de la persona
 
 Hacer un plan para reintegrar a la persona al equipo
 Prob: 0.2
-Probabilidad: Baja
 Responsable: TL
 Status: Identificado

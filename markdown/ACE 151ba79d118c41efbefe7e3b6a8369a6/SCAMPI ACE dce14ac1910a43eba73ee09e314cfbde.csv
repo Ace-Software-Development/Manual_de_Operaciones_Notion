@@ -280,7 +280,8 @@ CM,2.2,"-Estandares para manejo de ramas
 -Estándares de mensajes de commits
 -Matrices de configuración
 -Liga a pull requests
--Documentación de releases",Controlar los cambios en los elementos de configuración.,"https://www.notion.so/11968e3d836c4ec2b18e15bb2a6de39b 
+-Documentación de releases
+https://www.notion.so/774e022717e2413baa1ea37e29ea89ac ",Controlar los cambios en los elementos de configuración.,"https://www.notion.so/11968e3d836c4ec2b18e15bb2a6de39b 
 https://www.notion.so/1007de6e0ff14f2888dc0c83b84fda88 
 https://www.notion.so/4e476dd3fd20414c9a81c58df7ea4d4e 
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
@@ -295,7 +296,9 @@ https://docs.google.com/document/d/1sABtD2fCO1g7hYjfC4f7_BDvUY_r8w6vBeatQrnHx58/
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://github.com/Ace-Software-Development/fullhouse-nefrovida/pulls","https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 
 https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
-https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 ",No
+https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
+https://www.notion.so/774e022717e2413baa1ea37e29ea89ac 
+https://github.com/Ace-Software-Development/Manual_de_Operaciones_Notion/releases/tag/v1.0",No
 CM,3.1,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 
@@ -499,7 +502,7 @@ https://www.notion.so/349b15b299e846beb45066c69dddea68 ",No
 RKM,1.1,"https://www.notion.so/349b15b299e846beb45066c69dddea68 https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Determinar las fuentes y las categorías de los riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,1.2,"https://www.notion.so/349b15b299e846beb45066c69dddea68 https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Definir los parámetros de riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,1.3,"https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d https://www.notion.so/349b15b299e846beb45066c69dddea68 ",Establecer una estrategia de gestión de riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
-RKM,2.1,"https://www.notion.so/349b15b299e846beb45066c69dddea68 ",Identificar y documentar los riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
+RKM,2.1,"https://www.notion.so/349b15b299e846beb45066c69dddea68 https://www.notion.so/94653bc268bc4025b1e9aaff84b6175d ",Identificar y documentar los riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,2.2,"https://www.notion.so/349b15b299e846beb45066c69dddea68 https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ","Evaluar, clasificar y priorizar los riesgos",https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,3.1,,Desarrollar los planes de mitigación de riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,3.2,,Implementar los planes de mitigación de riesgos,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No

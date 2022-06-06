@@ -32,11 +32,15 @@ Plan de trabajo actualizado con historias de usuario y tareas con su respectiva 
 
 ## **Métricas**
 
-texto
+Costo (CPI)
+
+Valor (SPI)
+
+Tiempos estimados WBS
 
 ## **Responsable**
 
-texto
+Product Owner
 
 ## Bitácora de cambios
 

@@ -7,14 +7,14 @@ Se intenta resolver cuando ya es muy complejo
 
 Toma más tiempo y esfuerzo resolverlo
 Fecha de definición: 03/05/2022
-ID: June 5 2022, 22:02:00
-Impacto: Alto
+ID: June 6 2022, 08:47:00
+Impact: 8
 Interno: Yes
+Magnitud: 5.6
 Plan de mitigación: Cuando una persona identifique un problema debe de anunciarlo a todo el equipo y asegurarse de que se resuelva lo antes posible
 Plan de respuesta: Utilizar el proceso de toma de decisiones o resolución de conflictos para resolver el problema
 
 Pedir ayuda a un asesor en caso de ser necesario
 Prob: 0.7
-Probabilidad: Alta
 Responsable: PO
 Status: Identificado

@@ -4,12 +4,13 @@ Categoría: Técnico
 Consecuencias: Perdemos tiempo de desarrollo
 No podemos hacer pruebas
 Fecha de definición: 24/05/2022
-ID: June 5 2022, 22:02:00
-Impacto: Alto
+ID: June 6 2022, 08:47:00
+Impact: 8
 Interno: Yes
+Magnitud: 5.6
 Plan de mitigación: Todas las personas que prueben la aplicación deben tener el mismo documento de dev y prod .json 
 Generar un backup 
 Plan de respuesta: Volver a crear la base de datos
-Probabilidad: Alta
+Prob: 0.7
 Responsable: AO
 Status: Identificado

@@ -1,6 +1,6 @@
 # G14_Identificación de Riesgos
 
-| Autor | ‣ ‣  |
+| Autor | ‣  |
 | --- | --- |
 | Responsable | Team Leader de cada equipo |
 

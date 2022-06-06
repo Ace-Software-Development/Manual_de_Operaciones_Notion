@@ -1,11 +1,13 @@
 # El socio no cuenta con la infraestructura para tener la solución
 
+Categoría: Técnico
 Consecuencias: La solución no sería funcional en toda la fábrica
 Fecha de definición: 26/05/2022
-ID: June 5 2022, 22:02:00
-Impacto: Medio
+ID: June 6 2022, 08:47:00
+Impact: 6
 Interno: No
+Magnitud: 5.4
 Plan de mitigación: Mantener la comunicación 
 Plan de respuesta: Recordarle lo que pierde
-Probabilidad: Alta
+Prob: 0.9
 Responsable: PO
