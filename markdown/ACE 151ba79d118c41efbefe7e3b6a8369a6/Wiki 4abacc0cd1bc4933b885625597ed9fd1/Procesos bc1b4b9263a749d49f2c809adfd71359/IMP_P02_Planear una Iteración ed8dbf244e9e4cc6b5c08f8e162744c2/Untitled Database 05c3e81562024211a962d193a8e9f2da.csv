@@ -1,7 +1,8 @@
 ﻿Etapa,Actividad,Encargado,Área CMMI
 Objetivo de la iteración,Se define el alcance de la iteración mediante un objetivo SMART,"Product Owner, Team Leader",N/A
+Capacidad de equipo,Se llena cuántas horas tiene disponible cada miembro del equipo por día en la planeación.,Team Leader,PP 2.4
 Revisión de tareas pendientes,Se identifican cuáles son las tareas pendientes del proyecto y se ordenan por prioridad.,"Product Owner, Team Leader",PMC 1.1
 Selección de tareas,Se asignan las tareas más prioritarias a la nueva iteración,Todo el Equipo,N/A
 Estimación,Se estima por tiempo o por puntos ágiles el costo que tendrá realizar cada tarea de la iteración mediante una votación grupal,Todo el Equipo,PP 1.2
-Asignación de tareas,Los integrantes del equipo seleccionan las tareas que realizarán durante la iteración y el Team Lead las asigna asegurándose de que cada integrante tenga una carga de trabajo similar.,Todo el Equipo,N/A
+Asignación de tareas,Los integrantes del equipo seleccionan las tareas que realizarán durante la iteración y el Team Lead las asigna asegurándose de que cada integrante tenga una carga de trabajo similar.,Todo el Equipo,PP 2.4
 Definición de actividades,"Se establecen fechas y horas para realizar: Daily, Weekly y Comunicación con el cliente.",Product Owner,PP 3.3

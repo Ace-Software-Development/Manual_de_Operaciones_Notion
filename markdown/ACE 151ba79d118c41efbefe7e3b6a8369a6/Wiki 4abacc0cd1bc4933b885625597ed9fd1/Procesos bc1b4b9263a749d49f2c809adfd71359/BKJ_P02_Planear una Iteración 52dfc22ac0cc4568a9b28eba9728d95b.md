@@ -24,7 +24,7 @@ Documento de plan de iteración sin iteración activa o Jira sin iteración acti
 | --- | --- | --- | --- |
 | 1. Objetivo de la iteración (previo a la junta de planeación) | Se define el alcance de la iteración mediante un objetivo SMART | Product Owner |  |
 | 2. Revisión de backlog (previo a la junta de planeación) | Se identifican cuáles son las tareas pendientes del proyecto y se ordenan por prioridad. | Product Owner | PMC 1.1 |
-| 3. Actualización de la disponibilidad del equipo (previo a la junta de planeación) | Cada integrante del equipo actualiza las horas semanales que puede trabajar en el siguiente link: https://docs.google.com/spreadsheets/d/1DLF9FYU8fILg4hhdIbUrn9vENbBKOxv7vujbYlxNkho/edit?usp=sharing | Team Lead | PP 2.1 |
+| 3. Actualización de la disponibilidad del equipo (previo a la junta de planeación) | Cada integrante del equipo actualiza las horas semanales que puede trabajar en la planeación de la iteración. | Team Lead | PP 2.1, 2.4 |
 | 4. Seleccionar un ítem de trabajo | Elegir el ítem más prioritario del backlog y asignarlo a la iteración | Team Lead | N/A |
 | 5. Obtener los datos detalles del ítem de trabajo | Especificar qué necesita tener el ítem de trabajo para que esté completo | Product Owner | RD 3.2 |
 | 6. Modelar una solución potencial | Hacer un bosquejo, explicación verbal y resolver dudas de la forma en la que se va a realizar el ítem de trabajo. | Product Owner | RD 3.2 |
@@ -36,7 +36,7 @@ Documento de plan de iteración sin iteración activa o Jira sin iteración acti
 
 ¿La carga de trabajo es menos de lo que podemos manejar? Si la respuesta es no, continuar con la asignación de tareas.
 
-Estas preguntas se deben de hacer tomando en cuenta la disponibilidad de horas que tiene cada integrante para trabajar en el proyecto. | Team Lead | PP3.2 |
+Estas preguntas se deben de hacer tomando en cuenta la disponibilidad de horas que tiene cada integrante para trabajar en el proyecto. | Team Lead | PP 3.2 |
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-salida)
 

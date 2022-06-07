@@ -5,7 +5,7 @@ Consecuencias: - Reducción del equipo
 - Rendimiento disminuido
 - La carga de trabajo se deberá redistribuir
 Fecha de definición: 10/03/2022
-ID: June 6 2022, 21:57:00
+ID: June 7 2022, 08:47:00
 Impact: 6
 Interno: Yes
 Magnitud: 4.2

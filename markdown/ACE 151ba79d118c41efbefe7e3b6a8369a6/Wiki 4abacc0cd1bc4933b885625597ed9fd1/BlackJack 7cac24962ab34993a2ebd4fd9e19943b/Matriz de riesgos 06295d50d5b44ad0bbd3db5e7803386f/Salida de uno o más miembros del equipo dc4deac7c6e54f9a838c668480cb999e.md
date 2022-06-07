@@ -4,7 +4,7 @@ Categoría: Organizacional
 Consecuencias: - Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.
 Fecha de definición: 10/03/2022
-ID: June 6 2022, 21:57:00
+ID: June 7 2022, 08:47:00
 Impact: 2
 Interno: Yes
 Magnitud: 0.8

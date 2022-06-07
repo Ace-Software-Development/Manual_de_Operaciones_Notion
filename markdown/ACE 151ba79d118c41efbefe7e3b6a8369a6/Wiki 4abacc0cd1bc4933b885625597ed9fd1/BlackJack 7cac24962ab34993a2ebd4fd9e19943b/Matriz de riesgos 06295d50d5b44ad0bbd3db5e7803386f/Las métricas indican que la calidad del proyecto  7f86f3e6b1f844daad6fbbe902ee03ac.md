@@ -5,7 +5,7 @@ Consecuencias:  Aumento de defectos
 
 Retrabajo
 Fecha de definición: 03/05/2022
-ID: June 6 2022, 21:57:00
+ID: June 7 2022, 08:47:00
 Impact: 6
 Interno: No
 Magnitud: 3

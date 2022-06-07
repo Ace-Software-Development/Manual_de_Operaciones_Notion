@@ -5,7 +5,7 @@ Consecuencias: - Presentar problemas e incidencias del lado del cliente.
 - Se perjudica la operación del negocio.
 - Se afecta la experiencia de usuario para el cliente.
 Fecha de definición: 10/03/2022
-ID: June 6 2022, 21:57:00
+ID: June 7 2022, 08:47:00
 Impact: 10
 Interno: Yes
 Magnitud: 6
