@@ -143,6 +143,7 @@ Adicionalmente están las ramas auxiliares para labores concretas como la creaci
 - [Línea base del departamento](../../Wiki%204abacc0cd1bc4933b885625597ed9fd1.md)
 - [Línea base de Blackjack](https://github.com/Ace-Software-Development/blackjack_monarca)
 - [Línea base de Full House](https://github.com/Ace-Software-Development/fullhouse-nefrovida)
+    - [Desplegado](https://nefroweb.nefrovidaac.com/)
 - [Línea base de Flor Imperial Web](https://github.com/Ace-Software-Development/florimperial_campanario_web_react)
 - [Línea base de Flor Imperial Móvil](https://github.com/Ace-Software-Development/florimperial_campanario_mobile)
 

@@ -3,7 +3,7 @@
 Categoría: Proceso
 Consecuencias: Incumplimiento de las fechas de entrega, posible apresuramiento del desarrollo, desperdico de trabajo
 Fecha de definición: 13/03/2022
-ID: June 6 2022, 08:47:00
+ID: June 6 2022, 21:57:00
 Impact: 9
 Interno: Yes
 Magnitud: 3.6

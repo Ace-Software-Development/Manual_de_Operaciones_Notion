@@ -3,7 +3,7 @@
 Categoría: Organizacional
 Consecuencias: Incapacidad de comunicación entre los miembros y pérdida de datos
 Fecha de definición: 10/03/2022
-ID: June 6 2022, 08:47:00
+ID: June 6 2022, 21:57:00
 Impact: 8
 Interno: No
 Magnitud: 0.8

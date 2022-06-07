@@ -1,4 +1,4 @@
-﻿Fase,Responsable,Actividad
-Análisis,Dueño del proceso,"Se debe verificar la justificación del cambio con el dueño del proceso, para garantizar que efectivamente sea una mejora y que se siga garantizando la calidad."
-Mejora,Editor del proceso,"Una vez aprobado el cambio por el dueño del proceso, se implementará el cambio respectivo en la wiki departamental"
-Revisión,"Dueño del proceso, Editor del proceso",Se debe verificar que los cambios implementados sean atendidos por los equipos en las próximas https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08realizadas al proceso
+﻿Fase,Actividad,Responsable
+Análisis,"Se debe verificar la justificación del cambio con el dueño del proceso, para garantizar que efectivamente sea una mejora y que se siga garantizando la calidad.",Dueño del proceso
+Mejora,"Una vez aprobado el cambio por el dueño del proceso, se implementará el cambio respectivo en la wiki departamental",Editor del proceso
+Revisión,Se debe verificar que los cambios implementados sean atendidos por los equipos en las próximas https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08realizadas al proceso,"Dueño del proceso, Editor del proceso"

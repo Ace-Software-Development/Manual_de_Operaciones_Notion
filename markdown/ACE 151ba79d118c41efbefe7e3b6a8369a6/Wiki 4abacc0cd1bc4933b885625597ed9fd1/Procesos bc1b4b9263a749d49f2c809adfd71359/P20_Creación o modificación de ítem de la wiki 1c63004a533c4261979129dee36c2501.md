@@ -22,7 +22,7 @@ Proceso a crear/modificar
 
 Creación/modificación de un item
 
-Auditoría a item
+Verificar la calidad de la creación/cambio a través de una [auditoría](P25_Auditori%CC%81as%20a%20assets%20y%20productos%20de%20trabajo%20386d7b5b7b17435eb70e22f8f6ee7f08.md) a item
 
 ## **Métricas**
 

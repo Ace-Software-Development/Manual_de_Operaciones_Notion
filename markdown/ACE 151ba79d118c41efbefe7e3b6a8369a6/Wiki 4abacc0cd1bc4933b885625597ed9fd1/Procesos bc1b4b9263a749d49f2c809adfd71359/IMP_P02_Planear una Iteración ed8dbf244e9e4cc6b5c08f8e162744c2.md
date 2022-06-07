@@ -1,5 +1,9 @@
 # IMP_P02_Planear una Iteración
 
+## Versión
+
+1.0
+
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#consideraciones-a-tomar)
 
 - Todo el equipo debe de estar presente durante la planeación de una iteración.

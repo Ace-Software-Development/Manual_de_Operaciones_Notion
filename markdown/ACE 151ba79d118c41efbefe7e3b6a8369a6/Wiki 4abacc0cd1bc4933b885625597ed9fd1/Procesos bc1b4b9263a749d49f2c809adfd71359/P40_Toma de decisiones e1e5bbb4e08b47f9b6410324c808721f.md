@@ -20,15 +20,20 @@ Opiniones variadas en el equipo
 
 - El equipo identifica el nivel de nuestra decisión
 
-| Nivel | Descripción | Acción a tomar (equipo) | Acción a tomar (equipo y socio formador) |
-| --- | --- | --- | --- |
-| 1 | La decisión no afecta al proyecto | El equipo votara. La opción más votada ganará. | No aplica |
+| Nivel | Descripción | Acción a tomar (equipo) | Acción a tomar (equipo y socio formador) | Áreas del CMMI |
+| --- | --- | --- | --- | --- |
+| 1 | La decisión no afecta al proyecto | El equipo votara. La opción más votada ganará. | No aplica | PP 3.3
+TS 1.1 |
 | 2 | La decisión tiene un leve impacto en el proyecto. | El equipo expondrá sus opiniones. Cada integrante tiene un máximo de 3 minutos para ello. Posteriormente se votara. La opción más votada ganará.
-En caso de falta de disponibilidad, la exposición de argumentos será por mensaje. | Se notifica al socio de la decisión en alguna de las reuniones. |
-| 3 | La decisión afecta medianamente al proyecto | El equipo hará una lista de pros y contras de cada opción y votará. La opción más votada ganará. | Se charla con el socio durante una reunión, sobre la decisión que se planea tomar y que este la valide. |
-| 4 | La decisión afecta altamente al proyecto | El equipo hará una lista de pros y contras de cada opción. Se hará una elección de impacto de cada punto haciendo uso de la herramienta Planning Poker donde 1 es el menor impacto y 5 el mayor impacto. | Se realiza una platica con el socio, en donde se muestre lo que ocurre y así tomar una decisión en conjunto. |
+En caso de falta de disponibilidad, la exposición de argumentos será por mensaje. | Se notifica al socio de la decisión en alguna de las reuniones. | PP 3.3
+TS 1.1 |
+| 3 | La decisión afecta medianamente al proyecto | El equipo hará una lista de pros y contras de cada opción y votará. La opción más votada ganará. | Se charla con el socio durante una reunión, sobre la decisión que se planea tomar y que este la valide. | PP 3.3
+TS 1.1 |
+| 4 | La decisión afecta altamente al proyecto | El equipo hará una lista de pros y contras de cada opción. Se hará una elección de impacto de cada punto haciendo uso de la herramienta Planning Poker donde 1 es el menor impacto y 5 el mayor impacto. | Se realiza una platica con el socio, en donde se muestre lo que ocurre y así tomar una decisión en conjunto. | PP 3.3
+TS 1.1 |
 | 5 | La decisión es crucial en el proyecto  | El equipo consultara con expertos los pros y contras de cada opción. Se hará una elección de impacto de cada punto haciendo uso de la herramienta Planning Poker donde 1 es el menor impacto y 5 el mayor impacto.
-. | Se realiza una platica con el socio, en donde se muestre lo que ocurre y así tomar una decisión en conjunto, esta decisión será documentada en el acta de proyecto. |
+. | Se realiza una platica con el socio, en donde se muestre lo que ocurre y así tomar una decisión en conjunto, esta decisión será documentada en el acta de proyecto. | PP 3.3
+TS 1.1 |
 
 ## Criterios de salida
 

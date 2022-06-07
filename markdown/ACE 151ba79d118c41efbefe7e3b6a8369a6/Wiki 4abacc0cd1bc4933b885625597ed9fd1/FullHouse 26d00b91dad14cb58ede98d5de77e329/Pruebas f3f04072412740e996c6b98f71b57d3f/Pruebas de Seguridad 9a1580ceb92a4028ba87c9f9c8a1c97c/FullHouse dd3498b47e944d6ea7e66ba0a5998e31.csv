@@ -30,8 +30,8 @@
 4,Registrar la información del coloborador,El correo electrónico y el número de teléfono debe tener un formato válido y ser único,Aprobado,"June 3, 2022","  ",IT3,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 1,Consultar información del personal,El usuario debe de estar autenticado y tener un rol de administrador para poder consultar la información del personal,Aprobado,"June 5, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 2,Consultar información del personal,Se debe validar que el backend no entregue información sensible sin antes haber recibido credenciales apropiadas,Aprobado,"June 5, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
-,,,,,,,
-,,,,,,,
+1,Generar archivo PDF,La ruta de la vista del PDF generado solo debe tener acceso los usuarios con el rol correspondiente.,Aprobado,"June 6, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+2,Generar archivo PDF,Solo las personas con el rol correspondiente pueden ver la tabla de estudios de laboratorio.,Aprobado,"June 6, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,

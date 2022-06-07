@@ -7,3 +7,4 @@ Hipótesis: Las revisiones se harán de inmediato. Actualmente se tarda hasta 12
 Proyecto: Monarca
 Resultados: El tiempo de retroalimentación bajó a 25 minutos
 Tipo de mejora: Reducir tamaño de ciclos de retroalimentación
+¿Funcionó?: Yes

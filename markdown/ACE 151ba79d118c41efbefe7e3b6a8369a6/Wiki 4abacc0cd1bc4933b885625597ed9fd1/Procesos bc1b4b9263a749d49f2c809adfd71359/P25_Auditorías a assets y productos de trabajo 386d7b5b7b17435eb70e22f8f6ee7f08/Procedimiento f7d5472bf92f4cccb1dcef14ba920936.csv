@@ -3,8 +3,9 @@ Revisión,"En la junta de coordinación diaria departamental los líderes de ár
 ,Los líderes de área/Product Owners deberán asignar los assets y productos de trabajo identificados a auditores.,Líder de área/Product Owner," "
 ,Duplicar el checklist de https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=0 o https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=0 según el caso en una nueva pestaña del documento.,Responsable de auditoría,PPQA 1.1 (assets) / PPQA 1.2 (productos)
 ,Escribir la información general de la auditoría en su respectivo checklist.,Responsable de auditoría,"  "
-,Marcar con una palomilla los elementos con los que cumple el asset o producto de trabajo.,Responsable de auditoría,PPQA 1.1 (assets) / PPQA 1.2 (productos)
-,Registrar las no conformidades (aspectos de la checklist que no están presentes en el asset o producto de trabajo) en el https://www.notion.so/f78724bec45744b3b5627fda80160521 siguiendo la guía para https://www.notion.so/b4264c111ef94064b4a19744c3aee61e.,Responsable de auditoría,PPQA 2.1
+,Marcar con una palomilla los elementos con los que cumple el asset o producto de trabajo.,Responsable de auditoría,"PPQA 1.1 (assets) / PPQA 1.2 (productos)
+OPF 1.2"
+,Registrar las no conformidades (aspectos de la checklist que no están presentes en el asset o producto de trabajo) en el https://www.notion.so/f78724bec45744b3b5627fda80160521 siguiendo la guía para https://www.notion.so/b4264c111ef94064b4a19744c3aee61e.,Responsable de auditoría,"PPQA 2.1, OPF 1.2"
 Propuesta de mejora,Escribir las propuestas de mejora en la sección de comentarios de la checklist.,Responsable de auditoría,
 ,"Actualizar el estado del asset o producto de trabajo en la https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 según el resultado de la auditoría.
 - Controlado: Fue auditado, pero tiene defectos sin resolver.

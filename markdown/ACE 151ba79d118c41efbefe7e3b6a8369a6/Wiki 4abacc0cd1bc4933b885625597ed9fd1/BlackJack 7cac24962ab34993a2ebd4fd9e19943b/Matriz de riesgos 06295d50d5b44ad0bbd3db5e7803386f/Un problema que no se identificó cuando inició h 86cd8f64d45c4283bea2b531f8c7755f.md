@@ -7,7 +7,7 @@ Se intenta resolver cuando ya es muy complejo
 
 Toma más tiempo y esfuerzo resolverlo
 Fecha de definición: 03/05/2022
-ID: June 6 2022, 08:47:00
+ID: June 6 2022, 21:57:00
 Impact: 8
 Interno: Yes
 Magnitud: 5.6
