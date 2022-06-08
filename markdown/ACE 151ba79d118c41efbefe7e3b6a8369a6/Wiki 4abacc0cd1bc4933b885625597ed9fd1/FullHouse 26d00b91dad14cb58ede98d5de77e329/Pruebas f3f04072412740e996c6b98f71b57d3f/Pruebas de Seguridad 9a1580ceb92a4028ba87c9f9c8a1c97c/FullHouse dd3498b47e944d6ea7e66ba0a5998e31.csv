@@ -33,7 +33,7 @@
 1,Generar archivo PDF,La ruta de la vista del PDF generado solo debe tener acceso los usuarios con el rol correspondiente.,Aprobado,"June 6, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 2,Generar archivo PDF,Solo las personas con el rol correspondiente pueden ver la tabla de estudios de laboratorio.,Aprobado,"June 6, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
 1,Eliminar estudio paciente,Los usuarios deben estar autenticados y tener un rol de Químico para poder borrar un estudio del paciente,Aprobado,"June 7, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
-2,,,,,,,
+1,Eliminar un tipo de estudio,Los usuarios deben estar autenticados y tener un rol de Administrador para poder borrar un estudio del paciente,Aprobado,"June 7, 2022"," ",IT4,
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,

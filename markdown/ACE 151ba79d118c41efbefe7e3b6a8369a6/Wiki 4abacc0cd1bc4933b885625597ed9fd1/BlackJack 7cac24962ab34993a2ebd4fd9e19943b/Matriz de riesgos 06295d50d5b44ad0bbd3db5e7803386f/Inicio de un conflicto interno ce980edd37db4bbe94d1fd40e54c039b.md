@@ -3,7 +3,7 @@
 Categoría: Organizacional
 Consecuencias: Disconformidad en alguna decisión, o acción dentro del equipo
 Fecha de definición: 10/03/2022
-ID: June 7 2022, 21:59:00
+ID: June 8 2022, 08:48:00
 Impact: 6
 Interno: Yes
 Magnitud: 3
