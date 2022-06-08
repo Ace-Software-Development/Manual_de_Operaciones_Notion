@@ -8,6 +8,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 7, 2022
 ID: 52
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Enrique Santos Fraire
 Severidad *: Urgent
 Tipo*: Gestión de la configuración

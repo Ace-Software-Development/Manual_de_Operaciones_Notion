@@ -6,6 +6,6 @@ Fecha de detección: June 2, 2022
 Fecha límite de corrección: June 4, 2022
 ID: 27
 Proyecto/área*: CM
-Responsable:  
+Responsable: Rafael Hinojosa López
 Severidad *: Urgent
 Tipo*: Gestión de la configuración

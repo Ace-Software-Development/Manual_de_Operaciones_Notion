@@ -6,6 +6,6 @@ Fecha de Corrección: June 2, 2022
 Fecha de detección: May 31, 2022
 ID: 7
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Diego Arturo Padilla Domínguez
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

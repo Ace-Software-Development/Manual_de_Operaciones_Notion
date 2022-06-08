@@ -7,6 +7,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 7, 2022
 ID: 56
 Proyecto/área*: PP
-Responsable:  
+Responsable: Jorge Alan Ramírez Elías
 Severidad *: Urgent
 Tipo*: Valor

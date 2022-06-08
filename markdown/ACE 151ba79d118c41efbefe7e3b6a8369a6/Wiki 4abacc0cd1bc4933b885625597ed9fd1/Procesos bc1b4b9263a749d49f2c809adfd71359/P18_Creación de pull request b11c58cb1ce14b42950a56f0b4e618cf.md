@@ -4,11 +4,11 @@
 
 Leer previamente los estándares de tu equipo 
 
-Criterios para que se crea un pull request (agregar estándar)
+El cambio a integrar deberá ser verificable
 
-Verificable
+El cambio a integrar deberá representar una historia de usuario o caso de uso que haya pasado la etapa de pruebas exitosamente.
 
-Poner estándares de cada equipo para pull request
+**Falta**Poner estándares de cada equipo para pull request
 
 [BKJ_E04_Código](../Esta%CC%81ndares%206577b6d75d3a4f788a00749c1fa0feee/BKJ_E04_Co%CC%81digo%20be0d121c15e64b5a9c5631cce51f8792.md) 
 

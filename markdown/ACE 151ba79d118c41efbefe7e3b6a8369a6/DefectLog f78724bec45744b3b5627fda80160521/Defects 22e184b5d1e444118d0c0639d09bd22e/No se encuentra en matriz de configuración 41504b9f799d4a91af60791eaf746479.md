@@ -6,6 +6,6 @@ Fecha de Corrección: June 1, 2022
 Fecha de detección: June 1, 2022
 ID: 15
 Proyecto/área*: TS
-Responsable:   
+Responsable: Leonardo Alvarado Menéndez, Enrique Santos Fraire
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

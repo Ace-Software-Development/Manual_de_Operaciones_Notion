@@ -7,6 +7,6 @@ Fecha de Corrección: June 3, 2022
 Fecha de detección: June 2, 2022
 ID: 28
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Leonardo Alvarado Menéndez
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

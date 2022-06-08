@@ -6,7 +6,7 @@ Validar la solución de los casos de uso con los socios formadores.
 
 ## **Consideraciones a tomar**
 
-- El componente deberá haber pasado por las siguientes fases de desarrollo antes de ser considerado para la validación:
+- El componente deberá haber pasado por las siguientes fases de desarrollo antes de ser considerado para la validación y entrar en estado de *review* o *revisión*:
     1. Análisis
     2. Diseño
     3. Implementación
@@ -25,13 +25,14 @@ Validar la solución de los casos de uso con los socios formadores.
 | --- | --- | --- | --- |
 | Preparación | Genera una copia de la plantilla que convenga más al equipo.
 Plantilla Monarca
-Plantilla Campanario | PO | VAL |
-| Preparación | Identificar los componentes o casos de uso que se encuentren listos para review o revisión en el plan de trabajo, así como aquellos que tengan correcciones implementadas tras una validación previa. | PO | VAL |
-| Preparación | Agendar una cita presencial o virtual con el socio formador para la validación | PO | VAL |
-| Validación | Validar los componentes o casos de uso marcando con check aquellos que pasen la validación. | PO | VAL |
-| Validación | Atender comentarios y retroalimentación, anotarlos para sus ajustes posteriores. | PO | VAL |
-| Corrección de defectos | Agregar los los ajustes al plan de trabajo para realizarse a la brevedad. | PO | VAL |
-| Finalización | Al concluir una validación exitosa el socio deberá firmar el documento para avalar la actividad. | Socio formador | VAL |
+Plantilla Campanario | PO | VAL 1.1 |
+| Preparación | Identificar los componentes o casos de uso que se encuentren listos para review o revisión en el plan de trabajo, así como aquellos que tengan correcciones implementadas tras una validación previa. | PO | VAL 1.1 |
+| Preparación | Agendar una cita presencial o virtual con el socio formador para la validación | PO | VAL 1.2 |
+| Validación | Validar los componentes o casos de uso marcando con check aquellos que pasen la validación. | PO | VAL 1.2, 2.1 |
+| Validación | Atender comentarios y retroalimentación, anotarlos para sus ajustes posteriores. No podrán ser validados hasta que sean atendidos estos cambios. | PO | VAL 1.3, 2.2 |
+| Corrección de defectos | Agregar los los ajustes al plan de trabajo para realizarse a la brevedad. | PO | VAL 2.2 |
+| Finalización | Al concluir una validación exitosa el socio deberá firmar el documento para avalar la actividad. | Socio formador | VAL 2.1 |
+| Conclusiones |  |  | VAL 2.2 |
 
 ## **Criterios de salida**
 

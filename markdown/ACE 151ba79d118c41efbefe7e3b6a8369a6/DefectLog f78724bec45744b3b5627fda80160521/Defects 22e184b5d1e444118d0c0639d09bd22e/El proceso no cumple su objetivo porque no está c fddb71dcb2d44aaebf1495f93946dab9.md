@@ -8,6 +8,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 8, 2022
 ID: 76
 Proyecto/área*: NefroVida
-Responsable:  
+Responsable: Felipe Gabriel Yépez Villacreses
 Severidad *: Urgent
 Tipo*: Definición

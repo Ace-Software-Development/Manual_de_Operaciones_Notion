@@ -3,7 +3,7 @@
 Categoría: Técnico
 Consecuencias: La solución no sería funcional en toda la fábrica
 Fecha de definición: 26/05/2022
-ID: June 7 2022, 08:47:00
+ID: June 7 2022, 21:59:00
 Impact: 6
 Interno: No
 Magnitud: 5.4

@@ -8,6 +8,6 @@ Fecha de detección: June 3, 2022
 Fecha límite de corrección: June 6, 2022
 ID: 49
 Proyecto/área*: PMC
-Responsable:  
+Responsable: Michelle Aylin Calzada Montes
 Severidad *: Urgent
 Tipo*: Gestión de la configuración

@@ -5,6 +5,6 @@ Estado: Pending
 Fecha de detección: May 31, 2022
 ID: 8
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Paola Adriana Millares Forno
 Severidad *: Necessary
 Tipo*: Definición

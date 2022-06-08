@@ -5,7 +5,7 @@ Consecuencias: - Posible sobreestimación de la iteración.
 - Cambio en el plan debido a capacitación del integrante.
 - Cambio en capacidad del equipo.
 Fecha de definición: 10/03/2022
-ID: June 7 2022, 08:47:00
+ID: June 7 2022, 21:59:00
 Impact: 2
 Interno: Yes
 Magnitud: 0.8

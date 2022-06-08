@@ -7,6 +7,6 @@ Fecha de Corrección: May 31, 2022
 Fecha de detección: May 31, 2022
 ID: 3
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Pau
 Severidad *: Necessary
 Tipo*: Formato y gramática

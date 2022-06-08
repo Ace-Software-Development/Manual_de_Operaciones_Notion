@@ -8,6 +8,6 @@ Fecha de detección: June 1, 2022
 Fecha límite de corrección: June 1, 2022
 ID: 17
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Paola Adriana Millares Forno
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

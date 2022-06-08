@@ -6,7 +6,7 @@ Consecuencias: - Retraso en el plan.
 - Baja prioridad hacia el equipo.
 - Incongruencia en visión y objetivos entre el equipo y el PO.
 Fecha de definición: 10/03/2022
-ID: June 7 2022, 08:47:00
+ID: June 7 2022, 21:59:00
 Impact: 10
 Interno: No
 Magnitud: 5

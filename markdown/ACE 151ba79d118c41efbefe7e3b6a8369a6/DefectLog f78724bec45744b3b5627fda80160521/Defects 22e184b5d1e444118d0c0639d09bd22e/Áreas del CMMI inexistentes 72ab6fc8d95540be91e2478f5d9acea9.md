@@ -7,6 +7,6 @@ Fecha de detección: May 31, 2022
 Fecha límite de corrección: June 4, 2022
 ID: 1
 Proyecto/área*: N/A
-Responsable:  
+Responsable: Mariana Soto Ochoa
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

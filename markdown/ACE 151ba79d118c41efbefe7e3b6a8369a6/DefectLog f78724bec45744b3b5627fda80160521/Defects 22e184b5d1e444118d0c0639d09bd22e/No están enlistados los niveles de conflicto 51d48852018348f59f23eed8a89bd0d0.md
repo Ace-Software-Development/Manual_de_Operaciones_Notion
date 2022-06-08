@@ -8,6 +8,6 @@ Fecha de detección: May 31, 2022
 Fecha límite de corrección: June 3, 2022
 ID: 11
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Mariana Soto Ochoa
 Severidad *: Necessary
 Tipo*: Formato y gramática

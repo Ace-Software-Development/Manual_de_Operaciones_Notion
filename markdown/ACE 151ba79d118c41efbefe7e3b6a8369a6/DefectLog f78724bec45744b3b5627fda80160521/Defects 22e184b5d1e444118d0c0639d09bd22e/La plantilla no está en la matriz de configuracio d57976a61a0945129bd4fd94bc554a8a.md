@@ -7,6 +7,6 @@ Fecha de Corrección: July 4, 2022
 Fecha de detección: June 3, 2022
 ID: 37
 Proyecto/área*: PPQA
-Responsable:  
+Responsable: Cutberto Arizabalo Nava
 Severidad *: Urgent
 Tipo*: Gestión de la configuración

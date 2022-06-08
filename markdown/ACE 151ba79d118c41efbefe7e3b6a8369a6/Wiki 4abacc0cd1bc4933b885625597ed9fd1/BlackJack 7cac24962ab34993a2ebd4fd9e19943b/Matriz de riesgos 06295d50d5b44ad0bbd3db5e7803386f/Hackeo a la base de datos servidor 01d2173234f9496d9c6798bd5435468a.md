@@ -3,7 +3,7 @@
 Categoría: Seguridad
 Consecuencias: Perder información de la base de datos
 Fecha de definición: 24/05/2022
-ID: June 7 2022, 08:47:00
+ID: June 7 2022, 21:59:00
 Impact: 10
 Interno: No
 Magnitud: 7

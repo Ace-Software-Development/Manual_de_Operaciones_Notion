@@ -7,6 +7,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 7, 2022
 ID: 53
 Proyecto/área*: MA
-Responsable:  
+Responsable: Joaquín Zermeño Saldaña
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

@@ -6,6 +6,6 @@ Estado: Pending
 Fecha de detección: May 31, 2022
 ID: 12
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Diego Arturo Padilla Domínguez
 Severidad *: Urgent
 Tipo*: Valor

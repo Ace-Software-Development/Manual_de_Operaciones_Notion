@@ -7,6 +7,6 @@ Fecha de detección: June 3, 2022
 Fecha límite de corrección: June 6, 2022
 ID: 44
 Proyecto/área*: PP
-Responsable:  
+Responsable: Jorge Alan Ramírez Elías
 Severidad *: Urgent
 Tipo*: Gestión de la configuración

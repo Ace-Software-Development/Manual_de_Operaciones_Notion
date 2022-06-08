@@ -8,6 +8,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 4, 2022
 ID: 58
 Proyecto/área*: RM
-Responsable:  
+Responsable: Daniel Cruz Arciniega
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

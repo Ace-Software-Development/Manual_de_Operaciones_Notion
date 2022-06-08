@@ -20,10 +20,12 @@ Estimar el tiempo que tomara cada tarea.
 3. Determinar la complejidad de ítem de trabajo siguiendo el siguiente proceso:
     1. Elegir un ítem de trabajo
     2. Modelar una posible solución ( usando dibujos/ diagramas rápidos/algoritmos hablados)
-    3. Descomponer los Items de trabajo en tareas (análisis, diseño, backend, frontend, etc)
+    3. Descomponer los ítems de trabajo en tareas (análisis, diseño, backend, frontend, etc)
     4. Votar por la complejidad de la tarea, sugerimos usar [Planning Pocker](https://planningpokeronline.com/)
 4. Seleccionar primeras tarea para cada miembro (usando peer programing siempre que se pueda)
 5. Hacer una calendarización de las tareas para saber en todo momento donde deberían estar
+
+[Untitled](P19_Sprint%20Planning%2038496412c5c84378b582eb61bfc071ff/Untitled%20Database%206ac901cceb544d1d896feca36543704e.csv)
 
 ## Criterios de salida
 

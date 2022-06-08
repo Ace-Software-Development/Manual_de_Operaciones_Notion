@@ -6,6 +6,6 @@ Fecha de detección: June 6, 2022
 Fecha límite de corrección: June 9, 2022
 ID: 79
 Proyecto/área*: NefroVida
-Responsable:  
+Responsable: Carolina Herrera Martínez
 Severidad *: Necessary
 Tipo*: Definición

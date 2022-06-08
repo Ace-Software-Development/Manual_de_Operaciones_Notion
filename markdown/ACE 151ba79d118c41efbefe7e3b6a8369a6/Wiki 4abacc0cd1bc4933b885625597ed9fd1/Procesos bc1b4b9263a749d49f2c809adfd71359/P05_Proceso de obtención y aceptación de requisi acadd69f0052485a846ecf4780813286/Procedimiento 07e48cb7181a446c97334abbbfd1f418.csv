@@ -10,6 +10,7 @@ PMC 1.1"
 Priorización,Priorizar los requerimientos en base a las necesidades. Siguiendo el https://www.notion.so/8279a54bc4344b85bb72894e4f178406,RM 1.2
 Aceptación,Evaluar el impacto de acuerdo a los criterios de aceptación de requisitos.  Siguiendo la https://www.notion.so/a7a71ac2e2af4e368174c668c798531e,RM 1.2
 Aceptación,"Generar propuestas de cambio en caso de no cumplan con dichos criterios. ",RM 1.3
-Verificación,"Exponer y validar los requisitos analizados a los Stakeholders. Tomar la retroalimentación, y en caso de que algún requisito deberá de repetir el proceso.","RM 1.1
+Verificación,"Exponer y validar los requisitos analizados a los Stakeholders. Tomar la retroalimentación, y en caso de que algún requisito no cumpla con los criterios establecidos en este proceso, se deberá de repetir el proceso.","RM 1.1
 RM 1.2
-RM 1.3"
+RM 1.3
+VER 1.3"

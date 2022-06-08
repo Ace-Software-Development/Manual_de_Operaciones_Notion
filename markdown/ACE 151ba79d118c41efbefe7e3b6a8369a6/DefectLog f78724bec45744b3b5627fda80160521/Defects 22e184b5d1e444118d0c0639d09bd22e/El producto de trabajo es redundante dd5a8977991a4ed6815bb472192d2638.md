@@ -5,6 +5,6 @@ Estado: Pending
 Fecha de detección: June 2, 2022
 ID: 30
 Proyecto/área*: Monarca
-Responsable:  
+Responsable: Diego Arturo Padilla Domínguez
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

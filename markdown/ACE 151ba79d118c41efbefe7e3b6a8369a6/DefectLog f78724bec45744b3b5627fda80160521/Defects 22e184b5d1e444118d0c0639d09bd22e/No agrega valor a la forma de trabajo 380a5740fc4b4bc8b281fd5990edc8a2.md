@@ -7,6 +7,6 @@ Fecha de detección: June 1, 2022
 Fecha límite de corrección: June 2, 2022
 ID: 16
 Proyecto/área*: CM
-Responsable:  
+Responsable: Rafael Hinojosa López
 Severidad *: Urgent
 Tipo*: Valor

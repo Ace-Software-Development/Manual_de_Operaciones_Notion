@@ -6,6 +6,6 @@ Fecha de Corrección: June 4, 2022
 Fecha de detección: May 30, 2022
 ID: 4
 Proyecto/área*: PP
-Responsable:  
+Responsable: Paola Adriana Millares Forno
 Severidad *: Necessary
 Tipo*: Definición

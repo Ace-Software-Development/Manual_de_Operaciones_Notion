@@ -7,6 +7,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 7, 2022
 ID: 62
 Proyecto/área*: Monarca
-Responsable:   
+Responsable: Diego Arturo Padilla Domínguez
 Severidad *: Necessary
 Tipo*: Formato y gramática

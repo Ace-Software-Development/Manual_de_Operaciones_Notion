@@ -1,5 +1,9 @@
 # Instalación de NGINX
 
+## Prerrequisitos
+
+Conectarse al servidor de Aluminio Monarca siguiendo la guía [Conectarse al servidor](Conectarse%20al%20servidor%20b1c883942674456e87cbb250e7283227.md).
+
 ## Instalación
 
 `sudo apt update
@@ -11,13 +15,12 @@ sudo nano /etc/nginx/sites-available/capullo
 
 ```cpp
 server {
-        listen 80;
 
         server_name monarca.inventario.com;
 
         location / {
                 proxy_pass http://localhost:8888;
-								proxy_http_version 1.1;
+								proxy_https_version 1.1;
 								proxy_set_header Upgrade $https_upgrade;
 								proxy_set_header Connection 'upgrade';
 								proxy_set_header Host $host;

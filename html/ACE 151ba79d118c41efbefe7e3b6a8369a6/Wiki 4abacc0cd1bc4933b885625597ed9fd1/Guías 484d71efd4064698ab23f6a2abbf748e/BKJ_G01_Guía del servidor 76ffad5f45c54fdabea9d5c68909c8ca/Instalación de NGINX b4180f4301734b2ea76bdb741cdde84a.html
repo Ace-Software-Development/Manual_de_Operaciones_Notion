@@ -667,16 +667,15 @@ blockquote {
 }
 	
 </style></head><body><article id="b4180f43-0173-4b2e-a76b-db741cdde84a" class="page sans"><header><div class="page-header-icon undefined"><img class="icon" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwbhegedus.me%2Fcontent%2Fimages%2F2018%2F09%2FNginx-1.png&amp;f=1&amp;nofb=1"/></div><h1 class="page-title">Instalación de NGINX</h1></header><div class="page-body"><p id="049bf63c-8d8d-4c5a-8dc7-8a6d37243db3" class="">
-</p><h2 id="23cd34c3-2314-4e1e-b4ea-57ea3f586f9d" class="">Instalación</h2><p id="86a89b59-aa1e-4d96-8078-78f318c0f68b" class=""><code>sudo apt update
+</p><h2 id="f6554c3e-dd02-49dd-82c9-b6cfd265a582" class="">Prerrequisitos</h2><p id="4cc08d93-4dd5-43e8-9c9b-5fe243435d6b" class="">Conectarse al servidor de Aluminio Monarca siguiendo la guía <a href="Conectarse%20al%20servidor%20b1c883942674456e87cbb250e7283227.html"><img class="icon" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Iius0EgWs2Dyzw20uPZ3mwHaD4%26pid%3DApi&amp;f=1"/>Conectarse al servidor</a>.</p><h2 id="43ca8d54-de7c-4dd4-996c-f13e5081474f" class="">Instalación</h2><p id="86a89b59-aa1e-4d96-8078-78f318c0f68b" class=""><code>sudo apt update
 sudo apt install nginx</code></p><p id="3e505699-9227-4b8b-97e5-90973dd5c215" class="">
 </p><h2 id="deb0e5c2-a617-4467-ad30-c23392bd66d4" class="">Configuración general</h2><p id="5cd68e19-f73c-42e0-8502-099b6de5bf84" class="">sudo nano /etc/nginx/sites-available/capullo</p><pre id="1f1a3f1e-8350-4f92-a07e-29ec9426dd10" class="code"><code>server {
-        listen 80;
 
         server_name monarca.inventario.com;
 
         location / {
                 proxy_pass http://localhost:8888;
-								proxy_http_version 1.1;
+								proxy_https_version 1.1;
 								proxy_set_header Upgrade $https_upgrade;
 								proxy_set_header Connection &#x27;upgrade&#x27;;
 								proxy_set_header Host $host;

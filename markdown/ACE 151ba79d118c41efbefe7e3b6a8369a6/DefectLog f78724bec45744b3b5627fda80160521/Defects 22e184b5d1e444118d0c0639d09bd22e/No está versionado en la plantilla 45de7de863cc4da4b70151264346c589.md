@@ -8,6 +8,6 @@ Fecha de detección: June 3, 2022
 Fecha límite de corrección: June 6, 2022
 ID: 47
 Proyecto/área*: PP
-Responsable:  
+Responsable: Cutberto Arizabalo Nava
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

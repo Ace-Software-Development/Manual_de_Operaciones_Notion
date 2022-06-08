@@ -5,6 +5,6 @@ Estado: Pending
 Fecha de detección: May 30, 2022
 ID: 2
 Proyecto/área*: PP
-Responsable:  
+Responsable: Paola Adriana Millares Forno
 Severidad *: Necessary
 Tipo*: Definición

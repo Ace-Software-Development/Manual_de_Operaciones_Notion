@@ -6,6 +6,6 @@ Fecha de detección: June 4, 2022
 Fecha límite de corrección: June 9, 2022
 ID: 55
 Proyecto/área*: PMC
-Responsable:  
+Responsable: Jorge Alan Ramírez Elías
 Severidad *: Necessary
 Tipo*: Formato y gramática

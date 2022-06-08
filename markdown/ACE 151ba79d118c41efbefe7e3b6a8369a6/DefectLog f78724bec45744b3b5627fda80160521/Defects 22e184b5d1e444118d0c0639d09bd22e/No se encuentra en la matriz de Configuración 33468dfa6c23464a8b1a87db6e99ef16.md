@@ -7,6 +7,6 @@ Fecha de detección: June 3, 2022
 Fecha límite de corrección: June 6, 2022
 ID: 45
 Proyecto/área*: NefroVida
-Responsable:  
+Responsable: Andrea Piñeiro
 Severidad *: Necessary
 Tipo*: Gestión de la configuración

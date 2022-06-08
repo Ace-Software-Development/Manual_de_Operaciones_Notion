@@ -8,6 +8,6 @@ Fecha de detección: June 2, 2022
 Fecha límite de corrección: June 2, 2022
 ID: 21
 Proyecto/área*: CM
-Responsable:  
+Responsable: Rafael Hinojosa López
 Severidad *: Necessary
 Tipo*: Formato y gramática
