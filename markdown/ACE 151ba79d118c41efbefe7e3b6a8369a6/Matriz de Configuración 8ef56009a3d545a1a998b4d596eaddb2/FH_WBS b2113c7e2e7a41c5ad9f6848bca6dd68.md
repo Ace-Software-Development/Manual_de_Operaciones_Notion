@@ -8,5 +8,6 @@ Identificador: FH_WBS
 Liga: https://docs.google.com/presentation/d/1a05-XeKyb4a13eDhueanM42BOjL7uxZQ/edit?usp=sharing&ouid=101088057969358237766&rtpof=true&sd=true
 Nivel o status: Dinámico
 Nombre: WBS
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

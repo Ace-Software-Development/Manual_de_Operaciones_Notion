@@ -237,10 +237,10 @@ Acta de proyecto","https://drive.google.com/file/d/1Pr0sp1ERhrk2rwOh62RsrXGIrE9K
 https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing
 
 ","https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true
-",,,Yes
+
+",https://docs.google.com/document/d/1OtTu3pm5S-KFeztrbr8l-Zky5s-1oqX1/edit,,Yes
 RD,1.2,"Transformar las necesidades, las expectativas, las restricciones y las interfaces
-de las partes interesadas en requisitos de cliente priorizados.","MER
-Acta de proyecto
+de las partes interesadas en requisitos de cliente priorizados.","Acta de proyecto
 Documento de requisitos
 https://www.notion.so/8279a54bc4344b85bb72894e4f178406 
 
@@ -254,19 +254,36 @@ https://docs.google.com/spreadsheets/d/1GVr1YLZwKTiE-zdUhtN19vfXt3iYtX96chIZ6eZr
 
 https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true
 
-https://drive.google.com/file/d/1MPFGlAt91__8qRD6w60E-xediUHo7ZPu/view?usp=sharing
 
-https://drive.google.com/drive/folders/1N5ERN9Self0FGzILKoRaE4-G7lHRaXXp?usp=sharing",,,No
+https://drive.google.com/drive/folders/1N5ERN9Self0FGzILKoRaE4-G7lHRaXXp?usp=sharing",https://docs.google.com/document/d/1OtTu3pm5S-KFeztrbr8l-Zky5s-1oqX1/edit,,No
 RD,2.1,"Establecer y mantener los requisitos de producto y de componente de producto, basados en los requisitos de cliente
-—————————
 ","https://www.notion.so/0becb449a14d4804881a6e09f2217530 
-Análisis y Diseño de requisitos
+https://www.notion.so/a447a0788f87415abd4469638bc678fe 
+Documento de requisitos
 Acta de Proyecto
 Mejorar Fase de diseño en proceso de implementación
 ","https://docs.google.com/document/d/1RFcT0yIR5aycQgBkCpL6uwCcv3u2jGF8HzzqIVIu_70/edit?usp=sharing (requisitos no funcionales)
-",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true,,,No
-RD,2.2,,Manual de arquitectura,https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing,https://docs.google.com/document/d/1CRJ3TuPRyV4xG2fTNZRNYWLqTN_4B7NqWAWPekR_kz0/edit?usp=sharing,,,No
-RD,2.3,,wireframes,https://www.figma.com/file/475KYHj72QTRt65kqdFtcI/Campanario?node-id=0%3A1,https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341,,,No
+",https://docs.google.com/document/d/1HQuSYqwVtNIdWTU2tgjJ3QOw-vByQjpR/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true,https://docs.google.com/document/d/1OtTu3pm5S-KFeztrbr8l-Zky5s-1oqX1/edit,,No
+RD,2.2,Asignar los requisitos para cada componente de producto.,"Matriz de trazabilidad
+Documentación análisis y diseño de requisitos",https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing,"https://docs.google.com/document/d/1CRJ3TuPRyV4xG2fTNZRNYWLqTN_4B7NqWAWPekR_kz0/edit?usp=sharing
+
+https://docs.google.com/spreadsheets/d/1geuVnd1ByaFLBXFXNAlN5PL-K0QVR2rq/edit?usp=sharing&ouid=107293555314282144034&rtpof=true&sd=true
+
+https://drive.google.com/drive/folders/1N5ERN9Self0FGzILKoRaE4-G7lHRaXXp?usp=sharing",,,No
+RD,2.3,Identificar los requisitos de interfaz.,"wireframes
+https://www.notion.so/a447a0788f87415abd4469638bc678fe 
+Mencionar en que parte del proceso hacemos wireframes",https://www.figma.com/file/475KYHj72QTRt65kqdFtcI/Campanario?node-id=0%3A1,"https://www.figma.com/file/puxM7Ld5ddacEvwPIlqlZG/Prototipo-Capullo?node-id=188%3A1341
+https://www.notion.so/737c1b55e0564670a95427b99fcc993e ",,,No
+RD,3.1,Establecer y mantener los conceptos y los escenarios de operación asociados.,Prueba de arquitectura (en que ambiente corre el proyecto y en cuales no),,,,,No
+RD,3.2,"Establecer y mantener una definición de funcionalidad y de los atributos de
+calidad requeridos.","Manual de arquitectura(diagrama de arqui)
+Documento de requisitos(Requisitos no funcionales)",,,,,No
+RD,3.3,Analizar los requisitos para asegurarse que son necesarios y suficientes.,,,,,,No
+RD,3.4,"Analizar los requisitos para equilibrar las necesidades y las restricciones de las
+partes interesadas.",,,,,,No
+RD,3.5,"Validar los requisitos para asegurar que el producto resultante funcione según
+lo previsto en el entorno del usuario final","Documento de validación de requisitos
+",,,,,No
 TS,1.1,Seleccionar un stack tecnológico y crear un criterio de selección de tecnologías.,"Manual de arquitectura
 Estrategia de desarrollo","https://docs.google.com/document/d/16RO1HQoXYiIV6LhB9_ILzCzWKDffz-6WAUXxdGyQ0-Q/edit?usp=sharing
 https://www.notion.so/e1e5bbb4e08b47f9b6410324c808721f 
@@ -324,7 +341,6 @@ https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1
 https://www.notion.so/b8ed4da973734d2fbc0b23f6e677e18a ",No
 CM,1.2,"Establecer y mantener un sistema de gestión de configuración y de gestión de
 cambios para controlar los productos de trabajo","https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
 https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 
 https://www.notion.so/4158ca5084434fe8af80b550b1d19df7 
@@ -380,28 +396,19 @@ https://docs.google.com/document/d/1sABtD2fCO1g7hYjfC4f7_BDvUY_r8w6vBeatQrnHx58/
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://github.com/Ace-Software-Development/fullhouse-nefrovida/pulls","
 https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
+https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a  
 https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/774e022717e2413baa1ea37e29ea89ac 
 https://github.com/Ace-Software-Development/Manual_de_Operaciones_Notion/releases/tag/v1.0",No
 CM,3.1,Establecer y mantener registros que describan los elementos de configuración.,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
 https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
-https://www.notion.so/f78724bec45744b3b5627fda80160521 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
-https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
-https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
-https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
-https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ","https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
-https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
+https://www.notion.so/f78724bec45744b3b5627fda80160521 ","https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
+https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ","https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
+https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ","https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ","https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2
 https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25  
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
 Cada ítem de la wiki tiene su bitácora de cambios",No
 CM,3.2,Realizar auditorías de configuración para mantener la integridad de las líneas base de configuración.,"https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2
 https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
@@ -599,7 +606,7 @@ RKM,2.1,Identificar y documentar los riesgos,"https://www.notion.so/349b15b299e8
 RKM,2.2,"Evaluar, clasificar y priorizar los riesgos","https://www.notion.so/349b15b299e846beb45066c69dddea68 https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 ",https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,3.1,Desarrollar los planes de mitigación de riesgos,,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
 RKM,3.2,Implementar los planes de mitigación de riesgos,,https://docs.google.com/spreadsheets/d/1wwAeUnP5OGNxX5tJfOnuVc6ZHfhk8GxhK3ndpjoG3t0/edit?usp=sharing,"https://www.notion.so/06295d50d5b44ad0bbd3db5e7803386f ",https://docs.google.com/spreadsheets/d/1w-JjZQIob-X-LAZHQsREY2kjbVE94wVHMLd9QaDCT88/edit?usp=sharing,https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit?usp=sharing,No
-OPD,1.1,Establecer y mantener los procesos departamentales,Procesos y mejora de procesos,"https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1
+OPD,1.1,Establecer y mantener los procesos departamentales,"Procesos, WOW, Wiki, mapa de procesos, proceso de auditoría a assets y productos de trabajo","https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1
 https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134https://www.notion.so/bc1b4b9263a749d49f2c809adfd71359 
 https://www.notion.so/1a26647e0c134b95b2c42c228eb813c5 
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
@@ -620,8 +627,8 @@ https://www.notion.so/1a26647e0c134b95b2c42c228eb813c5
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
 https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 
 https://www.notion.so/1a25461e941841df846d768975596bc0 ",No
-OPD,1.2,"Establecer y mantener descripciones de los modelos de ciclo de vida ",Plan de desarrollo,https://docs.google.com/document/d/1WffQK9GLzX2kL0MUVcXMbCiW4hOo_Gay0Mx5KcPrhso/edit,https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit,https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit,No aplica,Yes
-OPD,1.3,Establecer los criterios y las guías de adaptación,"Proceso de auditorías, Mapa de proceso","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
+OPD,1.2,"Establecer y mantener descripciones de los modelos de ciclo de vida ",Estrategia de desarrollo,https://docs.google.com/document/d/1WffQK9GLzX2kL0MUVcXMbCiW4hOo_Gay0Mx5KcPrhso/edit,https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-4tBW4/edit,https://docs.google.com/document/d/1ZGzEpb0GIHBni0H7QcSaKb9IOIvvAlTyOiKPPC843VU/edit,No aplica,Yes
+OPD,1.3,Establecer los criterios y las guías de adaptación,"Proceso de auditorías, Mapa de proceso, proceso de creación o modificación de item de la wiki","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
 https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 ","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
@@ -630,7 +637,7 @@ https://www.notion.so/1c63004a533c4261979129dee36c2501
 https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 ","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
 https://www.notion.so/386d7b5b7b17435eb70e22f8f6ee7f08 ",No
-OPD,1.4,Establecer y mantener el repositorio de métricas departamental,Repositorio de métricas,"https://www.notion.so/a5949ddaac054f92bc72fbb179820242 
+OPD,1.4,Establecer y mantener el repositorio de métricas departamental,"Repositorio de métricas, proceso para crear métricas, proceso para registrar medición de métricas","https://www.notion.so/a5949ddaac054f92bc72fbb179820242 
 https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0 
 https://www.notion.so/9fd6387eed6245e6a378148851a19daa ","https://www.notion.so/a5949ddaac054f92bc72fbb179820242 
 https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0 
@@ -639,7 +646,7 @@ https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0
 https://www.notion.so/9fd6387eed6245e6a378148851a19daa ","https://www.notion.so/a5949ddaac054f92bc72fbb179820242 
 https://www.notion.so/42dbab27f9954ea6a9c795b460e486c0 
 https://www.notion.so/9fd6387eed6245e6a378148851a19daa ",No
-OPD,1.5,Establecer y mantener la librería de procesos departamentales,"Criterios para agregar nuevos procesos (guías, plantillas) ","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
+OPD,1.5,Establecer y mantener la librería de procesos departamentales,"Mapa de procesos, Wiki, proceso de creación o modificación de item de la wiki","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
 https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
@@ -648,7 +655,7 @@ https://www.notion.so/1c63004a533c4261979129dee36c2501
 https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1","https://www.figma.com/file/84yrlAstUr232uV1PX15VK/Mapa-de-procesos?node-id=210%3A134
 https://www.notion.so/1c63004a533c4261979129dee36c2501 
 https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1",No
-OPD,1.6,Establecer y mantener estándares para el ambiente de trabajo,Políticas departamentales,"https://www.notion.so/d2cd71f3c48c456e9a38a16b2508b6b9 
+OPD,1.6,Establecer y mantener estándares para el ambiente de trabajo,"Políticas departamentales, estándares, proceso de WOW y proceso para la creación o modificación de un item.","https://www.notion.so/d2cd71f3c48c456e9a38a16b2508b6b9 
 https://www.notion.so/6577b6d75d3a4f788a00749c1fa0feee 
 https://www.notion.so/1a26647e0c134b95b2c42c228eb813c5 
 https://www.notion.so/1c63004a533c4261979129dee36c2501 ","https://www.notion.so/d2cd71f3c48c456e9a38a16b2508b6b9 

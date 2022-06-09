@@ -9,5 +9,6 @@ Liga: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViD
 Link auditoría: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258
 Nivel o status: Controlado
 Nombre: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.1

@@ -5,6 +5,6 @@ Durante el desarrollo de dichas historias de usuario se deberá seguir https://w
 ,De aprobación,1,"Una vez que se termine la prueba de usuario se debe someter al proceso de aprobación para su posterior merge con la rama develop.
 Durante el proceso de aprobación se deberá seguir 
 https://docs.google.com/document/d/1nS5IOKLR2uD1_XkrODQ3EpicWOyqKYjn2eSCvauby0Y/edit",Equipo de Desarrollo
-,Fase de integración de cambios,1,"Una vez hecho el merge a develop esta rama debe de pasar por un proceso de aprobación para verificar que la integración del código sea correcta. En caso de no pasar podra ejecutarse https://www.notion.so/2def9ed783854191833873f66c47a127 ",Equipo de Desarrollo
+,Fase de integración de cambios,1,"Una vez hecho el merge a develop esta rama debe de pasar por un proceso de aprobación para verificar que la integración del código sea correcta. En caso de no pasar podra ejecutarse https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ",Equipo de Desarrollo
 ,,2,Una vez que todas las historias de usuario se hayan pasado a la rama develop se podrá hacer el merge de develop con staging.,Equipo de Desarrollo
 ,,3,Una vez que se haya validado que el funcionamiento de staging es correcto se podrá hacer un merge a main.,Equipo de Desarrollo

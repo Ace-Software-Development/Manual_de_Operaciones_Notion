@@ -1,7 +1,0 @@
-# Untitled
-
-Actividad: Validar con el equipo lo realizado
-Created time: May 19, 2022 2:19 PM
-Encargado: Toda el área
-Last edited by: Rafael Hinojosa López
-Property: Pau

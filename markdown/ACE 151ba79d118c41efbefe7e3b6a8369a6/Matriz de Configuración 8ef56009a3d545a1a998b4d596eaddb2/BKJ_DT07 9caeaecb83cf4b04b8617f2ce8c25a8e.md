@@ -10,5 +10,6 @@ Liga: https://docs.google.com/document/d/1hI6IjDQnsjUziMOPbc_yGZKwWKDivH1S3ml35-
 Link auditoría: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1434300928
 Nivel o status: Controlado
 Nombre: Estrategia de desarrollo
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

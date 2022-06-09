@@ -10,5 +10,6 @@ Liga: https://docs.google.com/document/d/1CnMowkx0TT128m6cC20BT-ccaSZCNjFD/edit?
 Link auditoría: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=395724238
 Nivel o status: Controlado
 Nombre: Requerimientos de Software
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

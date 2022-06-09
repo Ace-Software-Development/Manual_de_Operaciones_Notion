@@ -8,5 +8,6 @@ Identificador: FH_D02
 Liga: https://app.diagrams.net/#G1vkjd2peh2-49HAPHJ55mo34SMOtfkNFg
 Nivel o status: Dinámico
 Nombre: Diagrama de arquitectura
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

@@ -10,7 +10,7 @@ Tener un registro de todas las juntas de forma externa o interna al equipo.
 
 ## Área[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL01_Minutas#%C3%A1rea)
 
-?
+PP
 
 ## Responsables de cumplimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL01_Minutas#responsables-de-cumplimiento)
 

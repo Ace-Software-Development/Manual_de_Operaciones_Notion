@@ -209,7 +209,8 @@ Esta guía explicará cómo almacenar y recuperar elementos de configuración en
 
 Se deberá tener un mecanismo de "rollbacks" o recuperación de versiones anteriores de los productos bajo gestión de la configuración.
 
-[P32 Rollback de Git](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P32%20Rollback%20de%20Git%202def9ed783854191833873f66c47a127.md) 
-[P22_Rollback de Wiki](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P22_Rollback%20de%20Wiki%20bf25946982ff489caa0a189e216fe0f1.md) 
+[G09_Rollback Git](G09_Rollback%20Git%203761823cbe39469c86fb7406e6d7dd25.md) 
+
+[G08_Rollback de Wiki](G08_Rollback%20de%20Wiki%209aa7f1e55e94404aa00ae22414056a9a.md) 
 
 [Bitácora de cambios (1)](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Bita%CC%81cora%20de%20cambios%20(1)%20036188e9d09c409f967a3afc4652a5fe.csv)

@@ -8,5 +8,6 @@ Identificador: IMP_D02
 Liga: https://app.diagrams.net/#G1dp6-LwZhfCnXuEyFJMhRfRewPy8YpHEX
 Nivel o status: Dinámico
 Nombre: MER
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

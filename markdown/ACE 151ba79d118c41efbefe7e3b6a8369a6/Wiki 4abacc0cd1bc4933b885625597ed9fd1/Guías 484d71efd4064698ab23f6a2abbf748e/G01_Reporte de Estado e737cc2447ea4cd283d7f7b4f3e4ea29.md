@@ -49,7 +49,7 @@ Preparar un reporte de estado
 
 1. El responsable de la minuta generará una [minuta](https://github.com/Ace-Software-Development/Manual-de-Operaciones/blob/main/docs/Plantillas/PL01_Minutas.md)
 2. El responsable del TimeLog medirá el tiempo de duración de la presentación y registrarlo en el [TimeLog](../../../ACE%20151ba79d118c41efbefe7e3b6a8369a6.md)
-3. Los profesores y asesores deberán seguir la guía para realizar retroalimentación. [G07_Retro Reporte de Estado](G07_Retro%20Reporte%20de%20Estado%20f714952c22f74115b95c3f10e71663f9.md) 
+3. Los profesores y asesores deberán seguir la guía para realizar retroalimentación. [G07_Retro Reporte de Estado](https://www.notion.so/G07_Retro-Reporte-de-Estado-f714952c22f74115b95c3f10e71663f9) 
 
 ## **Después del Reporte de Estado**
 

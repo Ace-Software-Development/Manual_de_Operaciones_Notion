@@ -8,5 +8,6 @@ Identificador: FH_DT01
 Liga: https://drive.google.com/file/d/1oq00XtUrSqtlXrj_PgWqxZFFW2hqru5h/view?usp=sharing
 Nivel o status: Dinámico
 Nombre: Requisitos de información
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

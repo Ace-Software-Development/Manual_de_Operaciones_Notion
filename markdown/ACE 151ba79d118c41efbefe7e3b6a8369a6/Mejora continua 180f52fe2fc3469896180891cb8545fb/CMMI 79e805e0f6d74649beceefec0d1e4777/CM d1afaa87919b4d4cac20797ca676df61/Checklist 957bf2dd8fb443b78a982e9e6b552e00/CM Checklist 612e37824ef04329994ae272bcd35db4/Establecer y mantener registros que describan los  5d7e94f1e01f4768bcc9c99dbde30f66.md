@@ -8,9 +8,8 @@ Actividades a realizar (Análisis): 1. Definir cuando se ejecuta el proceso de r
 Completa: No
 Encargado: Jorge Alan Ramírez Elías
 Entregables: https://www.notion.so/8ef56009a3d545a1a998b4d596eaddb2 
-https://www.notion.so/2def9ed783854191833873f66c47a127 
-https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493 
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
+https://www.notion.so/14bf0cdb2ba24eb2b0002ae5b08bc493
+https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25  https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9ahttps://www.notion.so/9aa7f1e55e94404aa00ae22414056a9ahttps://www.notion.so/9aa7f1e55e94404aa00ae22414056a9ahttps://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 • https://www.notion.so/4abacc0cd1bc4933b885625597ed9fd1
 • https://github.com/Ace-Software-Development/blackjack_monarca
 • https://github.com/Ace-Software-Development/fullhouse-nefrovida

@@ -8,5 +8,6 @@ Identificador: IMP_DT01
 Liga: https://docs.google.com/document/d/184s4JnIhnilVV6syyUOZ3M3YPj7VJKmjhH4brRsxbw0/edit
 Nivel o status: Dinámico
 Nombre: Análisis de requerimientos
+Resuelto?: No
 Se utiliza?: Yes
 Última versión: 1.0

@@ -4,7 +4,7 @@ cambios para controlar los productos de trabajo
 Completa: Yes
 Encargado: Jorge Alan Ramírez Elías
 Entregables: https://www.notion.so/81ed479aea0d45db89846463687d2a6f 
-https://www.notion.so/bf25946982ff489caa0a189e216fe0f1 
+https://www.notion.so/9aa7f1e55e94404aa00ae22414056a9a 
 https://www.notion.so/4158ca5084434fe8af80b550b1d19df7 
 https://www.notion.so/c8d92fb8afa7421b81f8cdd652b6f100 
 https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926 

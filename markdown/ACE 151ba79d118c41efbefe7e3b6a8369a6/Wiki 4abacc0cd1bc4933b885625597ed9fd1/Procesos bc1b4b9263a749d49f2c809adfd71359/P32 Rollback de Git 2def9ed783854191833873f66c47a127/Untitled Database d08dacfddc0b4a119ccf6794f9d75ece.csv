@@ -1,7 +1,0 @@
-﻿Created time,Last edited by,Etapa,Actividad,Encargado,Subpractica,Property
-"May 6, 2022 7:52 PM",Pau,Validacion de cambio,Validar con arquitecture owner del cambio que se hará,Miembro de Ace que quiere revertir el cambio,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 7:52 PM",Jorge Alan Ramírez Elías,,Si es un rollback en producción (main) deben avisar y consultar a todos los stakeholders,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 8:04 PM",Jorge Alan Ramírez Elías,,Si es un rollback en desarollo(develop) deben avisar a todo el equipo,Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:22 PM",Pau,Revertir Cambios,"Seguir la guía https://www.notion.so/3761823cbe39469c86fb7406e6d7dd25 ",Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 6, 2022 9:23 PM",Pau,Publicacion del cambio,"Comunicar el rollback a todo el equipo en caso de que sea un rollback de desarrollo ",Arquitecture Owner,CM 3.1,Jorge Alan Ramírez Elías
-"May 19, 2022 6:32 PM",Pau,,Comunicar el rollback a todos los stakeholders en caso de que sea un rollback de producción,Arquitecture Owner,CM 3.1,Pau
