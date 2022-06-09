@@ -30,27 +30,27 @@ Repositorio web Flor Imperial |
 
 | Fase | Actividad  | Encargado  | Área del CMMI |
 | --- | --- | --- | --- |
-| Preparación | Genera una copia del formato de inspección en la carpeta de inspecciones. | AO | VER |
-| Preparación | Selecciona a una persona por equipo que no haya participado en la implementación del componente para realizar la inspección. | AO | VER |
+| Preparación | Genera una copia del formato de inspección en la carpeta de inspecciones. | AO | VER 1.2 |
+| Preparación | Selecciona a una persona por equipo que no haya participado en la implementación del componente para realizar la inspección. | AO | VER 1.2 |
 | Preparación  | Asigna roles a cada persona de las que escogiste. Los roles son: 
     - Moderador: Dirige la                  inspección
     - Inspectores: Analizan el código
-    - Secretario: Toma notas de la inspección, reporta los defectos del equipo en el Defect Log de cada equipo y reporta las acciones correctivas. | AO | VER |
-| Inspección | Abre el formato de inspección creado por el AO del equipo al que se inspeccionará. | Moderador/a, inspectores y secretario/a | VER |
-| Inspección | Indica el inicio de la inspección y empieza a cronometrar el tiempo. | Moderador | VER |
-| Inspección | Lee el formato de inspección y usa la checklist de código para reportar los nuevos defectos. | Inspector | VER |
-| Discusión  | Al terminar la inspección se revisan los defectos encontrados por los inspectores y se ve si más de un inspector encontró el mismo defecto. | Moderador/a, inspectores | VER |
-| Discusión | Copia los defectos encontrados por cada inspector en el Defect Log del equipo.  | Secretario/a | VER |
+    - Secretario: Toma notas de la inspección, reporta los defectos del equipo en el Defect Log de cada equipo y reporta las acciones correctivas. | AO | VER 1.2 |
+| Inspección | Abre el formato de inspección creado por el AO del equipo al que se inspeccionará. | Moderador/a, inspectores y secretario/a | VER 1.1 |
+| Inspección | Indica el inicio de la inspección y empieza a cronometrar el tiempo. | Moderador | VER 1.1 |
+| Inspección | Lee el formato de inspección y usa la checklist de código para reportar los nuevos defectos. | Inspector | VER 3.1 |
+| Discusión  | Al terminar la inspección se revisan los defectos encontrados por los inspectores y se ve si más de un inspector encontró el mismo defecto. | Moderador/a, inspectores | VER 3.2 |
+| Discusión | Copia los defectos encontrados por cada inspector en el Defect Log del equipo.  | Secretario/a | VER 1.1, VER 1.3 |
 | Finalización | Deja el registro en el ‣ , donde se reporte:
     - El componente que se revisó. 
     - La personas que participaron en la inspección.
     - El costo de la inspección,
     - El número de defectos encontrados en la inspección
     - El link al formato de inspección. 
-    - La fecha en la que se realizó la inspección  | Secretario/a | VER |
+    - La fecha en la que se realizó la inspección  | Secretario/a | VER 3.2 |
 | Comunicación | Comunica los resultados al equipo. | Moderador |  |
-| Actualización de la checklist | Determina si todos los campos de la checklist de código fueron útiles o hacen falta nuevos aspectos a tomar en cuenta. | Moderador/a, inspectores y secretario/a | VER. OPF |
-| Actualización de la checklist | Actualiza la checklist de código con los aspectos que se usarán para futuras inspecciones.  | Secretario | VER, OPF |
+| Actualización de la checklist | Determina si todos los campos de la checklist de código fueron útiles o hacen falta nuevos aspectos a tomar en cuenta. | Moderador/a, inspectores y secretario/a | VER 3.2. OPF |
+| Actualización de la checklist | Actualiza la checklist de código con los aspectos que se usarán para futuras inspecciones.  | Secretario | VER 3.2, OPF |
 
 ## **Criterios de salida**
 

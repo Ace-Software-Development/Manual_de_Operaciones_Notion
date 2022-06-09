@@ -38,3 +38,7 @@
 1,Registrar resumen de consulta,"Los usuarios deben estar autenticados y tener un rol de doctor, psciólogo o nutriólogo para poder registrar un resumen de consutla",Aprobado,"June 8, 2022",,,
 2,Registrar resumen de consulta,El campo no debe de estar vacío,Aprobado,"June 8, 2022",,,
 3,Registrar resumen de consulta,"Se debe permitir registros tan solo provenientes de la aplicación, es decir no un Post cualquiera a la ruta con un json",Aprobado,"June 8, 2022",,,
+1,Registrar nuevo tipo de estudio,El usuario debe de estar autenticado y tener un rol de quimico para poder registrar un nuevo parámetro,Aprobado,"June 8, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+2,Registrar nuevo tipo de estudio,Los datos deben de tener un formato valido,Aprobado,"June 8, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+3,Registrar nuevo tipo de estudio,"Se debe permitir registros tan solo provenientes de la aplicación, es decir no un Post cualquiera a la ruta con un json",Aprobado,"June 8, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit
+1,Eliminar información del personal,Los usuarios deben estar autenticados y tener un rol de Administrador para poder borrar un empleado,,"June 9, 2022"," ",IT4,https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR5OSNgJPs3E/edit

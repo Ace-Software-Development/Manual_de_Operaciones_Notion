@@ -3,7 +3,7 @@
 Categoría: Técnico
 Consecuencias: Caida del sistema
 Fecha de definición: 14/03/2022
-ID: June 8 2022, 21:59:00
+ID: June 9 2022, 08:47:00
 Impact: 10
 Interno: No
 Magnitud: 8

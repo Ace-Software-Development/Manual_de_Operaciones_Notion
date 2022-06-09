@@ -27,12 +27,18 @@ Validar la solución de los casos de uso con los socios formadores.
 Plantilla Monarca
 Plantilla Campanario | PO | VAL 1.1 |
 | Preparación | Identificar los componentes o casos de uso que se encuentren listos para review o revisión en el plan de trabajo, así como aquellos que tengan correcciones implementadas tras una validación previa. | PO | VAL 1.1 |
-| Preparación | Agendar una cita presencial o virtual con el socio formador para la validación | PO | VAL 1.2 |
-| Validación | Validar los componentes o casos de uso marcando con check aquellos que pasen la validación. | PO | VAL 1.2, 2.1 |
+| Preparación | Agendar una cita presencial o virtual con el socio formador para la validación. 
+En caso de ser una reunión virtual, el entorno debe ser una sala de zoom en la que se pueda compartir pantalla para hacer demostraciones al socio. 
+En caso de ser una reunión presencial, el entorno debe contar con un equipo (computadora, tablet o celular) que pueda ejecutar la aplicación de la misma forma que lo hará el usuario final. Es decir, se deben replicar las condiciones de uso finales.  | PO | VAL 1.2 |
+| Validación | Validar los componentes o casos de uso marcando con check aquellos que pasen la validación, la cual consiste en:
+- Contar con la última versión estable con los componentes a validar.
+- Realizar una demostración frente al cliente.
+- Evaluar si es de su agrado, solicitando retroalimentación y confirme si le es de utilidad y lo que necesite.
+-El cliente debe marcar la casilla de validado en la plantilla conforme vayan pasando las funcionalidades. | PO | VAL 1.2, 2.1 |
 | Validación | Atender comentarios y retroalimentación, anotarlos para sus ajustes posteriores. No podrán ser validados hasta que sean atendidos estos cambios. | PO | VAL 1.3, 2.2 |
-| Corrección de defectos | Agregar los los ajustes al plan de trabajo para realizarse a la brevedad. | PO | VAL 2.2 |
+| Corrección de defectos | Agregar los ajustes al plan de trabajo para realizarse a la brevedad. | PO | VAL 2.2 |
 | Finalización | Al concluir una validación exitosa el socio deberá firmar el documento para avalar la actividad. | Socio formador | VAL 2.1 |
-| Conclusiones |  |  | VAL 2.2 |
+| Finalización | Redactar las conclusiones de la validación al concluir la junta, analizando la retroalimentación, identificando patrones en ella para futuras mejoras en la forma de trabajo y entendimiento del cliente. | PO | VAL 2.2 |
 
 ## **Criterios de salida**
 

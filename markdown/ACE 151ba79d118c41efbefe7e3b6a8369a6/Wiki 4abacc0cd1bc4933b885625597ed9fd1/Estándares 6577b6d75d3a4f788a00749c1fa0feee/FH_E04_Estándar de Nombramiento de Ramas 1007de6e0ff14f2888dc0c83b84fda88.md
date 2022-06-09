@@ -21,6 +21,6 @@ Definir estructura a seguir al momento de nombrar ramas con la finalidad de clas
 
 ## Proceso de Revisión de Pull Request
 
-[P04_**Revision de pull request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20pull%20request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
+[P04_**Revision de Pull Request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
 
 [Bitácora de cambios (1)](FH_E04_Esta%CC%81ndar%20de%20Nombramiento%20de%20Ramas%201007de6e0ff14f2888dc0c83b84fda88/Bita%CC%81cora%20de%20cambios%20(1)%2001090c2871044bd9bda22f27c6ee762c.csv)

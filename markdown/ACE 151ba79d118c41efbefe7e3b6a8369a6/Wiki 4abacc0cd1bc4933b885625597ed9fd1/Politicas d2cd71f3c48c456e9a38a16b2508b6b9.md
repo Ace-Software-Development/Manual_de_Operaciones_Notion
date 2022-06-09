@@ -12,9 +12,9 @@
 
 [PO06_Política de conducta reporte de estado](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/PO06_Poli%CC%81tica%20de%20conducta%20reporte%20de%20estado%20cd95678820744c3bbbec95bb23869f93.md)
 
----
+[PO07_Política de revisiones](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/PO07_Poli%CC%81tica%20de%20revisiones%20db458df9c94d40e4ad7dabd2a0bfa199.md)
 
-[BJK_PO01_Política de revisiones](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/BJK_PO01_Poli%CC%81tica%20de%20revisiones%20db458df9c94d40e4ad7dabd2a0bfa199.md)
+---
 
 [BJPO02_Política de ayuda](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/BJPO02_Poli%CC%81tica%20de%20ayuda%209cdbff2d4e774e6bae4907745d0fd83d.md)
 
