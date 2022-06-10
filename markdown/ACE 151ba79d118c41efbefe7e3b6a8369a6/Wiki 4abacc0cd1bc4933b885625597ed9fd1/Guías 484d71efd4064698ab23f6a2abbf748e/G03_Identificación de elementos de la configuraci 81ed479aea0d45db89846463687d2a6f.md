@@ -110,7 +110,7 @@ Todos los elementos de configuración pueden tener 3 niveles, los que se definen
     
     Si el ítem de configuración esta almacenado en **Github** se seguirá el siguiente proceso:
     
-    [P04_**Revision de Pull Request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
+    [P04_**Revisión de Pull Request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revisio%CC%81n%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
     
     Si el ítem de configuración esta almacenado en **Notion** o **Drive** se seguirá el siguiente proceso:
     

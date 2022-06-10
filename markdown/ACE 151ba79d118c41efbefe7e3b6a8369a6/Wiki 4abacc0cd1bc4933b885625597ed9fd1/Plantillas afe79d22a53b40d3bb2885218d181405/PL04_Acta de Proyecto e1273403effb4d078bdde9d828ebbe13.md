@@ -2,7 +2,7 @@
 
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL04_Acta%20de%20Proyecto#objetivo)
 
-Tener un documento que nos permita visualizar el alcance del proyecto, las funcionalidades, tecnologías e involucrados del mismo. Permite a los clientes tener una mejor visión de la solución que se les dará y genera una constancia de que todos los involucrados están enterados y aceptan este plan.
+Tener un documento en el que se visualice el alcance del proyecto, las funcionalidades, tecnologías e involucrados del mismo. Permite a los clientes tener una mejor visión de la solución que se les dará y genera una constancia de que todos los involucrados están enterados y aceptan este plan.
 
 ## Acceso a la plantilla[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL04_Acta%20de%20Proyecto#acceso-a-la-plantilla)
 

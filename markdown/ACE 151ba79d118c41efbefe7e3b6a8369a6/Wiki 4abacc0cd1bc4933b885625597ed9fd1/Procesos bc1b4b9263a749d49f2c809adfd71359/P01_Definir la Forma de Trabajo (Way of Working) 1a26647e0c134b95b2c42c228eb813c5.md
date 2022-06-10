@@ -25,6 +25,8 @@ Propuestas para definir la forma de trabajo.
 
 No aplica.
 
-## Bitácora de cambios
+## Responsable
 
-[Untitled](P01_Definir%20la%20Forma%20de%20Trabajo%20(Way%20of%20Working)%201a26647e0c134b95b2c42c228eb813c5/Untitled%20Database%20e5612b1862514645bf2e523d6a74f1a5.csv)
+@Rafael Hinojosa López 
+
+[Bitácora de cambios](P01_Definir%20la%20Forma%20de%20Trabajo%20(Way%20of%20Working)%201a26647e0c134b95b2c42c228eb813c5/Bita%CC%81cora%20de%20cambios%20e5612b1862514645bf2e523d6a74f1a5.csv)

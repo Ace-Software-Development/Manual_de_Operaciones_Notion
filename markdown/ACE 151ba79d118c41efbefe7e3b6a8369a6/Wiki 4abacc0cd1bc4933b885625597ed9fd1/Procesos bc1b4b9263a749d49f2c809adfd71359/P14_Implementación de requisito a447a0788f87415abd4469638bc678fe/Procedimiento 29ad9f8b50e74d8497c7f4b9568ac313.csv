@@ -1,21 +1,17 @@
 ﻿Created time,Last edited by,Etapa,Actividad,Encargado,Subpractica,Property
-"May 24, 2022 7:48 PM",Jorge Alan Ramírez Elías,Estimar Historia,Registrar costo estimado de la historia en plan de trabajo,TL,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:51 PM",Jorge Alan Ramírez Elías,Entender el item de trabajo,"Diseñar todo lo necesario para tener claro  todo lo pertinente a la historia de usuario (ui, algoritmo, modelo, etc.",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:52 PM",Jorge Alan Ramírez Elías,,Consultar el WBS del equipo. En este se encuentran las actividades a seguir para dar solución al item de trabajo.,,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:57 PM",Jorge Alan Ramírez Elías,Leer Recomendaciones,"Recomendaciones:
-• Hacer una validación y verificación en cada sección con al menos otro integrante del equipo y de ser posible también con el cliente.
-• Hacer pair programing al momento del desarrollo.
-• Registrar defectos encontrados en el defect log.
-• Medir el tiempo que tomaste en el desarrollo de cada sección y anotarlos en el Time Log.",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:52 PM",Enrique Santos Fraire,Análisis,En esta sección se lleva a cabo la inspección del item para tener un conocimiento claro sobre como funciona el mismo.,,TS 2.1,Jorge Alan Ramírez Elías
-"May 24, 2022 7:53 PM",Jorge Alan Ramírez Elías,Diseño,En esta sección se realiza el diseño gráfico del ítem de trabajo.,,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:56 PM",Jorge Alan Ramírez Elías,Desarollo,Esta sección conlleva el desarrollo del item con base al análisis y diseño definidos anteriormente. Nota: Checar checklist de análisis y diseño.,,,Jorge Alan Ramírez Elías
-"June 9, 2022 2:10 AM",Julio César Gómez González,Desarollo,"Durante esta etapa se debe aplicar la tecnica de desarrollo “Pair programming” apoyándose de la siguiente guía: https://www.notion.so/082432fd59c346259eddeb22a2abea34 ",,VER 2.1,Julio César Gómez González
-"May 24, 2022 7:56 PM",Jorge Alan Ramírez Elías,Pruebas,"En esta sección se trabaja el diseño de las pruebas definidas en el plan de pruebas del equipo, así como también su ejecución y arreglos.",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:56 PM",Jorge Alan Ramírez Elías,Entrega,En esta ultima sección se realiza una “entrega” al cliente en donde este validara que se haya desarrollado de manera correcta y cumpla con lo que necesitaba.,,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:54 PM",Jorge Alan Ramírez Elías,Validate the integrated solution,"Asegurarse de integrar a producción las historias desarrolladas al final de cada iteración
-En caso de que no se cumpla con lo que debería lograr el requisito
-https://www.notion.so/2def9ed783854191833873f66c47a127",,,Jorge Alan Ramírez Elías
-"May 24, 2022 7:59 PM",Leonardo Alvarado Menéndez,Share the solution,Crear documentación  para el usuario,,TS3.1,Jorge Alan Ramírez Elías
+"May 24, 2022 7:48 PM",Paola Adriana Millares Forno,Estimar Historia,Registrar costo estimado de la historia en ../P14_Implementacio%CC%81n%20de%20requisito%20a447a0788f87415abd4469638bc678fe.md,TL,,Jorge Alan Ramírez Elías
+"May 24, 2022 7:52 PM",Diego Arturo Padilla Domínguez,Análisis,"Se asegura el entendimiento del requisito, se identifican los actores, precondiciones, post condiciones y requisitos relacionados con el mismo. ",,TS 2.1,Jorge Alan Ramírez Elías
+"May 24, 2022 7:53 PM",Enrique Santos Fraire,Diseño,"Generar los wireframes, las pruebas y los diagramas que faciliten el desarrollo de la funcionalidad. 
+Se recomienda diseñar:
+    - https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml
+    - https://www.lucidchart.com/pages/es/diagrama-de-interaccion-uml
+    - https://www.lucidchart.com/pages/templates/programming-flowchart-example",,TS 2.3,Jorge Alan Ramírez Elías
+"May 24, 2022 7:56 PM",Paola Adriana Millares Forno,Desarollo,Crear una rama nueva en el ../P14_Implementacio%CC%81n%20de%20requisito%20a447a0788f87415abd4469638bc678fe.md siguiendo el ../P14_Implementacio%CC%81n%20de%20requisito%20a447a0788f87415abd4469638bc678fe.md.,,VER 2.1,Jorge Alan Ramírez Elías
+"June 9, 2022 2:10 AM",Paola Adriana Millares Forno,,"Sigue la guía https://www.notion.so/082432fd59c346259eddeb22a2abea34 ",,VER 2.2,Julio César Gómez González
+"June 9, 2022 10:31 AM",Diego Arturo Padilla Domínguez,,Todos los defectos detectados deben ser anotados en el ../P14_Implementacio%CC%81n%20de%20requisito%20a447a0788f87415abd4469638bc678fe.md y corregidos de inmediato.,,VER 2.3,Paola Adriana Millares Forno
+"June 9, 2022 10:29 AM",Paola Adriana Millares Forno,,"Al finalizar el desarrollo de la funcionalidad crea un Pull Request https://www.notion.so/b11c58cb1ce14b42950a56f0b4e618cf ",,VER 1.1 VER 1.2 VER 1.3,Paola Adriana Millares Forno
+"May 24, 2022 7:56 PM",Paola Adriana Millares Forno,Pruebas,https://www.notion.so/9d3b4ef1e74a4028b85cb2cf1c30b926,,VER 2.2,Jorge Alan Ramírez Elías
+"May 24, 2022 7:56 PM",Paola Adriana Millares Forno,Entrega,"https://www.notion.so/751be3be67e24134a293e5eadc460539 ",,,Jorge Alan Ramírez Elías
+"May 24, 2022 7:59 PM",Pau,Share the solution,Crear documentación para el usuario,,TS3.1,Jorge Alan Ramírez Elías
 "May 24, 2022 8:00 PM",Leonardo Alvarado Menéndez,,Crear documentación para el desarrollador,,TS3.1,Jorge Alan Ramírez Elías
-"May 31, 2022 7:22 PM",Paola Adriana Millares Forno,Evaluación constante,"Llenar la matriz de trazabilidad con toda la información del requisito https://www.notion.so/2a6094b09f214e6a9515bc73ce626e2c ",Team Leader,RKM1.5,Paola Adriana Millares Forno
+"May 31, 2022 7:22 PM",Diego Arturo Padilla Domínguez,Evaluación constante,"Llenar la matriz de trazabilidad con toda la información del requisito siguiendo el proceso https://www.notion.so/c0f80e5fbb7f474baf74ad4ffdec69b5 ",Team Leader,RKM1.5,Paola Adriana Millares Forno

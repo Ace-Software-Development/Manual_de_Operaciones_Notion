@@ -1,9 +1,5 @@
 # P39 Proceso de llenado de minutas
 
-## Versión
-
-1.0
-
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 Tener un registro del desarrollo de las juntas, acuerdos y pedidos que se tienen con los distintos stakeholders

@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Llenar el SCAMPI de manera correcta para poder ser evaluada
+Llenar el SCAMPI de manera correcta para poder ser evaluado.
 
 ## Prerrequisitos
 
@@ -10,7 +10,7 @@ Haber terminado un área del CMMI con [P35_Creación de subprácticas de CMMI](.
 
 ## ¿Dónde se llena el SCAMPI?
 
-[SCAMPI ACE](../../SCAMPI%20ACE%20dce14ac1910a43eba73ee09e314cfbde.csv) 
+[SCAMPI](../../SCAMPI%20ACE%20dce14ac1910a43eba73ee09e314cfbde.csv)
 
 ## Estructura del SCAMPI
 
@@ -73,7 +73,7 @@ Al final da click en “Save for everyone” para que se guarden los cambios.
 - Área
 - Subpráctica
 - Descripción
-- Con que cumples esta subpráctica
+- Con qué cumples esta subpráctica
 
 2) Los TL se encargan de que el equipo llene los siguientes campos (según el que les corresponda)
 

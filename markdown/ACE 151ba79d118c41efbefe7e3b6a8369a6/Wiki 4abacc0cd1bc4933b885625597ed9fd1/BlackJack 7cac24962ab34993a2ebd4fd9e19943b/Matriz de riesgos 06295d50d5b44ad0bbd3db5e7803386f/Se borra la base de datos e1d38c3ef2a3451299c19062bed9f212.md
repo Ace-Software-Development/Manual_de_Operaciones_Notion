@@ -4,7 +4,7 @@ Categoría: Técnico
 Consecuencias: Perdemos tiempo de desarrollo
 No podemos hacer pruebas
 Fecha de definición: 24/05/2022
-ID: June 9 2022, 08:47:00
+ID: 6
 Impact: 8
 Interno: Yes
 Magnitud: 5.6

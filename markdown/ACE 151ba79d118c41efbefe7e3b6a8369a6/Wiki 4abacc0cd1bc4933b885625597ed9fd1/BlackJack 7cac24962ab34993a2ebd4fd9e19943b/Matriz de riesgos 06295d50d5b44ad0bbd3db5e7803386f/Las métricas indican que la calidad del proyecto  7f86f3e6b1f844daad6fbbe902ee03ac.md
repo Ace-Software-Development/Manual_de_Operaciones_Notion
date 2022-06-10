@@ -5,7 +5,7 @@ Consecuencias:  Aumento de defectos
 
 Retrabajo
 Fecha de definición: 03/05/2022
-ID: June 9 2022, 08:47:00
+ID: 14
 Impact: 6
 Interno: No
 Magnitud: 3
@@ -13,4 +13,4 @@ Plan de mitigación: Identificar las fases en las que se inyectan más defectos 
 Plan de respuesta: Mejorar los componentes que tengan menor calidad y sean de mayor importancia 
 Prob: 0.5
 Responsable: PO
-Status: Sin datos
+Status: Sin identificar

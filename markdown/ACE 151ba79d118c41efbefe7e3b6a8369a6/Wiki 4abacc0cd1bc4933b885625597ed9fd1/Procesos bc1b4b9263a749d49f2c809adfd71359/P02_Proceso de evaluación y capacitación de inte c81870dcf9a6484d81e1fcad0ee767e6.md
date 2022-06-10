@@ -4,13 +4,19 @@
 
 Establecer los pasos necesarios para la evaluación y capacitación de los integrantes de un nuevo equipo.
 
+## Accesos necesarios
+
+| Equipo | Wiki  |
+| --- | --- |
+| BlackJack | ‣  |
+| Full House |  ‣  |
+| Flor Imperial | ‣  |
+
 ## Criterios de entrada[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P02_Evaluaci%C3%B3n%20y%20Capacitaci%C3%B3n%20de%20integrantes#criterios-de-entrada)
 
 - Identificar las tecnologías requeridas en el desarrollo.
-- El integrante deberá llenar la siguiente tabla, posicionándose en uno de los niveles (N/A, Básico, Intermedio, Avanzado) con base en sus conocimientos y experiencia previa.
-- Tabla de habilidades del equipo.
 
-[Conocimiento de Tecnologías](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Conocimiento%20de%20Tecnologi%CC%81as%20ee9544d6b85d425895c73c939e52bca3.csv)
+[Procedimiento](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Procedimiento%20920d438a332f4dc1b8e980b4b7836970.csv)
 
 1) El arquitecto de equipo debe revisar, corregir y actualizar la presentación de las habilidades del equipo. Dicha tabla se debe colocar en la descripción general del equipo de trabajo en su página de la wiki.
 
@@ -30,10 +36,10 @@ PP - Project Planning SP 2.5
 
 ## Responsables de cumplimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P02_Evaluaci%C3%B3n%20y%20Capacitaci%C3%B3n%20de%20integrantes#responsables-de-cumplimiento)
 
-- Architecture Owner
+- Team Leader del equipo
 
 [Bitácora de cambios ](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Bita%CC%81cora%20de%20cambios%20cf8ac87420634481aaaea6224a974590.csv)
 
-@Paola Adriana Millares Forno Creo que tú hiciste este proceso así que pon un registro de que hiciste la creación línea base y la versión 1.0 en la bitácora de cambios
+[Conocimiento de Tecnologías (1)](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Conocimiento%20de%20Tecnologi%CC%81as%20(1)%206bde09055ead40dbbbd1b312fe4eee32.csv)
 
-@Cutberto Arizabalo Nava Ando viendo que hiciste una actualización a este proceso, porfa llena el cambio que hiciste en la bitácora de cambios
+[Tabla de conocimientos](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Tabla%20de%20conocimientos%20a1fa4be7a54e4c9f87a1fb41b7910d0e.csv)

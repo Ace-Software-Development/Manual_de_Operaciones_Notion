@@ -3,7 +3,7 @@
 Categoría: Técnico
 Consecuencias: Retraso por curva de aprendizaje
 Fecha de definición: 10/03/2022
-ID: June 9 2022, 08:47:00
+ID: 10
 Impact: 5
 Interno: Yes
 Magnitud: 4

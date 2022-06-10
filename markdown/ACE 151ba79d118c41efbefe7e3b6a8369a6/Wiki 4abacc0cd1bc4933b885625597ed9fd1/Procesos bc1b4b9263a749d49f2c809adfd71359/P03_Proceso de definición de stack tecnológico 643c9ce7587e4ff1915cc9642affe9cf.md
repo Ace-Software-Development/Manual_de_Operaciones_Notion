@@ -42,3 +42,5 @@
 - Versiones del documento.
 
 [Bitácora de cambios (1)](P03_Proceso%20de%20definicio%CC%81n%20de%20stack%20tecnolo%CC%81gico%20643c9ce7587e4ff1915cc9642affe9cf/Bita%CC%81cora%20de%20cambios%20(1)%2039ac6e9931724fda94d0bccfe537a0a4.csv)
+
+[**P06_Proceso de cambio en requisitos**](P03_Proceso%20de%20definicio%CC%81n%20de%20stack%20tecnolo%CC%81gico%20643c9ce7587e4ff1915cc9642affe9cf/P06_Proceso%20de%20cambio%20en%20requisitos%200becb449a14d4804881a6e09f2217530.md)

@@ -1,15 +1,15 @@
 ﻿Fase,Actividad,CMMI
 Obtención,Preguntar e identificar las problemáticas que enfrentan los socios que quieran ser abordadas en el proyecto.,RM 1.1
-Obtención,Identificar las necesidades que requieran y puedan solucionarle bajo el alcance del proyecto.,RM 1.1
+,Identificar las necesidades que requieran y puedan solucionarle bajo el alcance del proyecto.,RM 1.1
 Análisis,Evaluar si las necesidades descritas por los socios atacan la problemática descrita anteriormente.,RM 1.1
-Análisis,Priorizar las necesidades con base a la información descrita por los socios.,"RM 1.1
+,Priorizar las necesidades con base a la información descrita por los socios.,"RM 1.1
 RM 1.2"
-Análisis,Extraer los requisitos para satisfacer las necesidades,RM 1.1
+,Extraer los requisitos para satisfacer las necesidades,RM 1.1
 Priorización,Estimar el costo de cada unos de los requisitos.,"RM 1.2
 PMC 1.1"
-Priorización,Priorizar los requerimientos en base a las necesidades. Siguiendo el https://www.notion.so/8279a54bc4344b85bb72894e4f178406,RM 1.2
-Aceptación,Evaluar el impacto de acuerdo a los criterios de aceptación de requisitos.  Siguiendo la https://www.notion.so/a7a71ac2e2af4e368174c668c798531e,RM 1.2
-Aceptación,"Generar propuestas de cambio en caso de no cumplan con dichos criterios. ",RM 1.3
+,"Priorizar los requerimientos en base a las necesidades. Siguiendo el https://www.notion.so/8279a54bc4344b85bb72894e4f178406 ",RM 1.2
+Aceptación,"Evaluar el impacto de acuerdo a los criterios de aceptación de requisitos.  Siguiendo la https://www.notion.so/a7a71ac2e2af4e368174c668c798531e ",RM 1.2
+,"Generar propuestas de cambio en caso de no cumplan con dichos criterios. ",RM 1.3
 Verificación,"Exponer y validar los requisitos analizados a los Stakeholders. Tomar la retroalimentación, y en caso de que algún requisito no cumpla con los criterios establecidos en este proceso, se deberá de repetir el proceso.","RM 1.1
 RM 1.2
 RM 1.3

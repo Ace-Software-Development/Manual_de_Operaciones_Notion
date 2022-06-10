@@ -1,0 +1,9 @@
+﻿Fase,Actividad,Responsable,Áreas del CMMI
+Preparación,"Se identifica el Pull Request, y se descargan los cambios en nuestro repositorio local.",Miembro responsable de revisión,VER 1.1 VER 2.2
+Revisión,Se sigue el flujo ideal de la funcionalidad.,Miembro responsable de revisión,VER 1.3 VER 2.2
+,"Se verifica que la funcionalidad pase todos los casos de prueba diseñados. ",Miembro responsable de revisión,VER 1.3 VER 2.2
+,"Se verifica que el código siga el ../P04_Revisio%CC%81n%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md ",Miembro responsable de revisión,"PMC 1.4, PMC 1.5, PMC 1.6, PMC 1.7, PMC 2.1, VER 3.1 VER 2.2"
+,Revisa que todos los defectos de la funcionalidad estén marcados como DONE en el ../P04_Revisio%CC%81n%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md,Miembro responsable de revisión,VER 2.2 VER 2.3 VER 3.1
+Aprobación,Se aprueba e integra el Pull Request eliminando la antigua rama de la implementación.,Miembro responsable de revisión,VER 3.1 VER 2.2
+Rechazo,"Si la funcionalidad no aprueba la revisión, el revisor deberá rechazar el Pull Request, dejando en un comentario los defectos que se encontraron y agregar su registro en el ../P04_Revisio%CC%81n%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md",Miembro responsable de revisión,VER 3.2 VER 2.2
+Comunicación,Se avisa a los miembros del equipo el estado del Pull Request.,Miembro responsable de revisión,

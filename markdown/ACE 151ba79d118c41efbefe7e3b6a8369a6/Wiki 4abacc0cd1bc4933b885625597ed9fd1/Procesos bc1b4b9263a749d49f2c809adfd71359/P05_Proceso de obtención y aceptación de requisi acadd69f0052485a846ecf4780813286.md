@@ -14,12 +14,18 @@
 - Establecer los canales de comunicación y establecer el proceso de juntas con los socios formadores.
 - Establecer los criterios de aceptación necesarios para que un requisito sea considerado para la etapa de desarrollo.
 
-[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P05_AceptacionRequisitos#procedimiento)
+## Recursos
+
+[**PL09_Requerimientos**](../Plantillas%20afe79d22a53b40d3bb2885218d181405/PL09_Requerimientos%203c7ce01a54154f9196da0cf0ba23b88f.md)
 
 [Procedimiento](P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286/Procedimiento%2007e48cb7181a446c97334abbbfd1f418.csv)
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P05_AceptacionRequisitos#criterios-de-salida)
 
 Lista de requerimientos validados y aceptados por los Stakeholders. 
+
+## Responsable
+
+@Leonardo Alvarado Menéndez 
 
 [Bitácora de cambios](P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286/Bita%CC%81cora%20de%20cambios%20be2ee5cf94e1489d8b47fcdf107a86f1.csv)

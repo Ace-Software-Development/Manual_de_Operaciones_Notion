@@ -6,4 +6,5 @@ Evidencia: https://docs.google.com/document/d/12yhFeLs9JXIxhoKmavVEZqFiU78qxYrtR
 Fecha de Ejecución: June 9, 2022
 Iteración: IT4
 Resultado Esperado: Se muestra el botón de eliminar empleado en la vista de Detalle del estudio del empleado
+Status: Aprobado
 Test Case ID: 1

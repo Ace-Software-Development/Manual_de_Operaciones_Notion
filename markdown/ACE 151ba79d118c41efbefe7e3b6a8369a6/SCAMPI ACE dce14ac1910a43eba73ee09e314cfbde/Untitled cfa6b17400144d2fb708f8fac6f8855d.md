@@ -1,3 +1,0 @@
-# Untitled
-
-¿La tenemos?: No

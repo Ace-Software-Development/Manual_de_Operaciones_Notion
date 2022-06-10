@@ -5,7 +5,7 @@ Consecuencias: - Presentar problemas e incidencias del lado del cliente.
 - Se perjudica la operación del negocio.
 - Se afecta la experiencia de usuario para el cliente.
 Fecha de definición: 10/03/2022
-ID: June 9 2022, 08:47:00
+ID: 4
 Impact: 10
 Interno: Yes
 Magnitud: 6
@@ -18,4 +18,4 @@ Plan de respuesta: - Dependiendo del defecto, priorizar la fecha de corrección.
 - Restaurar la BD.
 Prob: 0.6
 Responsable: AO
-Status: Sin datos
+Status: Identificado

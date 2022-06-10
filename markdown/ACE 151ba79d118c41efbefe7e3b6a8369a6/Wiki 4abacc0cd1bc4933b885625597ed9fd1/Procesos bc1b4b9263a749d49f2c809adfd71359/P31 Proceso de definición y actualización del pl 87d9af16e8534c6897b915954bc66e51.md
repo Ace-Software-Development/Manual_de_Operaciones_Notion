@@ -1,5 +1,11 @@
 # P31 Proceso de definición y actualización del plan de proyecto
 
+| Equipo | WBS | Plan de Trabajo |
+| --- | --- | --- |
+| BlackJack | WBS | Plan de Trabajo |
+| Full House | WBS | Plan de Trabajo |
+| Flor Imperial | WBS | Plan de Trabajo |
+
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 Definir las actividades que se llevarán a lo largo de la iteración y mantener actualizado el estatus de estas, permitiendo así obtener métricas como el SPI y el CPI.

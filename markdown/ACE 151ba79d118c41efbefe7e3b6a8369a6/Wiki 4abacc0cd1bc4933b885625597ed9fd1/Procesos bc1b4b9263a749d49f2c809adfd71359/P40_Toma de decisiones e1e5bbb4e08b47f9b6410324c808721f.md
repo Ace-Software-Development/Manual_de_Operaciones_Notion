@@ -1,9 +1,5 @@
 # P40_Toma de decisiones
 
-## Versión
-
-1.3 19/05/2022
-
 ## Objetivo
 
 Reducir el tiempo que implica tomar una decisión 

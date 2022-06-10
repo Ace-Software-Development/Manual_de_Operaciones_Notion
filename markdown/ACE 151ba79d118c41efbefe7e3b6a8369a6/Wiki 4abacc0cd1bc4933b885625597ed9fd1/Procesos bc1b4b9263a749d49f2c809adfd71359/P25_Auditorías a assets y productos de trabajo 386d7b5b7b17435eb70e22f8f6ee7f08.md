@@ -23,6 +23,10 @@
 
 N/A
 
+## Responsable
+
+@Cutberto Arizabalo Nava 
+
 ## Bitácora de cambios
 
 [Untitled](P25_Auditori%CC%81as%20a%20assets%20y%20productos%20de%20trabajo%20386d7b5b7b17435eb70e22f8f6ee7f08/Untitled%20Database%20f6907eaa82c04fc6ad86a032597bfdb2.csv)

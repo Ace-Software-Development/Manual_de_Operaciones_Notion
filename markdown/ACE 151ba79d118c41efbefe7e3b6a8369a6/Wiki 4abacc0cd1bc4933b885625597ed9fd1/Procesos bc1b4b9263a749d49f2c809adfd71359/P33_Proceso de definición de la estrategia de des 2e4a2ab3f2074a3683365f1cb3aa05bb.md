@@ -1,9 +1,5 @@
 # P33_Proceso de definición de la estrategia de desarrollo
 
-## Versión
-
-1.0
-
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 Definir las fases por las que pasará el proyecto para poder tener una mejor estimación del costo y alcance del proyecto.
@@ -16,10 +12,14 @@ Definir las fases por las que pasará el proyecto para poder tener una mejor est
 
 ## **Criterios de entrada**
 
-- Stack tecnológico
-- Plan de adquisición
-- Plan de pruebas
-- Estimación general
+**Planes de proyecto**
+
+| Equipo | Plan de trabajo |
+| --- | --- |
+| BlackJack | Plan de trabajo |
+| Full House | Plan de trabajo |
+| Flor Imperial | Plan de trabajo |
+| Departamento | Plan de trabajo |
 
 ## **Procedimiento**
 

@@ -44,3 +44,5 @@ Una vez escaneado el código QR, se abrirá la aplicación dentro de la app Expo
 ¡Listo! La aplicación se encuentra lista para ser utilizada. 
 
 Si deseas acceso para probarla, acercarte con un miembro del equipo y con gusto compartiremos credenciales de acceso de desarrollo contigo 😃
+
+[Bitácora de cambios](IMP_G02%20Correr%20app%20mo%CC%81vil%2044c3a43ee6714e1fbe7be0d40e1ee97e/Bita%CC%81cora%20de%20cambios%20439a1164cc2041f4b4cba7b71f7cd8f0.csv)

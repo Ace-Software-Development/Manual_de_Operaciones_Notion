@@ -40,4 +40,8 @@ PMC 2.1 |
 
 Propuestas de mejora de trabajo
 
+## Responsable
+
+Team Leader
+
 [Bitácora de cambios (1)](P16_Proceso%20de%20retrospective%209e356c5b62be47cb8cb563696a8e04da/Bita%CC%81cora%20de%20cambios%20(1)%20ddeab7a478e34ec4bfe0410eb06b33d1.csv)

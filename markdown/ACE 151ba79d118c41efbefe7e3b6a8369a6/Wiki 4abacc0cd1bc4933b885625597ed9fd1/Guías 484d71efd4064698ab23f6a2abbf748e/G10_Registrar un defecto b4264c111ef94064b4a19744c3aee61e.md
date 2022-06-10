@@ -10,7 +10,7 @@ Llevar un registro y monitoreo de los defectos.
 
 ## **Procedimiento**
 
-1. Acceder al [DefectLog](../../DefectLog%20f78724bec45744b3b5627fda80160521.md).
+1. Acceder al [DefectLog - Deprecated](../../DefectLog%20-%20Deprecated%20f78724bec45744b3b5627fda80160521.md).
 2. Añadir una nueva fila en la tabla.
 3. Llena los siguientes campos:
     1. ID: ID del defecto anterior +1
@@ -23,9 +23,9 @@ Llevar un registro y monitoreo de los defectos.
     5. Proyecto: Proyecto en el que se detectó el defecto (solo para productos de trabajo).
     6. Responsable del defecto: Encargado de dar solución al defecto (dueño del producto o asset).
     7. Severidad:
-        - Necessary: El defecto debe resolverse, sin embargo no compromete el flujo de trabajo.
-        - Urgent: El defecto debe atenderse prioritariamente porque representa un retraso en el flujo de trabajo.
-        - Emergency: El defecto debe atenderse inmediatamente porque detiene el flujo de trabajo.
+        - **Necessary**: El defecto debe resolverse, sin embargo no compromete el flujo de trabajo.
+        - **Urgent**: El defecto debe atenderse prioritariamente porque representa un retraso en el flujo de trabajo.
+        - **Emergency**: El defecto debe atenderse inmediatamente porque detiene el flujo de trabajo.
     8. Tipo: Corresponde directamente con el criterio de la checklist que no se aprobó. Los tipos de criterio son:
         - Valor
         - Definición
@@ -36,7 +36,7 @@ Llevar un registro y monitoreo de los defectos.
 
 ## **Criterios de salida**
 
-- [DefectLog](../../DefectLog%20f78724bec45744b3b5627fda80160521.md) actualizado
+- [DefectLog - Deprecated](../../DefectLog%20-%20Deprecated%20f78724bec45744b3b5627fda80160521.md) actualizado
 
 ## **Responsable**
 

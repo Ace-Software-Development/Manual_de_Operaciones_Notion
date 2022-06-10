@@ -2,13 +2,13 @@
 
 ## Objetivos
 
-- Aegurar calidad en el despliegue.
-- Seguir con una serie de pasos de despligue para tenerlo bien documentado y guíar al equipo.
+- Asegurar calidad en el despliegue.
+- Seguir con una serie de pasos de despliegue para tenerlo bien documentado y guiar al equipo.
 
 ## Criterios de entrada
 
 - Descripción de la versión a detallar siguiendo la plantilla de __
-- Fecha de propuesta de despligue acordada con los interesados.
+- Fecha de propuesta de despliegue acordada con los interesados.
 
 ## Procedimiento
 

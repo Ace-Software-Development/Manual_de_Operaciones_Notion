@@ -1,9 +1,5 @@
 # P42_Acciones correctivas
 
-## Versión
-
-1.0.0
-
 ## **Objetivo**
 
 Realizar las acciones necesarias para poder corregir y/o prevenir problemas
@@ -31,6 +27,10 @@ Team Leader
 ## Acciones correctivas de los equipos
 
 [Ace](https://drive.google.com/drive/folders/1-K0nkWe027-H7NCr2e8Vn3yYcee-VvvW)
+
+[Nefrovida](https://drive.google.com/drive/folders/1vx6zDmnXintzJYhs6acwsQB-Zl6GuA7L?usp=sharing)
+
+[Campanario](https://drive.google.com/drive/folders/1Fq56R3O9lTRT5VMoZug0YobLTrhiJGgk?usp=sharing)
 
 ## Bitácora de cambios
 

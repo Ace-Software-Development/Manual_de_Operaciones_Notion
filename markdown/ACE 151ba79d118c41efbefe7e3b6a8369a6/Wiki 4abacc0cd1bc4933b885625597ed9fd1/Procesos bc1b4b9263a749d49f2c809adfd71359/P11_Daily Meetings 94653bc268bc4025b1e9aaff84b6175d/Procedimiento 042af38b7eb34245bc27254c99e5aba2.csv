@@ -1,15 +1,14 @@
 ﻿Etapa,Tarea,Encargado,Subpractica
 Preparación,Mostrar el plan y reunirse de pie alrededor de donde se está mostrando el plan,Team Leader,
-Recomendación,Iniciar la reunión a la hora planeada.,Todos los miembros,
 Retroalimentación,Compartir lo que se hizo desde la daily pasada y lo actualiza en el plan.,Todos los miembros,PMC 1.6
-Retroalimentación,Compartir los impedimentos que tiene  y con quién los debe atender. (si no se completó la actividad de ayer debe identificar el impedimento),Todos los miembros,
-Retroalimentación,Monitorear los riesgos siguiendo el proceso ../P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md../P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md y posteriormente con el proceso ../P42_Acciones%20correctivas%2093b37b250e7e4fb2ba4d05f44e294d75.md,Team Leader,"RKM 1.3, 2.1, 2.2. 
+,Compartir los impedimentos que tiene  y con quién los debe atender. (si no se completó la actividad de ayer debe identificar el impedimento),Todos los miembros,
+,"Monitorear los riesgos siguiendo el proceso ../P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68.md y posteriormente con el proceso ../P42_Acciones%20correctivas%2093b37b250e7e4fb2ba4d05f44e294d75.md ",Team Leader,"RKM 1.3, 2.1, 2.2. 
 PMC 2.2"
-Retroalimentación,Compartir lo que hará hasta la daily del día siguiente y actualiza el estatus de la tarea en el plan de trabajo.,Todos los miembros,
-Retroalimentación,Realizar un compromiso de las tareas o requisitos que se trabajarán en el día.,Todos los mimebros,RM 1.2
-Retroalimentación,"Compartir el progreso de la iteración mostrando gráficas y mediciones de costo y valor (jira, excel).",Team Leader,"PMC 1.6, MA 2.1, 2.2."
+,"Compartir lo que hará hasta la daily del día siguiente y actualiza el estatus de la tarea en el ../P11_Daily%20Meetings%2094653bc268bc4025b1e9aaff84b6175d.md. ",Todos los miembros,
+,Realizar un compromiso de las tareas o requisitos que se trabajarán en el día.,Todos los mimebros,RM 1.2
+,"Compartir el progreso de la iteración mostrando gráficas y mediciones de costo y valor (jira, excel).",Team Leader,"PMC 1.6, MA 2.1, 2.2."
 Mejora continua,"Si se va de acuerdo al plan, se felicita al equipo de trabajo.",Team Leader,
-Mejora continua,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos. Se debe de evaluar si se encuentra una inconsistencia, re-estimarla y priorizarla, de acuerdo al ../P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406.md ",Team Leader,"PMC 
+,"Si no se va de acuerdo al plan, se acuerda cómo cambiarlo para alcanzar los objetivos. Se debe de evaluar si se encuentra una inconsistencia, re-estimarla y priorizarla, de acuerdo al ../P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406.md ",Team Leader,"PMC 
 RM 1.5"
 Comunicación con stakeholders,El Team Leader actualiza el ../../../Log%20comunicacio%CC%81n%20stakeholders%20c2c879c63b17431aaef027b787db8387.csv en caso de haber nuevos acuerdos y/o pedidos.,Team Leader,PP 3.3
 Manejo de riesgos,El Team Leader compartirá semanalmente la matriz de riesgos con el propósito de llevar un seguimiento de los posibles riesgos presentados o por presentarse y mantener la estrategia de manejo de riesgos.,Team Leader,"RKM 1.3

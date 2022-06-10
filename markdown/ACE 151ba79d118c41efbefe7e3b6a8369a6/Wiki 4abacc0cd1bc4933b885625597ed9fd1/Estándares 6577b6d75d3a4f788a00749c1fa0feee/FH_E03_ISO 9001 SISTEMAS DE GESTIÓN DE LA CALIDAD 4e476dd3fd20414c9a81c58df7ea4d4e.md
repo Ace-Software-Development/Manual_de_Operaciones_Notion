@@ -10,8 +10,8 @@ En la norma ISO 9001 se establecen los requisitos de Un Sistema de gestión de l
 
 ## Estructura de la norma
 
-- Objeto y campo de aplicación: Guías y descripciones generales.Referencias normativas: Guías y descripciones generales
-- Términos y definiciones: Guías y descripciones generales.Sistema de gestión de la calidad: incluye los requisitos generales de la ISO-9001 y los requisitos específicos para realizar una adecuada gestión documental.
+- Objeto y campo de aplicación: Guías y descripciones generales. Referencias normativas: Guías y descripciones generales
+- Términos y definiciones: Guías y descripciones generales. Sistema de gestión de la calidad: incluye los requisitos generales de la ISO-9001 y los requisitos específicos para realizar una adecuada gestión documental.
 - Responsabilidad de la dirección: La dirección de la organización debe cumplir con los requisitos expuestos en este apartado, entre los que destacamos: definir la política, garantizar que están definidas las responsabilidades y autoridades, aprobar objetivos, etc.
 - Gestión de los recursos: Contiene los requisitos necesarios para la correcta gestión de los recursos de la organización. La norma ISO diferencia entre recursos humanos, infraestructura y ambiente de trabajo.
 - Realización del producto: Hace referencia a los requisitos de los productos o servicios prestados, como por ejemplo la atención al cliente o la fabricación del producto.

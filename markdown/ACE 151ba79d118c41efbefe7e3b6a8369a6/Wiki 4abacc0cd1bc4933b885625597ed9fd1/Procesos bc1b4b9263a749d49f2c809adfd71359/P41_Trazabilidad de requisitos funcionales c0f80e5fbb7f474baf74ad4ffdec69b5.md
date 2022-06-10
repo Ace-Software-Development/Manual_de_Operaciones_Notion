@@ -1,14 +1,8 @@
 # P41_Trazabilidad de requisitos funcionales
 
-## Versión
-
-1.0
-
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 - Saber en dónde están los requerimientos funcionales implementados en el código
-
----
 
 ## Plantilla
 
@@ -17,6 +11,8 @@
 ## **Consideraciones a tomar**
 
 La plantilla varía dependiendo el equipo
+
+[G11_Llenar Matriz de Trazabilidad](../Gui%CC%81as%20484d71efd4064698ab23f6a2abbf748e/G11_Llenar%20Matriz%20de%20Trazabilidad%202a6094b09f214e6a9515bc73ce626e2c.md) 
 
 ## **Criterios de entrada**
 
@@ -28,7 +24,7 @@ La plantilla varía dependiendo el equipo
 
 ## **Criterios de salida**
 
-- Matriz de trazabilidad
+- [Matriz de trazabilidad](https://docs.google.com/spreadsheets/d/1SabEsCCNVtxFJoqglCguCcy1aq_SM-P5ZXAz9y8DDaY/edit?usp=sharing)
 
 ## **Métricas**
 

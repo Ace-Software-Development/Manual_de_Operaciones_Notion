@@ -1,26 +1,24 @@
 # P07_Proceso de priorización de requisito
 
-## Versión
-
-1.0
-
-## Consideraciones importantes[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#consideraciones-importantes)
+## Consideraciones importantes
 
 Todos los requisitos funcionales identificados deben pasar por este proceso de priorización
 
 ## Objetivos[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#objetivos)
 
-- Tener un análisis que le facilite al equipo planificar la iteración.
-- Asegurar que siempre se esté trabajando primero en las tareas de mayor urgencia e importancia, para generar un MVP lo más pronto posible.
-- Definir las dependencias que pueda tener cada requisito para disminuir en lo posible la cantidad de bloqueos para el trabajo diario y obtener un mejor entendimiento del requisito.
+- Tener un análisis que le facilite al equipo planificar la iteración. ([P19_Sprint Planning](P19_Sprint%20Planning%2038496412c5c84378b582eb61bfc071ff.md) )
+- Asegurar que siempre se esté trabajando primero en las tareas de mayor urgencia e importancia, para generar un MVP en el lapso de tiempo acordado.
+- Definir las dependencias que pueda tener cada requisito para disminuir los bloqueos para el trabajo diario.
 
 ## Criterios de entrada[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#criterios-de-entrada)
 
-- Lista con las historias de usuario o requisitos funcionales.
+- Lista con las historias de usuario o requisitos funcionales, obtenidas según el
+
+[**P05_Proceso de obtención y aceptación de requisitos**](P05_Proceso%20de%20obtencio%CC%81n%20y%20aceptacio%CC%81n%20de%20requisi%20acadd69f0052485a846ecf4780813286.md)
 
 ## Procedimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#procedimiento)
 
-[Procedimiento](P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406/Procedimiento%20c294481765c0465e8fc6a5ee4cbc7cc4.csv)
+[Untitled](P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406/Untitled%20Database%20ef0164fb361745739085e8ec7e37a484.csv)
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P07_PriorizacionRequisitos#criterios-de-salida)
 
@@ -30,6 +28,8 @@ Todos los requisitos funcionales identificados deben pasar por este proceso de p
 
 - Número de cambios en la priorización durante la iteración.
 
-[Bitácora de cambios (1)](P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406/Bita%CC%81cora%20de%20cambios%20(1)%209d2c25bcdee84b4aab318e809a073a61.csv)
+## Responsable
 
-@Cutberto Arizabalo Nava agregar que hiciste la línea base y versión 1.0
+@Pau 
+
+[Bitácora de cambios (1)](P07_Proceso%20de%20priorizacio%CC%81n%20de%20requisito%208279a54bc4344b85bb72894e4f178406/Bita%CC%81cora%20de%20cambios%20(1)%209d2c25bcdee84b4aab318e809a073a61.csv)

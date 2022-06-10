@@ -1,11 +1,5 @@
 # P21_Manejo de riesgos
 
-## Versión
-
-1.0 29/04/2022
-
-2.0 05/06/2022
-
 ## Objetivo
 
 Identificar las fuentes y categorías de riesgos del proyecto para su seguimiento y monitoreo.
@@ -18,11 +12,11 @@ Cada vez que se identifique un nuevo riesgo para el equipo y el desarrollo del p
 
 ## Criterios de entrada
 
-Nuevo(s) riesgo(s) identificado(s).
+Nuevo(s) riesgo(s) identificado(s). 
 
-Guía [G14_Identificación de Riesgos](../Gui%CC%81as%20484d71efd4064698ab23f6a2abbf748e/G14_Identificacio%CC%81n%20de%20Riesgos%20768277ee6a8042a4abd8023ebf31dd10.md) 
+## Consideraciones a tomar
 
-## **Procedimiento**
+[**PL12_Plan de Riesgos**](../Plantillas%20afe79d22a53b40d3bb2885218d181405/PL12_Plan%20de%20Riesgos%20a17640175ab84a00b893729ff62c499a.md) 
 
 [Procedimiento](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Procedimiento%205199794d283b49f78feeb17a77d8f220.csv)
 
@@ -32,17 +26,9 @@ Plan de riesgos
 
 ## **Responsable del cumplimiento**
 
-Equipo 
+Equipo: Team Leader
 
-Responsable de la documentación de riesgos 
-
-## Área(s) involucradas
-
-PP - Project Planning
-
-PMC - Project Monitoring and Control
-
-RKM - Risk Management
+Responsable de la documentación de riesgos: Team Leader
 
 ## Plan de riesgos de los equipos
 

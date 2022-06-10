@@ -2,23 +2,23 @@
 
 ## Objetivo
 
-Saber cómo llenar la matriz de trazabilidad de cada equipo
+Saber cómo llenar la matriz de trazabilidad de cada equipo.
 
 ## **Criterios de entrada**
 
-- Tener una plantilla de matriz de trazabilidad definida.
+- Tener una [plantilla de matriz de trazabilidad](https://docs.google.com/spreadsheets/d/1SabEsCCNVtxFJoqglCguCcy1aq_SM-P5ZXAz9y8DDaY/edit) definida.
 - Listar todos los requisitos funcionales del proyecto.
 
 ## **Procedimiento**
 
-1. Para cada requisito listado definir un identificador único y ponerlo en la columna de ID al lado derecho del requisito funcional correspondiente.
+1. Para cada requisito listado, definir un identificador único y ponerlo en la columna de ID al lado derecho del requisito funcional correspondiente.
     1. ID del requisito anterior + 1
 2. Al lado derecho del identificador agregar una columna en donde se referencien los documentos que resuelvan el requisito funcional correspondiente.
     1. Al lado derecho del ID del requisito funcional correspondiente poner una liga o una referencia al documento o documentos dentro del código en donde se resuelva dicho requisito.
 
 ## **Criterios de salida**
 
-[Matriz de trazabilidad](https://docs.google.com/spreadsheets/d/1SabEsCCNVtxFJoqglCguCcy1aq_SM-P5ZXAz9y8DDaY/edit?usp=sharing) actualizada
+Matriz de trazabilidad actualizada
 
 ## **Responsable**
 

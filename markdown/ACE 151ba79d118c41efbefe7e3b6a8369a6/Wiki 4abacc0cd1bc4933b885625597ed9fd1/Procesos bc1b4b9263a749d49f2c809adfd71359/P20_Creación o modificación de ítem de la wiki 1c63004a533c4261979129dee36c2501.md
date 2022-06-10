@@ -1,7 +1,5 @@
 # P20_Creación o modificación de ítem de la wiki
 
-## Consideraciones a tomar
-
 ## **Objetivo**
 
 Mantener al departamento informado de los proceso existentes
@@ -10,9 +8,11 @@ Promover el uso de los procesos
 
 ## **Criterios de entrada**
 
-Haber seguido el [Proceso de la Forma de Trabajo](P01_Definir%20la%20Forma%20de%20Trabajo%20(Way%20of%20Working)%201a26647e0c134b95b2c42c228eb813c5.md) 
-
 Proceso a crear/modificar.
+
+## Consideración a tomar
+
+[**P01_Definir la Forma de Trabajo (Way of Working)**](P01_Definir%20la%20Forma%20de%20Trabajo%20(Way%20of%20Working)%201a26647e0c134b95b2c42c228eb813c5.md)
 
 ## **Procedimiento**
 
@@ -30,7 +30,7 @@ Cantidad de errores en la creación/modificación.
 
 ## **Responsable**
 
-@Rafael Hinojosa López 
+Project Manager
 
 ## Bitácora de cambios
 

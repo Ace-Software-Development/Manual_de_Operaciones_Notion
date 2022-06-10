@@ -1,9 +1,5 @@
 # P34 Proceso para juntas con los stakeholders
 
-## Versión
-
-1.0
-
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Plantillas/PL03_Creaci%C3%B3n%20de%20Procesos#objetivo)
 
 Definir las formas y los medios por los que tendremos comunicación con los distintos stakeholders

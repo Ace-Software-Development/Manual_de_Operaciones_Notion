@@ -1,0 +1,10 @@
+﻿Created time,Last edited by,Etapa,Actividad,Encargado,Subpractica,Property
+"June 9, 2022 11:16 AM",Pau,Análisis,Definir una escala con la cual se determinará el nivel de urgencia e importancia/impacto que tiene cada requisito. Esta escala debe estar documentada,Product Owner,RM 1.2,Pau
+"June 9, 2022 11:16 AM",Pau,,"Analizar qué requisitos tienen dependencias (de terceros, de otro requisito de la lista, de alguna herramienta, etc.)",Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,Priorización,Identificar el nivel de Prioridad: importancia para la satisfacción de la necesidad del cliente,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,,Identificar el nivel de Complejidad: Si tiene comunicación con otros sistemas o con la base de datos,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,,Identificar el nivel de Riesgo: Probabilidad de éxito del proyecto si no implementa la función,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,,Identificar el nivel de Estabilidad: Si hay claridad por parte del cliente y del equipo de desarrollo acerca del requerimiento,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,,Obtener el promedio de Prioridad con los anteriores 4 valores,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,,Mover al principio de la lista los requisitos que tienen un nivel alto de urgencia e importancia y al final los de menor importancia/impacto.,Todos,RM 1.2,Pau
+"June 9, 2022 11:17 AM",Pau,Validación y verificación,Revisar con el equipo la lista de requerimientos priorizada para realizar los últimos cambios de acuerdo a consideraciones que otros miembros del equipo puedan identificar.,Todos,RM 1.2,Pau

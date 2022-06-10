@@ -30,6 +30,6 @@ Definir una estructura a seguir al momento de realizar commits con la finalidad 
 
 ## Proceso de Revisión de Pull Request
 
-[P04_**Revision de Pull Request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revision%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
+[P04_**Revisión de Pull Request**](../Procesos%20bc1b4b9263a749d49f2c809adfd71359/P04_Revisio%CC%81n%20de%20Pull%20Request%209d3b4ef1e74a4028b85cb2cf1c30b926.md) 
 
 [Bitácora de cambios (1)](FH_E01_Esta%CC%81ndar%20de%20Commits%2011968e3d836c4ec2b18e15bb2a6de39b/Bita%CC%81cora%20de%20cambios%20(1)%2063b39a6124b6434baaad1b02bf89cc6e.csv)

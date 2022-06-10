@@ -1,7 +1,0 @@
-# Untitled
-
-Actividad: Asigna un revisor al Pull Request. El revisor no puede ser una persona involucrada en el desarrollo de la funcionalidad.
-Created time: June 8, 2022 7:32 PM
-Encargado: Programador
-Last edited by: Paola Adriana Millares Forno
-Property: Paola Adriana Millares Forno
