@@ -2,7 +2,7 @@
 
 ## Versión
 
-1.3
+1.4
 
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#consideraciones-a-tomar)
 
@@ -37,6 +37,8 @@ Documento de plan de iteración sin iteración activa o Jira sin iteración acti
 ¿La carga de trabajo es menos de lo que podemos manejar? Si la respuesta es no, continuar con la asignación de tareas.
 
 Estas preguntas se deben de hacer tomando en cuenta la disponibilidad de horas que tiene cada integrante para trabajar en el proyecto. | Team Lead | PP 3.2 |
+| 11. Identificación de Riesgos | Monitorear los riesgos siguiendo el proceso ‣ y posteriormente con el proceso ‣  | Team Leader | RKM 1.3, 2.1, 2.2, 3.1, 3.2
+PMC 2.2 |
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-salida)
 

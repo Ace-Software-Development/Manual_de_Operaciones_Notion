@@ -26,8 +26,11 @@ RKM 2.2"
 RKM 2.1
 RKM 2.2"
 Priorización,Ordenar los riesgos en base a la magnitud obtenida. Los riesgos con mayor magnitud son los más importantes,Todo el equipo,RKM 2.2
-Estrategia,El equipo identifica formas de contingencia y de mitigación de los riesgos,Todo el equipo,PMC 2.2
-,"El equipo planea acciones correctivas para llevar a cabo la mitigación de los riesgos a través de los cambios que se realicen con la https://www.notion.so/60947c2ed01243be97dd3ed1710050d6 ",Todo el equipo,PMC 2.2
+Estrategia,El equipo identifica formas de contingencia y de mitigación de los riesgos,Todo el equipo,"PMC 2.2, RKM 3.1"
+,El Plan de Mitigación debe contener acciones para prevenir que el riesgo se materialice y sea activado en caso de que sea clasificado como un riesgo extremo según su magnitud siguiendo la guía https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10.,Todo el equipo,"PMC 2.2, RKM 3.1"
+,"El Plan de Respuesta debe ser suficiente y entendible para llevar a cabo acciones correctivas de los riesgos una vez hayan ocurrido con la https://www.notion.so/60947c2ed01243be97dd3ed1710050d6 ",Todo el equipo,"PMC 2.2, RKM 3.1"
 Documentación,"El responsable de la documentación de riesgos llenará la plantilla  https://www.notion.so/a17640175ab84a00b893729ff62c499a ",Team leader,"PMC 2.1, PMC 2.2, PMC 2.3"
 ,"En caso de que exista un cambio para arreglar defectos, se debe de llevar un registro en la minuta de la reunión",Team leader,PMC 2.2
-,El responsable de la documentación de riesgos mantendrá actualizado el documento,Team leader,"PMC 2.2, PMC 2.3"
+Actualización,El responsable de la documentación de riesgos mantendrá actualizado el documento,Team leader,"PMC 2.2, PMC 2.3"
+Mitigación,En caso de que el riesgo cambie de Magnitud a Extremo según la https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 activar Plan de Mitigación.,Team leader,"RKM 3.2, PMC 2.2"
+Respuesta,"En caso de que haya ocurrido un riesgo, seguir la https://www.notion.so/768277ee6a8042a4abd8023ebf31dd10 para activar el Plan de Respuesta del mismo.",Team leader,"RKM 3.2, PMC 2.2"

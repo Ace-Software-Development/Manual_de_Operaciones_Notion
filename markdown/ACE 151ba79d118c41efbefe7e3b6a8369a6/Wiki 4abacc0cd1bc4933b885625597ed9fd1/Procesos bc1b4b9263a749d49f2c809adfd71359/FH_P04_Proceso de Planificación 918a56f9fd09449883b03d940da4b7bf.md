@@ -1,5 +1,9 @@
 # FH_P04_Proceso de Planificación
 
+## Versión
+
+1.2
+
 ## Objetivos
 
 - Establecer los parámetros y tareas para realizar una planificacion efectiva de cada una de las iteraciones.

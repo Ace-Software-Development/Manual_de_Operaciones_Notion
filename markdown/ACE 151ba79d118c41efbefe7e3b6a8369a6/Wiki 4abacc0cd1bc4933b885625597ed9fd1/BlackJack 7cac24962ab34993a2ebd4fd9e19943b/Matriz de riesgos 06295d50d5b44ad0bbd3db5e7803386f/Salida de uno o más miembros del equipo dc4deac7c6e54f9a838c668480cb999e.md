@@ -4,7 +4,7 @@ Categoría: Organizacional
 Consecuencias: - Baja la velocidad del equipo.
 - No se entregan iteraciones a tiempo.
 Fecha de definición: 10/03/2022
-ID: 16
+ID: 15
 Impact: 2
 Interno: Yes
 Magnitud: 0.8
@@ -16,4 +16,5 @@ Plan de mitigación: - Preparar los manuales para que su salida no afecte.
 Plan de respuesta: Apoyar todos en el área de desarrollo que se encuentre estancada
 Prob: 0.4
 Responsable: TL
+Statu: Atendido con Plan de Respuesta
 Status: Identificado

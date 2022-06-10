@@ -12,7 +12,7 @@ Identificar situaciones que puedan convertirse en riesgos futuros para el depart
 
 - Un posible riesgo
 
-## Prerrequisitos
+## Prerequisitos
 
 - Matriz de Riesgos del equipo
 
@@ -45,6 +45,15 @@ La manera en la que afectará el riesgo en caso de ocurrir. Debe identificarse e
 - **Impacto nivel 1:** impacto muy pequeño, en cuanto a la ejecución del plan.
 - **Impacto nivel 10:** Impacto muy grande, se debe reformular el plan.
 
+# Status
+
+Las diferentes opciones para el estatus son las siguientes:
+
+- **Identificado:** Se identifico que es un riesgo para el proyecto.
+- **Ocurrió:** El riesgo ya ocurrió dentro del proyecto tan solo que no ha sido atendido aún.
+- **Atendido con Plan de Mitigación:** Se realizó el plan de mitigación necesario para evitar que suceda.
+- **Atendido con Plan de Respuesta:**  Se realizó el plan de respuesta necesario después de presentarse.
+
 # Magnitud
 
 El riesgo se puede clasificar dependiendo de su magnitud, calculada con la siguiente fórmula:
@@ -58,9 +67,19 @@ Y a partir de su magnitud pueden encontrarse en las siguientes categorías:
 - **Magnitud de 6.0 a 7.9 →** Riesgo alto (Retrasa el desarrollo del proyecto)
 - **Magnitud de 8.0 a 10.0 →** Riesgo extremo (Exige cambiar el alcance del proyecto)
 
-## Salidas
+# ¿Cuándo activar los planes?
 
-Riesgo identificado y clasificado
+### **El plan de mitigación:**
+
+- Debe activarse cuando la magnitud del riesgo se encuentra entre 8.0 y 10.0.
+
+### **El plan de respuesta:**
+
+- Debe activarse cuando el estatus del riesgo sea **DETECTADO**
+
+# Salidas
+
+Riesgo identificado y clasificado en plan de riesgos respectivo.
 
 ## Bitácora de cambios
 

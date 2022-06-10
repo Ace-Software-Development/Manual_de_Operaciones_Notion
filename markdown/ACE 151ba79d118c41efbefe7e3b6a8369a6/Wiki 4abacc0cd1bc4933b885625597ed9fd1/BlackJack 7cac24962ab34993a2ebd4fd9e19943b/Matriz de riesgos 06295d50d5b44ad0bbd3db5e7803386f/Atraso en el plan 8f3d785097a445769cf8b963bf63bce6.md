@@ -13,4 +13,5 @@ Plan de respuesta: Adaptar el plan al tiempo que nos queda
 Identificar mejoras para la forma de trabajo
 Prob: 0.7
 Responsable: TL
+Statu: Atendido con Plan de Respuesta
 Status: Identificado

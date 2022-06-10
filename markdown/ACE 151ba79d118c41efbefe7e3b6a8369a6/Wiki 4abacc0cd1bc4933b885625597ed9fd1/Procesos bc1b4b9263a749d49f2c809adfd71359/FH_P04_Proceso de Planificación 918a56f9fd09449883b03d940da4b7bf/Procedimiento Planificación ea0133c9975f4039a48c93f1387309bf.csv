@@ -1,16 +1,18 @@
-﻿FASE,#,ACTIVIDAD,RESPONSABLE
-Definición de Objetivos,1,Definir con los SH lo que se planea lograr en la iteración.,PO
-,2,Definir en equipo los objetivos basados en el modelo SMART.,Equipo de Desarrollo
-Análisis de Recursos,1,Definir el número de horas disponibles por día para trabajo en la iteración de cada miembro.,Equipo de Desarrollo
-,2,Priorizar nuevamente las historias de usuario en caso de ser necesario,PO
-,3,Determinar si se necesitará de recursos externos,PO
-Definición de Tareas,1,Obtener los requerimientos o Historias de usuario a realizar en la iteración,Equipo de Desarrollo
-,2,"Asignar a cada historia de usuario una complejidad siguiendo ../FH_P06_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerimi%20b5925f6bebbc437ab85086aeb9b6626e.md ",Equipo de Desarrollo
-,3,Desglosar la historia de usuario en tareas (previamente definidas en el WBS),Equipo de Desarrollo
-,4,"Crear una descripción completa, para que cualquier miembro del equipo pueda ejecutar la tarea.",PO
-Estimación de tareas,1,"Calcular el costo estimado siguiendo ../FH_P06_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerimi%20b5925f6bebbc437ab85086aeb9b6626e.md ",Equipo de Desarrollo
-Calendarización,1,En base al costo estimado (en días) determinar la fecha de entrega de la iteración,PO
-,2,Definir el orden en el que se realizarán las historias de usuario y tareas,Equipo de Desarrollo
-,3,Determinar fechas estimadas para las historias de usuario y tareas,PO
-,4,Establecer fechas para la revisión y pruebas de integración de las historias de usuario de la iteración,PO
-,5,Definir fechas en las que se realizará el despliegue,PO
+﻿FASE,#,ACTIVIDAD,RESPONSABLE,SUBPRÁCTICA
+Definición de Objetivos,1,Definir con los SH lo que se planea lograr en la iteración.,PO,
+,2,Definir en equipo los objetivos basados en el modelo SMART.,Equipo de Desarrollo,
+Análisis de Recursos,1,Definir el número de horas disponibles por día para trabajo en la iteración de cada miembro.,Equipo de Desarrollo,
+,2,Priorizar nuevamente las historias de usuario en caso de ser necesario,PO,
+,3,Determinar si se necesitará de recursos externos,PO,
+Definición de Tareas,1,Obtener los requerimientos o Historias de usuario a realizar en la iteración,Equipo de Desarrollo,
+,2,"Asignar a cada historia de usuario una complejidad siguiendo ../FH_P06_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerimi%20b5925f6bebbc437ab85086aeb9b6626e.md ",Equipo de Desarrollo,
+,3,Desglosar la historia de usuario en tareas (previamente definidas en el WBS),Equipo de Desarrollo,
+,4,"Crear una descripción completa, para que cualquier miembro del equipo pueda ejecutar la tarea.",PO,
+Estimación de tareas,1,"Calcular el costo estimado siguiendo ../FH_P06_Estimacio%CC%81n%20de%20taman%CC%83o%20y%20costo%20de%20requerimi%20b5925f6bebbc437ab85086aeb9b6626e.md ",Equipo de Desarrollo,
+Calendarización,1,En base al costo estimado (en días) determinar la fecha de entrega de la iteración,PO,
+,2,Definir el orden en el que se realizarán las historias de usuario y tareas,Equipo de Desarrollo,
+,3,Determinar fechas estimadas para las historias de usuario y tareas,PO,
+,4,Establecer fechas para la revisión y pruebas de integración de las historias de usuario de la iteración,PO,
+,5,Definir fechas en las que se realizará el despliegue,PO,
+Identificación de Riesgos,1,Monitorear los riesgos siguiendo el proceso @P21_Manejo de riesgos y posteriormente con el proceso @P42_Acciones correctivas,Team Leader,"RKM 1.3, 2.1, 2.2, 3.1, 3.2
+PMC 2.2"

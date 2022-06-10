@@ -11,4 +11,5 @@ Plan de mitigación: Configurar el servidor para permitir la conexión únicamen
 Plan de respuesta: Asesorarnos con un profesor y consultar la guía para la configuración que se tenga que volver a hacer
 Prob: 0.7
 Responsable: AO
+Statu: Atendido con Plan de Respuesta
 Status: Identificado

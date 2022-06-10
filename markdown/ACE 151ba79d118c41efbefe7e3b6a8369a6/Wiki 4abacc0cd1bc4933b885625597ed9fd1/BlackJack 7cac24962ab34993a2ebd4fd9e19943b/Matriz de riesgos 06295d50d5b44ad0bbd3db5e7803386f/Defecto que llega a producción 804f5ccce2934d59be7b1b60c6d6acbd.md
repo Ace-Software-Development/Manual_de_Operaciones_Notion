@@ -18,4 +18,5 @@ Plan de respuesta: - Dependiendo del defecto, priorizar la fecha de corrección.
 - Restaurar la BD.
 Prob: 0.6
 Responsable: AO
+Statu: Atendido con Plan de Mitigación
 Status: Identificado

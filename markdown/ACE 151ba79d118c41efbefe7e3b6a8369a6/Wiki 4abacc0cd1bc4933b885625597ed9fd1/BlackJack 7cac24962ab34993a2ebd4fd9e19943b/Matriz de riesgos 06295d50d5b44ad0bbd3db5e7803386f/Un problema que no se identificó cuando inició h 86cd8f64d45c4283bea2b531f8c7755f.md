@@ -17,4 +17,5 @@ Plan de respuesta: Utilizar el proceso de toma de decisiones o resolución de co
 Pedir ayuda a un asesor en caso de ser necesario
 Prob: 0.7
 Responsable: PO
+Statu: Atendido con Plan de Respuesta
 Status: Identificado

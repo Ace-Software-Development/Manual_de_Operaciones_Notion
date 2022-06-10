@@ -6,3 +6,5 @@ Selección de tareas,Se asignan las tareas más prioritarias a la nueva iteraci�
 Estimación,Se estima por tiempo o por puntos ágiles el costo que tendrá realizar cada tarea de la iteración mediante una votación grupal,Todo el Equipo,PP 1.2
 Asignación de tareas,Los integrantes del equipo seleccionan las tareas que realizarán durante la iteración y el Team Lead las asigna asegurándose de que cada integrante tenga una carga de trabajo similar.,Todo el Equipo,PP 2.4
 Definición de actividades,"Se establecen fechas y horas para realizar: Daily, Weekly y Comunicación con el cliente.",Product Owner,PP 3.3
+Identificación de Riesgos,"Monitorear los riesgos siguiendo el proceso https://www.notion.so/349b15b299e846beb45066c69dddea68 y posteriormente con el proceso https://www.notion.so/93b37b250e7e4fb2ba4d05f44e294d75 ",Team Leader,"RKM 1.3, 2.1, 2.2, 3.1, 3.2
+PMC 2.2"

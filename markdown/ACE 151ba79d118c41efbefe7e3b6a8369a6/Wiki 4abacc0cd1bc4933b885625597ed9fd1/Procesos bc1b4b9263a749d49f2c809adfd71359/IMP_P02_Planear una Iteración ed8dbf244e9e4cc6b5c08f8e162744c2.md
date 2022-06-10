@@ -2,7 +2,7 @@
 
 ## Versión
 
-1.0
+1.3
 
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#consideraciones-a-tomar)
 

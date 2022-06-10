@@ -12,4 +12,5 @@ Plan de mitigación: Pedirles que compren un modem con datos celulares
 Plan de respuesta: Prender el modelo alterno para que se conecte a los repetidores
 Prob: 0.8
 Responsable: PO
+Statu: Identificado
 Status: Sin identificar

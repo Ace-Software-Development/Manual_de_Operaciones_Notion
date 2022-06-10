@@ -1,6 +1,6 @@
 # P38_Proceso de definición de la prueba de arquitectura
 
-## Documentos de trabajo de cada equipo
+## Acceso a información necesaria
 
 | Equipo | Documento |
 | --- | --- |

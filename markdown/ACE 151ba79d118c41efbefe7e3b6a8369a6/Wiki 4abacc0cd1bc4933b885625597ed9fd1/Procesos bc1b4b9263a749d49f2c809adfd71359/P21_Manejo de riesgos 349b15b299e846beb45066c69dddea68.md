@@ -22,7 +22,7 @@ Nuevo(s) riesgo(s) identificado(s).
 
 ## **Criterios de salida**
 
-Plan de riesgos 
+Plan de riesgos actualizado.
 
 ## **Responsable del cumplimiento**
 

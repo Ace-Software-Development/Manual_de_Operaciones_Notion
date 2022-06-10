@@ -6,7 +6,7 @@ Consecuencias: - Retraso en el plan.
 - Baja prioridad hacia el equipo.
 - Incongruencia en visión y objetivos entre el equipo y el PO.
 Fecha de definición: 10/03/2022
-ID: 8
+ID: 7
 Impact: 10
 Interno: No
 Magnitud: 5
@@ -18,4 +18,5 @@ Plan de respuesta: - Informar a los involucrados en la matriz RACI.
 - Repriorizar de acuerdo a lo más crítico y a la magnitud del cambio.
 Prob: 0.5
 Responsable: PO
+Statu: Identificado
 Status: Identificado / Sin datos

@@ -5,7 +5,7 @@ Consecuencias: Atraso en el plan del proyecto
 
 Disminución de la confianza en el equipo
 Fecha de definición: 03/05/2022
-ID: 15
+ID: 14
 Impact: 6
 Interno: Yes
 Magnitud: 1.2
@@ -19,4 +19,5 @@ Resolver las inquietudes de la persona
 Hacer un plan para reintegrar a la persona al equipo
 Prob: 0.2
 Responsable: TL
+Statu: Atendido con Plan de Respuesta
 Status: Identificado

@@ -5,7 +5,7 @@ Consecuencias: - Posible sobreestimación de la iteración.
 - Cambio en el plan debido a capacitación del integrante.
 - Cambio en capacidad del equipo.
 Fecha de definición: 10/03/2022
-ID: 17
+ID: 16
 Impact: 2
 Interno: Yes
 Magnitud: 0.8
@@ -15,4 +15,5 @@ Plan de respuesta: - Capacitar al nuevo miembro en el proyecto
 - Facilitarle la documentación necesaria para su capacitación
 Prob: 0.4
 Responsable: TL
+Statu: Atendido con Plan de Mitigación
 Status: Identificado
