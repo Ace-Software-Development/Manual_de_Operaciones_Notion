@@ -8,17 +8,13 @@
 
 Identificar situaciones que puedan convertirse en riesgos futuros para el departamento.
 
-## **Criterios de entrada**
-
-- Un posible riesgo
-
 ## Prerequisitos
 
 - Matriz de Riesgos del equipo
 
 # ¿Qué se considera un riesgo?
 
-Un riesgo es un problema o situación recurrente que atenta el cumplimiento de los objetivos del departamento ACE. Estos riesgos pueden incluir:
+Un riesgo es un problema potencial que si se materializa puede atentar el cumplimiento de los objetivos del departamento ACE.
 
 # Categoría
 
@@ -36,7 +32,7 @@ Un riesgo puede ser de tipo:
 
 # Probabilidad
 
-Probabilidad que tiene el riesgo de ocurrir. Este valor debe expresarse en porcentaje (0%).
+Probabilidad que tiene el riesgo de ocurrir. Este valor debe expresarse en porcentaje (%).
 
 # Impacto
 
@@ -76,10 +72,6 @@ Y a partir de su magnitud pueden encontrarse en las siguientes categorías:
 ### **El plan de respuesta:**
 
 - Debe activarse cuando el estatus del riesgo sea **DETECTADO**
-
-# Salidas
-
-Riesgo identificado y clasificado en plan de riesgos respectivo.
 
 ## Bitácora de cambios
 

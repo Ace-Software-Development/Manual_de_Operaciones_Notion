@@ -1,0 +1,1 @@
+# Para tener mayor información acerca de cómo registrar una medición referirse a @P30_Proceso para registrar medición de métricas

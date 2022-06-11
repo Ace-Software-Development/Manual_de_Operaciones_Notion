@@ -213,4 +213,6 @@ Se deberá tener un mecanismo de "rollbacks" o recuperación de versiones anteri
 
 [G08_Rollback de Wiki](G08_Rollback%20de%20Wiki%209aa7f1e55e94404aa00ae22414056a9a.md) 
 
+La recuperación de los elementos de gestión de configuraicón se podrá hacer en cualquier momento por cualquier miembro de Ace. 
+
 [Bitácora de cambios (1)](G06_Uso%20de%20sistemas%20de%20gestio%CC%81n%20de%20configuracio%CC%81n%204158ca5084434fe8af80b550b1d19df7/Bita%CC%81cora%20de%20cambios%20(1)%20036188e9d09c409f967a3afc4652a5fe.csv)

@@ -4,6 +4,10 @@
 
 1.0
 
+| Autor | Andrea Piñeiro |
+| --- | --- |
+| Responsable | Paulina Cardoso Fuentes |
+
 # Objetivo
 
 Establecer los criterios para que un requisito sea aceptado e incluido en el backlog antes de ser presentado a los clientes. 
