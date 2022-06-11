@@ -42,8 +42,12 @@ En caso de ser una reunión presencial, el entorno debe contar con un equipo (co
 - Contar con la última versión estable con los componentes a validar.
 - Realizar una demostración frente al cliente.
 - Evaluar si es de su agrado, solicitando retroalimentación y confirme si le es de utilidad y lo que necesite.
--El cliente debe marcar la casilla de validado en la plantilla conforme vayan pasando las funcionalidades. | PO | VAL 1.2, 2.1 |
-| Validación | Atender comentarios y retroalimentación, anotarlos para sus ajustes posteriores. No podrán ser validados hasta que sean atendidos estos cambios. | PO | VAL 1.3, 2.2 |
+-El cliente debe marcar la casilla de validado en la plantilla conforme vayan pasando las funcionalidades. | PO | VAL 1.2, 2.1
+
+RD 1.4 |
+| Validación | Atender comentarios y retroalimentación, anotarlos para sus ajustes posteriores. No podrán ser validados hasta que sean atendidos estos cambios. | PO | VAL 1.3, 2.2
+
+RD 1.4 |
 | Corrección de defectos | Agregar los ajustes al plan de trabajo para ejecutarse a la brevedad. | PO | VAL 2.2 |
 | Finalización | Al concluir una validación exitosa, el socio deberá firmar el documento para avalar la actividad. | Socio formador | VAL 2.1 |
 | Finalización | Redactar el resumen y conclusiones de la validación en la minuta o documento al concluir la junta, analizando la retroalimentación, identificando patrones en ella para futuras mejoras en la forma de trabajo y entendimiento del cliente. | PO | VAL 2.2 |

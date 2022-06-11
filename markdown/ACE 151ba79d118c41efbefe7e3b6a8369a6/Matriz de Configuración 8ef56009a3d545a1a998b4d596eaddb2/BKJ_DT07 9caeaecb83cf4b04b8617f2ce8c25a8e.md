@@ -13,4 +13,5 @@ Nivel o status: Estático
 Nombre: Estrategia de desarrollo
 Resuelto?: No
 Se utiliza?: Yes
+Status auditoría: Defectos atendidos
 Última versión: 1.0

@@ -8,7 +8,7 @@ Fecha de definición: 10/03/2022
 ID: 4
 Impact: 10
 Interno: Yes
-Magnitud: 6
+Magnitud: 1
 Plan de mitigación: - Pruebas unitarias previas a cada integración de código.
 - Revisión del listado de funcionalidad previo al despliegue.
 - Validación de un tercero en ambiente de pruebas.
@@ -16,7 +16,7 @@ Plan de mitigación: - Pruebas unitarias previas a cada integración de código.
 Plan de respuesta: - Dependiendo del defecto, priorizar la fecha de corrección.
 - Considerar un rollback del despliegue dependiendo del defecto.
 - Restaurar la BD.
-Prob: 0.6
+Prob: 0.1
 Responsable: AO
 Statu: Atendido con Plan de Mitigación
 Status: Identificado

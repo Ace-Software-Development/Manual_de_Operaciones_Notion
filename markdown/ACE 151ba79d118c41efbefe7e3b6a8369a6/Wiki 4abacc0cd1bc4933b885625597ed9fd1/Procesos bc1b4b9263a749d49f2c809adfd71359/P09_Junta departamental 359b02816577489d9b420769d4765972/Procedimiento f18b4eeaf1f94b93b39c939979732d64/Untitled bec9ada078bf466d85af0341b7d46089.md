@@ -1,4 +1,5 @@
 # Untitled
 
-Actividad: Crear una encuesta para que el departamento proponga los temas a tratar basándose en https://docs.google.com/forms/d/1F68s2NETt5KplNdKnwn7OZi0Ii1kY8EimnXCymsJlR0/edit?usp=sharing
+Actividad: Crear una encuesta para que el departamento proponga los temas a tratar basándose en ../../P09_Junta%20departamental%20359b02816577489d9b420769d4765972.md
 Encargado: Responsable de junta
+Subpráctica: N/A

@@ -12,4 +12,5 @@ Nivel o status: Estático
 Nombre: https://docs.google.com/spreadsheets/d/1ijM3c2toD_CvIW2xA5B-gMz8B6MFrv1eH6yph772y9s/edit#gid=121329811
 Resuelto?: No
 Se utiliza?: Yes
+Status auditoría: Defectos atendidos
 Última versión: 1.1

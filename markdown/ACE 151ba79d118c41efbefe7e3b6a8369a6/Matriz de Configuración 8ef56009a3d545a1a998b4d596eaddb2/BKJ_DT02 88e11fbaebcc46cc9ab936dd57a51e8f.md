@@ -13,4 +13,5 @@ Nivel o status: Estático
 Nombre: Requerimientos de Software
 Resuelto?: No
 Se utiliza?: Yes
+Status auditoría: Sin defectos
 Última versión: 1.0

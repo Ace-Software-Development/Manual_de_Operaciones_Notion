@@ -1,9 +1,5 @@
 # BKJ_E03_Pull Request
 
-## **Versión**
-
-1.1
-
 ## **Objetivos**
 
 - Homogeneizar el nombramiento de los Merge Requests en el controlador de versiones (Github).

@@ -1,5 +1,7 @@
 # P31 Proceso de definición y actualización del plan de proyecto
 
+## Acceso a información necesaria
+
 | Equipo | WBS | Plan de Trabajo |
 | --- | --- | --- |
 | BlackJack | WBS | Plan de Trabajo |
@@ -12,9 +14,9 @@ Definir las actividades que se llevarán a lo largo de la iteración y mantener 
 
 ## **Criterios de entrada**
 
-- WBS.
+- [WBS.](P31%20Proceso%20de%20definicio%CC%81n%20y%20actualizacio%CC%81n%20del%20pl%2087d9af16e8534c6897b915954bc66e51.md)
 - Estimación general del proyecto.
-- Plan de trabajo.
+- [Plan de trabajo.](P31%20Proceso%20de%20definicio%CC%81n%20y%20actualizacio%CC%81n%20del%20pl%2087d9af16e8534c6897b915954bc66e51.md)
 
 ## **Procedimiento**
 
@@ -28,6 +30,11 @@ Definir las actividades que se llevarán a lo largo de la iteración y mantener 
 ## **Métricas**
 
 No aplica
+
+## Responsable
+
+Product Owner
+Team Leader
 
 ## Bitácora de cambios
 

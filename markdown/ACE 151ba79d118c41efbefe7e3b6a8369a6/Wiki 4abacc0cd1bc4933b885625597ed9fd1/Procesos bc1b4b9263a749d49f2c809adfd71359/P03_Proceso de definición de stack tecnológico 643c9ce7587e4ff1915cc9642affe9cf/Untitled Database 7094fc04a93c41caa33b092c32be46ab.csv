@@ -1,3 +1,3 @@
-﻿Title,Responsable(s),Actividad
-,Product Owner y Arquitecture Owner,"En caso de haber cambios en los requerimientos que involucren la arquitectura, documentarlos en la plantilla con las fechas y justificaciones correspondientes. Actualizar el diagrama de arquitectura donde aplique y actualizar la versión del documento."
-,Product Owner y Arquitecture Owner,"En caso de haber cambios en los requerimientos que involucren modificaciones considerables en la arquitectura (Ejemplos: Modificaciones al esquema de datos, cambiar tecnologías) comunicarlo con los stakeholders utilizando los medios establecidos en el plan de comunicación."
+﻿Title,Actividad,Responsable(s)
+,"En caso de haber cambios en los requerimientos que involucren la arquitectura, documentarlos en la plantilla con las fechas y justificaciones correspondientes. Actualizar el diagrama de arquitectura donde aplique y actualizar la versión del documento.",Product Owner y Arquitecture Owner
+,"En caso de haber cambios en los requerimientos que involucren modificaciones considerables en la arquitectura (Ejemplos: Modificaciones al esquema de datos, cambiar tecnologías) comunicarlo con los stakeholders utilizando los medios establecidos en el plan de comunicación.",Product Owner y Arquitecture Owner

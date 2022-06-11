@@ -12,6 +12,8 @@
 
 [PO07_Política de revisiones](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/PO07_Poli%CC%81tica%20de%20revisiones%20db458df9c94d40e4ad7dabd2a0bfa199.md)
 
+[PO08_Política de ítems en la Wiki](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/PO08_Poli%CC%81tica%20de%20i%CC%81tems%20en%20la%20Wiki%20eb33b706159e4e9f9eb89fed1fbc6946.md)
+
 ---
 
 [BKJ_PO02_Política de ayuda](Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/BKJ_PO02_Poli%CC%81tica%20de%20ayuda%209cdbff2d4e774e6bae4907745d0fd83d.md)

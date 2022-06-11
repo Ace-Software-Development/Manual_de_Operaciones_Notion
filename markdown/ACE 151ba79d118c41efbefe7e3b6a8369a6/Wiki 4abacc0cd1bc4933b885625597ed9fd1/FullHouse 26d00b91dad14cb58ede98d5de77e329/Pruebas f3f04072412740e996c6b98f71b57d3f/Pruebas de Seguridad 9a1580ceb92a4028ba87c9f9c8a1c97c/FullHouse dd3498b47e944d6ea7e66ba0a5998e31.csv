@@ -1,4 +1,7 @@
 ﻿# Test Case ID,Historia de Usuario,Casos de Prueba,Status,Fecha de Ejecución,Encargado,Iteración,Evidencia
+3,Registrar nuevo parámetro,"Se debe permitir registros tan solo provenientes de la aplicación, es decir no un Post cualquiera a la ruta con un json",Aprobado,"June 10, 2022"," ",IT4,FullHouse%20dd3498b47e944d6ea7e66ba0a5998e31/S3.png
+2,Registrar nuevo parámetro,El campo no debe de estar vacío,Aprobado,"June 10, 2022"," ",IT4,FullHouse%20dd3498b47e944d6ea7e66ba0a5998e31/4.png
+1,Registrar nuevo parámetro,El usuario debe de estar autenticado y tener un rol de quimico para poder registrar un nuevo parámetro,Aprobado,"June 10, 2022"," ",IT4,FullHouse%20dd3498b47e944d6ea7e66ba0a5998e31/S1.png
 1,Iniciar sesión en el sistema,El usuario debe de contar con una contraseña que cumpla con la politica de contraseñas del sistema.,No Aprobado,"May 24, 2022",Andrea,IT3,
 2,Iniciar sesión en el sistema,Al iniciar sesión la navegación debe ser diferente para cada rol.,Aprobado,"May 24, 2022",Andrea,IT3,
 3,Iniciar sesión en el sistema,Todos los usuarios deben de contar con un rol asignado.,Aprobado,"May 24, 2022",Andrea,IT3,

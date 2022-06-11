@@ -2,7 +2,7 @@
 
 ## **Objetivo**
 
-Realizar las acciones necesarias para poder corregir y/o prevenir problemas
+Realizar las acciones necesarias para poder corregir problemas.
 
 ## ¿Cuándo usamos este proceso?
 

@@ -1,6 +1,6 @@
 # P04_Revisión de Pull Request
 
-## Consideraciones importantes[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P04_Merge%20Request#consideraciones-importantes)
+## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P04_Merge%20Request#consideraciones-importantes)
 
 - Se debe seguir la [PO07_Política de revisiones](../Politicas%20d2cd71f3c48c456e9a38a16b2508b6b9/PO07_Poli%CC%81tica%20de%20revisiones%20db458df9c94d40e4ad7dabd2a0bfa199.md)
 - La funcionalidad que se revisa en el Pull Request debe haber pasado por las siguientes fases:

@@ -1,9 +1,5 @@
 # BKJ_E02_Nombramiento de Ramas para Versionamiento
 
-## Versión[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#versi%C3%B3n)
-
-1.1.0
-
 ## Objetivos[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Estandares/E02_NombramientoDeRamasVersionamiento#objetivos)
 
 - Homogeneizar el nombramiento de las ramas en el controlador de versiones (Github).

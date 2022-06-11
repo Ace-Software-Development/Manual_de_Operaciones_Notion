@@ -12,10 +12,6 @@
 - Solicitud de cambio utilizando la plantilla de Solicitud de cambios
 - Matriz RACI del proyecto
 
-## Recursos
-
-[Plantilla de cambios en requisitos](https://docs.google.com/document/d/1qw_D6F298AiMbfRJBqwyjUfXwu2Kgvxa/edit?usp=sharing&ouid=100210633990806812310&rtpof=true&sd=true)
-
 ## Procedimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P06_CambiosEnRequisitos#procedimiento)
 
 [procedimiento](P06_Proceso%20de%20cambio%20en%20requisitos%200becb449a14d4804881a6e09f2217530/procedimiento%20ac67d43b7e0d40449d7d6f8d8ee2c421.csv)

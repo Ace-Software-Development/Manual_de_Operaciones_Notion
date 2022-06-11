@@ -31,6 +31,6 @@ Estimar el tiempo que tomara cada tarea.
 
 Team Leaders
 
-[Bitácora de cambios (1)](P19_Sprint%20Planning%2038496412c5c84378b582eb61bfc071ff/Bita%CC%81cora%20de%20cambios%20(1)%2041d9a555e98f4e268a3f447877cd814e.csv)
+[Bitácora de cambios](P19_Sprint%20Planning%2038496412c5c84378b582eb61bfc071ff/Bita%CC%81cora%20de%20cambios%2041d9a555e98f4e268a3f447877cd814e.csv)
 
 @Jorge Alan Ramírez Elías

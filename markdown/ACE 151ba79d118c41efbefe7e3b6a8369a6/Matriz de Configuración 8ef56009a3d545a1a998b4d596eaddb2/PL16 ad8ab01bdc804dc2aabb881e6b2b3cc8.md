@@ -11,4 +11,5 @@ Nivel o status: Controlado
 Nombre: https://docs.google.com/spreadsheets/d/1agQ2rf79rEYCF5mpLwuUIkyQcEQugHPViDHgWGYYUEU/edit#gid=1711905258
 Resuelto?: No
 Se utiliza?: Yes
+Status auditoría: Con defectos
 Última versión: 1.1

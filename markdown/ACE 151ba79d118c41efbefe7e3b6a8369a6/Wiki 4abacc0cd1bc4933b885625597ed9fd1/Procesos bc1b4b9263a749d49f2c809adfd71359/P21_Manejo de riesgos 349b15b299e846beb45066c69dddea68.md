@@ -6,10 +6,6 @@ Identificar las fuentes y categorías de riesgos del proyecto para su seguimient
 
 Generar planes de contingencia y mitigación.
 
-## ¿Cuándo usamos este proceso?
-
-Cada vez que se identifique un nuevo riesgo para el equipo y el desarrollo del proyecto 
-
 ## Criterios de entrada
 
 Nuevo(s) riesgo(s) identificado(s). 
@@ -17,6 +13,8 @@ Nuevo(s) riesgo(s) identificado(s).
 ## Consideraciones a tomar
 
 [**PL12_Plan de Riesgos**](../Plantillas%20afe79d22a53b40d3bb2885218d181405/PL12_Plan%20de%20Riesgos%20a17640175ab84a00b893729ff62c499a.md) 
+
+Realizar cada que se identifique un nuevo riesgo
 
 [Procedimiento](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Procedimiento%205199794d283b49f78feeb17a77d8f220.csv)
 
@@ -40,4 +38,4 @@ Responsable de la documentación de riesgos: Team Leader
 
 [Ace](https://docs.google.com/spreadsheets/d/1PzTUtLSXY0PZ8IQI7yHRRp1WNh1RJXBEK6jNZeoHTGc/edit)
 
-[Bitácora de cambios (1)](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Bita%CC%81cora%20de%20cambios%20(1)%20023022eaf9ab4d488da7a51bb4cea6be.csv)
+[Bitácora de cambios](P21_Manejo%20de%20riesgos%20349b15b299e846beb45066c69dddea68/Bita%CC%81cora%20de%20cambios%20023022eaf9ab4d488da7a51bb4cea6be.csv)

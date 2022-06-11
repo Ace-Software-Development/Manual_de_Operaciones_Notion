@@ -56,9 +56,9 @@ pm2 delete dev_capu
 ## Acceder a la app
 
 - Para ver la **aplicación** debes de buscar en tu navegador *localhost:3000/inicio*
-- Para acceder al **dashboard** escribe *[localhost:8888/dashboard](http://localhost:8888/dashboard) en tu navegador*
-    - User: user
-    - Password: pass
+- Para acceder al **dashboard** escribe *[localhost:8888/database](http://localhost:8888/database) en tu navegador*
+    - User: capullo
+    - Password: Vaporera45.
 
 ## Bitácora de cambios
 

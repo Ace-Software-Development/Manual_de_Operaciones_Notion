@@ -4,9 +4,9 @@
 
 Revisa la plantilla de la tabla de conocimientos.
 
-[Tabla de conocimientos](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Tabla%20de%20conocimientos%20a1fa4be7a54e4c9f87a1fb41b7910d0e.csv)
+[Plantilla tabla de conocimientos](P02_Proceso%20de%20evaluacio%CC%81n%20y%20capacitacio%CC%81n%20de%20inte%20c81870dcf9a6484d81e1fcad0ee767e6/Plantilla%20tabla%20de%20conocimientos%20a1fa4be7a54e4c9f87a1fb41b7910d0e.csv)
 
-Todos los integrantes que necesiten capacitarse deben revisar la[Biblioteca de recursos](../../Mejora%20continua%20180f52fe2fc3469896180891cb8545fb/Biblioteca%20de%20recursos%20d96c2fa60cae4c4885b4773676c24863.md) 
+Todos los integrantes que necesiten capacitarse, deben revisar la[Biblioteca de recursos](../../Mejora%20continua%20180f52fe2fc3469896180891cb8545fb/Biblioteca%20de%20recursos%20d96c2fa60cae4c4885b4773676c24863.md) 
 
 ## Objetivo[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P02_Evaluaci%C3%B3n%20y%20Capacitaci%C3%B3n%20de%20integrantes#objetivo)
 

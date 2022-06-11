@@ -16,7 +16,7 @@ Cumplir los objetivos de cada iteración asignando a cada miembro del equipo res
 
 ## Criterios de entrada[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-entrada)
 
-Documento de plan de iteración sin iteración activa o Jira sin iteración activa.
+Documento de [plan de trabajo](https://docs.google.com/spreadsheets/d/1RdK32quyh3LiqKj8iOvfr39ceePPSf8K/edit?usp=sharing&ouid=118218522400569345371&rtpof=true&sd=true) sin iteración activa
 
 ## Procedimiento[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#procedimiento)
 
@@ -42,7 +42,7 @@ PMC 2.2 |
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#criterios-de-salida)
 
-1) Documento de plan de iteración o Jira actualizado.
+1) Documento de [plan de trabajo](https://docs.google.com/spreadsheets/d/1RdK32quyh3LiqKj8iOvfr39ceePPSf8K/edit?usp=sharing&ouid=118218522400569345371&rtpof=true&sd=true) actualizado.
 
 ## Métricas[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/BlackJack/Procesos/P02_Plan%20De%20Iteraci%C3%B3n#m%C3%A9tricas)
 

@@ -24,7 +24,9 @@ Problemática entre uno o varios miembros del equipo
 
 ## Criterios de salida[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P01_Resolucion%20de%20Conflictos#criterios-de-salida)
 
-1) Las personas involucradas han dicho lo que piensan y se sienten escuchadas 2) Las personas involucradas aceptan sus errores y se disculpan 3) Se encontró una manera en la que se pueden satisfacer las necesidades de todos los miembros o se ha llegado a un acuerdo entre ambas partes
+- Las personas involucradas han dicho lo que piensan y se sienten escuchadas
+- Las personas involucradas aceptan sus errores y se disculpan
+- Se encontró una manera en la que se pueden satisfacer las necesidades de todos los miembros o se ha llegado a un acuerdo entre ambas partes
 
 ## Métricas[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/FlorImperial/Procesos/P01_Resolucion%20de%20Conflictos#m%C3%A9tricas)
 

@@ -13,4 +13,5 @@ Nivel o status: Estático
 Nombre: https://www.notion.so/0bf3a276ad1e4af0bdfe8a5732fd13d6 
 Resuelto?: Yes
 Se utiliza?: Yes
+Status auditoría: Sin defectos
 Última versión: 1.0
