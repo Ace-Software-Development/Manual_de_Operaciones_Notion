@@ -1,11 +1,15 @@
 ﻿Fase,Actividad,CMMI
-Obtención,Preguntar e identificar las problemáticas que enfrentan los socios que quieran ser abordadas en el proyecto.,RM 1.1
-,Identificar las necesidades que requieran y puedan solucionarle bajo el alcance del proyecto.,RM 1.1
-Análisis,Evaluar si las necesidades descritas por los socios atacan la problemática descrita anteriormente.,RM 1.1
+Obtención,Preguntar e identificar las problemáticas que enfrentan los socios que quieran ser abordadas en el proyecto.,"RM 1.1
+RD 1.1"
+,Identificar las necesidades que requieran y puedan solucionarle bajo el alcance del proyecto.,"RM 1.1
+RD 1.1"
+Análisis,Evaluar si las necesidades descritas por los socios atacan la problemática descrita anteriormente.,"RM 1.1
+RD 1.1"
 ,Priorizar las necesidades con base a la información descrita por los socios.,"RM 1.1
 RM 1.2"
 ,Extraer los requisitos para satisfacer las necesidades,RM 1.1
-Desarrollo,"Generar documento de requerimientos. Basándose en la plantilla https://www.notion.so/3c7ce01a54154f9196da0cf0ba23b88f ",RM 1.1
+Desarrollo,"Generar documento de requerimientos. Basándose en la plantilla https://www.notion.so/3c7ce01a54154f9196da0cf0ba23b88f ","RM 1.1
+RD 1.2"
 Priorización,Estimar el costo de cada unos de los requisitos.,"RM 1.2
 PMC 1.1"
 ,"Priorizar los requerimientos en base a las necesidades. Siguiendo el https://www.notion.so/8279a54bc4344b85bb72894e4f178406 ",RM 1.2

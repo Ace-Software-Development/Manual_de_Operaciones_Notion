@@ -2,6 +2,7 @@
 
 ## Consideraciones a tomar[](https://ace-software-development.github.io/Manual-de-Operaciones/docs/Procesos/P03_StackTecnol%C3%B3gico#consideraciones-a-tomar)
 
+- Haber seguido la guia [G16_Definir plan de adquisiciones](../Gui%CC%81as%20484d71efd4064698ab23f6a2abbf748e/G16_Definir%20plan%20de%20adquisiciones%203530370ebf1e4208a1676ffefe12d8e2.md)
 - Se debe utilizar este proceso durante el inicio de un proyecto para definir tanto el stack tecnológico como la arquitectura del mismo. Esto tomando en cuenta los requerimientos del proyecto, limitantes y el equipo de trabajo.
 - Este proceso debe usarse como referencia al contemplar cambios tanto para el stack tecnológico como la arquitectura.
 
