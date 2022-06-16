@@ -1,4 +1,4 @@
-# Usar Notion como herramienta de trabajo en Ace
+# Usar Notion como apoyo para Ace (inicio con TimeLog)
 
 Autor: Pau
 Completada: Yes
