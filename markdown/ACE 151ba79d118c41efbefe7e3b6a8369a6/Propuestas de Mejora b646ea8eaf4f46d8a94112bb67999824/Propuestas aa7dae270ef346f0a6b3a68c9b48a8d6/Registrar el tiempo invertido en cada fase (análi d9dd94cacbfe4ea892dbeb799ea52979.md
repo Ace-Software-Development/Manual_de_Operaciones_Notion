@@ -5,6 +5,6 @@ Completada: Yes
 Fecha de evaluación: May 25, 2022
 Hipótesis: Teniendo datos de qué porcentaje del total de tiempo trabajado del equipo se invirtió en cada fase podemos responder a la pregunta de ¿Por qué estamos donde estamos?
 Proyecto: Campanario
-Resultados: La parte del campanario en el reporte de estado del 25 de mayo tuvo una duración de 45 minutos con 52 segundos incluyendo interrupciones por dudas y retroalimentación. 
+Resultados: La parte del campanario en el reporte de estado del 25 de mayo tuvo una duración de 49 minutos con 34 segundos incluyendo interrupciones por dudas y retroalimentación. 
 Tipo de mejora: Aumentar Flujo de Valor, Reducir tamaño de ciclos de retroalimentación
 ¿Funcionó?: No

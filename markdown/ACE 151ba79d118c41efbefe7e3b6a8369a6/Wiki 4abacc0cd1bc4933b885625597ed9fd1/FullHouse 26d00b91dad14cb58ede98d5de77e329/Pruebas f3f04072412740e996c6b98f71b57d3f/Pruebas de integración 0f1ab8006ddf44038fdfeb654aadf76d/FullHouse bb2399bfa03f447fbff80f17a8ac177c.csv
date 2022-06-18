@@ -6,7 +6,7 @@ IT3-3,Cerrar sesión en el sistema,Aprobado,"May 27, 2022",Jorge Alan Ramírez E
 IT3-8,Consultar los tipos de estudio,Aprobado,"May 27, 2022",Eduardo Rodríguez Gil
 IT3-7,Consultar información del paciente,Aprobado,"May 30, 2022",Michelle Aylin Calzada Montes
 IT3-?,Consultar los estudios del paciente,Aprobado,"May 31, 2022",Manolo Ramírez Pintor
-IT3-?,Registrar la información del colaborador,,"June 3, 2022","Jorge Alan Ramírez Elías, Manolo Ramírez Pintor"
+IT3-?,Registrar la información del colaborador,Aprobado,"June 3, 2022","Jorge Alan Ramírez Elías, Manolo Ramírez Pintor"
 IT4-17,Consultar información del colaborador,Aprobado,"June 5, 2022",Carolina Herrera Martínez
 IT4-9,Generar archivo PDF,Aprobado,"June 6, 2022",Carolina Herrera Martínez
 IT4-19,"Eliminar estudio del paciente ",Aprobado,"June 7, 2022",Eduardo Rodríguez Gil
@@ -14,3 +14,4 @@ IT4-8,Eliminar tipo de estudio del paciente,Aprobado,"June 7, 2022",Carolina Her
 IT4-10,Modificar información del paciente,Aprobado,"June 8, 2022",Michelle Aylin Calzada Montes
 IT4-5,Registrar resumen de consulta,Aprobado,"June 8, 2022",Manolo Ramírez Pintor
 IT4- 12,Eliminar información del personal,Aprobado,"June 9, 2022",Manolo Ramírez Pintor
+IT4 - 4,Registrar nuevo parámetro,Aprobado,"June 10, 2022",David Guzmán Leyva

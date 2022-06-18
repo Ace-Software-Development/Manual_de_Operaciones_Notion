@@ -13,7 +13,7 @@ Creando propuestas en este espacio podrás asegurarte de tener evidencias para l
 Cada propuesta debe tener las siguientes características:
 
 - Titulo: descripción corta de la mejora
-- Hipotesis: plantea que es lo que se va a lograr con la mejora de manera objetiva y en un plazo corto definido
+- Hipótesis: plantea que es lo que se va a lograr con la mejora de manera objetiva y en un plazo corto definido
 - Fecha de Evaluación: indica cuando deben ser observables los resultados de la propuesta de mejora
 - Tipo de Mejora:
     - Aumentar Flujo de valor: producir más con menos

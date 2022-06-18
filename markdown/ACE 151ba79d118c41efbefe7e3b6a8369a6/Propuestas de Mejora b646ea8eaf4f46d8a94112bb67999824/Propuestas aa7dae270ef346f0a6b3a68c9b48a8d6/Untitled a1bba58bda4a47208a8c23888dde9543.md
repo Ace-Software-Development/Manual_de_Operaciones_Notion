@@ -1,5 +1,5 @@
 # Untitled
 
-Autor: Daniel Cruz Arciniega
+Autor: Rafael Hinojosa López
 Completada: No
 ¿Funcionó?: No
